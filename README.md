@@ -211,7 +211,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: manual native
-Contributors: Aoyama, Tatsuya; Behzad, Shabnam; Gessler, Luke; Levine, Lauren; Lin, Yi-Ju Jessica; Liu, Yang Janet; Peng, Siyao Logan; Zhu, Yilun
+Contributors: Aoyama, Tatsuya; Behzad, Shabnam; Gessler, Luke; Levine, Lauren; Lin, Yi-Ju Jessica; Liu, Yang Janet; Peng, Siyao Logan; Zhu, Yilun; Zeldes, Amir
 Contributing: elsewhere
 Contact: amir.zeldes@georgetown.edu
 ===============================================================================
