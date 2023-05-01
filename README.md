@@ -17,7 +17,7 @@ This repository contains release versions of the Genre Tests for Linguistic Eval
 
 # Additional annotations in MISC
 
-The MISC column contains **entity, coreference, information status, Wikification and discourse** annotations from the full GUM corpus, encoded using the annotations `Entity`, `SplitAnte`, `Bridge` and `Discourse`. 
+The MISC column contains **entity, coreference, information status, Wikification and discourse** annotations from the full GENTLE corpus, encoded using the annotations `Entity`, `SplitAnte`, `Bridge` and `Discourse`. 
 
 ## Entity
 
@@ -91,9 +91,9 @@ Bridging anaphora is annotated when an entity has not been mentioned before, but
 
 ## RST discourse trees
 
-Discourse annotations are given in RST dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), an annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose-goal:105->104:0` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose-goal` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-goal-> to release a shirt..."). The final `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. Although it is easiest to recover RST constituent trees from the source repo, it is also possible to generate them automatically from the dependencies with depth information, using the scripts in the [rst2dep repo](https://github.com/amir-zeldes/rst2dep/).
+Discourse annotations are given in RST dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GENTLE see the [source repo](https://github.com/gucorpling/gentle/). At the beginning of each Elementary Discourse Unit (EDU), an annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose-goal:105->104:0` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose-goal` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-goal-> to release a shirt..."). The final `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. Although it is easiest to recover RST constituent trees from the source repo, it is also possible to generate them automatically from the dependencies with depth information, using the scripts in the [rst2dep repo](https://github.com/amir-zeldes/rst2dep/).
 
-Discourse relations in GUM are defined based on the effect that W (a writer/speaker) has on R (a reader/hearer) by modifying a Nucleus discourse unit (N) with another discourse unit (a Satellite, S, or another N). Discourse relation units can precede their nuclei (satellite-nucleus, or SN relation), follow them (NS), or be coordinated with each other (NN or multinuclear relations). Relations are classified hierarchically into 15 major classes and include:
+Discourse relations in GENTLE are defined based on the effect that W (a writer/speaker) has on R (a reader/hearer) by modifying a Nucleus discourse unit (N) with another discourse unit (a Satellite, S, or another N). Discourse relation units can precede their nuclei (satellite-nucleus, or SN relation), follow them (NS), or be coordinated with each other (NN or multinuclear relations). Relations are classified hierarchically into 15 major classes and include:
 
   * Adversative
     * adversative-antithesis (SN/NS) - R is meant to prefer N as an alternative to S
@@ -159,16 +159,15 @@ XML block tags spanning whole sentences (i.e. not beginning or ending mid senten
 # newpar_block = list type:::"unordered" (10 s) | item (4 s)
 ```
 
-This comment indicates the opening of a `<list type="unordered">` block element, which spans 10 sentences (`(10 s)`). However, the list begins with a nested block, a list item (i.e. a bullet point), which spans 4 sentences, as indicated after the pipe separator. For documentation of XML elements in GUM, please see the [GUM wiki](https://wiki.gucorpling.org/gum/tei_markup_in_gum).
+This comment indicates the opening of a `<list type="unordered">` block element, which spans 10 sentences (`(10 s)`). However, the list begins with a nested block, a list item (i.e. a bullet point), which spans 4 sentences, as indicated after the pipe separator. For documentation of XML elements in GENTLE, please see the [GUM wiki](https://wiki.gucorpling.org/gum/tei_markup_in_gum).
 
-More information and additional annotation layers can also be found in the GUM [source repo](https://github.com/amir-zeldes/gum/).
+More information and additional annotation layers can also be found in the GENTLE [source repo](https://github.com/gucorpling/gentle/).
 
 # Metadata
 
 Document metadata is given at the beginning of each new document in key-value pair comments beginning with the prefix `meta::`, as in:
 
 ```
-# newdoc id = GUM_bio_padalecki
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
 # meta::dateCollected = 2019-09-10
 # meta::dateCreated = 2004-08-14
@@ -190,7 +189,7 @@ The entire corpus is designed to be a *test set* of challenging genres for NLP s
 
 ## References
 
-* (citation)
+...
 
 
 # Changelog
@@ -203,7 +202,7 @@ The entire corpus is designed to be a *test set* of challenging genres for NLP s
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.12
-License: CC BY-SA 4.0
+License: CC BY-NC-SA 4.0
 Includes text: yes
 Genre: academic grammar-examples legal medical nonfiction poetry social spoken
 Lemmas: manual native
