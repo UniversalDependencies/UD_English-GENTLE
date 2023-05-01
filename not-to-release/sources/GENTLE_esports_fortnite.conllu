@@ -401,7 +401,7 @@
 47	gon	go	VERB	VBG	VerbForm=Ger	37	parataxis	37:parataxis	XML=<w>
 48	na	to	PART	TO	_	49	mark	49:mark	XML=</w>
 49	ask	ask	VERB	VB	VerbForm=Inf	47	xcomp	47:xcomp	_
-50	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	obj	49:obj|52:nsubj:xsubj	Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)
+50	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	iobj	49:iobj|52:nsubj:xsubj	Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)
 51	to	to	PART	TO	_	52	mark	52:mark	_
 52	take	take	VERB	VB	VerbForm=Inf	49	xcomp	49:xcomp	Entity=(54-event-new-cf10-1-disc
 53	the	the	DET	DT	Definite=Def|PronType=Art	54	det	54:det	Entity=(55-object-new-cf8-2-sgl
@@ -441,7 +441,7 @@
 # newpar_block = sp who:::"#Jack" whom:::"#Aud,#Speaker1" (3 s)
 1	Pay	pay	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:37->26:2
 2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(56-person-new-cf5-2-sgl(12-person-giv:inact-cf2-1-ana-Bugha_%28gamer%29)
-3	butler	butler	NOUN	NN	Number=Sing	1	obj	1:obj|5:nsubj:xsubj	Entity=56)
+3	butler	butler	NOUN	NN	Number=Sing	1	iobj	1:iobj|5:nsubj:xsubj	Entity=56)
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	do	do	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
 6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obj	5:obj	Entity=(54-event-giv:inact-cf1-1-coref)|SpaceAfter=No

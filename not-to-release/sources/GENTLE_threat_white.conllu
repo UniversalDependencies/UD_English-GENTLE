@@ -80,7 +80,7 @@
 7	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 8	obviously	obviously	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
 9	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	4:acl:that	_
-10	someone	someone	PRON	NN	Number=Sing|PronType=Ind	9	obj	9:obj	Entity=(10-person-new-cf6-1-sgl)
+10	someone	someone	PRON	NN	Number=Sing|PronType=Ind	9	iobj	9:iobj	Entity=(10-person-new-cf6-1-sgl)
 11	to	to	PART	TO	_	12	mark	12:mark	_
 12	find	find	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	_
 13	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	obj	12:obj	Entity=(3-person-giv:act-cf2-1-ana)9)

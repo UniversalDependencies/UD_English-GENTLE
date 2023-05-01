@@ -94,11 +94,11 @@
 # s_type = decl
 # transition = null
 # text = What bootcamps and Techtonica have in common is the fact that they are intensive training.
-1	What	what	PRON	WP	PronType=Int	5	obj	5:obj	Discourse=joint-other_m:8->6:1
+1	What	what	PRON	WP	PronType=Rel	10	nsubj	10:nsubj	Discourse=joint-other_m:8->6:1
 2	bootcamps	bootcamp	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=(17-abstract-new-cf1-1,3-coref(18-abstract-new-cf3-1-coref-Coding_bootcamp)
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	Techtonica	Techtonica	PROPN	NNP	Number=Sing	2	conj	2:conj:and|5:nsubj	Entity=(2-abstract-giv:inact-cf2-1-coref)17)
-5	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	csubj	10:csubj	_
+5	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
 6	in	in	ADP	IN	_	7	case	7:case	_
 7	common	common	ADJ	JJ	Degree=Pos	5	obl	5:obl:in	_
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
@@ -217,10 +217,10 @@
 71	do	do	VERB	VB	VerbForm=Inf	69	acl	69:acl:to	_
 72	on	on	ADP	IN	_	74	case	74:case	_
 73	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	74	nmod:poss	74:nmod:poss	Entity=(29-person-giv:act-cf1-1-ana)
-74	own	own	ADJ	JJ	Degree=Pos	71	obl	71:obl:on	_
+74	own	own	ADJ	JJ	Degree=Pos	67	obl	67:obl:on	_
 75	or	or	CCONJ	CC	_	77	cc	77:cc	_
 76	in	in	ADP	IN	_	77	case	77:case	_
-77	collaboration	collaboration	NOUN	NN	Number=Sing	74	conj	71:obl:on|74:conj:or	Entity=(39-abstract-new-cf19-1-sgl
+77	collaboration	collaboration	NOUN	NN	Number=Sing	74	conj	67:obl:on|74:conj:or	Entity=(39-abstract-new-cf19-1-sgl
 78	with	with	ADP	IN	_	79	case	79:case	_
 79	volunteers	volunteer	NOUN	NNS	Number=Plur	77	nmod	77:nmod:with	Entity=(40-person-new-cf10-1-sgl)|SpaceAfter=No
 80	,	,	PUNCT	,	_	81	punct	81:punct	_
