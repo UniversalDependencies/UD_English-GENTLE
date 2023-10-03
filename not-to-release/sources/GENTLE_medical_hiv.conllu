@@ -647,7 +647,7 @@
 1	EXTREMITIES	extremity	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Discourse=organization-heading:63->64:0|Entity=(81-object-new-cf1-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	1	punct	1:punct	XML=</hi>
 3	Show	show	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:64->46:2
-4	no	no	DET	DT	Polarity=Neg|PronType=Art	5	det	5:det	_
+4	no	no	DET	DT	Polarity=Neg|PronType=Neg	5	det	5:det	_
 5	cyanosis	cyanosis	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(82-event-new-cf2-1-sgl)|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
 7	clubbing	clubbing	NOUN	NN	Number=Sing	5	conj	3:obj|5:conj:or	Entity=(83-event-new-cf3-1-sgl)
@@ -676,7 +676,7 @@
 14	appears	appear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
 15	clear	clear	ADJ	JJ	Degree=Pos	14	xcomp	14:xcomp	_
 16	with	with	ADP	IN	_	18	case	18:case	_
-17	no	no	DET	DT	Polarity=Neg|PronType=Art	18	det	18:det	Entity=(87-object-new-cf4-2-sgl
+17	no	no	DET	DT	Polarity=Neg|PronType=Neg	18	det	18:det	Entity=(87-object-new-cf4-2-sgl
 18	secretions	secretion	NOUN	NNS	Number=Plur	15	obl	15:obl:with	Entity=87)5)|SpaceAfter=No
 19	.	.	PUNCT	.	_	7	punct	7:punct	_
 

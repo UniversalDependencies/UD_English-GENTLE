@@ -400,7 +400,7 @@
 4	U.S.C.	U.S.C.	PROPN	NNP	Number=Sing	5	compound	5:compound	XML=<ref target:::"https://en.wikisource.org/wiki/United_States_Code"></ref>
 5	1253	1253	NUM	CD	NumForm=Digit|NumType=Card	6	nsubj	6:nsubj	Entity=47)|XML=<ref target:::"https://www.law.cornell.edu/uscode/text/28/1253"><date when:::"1253"></date></ref>
 6	authorizes	authorize	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	26:advcl:while	_
-7	no	no	DET	DT	Polarity=Neg|PronType=Art	9	det	9:det	Entity=(48-event-new-cf10-9,11-sgl
+7	no	no	DET	DT	Polarity=Neg|PronType=Neg	9	det	9:det	Entity=(48-event-new-cf10-9,11-sgl
 8	direct	direct	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	appeal	appeal	NOUN	NN	Number=Sing	6	obj	6:obj	_
 10	to	to	ADP	IN	_	12	case	12:case	_
@@ -478,7 +478,7 @@
 9	Does	Doe	PROPN	NNPS	Number=Plur	12	nsubj	12:nsubj	Entity=22)
 10	and	and	CCONJ	CC	_	11	cc	11:cc	_
 11	Hallford	Hallford	PROPN	NNP	Number=Sing	9	conj	9:conj:and|12:nsubj	Entity=(20-person-giv:inact-cf2-1-coref)
-12	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_
+12	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_
 13	not	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -614,7 +614,7 @@
 18	,	,	PUNCT	,	_	20	punct	20:punct	_
 19	who	who	PRON	WP	PronType=Rel	20	nsubj	17:ref	Discourse=elaboration-attribute:61->60:0
 20	alleged	allege	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	acl:relcl	17:acl:relcl	_
-21	no	no	DET	DT	Polarity=Neg|PronType=Art	24	det	24:det	Entity=(73-abstract-new-cf6-4-sgl
+21	no	no	DET	DT	Polarity=Neg|PronType=Neg	24	det	24:det	Entity=(73-abstract-new-cf6-4-sgl
 22	federally	federally	ADV	RB	Degree=Pos	23	advmod	23:advmod	_
 23	protected	protect	VERB	VBN	Tense=Past|VerbForm=Part	24	amod	24:amod	_
 24	right	right	ADV	RB	Degree=Pos	20	obj	20:obj	_
@@ -676,7 +676,7 @@
 7	based	base	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	5:acl	Discourse=elaboration-additional:66->65:0
 8	as	as	SCONJ	IN	_	10	mark	10:mark	_
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	Entity=(13-event-giv:act-cf1-1-ana)
-10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:as	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:as	_
 11	on	on	ADP	IN	_	12	case	12:case	_
 12	contingencies	contingency	NOUN	NNS	Number=Plur	7	obl	7:obl:on|15:nmod:of	Entity=(80-event-new-cf4-1-sgl|SpaceAfter=No
 13	,	,	PUNCT	,	_	22	punct	22:punct	_

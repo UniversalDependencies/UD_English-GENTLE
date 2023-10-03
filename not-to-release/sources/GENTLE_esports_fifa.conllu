@@ -145,7 +145,8 @@
 123	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	124	nsubj	124:nsubj	Discourse=elaboration-attribute:15->14:0|Entity=(10-organization-giv:act-cf4-1-ana-Manchester_City_F.C.)
 124	play	play	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	122	acl:relcl	122:acl:relcl	Entity=24)|SpaceAfter=No
 125	,	,	PUNCT	,	_	130	punct	130:punct	_
-126	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	130	nsubj	130:nsubj	Discourse=elaboration-additional:16->14:1|Entity=(10-organization-giv:act-cf4-1-ana-Manchester_City_F.C.)|SpaceAfter=No
+126-127	they're	_	_	_	_	_	_	_	_
+126	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	130	nsubj	130:nsubj	Discourse=elaboration-additional:16->14:1|Entity=(10-organization-giv:act-cf4-1-ana-Manchester_City_F.C.)
 127	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	130	cop	130:cop	_
 128	exactly	exactly	ADV	RB	Degree=Pos	130	advmod	130:advmod	_
 129	like	like	ADP	IN	_	130	case	130:case	_
@@ -158,7 +159,8 @@
 # transition = establishment
 # text = So we're just gonna start off straightaway with a simulated match against Benevento.
 1	So	so	INTJ	UH	_	5	discourse	5:discourse	Discourse=ROOT:17:0
-2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj|7:nsubj:xsubj	Entity=(4-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+2-3	we're	_	_	_	_	_	_	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj|7:nsubj:xsubj	Entity=(4-person-giv:act-cf1*-1-ana)
 3	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 4	just	just	ADV	RB	_	5	advmod	5:advmod	_
 5-6	gonna	_	_	_	_	_	_	_	_
@@ -180,7 +182,8 @@
 # s_type = decl
 # transition = continue
 # text = We're gonna play one of these three games just to get in the mood of playing games this episode.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=elaboration-additional:18->17:0|Entity=(4-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+1-2	We're	_	_	_	_	_	_	_	_
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=elaboration-additional:18->17:0|Entity=(4-person-giv:act-cf1*-1-ana)
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3-4	gonna	_	_	_	_	_	_	_	_
 3	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
@@ -301,7 +304,7 @@
 10	time	time	NOUN	NN	Number=Sing	7	obl:npmod	7:obl:npmod	_
 11-12	you've	_	_	_	_	_	_	_	_
 11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Discourse=explanation-justify:30->29:0|Entity=(15-person-giv:inact-cf2-1-ana)
-12	've	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	reparandum	17:reparandum	_
+12	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	reparandum	17:reparandum	_
 13	as	as	ADP	IN	_	17	reparandum	17:reparandum	_
 14	just	just	ADV	RB	_	17	advmod	17:advmod	_
 15	way	way	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
@@ -553,7 +556,8 @@
 # text = I think we're gonna have to just try and go all-out and win it in our first season back.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:55->56:1|Entity=(22-person-giv:act-cf1*-1-ana)
 2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj|7:nsubj:xsubj|10:nsubj:xsubj	Discourse=adversative-concession:56->59:0|Entity=(4-person-giv:inact-cf3-1-ana)|SpaceAfter=No
+3-4	we're	_	_	_	_	_	_	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj|7:nsubj:xsubj|10:nsubj:xsubj	Discourse=adversative-concession:56->59:0|Entity=(4-person-giv:inact-cf3-1-ana)
 4	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5-6	gonna	_	_	_	_	_	_	_	_
 5	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	2:ccomp	XML=<w>
@@ -682,7 +686,7 @@
 # text = I didn't ah - I should have maybe taken it a little bit inside the box, but you know what, that resulted in a corner and God forbid we would get anything off corners.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-phatic:73->74:0|Entity=(22-person-giv:inact-cf1-1-ana)
 2-3	didn't	_	_	_	_	_	_	_	_
-2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	reparandum	10:reparandum	_
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	reparandum	10:reparandum	_
 3	n't	not	PART	RB	Polarity=Neg	2	advmod	2:advmod	_
 4	ah	ah	INTJ	UH	_	2	discourse	2:discourse	_
 5	-	-	PUNCT	:	_	2	punct	2:punct	_
@@ -815,7 +819,8 @@
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(81-event-giv:act-cf2*-2-coref
 20	penalty	penalty	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=81)
 21	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=causal-result:89->88:0
-22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	26:nsubj	Entity=(4-person-giv:inact-cf3-1-ana)|SpaceAfter=No
+22-23	we're	_	_	_	_	_	_	_	_
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	26:nsubj	Entity=(4-person-giv:inact-cf3-1-ana)
 23	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	cop	26:cop	_
 24	one	one	NUM	CD	NumForm=Word|NumType=Card	26	obl:npmod	26:obl:npmod	_
 25	nil	nil	NUM	CD	NumForm=Word|NumType=Card	24	dep	24:dep	_
@@ -990,11 +995,12 @@
 39	who	who	PRON	WP	PronType=Rel	44	nsubj	37:ref	Discourse=elaboration-attribute:106->105:0
 40-41	today's	_	_	_	_	_	_	_	_
 40	today	today	NOUN	NN	Number=Sing	44	obl:tmod	44:obl:tmod	Entity=(13-time-giv:inact-cf6-1-coref)
-41	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	reparandum	44:reparandum	_
+41	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	reparandum	44:reparandum	_
 42	ah	ah	INTJ	UH	_	44	discourse	44:discourse	_
 43	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	cop	44:cop	_
 44	next	next	ADJ	JJ	Degree=Pos	37	acl:relcl	37:acl:relcl	Entity=10)
-45	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	47	nsubj	47:nsubj	Discourse=adversative-antithesis:107->108:0|Entity=(4-person-giv:act-cf1-1-ana)|SpaceAfter=No
+45-46	we're	_	_	_	_	_	_	_	_
+45	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	47	nsubj	47:nsubj	Discourse=adversative-antithesis:107->108:0|Entity=(4-person-giv:act-cf1-1-ana)
 46	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	47	cop	47:cop	_
 47	down	down	ADV	RB	Degree=Pos	44	parataxis	44:parataxis	_
 48	to	to	ADP	IN	_	50	case	50:case	_
@@ -1038,7 +1044,7 @@
 # s_type = multiple
 # transition = retain
 # text = No remark on Conti, Todibo, Musacchio, Bakker, probably not the best back line but that's what I'm going with.
-1	No	no	DET	DT	Polarity=Neg|PronType=Art	2	det	2:det	Discourse=adversative-concession:112->109:2|Entity=(97-abstract-new-cf7-2-sgl
+1	No	no	DET	DT	Polarity=Neg|PronType=Neg	2	det	2:det	Discourse=adversative-concession:112->109:2|Entity=(97-abstract-new-cf7-2-sgl
 2	remark	remark	NOUN	NN	Number=Sing	0	root	0:root	_
 3	on	on	ADP	IN	_	4	case	4:case	_
 4	Conti	Conti	PROPN	NNP	Number=Sing	2	nmod	2:nmod:on	Entity=(98-person-new-cf1-1,3,5,7-coref-Andrea_Conti_%28footballer%2C_born_1994%29(98-person-acc:inf-cf1-1-coref-Andrea_Conti_%28footballer%2C_born_1994%29)|SpaceAfter=No
@@ -1191,6 +1197,6 @@
 46	semis	semis	NOUN	NN	Number=Sing	42	obl	42:obl:to	Entity=9)
 47	and	and	CCONJ	CC	_	49	cc	49:cc	Discourse=elaboration-additional:133->124:0
 48	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	49	nsubj	49:nsubj	Entity=(4-person-giv:act-cf2*-1-ana)
-49	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	27	conj	27:conj:and	SpaceAfter=No
+49	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	27	conj	27:conj:and	SpaceAfter=No
 50	.	.	PUNCT	.	_	4	punct	4:punct	_
 

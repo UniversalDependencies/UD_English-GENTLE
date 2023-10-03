@@ -393,7 +393,7 @@
 # transition = null
 # text = to lose trust in someone
 1	to	to	PART	TO	_	2	mark	2:mark	Discourse=joint-list_m:49->47:1
-2	lose	lose	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+2	lose	lose	VERB	VB	VerbForm=Inf	0	root	0:root	_
 3	trust	trust	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(69-abstract-new-cf2-3-sgl|XML=<hi rend:::"bold"></hi>
 4	in	in	ADP	IN	_	5	case	5:case	_
 5	someone	someone	PRON	NN	Number=Sing|PronType=Ind	2	obl	2:obl:in	Entity=(70-person-new-cf1-1-sgl)69)
@@ -604,7 +604,7 @@
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(104-abstract-new-cf4-2-sgl
 18	benefit	benefit	NOUN	NN	Number=Sing	15	obl	15:obl:for	_
 19	of	of	ADP	IN	_	20	case	20:case	_
-20	another	another	DET	DT	PronType=Art	18	nmod	18:nmod:of	Bridge=102<105|Entity=(105-person-acc:inf-cf1-1-sgl)104)103)102)101)|SpaceAfter=No
+20	another	another	DET	DT	PronType=Ind	18	nmod	18:nmod:of	Bridge=102<105|Entity=(105-person-acc:inf-cf1-1-sgl)104)103)102)101)|SpaceAfter=No
 21	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_dictionary_trust-32
@@ -902,16 +902,16 @@
 # transition = zero
 # text = To place confidence in, to rely on, to confide in.
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=joint-other_m:110->4:4
-2	place	place	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+2	place	place	VERB	VB	VerbForm=Inf	0	root	0:root	_
 3	confidence	confidence	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(91-abstract-giv:inact-cf1-1-coref)
 4	in	in	ADP	IN	_	2	obl	2:obl	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	7:punct	_
 6	to	to	PART	TO	_	7	mark	7:mark	Discourse=restatement-repetition_m:111->110:0
-7	rely	rely	VERB	VB	Person=2|VerbForm=Inf	2	conj	2:conj	_
+7	rely	rely	VERB	VB	VerbForm=Inf	2	conj	2:conj	_
 8	on	on	ADP	IN	_	7	obl	7:obl	SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
 10	to	to	PART	TO	_	11	mark	11:mark	Discourse=restatement-repetition_m:112->110:0
-11	confide	confide	VERB	VB	Person=2|VerbForm=Inf	2	conj	2:conj	_
+11	confide	confide	VERB	VB	VerbForm=Inf	2	conj	2:conj	_
 12	in	in	ADP	IN	_	11	obl	11:obl	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -951,12 +951,12 @@
 # transition = null
 # text = To have faith in; to rely on for continuing support or aid.
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=joint-disjunction_m:116->110:3
-2	have	have	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+2	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
 3	faith	faith	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(140-abstract-giv:inact-cf1-1-coref)
 4	in	in	ADP	IN	_	2	obl	2:obl	SpaceAfter=No
 5	;	;	PUNCT	:	_	7	punct	7:punct	_
 6	to	to	PART	TO	_	7	mark	7:mark	Discourse=joint-list_m:117->116:0
-7	rely	rely	VERB	VB	Person=2|VerbForm=Inf	2	parataxis	2:parataxis	_
+7	rely	rely	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	_
 8	on	on	ADP	IN	_	7	obl	7:obl	_
 9	for	for	ADP	IN	_	11	case	11:case	_
 10	continuing	continue	VERB	VBG	VerbForm=Ger	11	amod	11:amod	Entity=(153-abstract-new-cf2-2,4-sgl
@@ -997,12 +997,12 @@
 # transition = null
 # text = To give credence to; to believe; to credit.
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=joint-disjunction_m:121->110:3
-2	give	give	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+2	give	give	VERB	VB	VerbForm=Inf	0	root	0:root	_
 3	credence	credence	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(158-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/credence"></ref>
 4	to	to	ADP	IN	_	2	obl	2:obl	SpaceAfter=No
 5	;	;	PUNCT	:	_	7	punct	7:punct	_
 6	to	to	PART	TO	_	7	mark	7:mark	Discourse=restatement-repetition_m:122->121:0
-7	believe	believe	VERB	VB	Person=2|VerbForm=Inf	2	parataxis	2:parataxis	SpaceAfter=No
+7	believe	believe	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	SpaceAfter=No
 8	;	;	PUNCT	:	_	10	punct	10:punct	_
 9	to	to	ADP	IN	_	10	case	10:case	Discourse=restatement-repetition_m:123->121:0
 10	credit	credit	NOUN	NN	Number=Sing	2	parataxis	2:parataxis	SpaceAfter=No
@@ -1025,11 +1025,11 @@
 # transition = null
 # text = To hope confidently; to believe (usually with a phrase or infinitive clause as the object)
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=joint-disjunction_m:125->110:3
-2	hope	hope	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+2	hope	hope	VERB	VB	VerbForm=Inf	0	root	0:root	_
 3	confidently	confidently	ADV	RB	Degree=Pos	2	advmod	2:advmod	SpaceAfter=No
 4	;	;	PUNCT	:	_	6	punct	6:punct	_
 5	to	to	PART	TO	_	6	mark	6:mark	Discourse=restatement-repetition_m:126->125:0
-6	believe	believe	VERB	VB	Person=2|VerbForm=Inf	2	parataxis	2:parataxis	_
+6	believe	believe	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	_
 7	(	(	PUNCT	-LRB-	_	11	punct	11:punct	Discourse=context-circumstance:127->125:1|SpaceAfter=No
 8	usually	usually	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 9	with	with	ADP	IN	_	11	case	11:case	_
@@ -1074,7 +1074,7 @@
 # transition = null
 # text = to show confidence in a person by entrusting them with something.
 1	to	to	PART	TO	_	2	mark	2:mark	Discourse=joint-disjunction_m:131->110:3
-2	show	show	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+2	show	show	VERB	VB	VerbForm=Inf	0	root	0:root	_
 3	confidence	confidence	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(164-abstract-new-cf3-1-sgl
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(165-person-new-cf4-2-sgl
@@ -1103,7 +1103,7 @@
 # transition = null
 # text = To commit, as to one's care; to entrust.
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=joint-disjunction_m:134->110:3
-2	commit	commit	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	SpaceAfter=No
+2	commit	commit	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	,	_	8	punct	8:punct	_
 4	as	as	ADP	IN	_	8	case	8:case	_
 5	to	to	ADP	IN	_	8	case	8:case	_
@@ -1113,7 +1113,7 @@
 8	care	care	NOUN	NN	Number=Sing	2	obl	2:obl:as_to	Entity=167)|SpaceAfter=No
 9	;	;	PUNCT	:	_	11	punct	11:punct	_
 10	to	to	PART	TO	_	11	mark	11:mark	Discourse=restatement-repetition_m:135->134:0
-11	entrust	entrust	VERB	VB	Person=2|VerbForm=Inf	2	parataxis	2:parataxis	SpaceAfter=No
+11	entrust	entrust	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_dictionary_trust-63
@@ -1133,12 +1133,12 @@
 # transition = null
 # text = To give credit to; to sell to upon credit, or in confidence of future payment.
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=joint-disjunction_m:137->110:3
-2	give	give	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+2	give	give	VERB	VB	VerbForm=Inf	0	root	0:root	_
 3	credit	credit	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(81-abstract-giv:inact-cf1-1-coref)
 4	to	to	ADP	IN	_	2	obl	2:obl	SpaceAfter=No
 5	;	;	PUNCT	:	_	7	punct	7:punct	_
 6	to	to	PART	TO	_	7	mark	7:mark	Discourse=joint-disjunction_m:138->137:0
-7	sell	sell	VERB	VB	Person=2|VerbForm=Inf	2	parataxis	2:parataxis	_
+7	sell	sell	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	_
 8	to	to	ADP	IN	_	7	obl	7:obl	_
 9	upon	upon	ADP	IN	_	10	case	10:case	_
 10	credit	credit	NOUN	NN	Number=Sing	7	obl	7:obl:upon	Entity=(81-abstract-giv:act-cf1-1-coref)|SpaceAfter=No
@@ -1186,7 +1186,7 @@
 # transition = null
 # text = To rely on (something), as though having trust (on it).
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=joint-disjunction_m:141->110:3
-2	rely	rely	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+2	rely	rely	VERB	VB	VerbForm=Inf	0	root	0:root	_
 3	on	on	ADP	IN	_	5	case	5:case	_
 4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	SpaceAfter=No
 5	something	something	PRON	NN	Number=Sing|PronType=Ind	2	obl	2:obl:on	Entity=(74-abstract-giv:inact-cf1-1-coref)|SpaceAfter=No
@@ -1208,7 +1208,7 @@
 # transition = null
 # text = to trust to luck
 1	to	to	PART	TO	_	2	mark	2:mark	Discourse=explanation-evidence:144->141:2
-2	trust	trust	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	XML=<hi rend:::"bold"></hi>
+2	trust	trust	VERB	VB	VerbForm=Inf	0	root	0:root	XML=<hi rend:::"bold"></hi>
 3	to	to	ADP	IN	_	4	case	4:case	_
 4	luck	luck	NOUN	NN	Number=Sing	2	obl	2:obl:to	Entity=(174-abstract-new-cf1-1-sgl)
 
@@ -1252,10 +1252,10 @@
 # transition = null
 # text = To risk; to venture confidently.
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=joint-disjunction_m:148->110:3
-2	risk	risk	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	SpaceAfter=No
+2	risk	risk	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 3	;	;	PUNCT	:	_	5	punct	5:punct	_
 4	to	to	PART	TO	_	5	mark	5:mark	Discourse=joint-disjunction_m:149->148:0
-5	venture	venture	VERB	VB	Person=2|VerbForm=Inf	2	parataxis	2:parataxis	_
+5	venture	venture	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	_
 6	confidently	confidently	ADV	RB	Degree=Pos	5	advmod	5:advmod	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1276,7 +1276,7 @@
 # transition = null
 # text = To have trust; to be credulous; to be won to confidence; to confide.
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=joint-disjunction_m:151->110:3
-2	have	have	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+2	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
 3	trust	trust	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(7-abstract-giv:inact-cf1-1-coref)|SpaceAfter=No
 4	;	;	PUNCT	:	_	7	punct	7:punct	_
 5	to	to	PART	TO	_	7	mark	7:mark	Discourse=restatement-repetition_m:152->151:0
@@ -1290,7 +1290,7 @@
 13	confidence	confidence	NOUN	NN	Number=Sing	11	obl	11:obl:to	Entity=(91-abstract-giv:inact-cf2-1-coref)|SpaceAfter=No
 14	;	;	PUNCT	:	_	16	punct	16:punct	_
 15	to	to	PART	TO	_	16	mark	16:mark	Discourse=restatement-repetition_m:154->151:0
-16	confide	confide	VERB	VB	Person=2|VerbForm=Inf	2	parataxis	2:parataxis	SpaceAfter=No
+16	confide	confide	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_dictionary_trust-74
@@ -1311,9 +1311,9 @@
 # transition = null
 # text = To sell or deliver anything in reliance upon a promise of payment; to give credit.
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=joint-disjunction_m:156->110:3
-2	sell	sell	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+2	sell	sell	VERB	VB	VerbForm=Inf	0	root	0:root	_
 3	or	or	CCONJ	CC	_	4	cc	4:cc	_
-4	deliver	deliver	VERB	VB	Person=2|VerbForm=Inf	2	conj	2:conj:or	_
+4	deliver	deliver	VERB	VB	VerbForm=Inf	2	conj	2:conj:or	_
 5	anything	anything	PRON	NN	Number=Sing|PronType=Ind	2	obj	2:obj|4:obj	Entity=(179-object-new-cf3-1-sgl)
 6	in	in	ADP	IN	_	7	case	7:case	_
 7	reliance	reliance	NOUN	NN	Number=Sing	2	obl	2:obl:in	_
@@ -1324,7 +1324,7 @@
 12	payment	payment	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	Entity=(78-event-giv:inact-cf2-1-coref)180)|SpaceAfter=No
 13	;	;	PUNCT	:	_	15	punct	15:punct	_
 14	to	to	PART	TO	_	15	mark	15:mark	Discourse=joint-disjunction_m:157->156:0
-15	give	give	VERB	VB	Person=2|VerbForm=Inf	2	parataxis	2:parataxis	_
+15	give	give	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	_
 16	credit	credit	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=(81-abstract-giv:inact-cf1-1-coref)|SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 

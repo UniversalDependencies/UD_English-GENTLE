@@ -70,7 +70,7 @@
 4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
 5	lived	live	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 6	with	with	ADP	IN	_	9	case	9:case	_
-7	no	no	DET	DT	Polarity=Neg|PronType=Art	9	det	9:det	Entity=(9-abstract-new-cf3-3-sgl
+7	no	no	DET	DT	Polarity=Neg|PronType=Neg	9	det	9:det	Entity=(9-abstract-new-cf3-3-sgl
 8	other	other	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	thought	thought	NOUN	NN	Number=Sing	5	obl	5:obl:with	Entity=9)
 10	Than	than	SCONJ	IN	_	12	mark	12:mark	Discourse=elaboration-attribute:5->4:0
@@ -202,7 +202,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = So that her highborn kinsman came And bore her away from me, To shut her up in a sepulchre In this kingdom by the sea.
-1	So	so	ADV	IN	_	6	advmod	6:advmod	Discourse=causal-result:17->14:1
+1	So	so	ADP	IN	_	6	advmod	6:advmod	Discourse=causal-result:17->14:1
 2	that	that	ADP	IN	_	1	fixed	1:fixed	_
 3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(18-person-new-cf5-3-sgl(1-person-giv:act-cf1*-1-ana)
 4	highborn	highborn	ADJ	JJ	Degree=Pos	5	amod	5:amod	_

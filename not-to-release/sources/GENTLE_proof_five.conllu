@@ -334,7 +334,7 @@
 5	Gr+1	Gr+1	NOUN	NN	Number=Sing	1	obl	1:obl:from	Entity=(31-abstract-giv:inact-cf2-1-coref)
 6	to	to	PART	TO	_	7	mark	7:mark	Discourse=purpose-goal:29->28:0
 7	create	create	VERB	VB	VerbForm=Inf	1	advcl	1:advcl:to	_
-8	another	another	DET	DT	PronType=Art	9	det	9:det	Entity=(39-abstract-new-cf3-2-sgl
+8	another	another	DET	DT	PronType=Ind	9	det	9:det	Entity=(39-abstract-new-cf3-2-sgl
 9	graph	graph	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=39)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	G′r.	G′r.	NOUN	NN	Number=Sing	9	appos	9:appos	Entity=(40-abstract-new-cf4-1-coref)
@@ -523,7 +523,7 @@
 1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:46->47:0
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	Discourse=contingency-condition:47->48:0
 3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	_
-4	no	no	DET	DT	Polarity=Neg|PronType=Art	5	det	5:det	Entity=(62-abstract-new-cf4-8-sgl
+4	no	no	DET	DT	Polarity=Neg|PronType=Neg	5	det	5:det	Entity=(62-abstract-new-cf4-8-sgl
 5	path	path	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Path"></ref>
 6	between	between	ADP	IN	_	7	case	7:case	_
 7	y1	y1	NOUN	NN	Number=Sing	5	nmod	5:nmod:between	Entity=(45-abstract-giv:inact-cf2-1-coref)

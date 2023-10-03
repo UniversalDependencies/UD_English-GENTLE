@@ -604,7 +604,7 @@
 # transition = zero
 # text = That is: DL is incommensurable with MF.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	6	advmod	6:advmod	Discourse=organization-preparation:57->58:0
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	1:fixed	SpaceAfter=No
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	1:fixed	SpaceAfter=No
 3	:	:	PUNCT	:	_	1	punct	1:punct	_
 4	DL	DL	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Discourse=restatement-partial:58->56:2|Entity=(44-abstract-giv:inact-cf1-1-coref)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_

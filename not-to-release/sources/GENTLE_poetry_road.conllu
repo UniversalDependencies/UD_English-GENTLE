@@ -15,7 +15,7 @@
 # text = Two roads diverged in a yellow wood, And sorry I could not travel both And be one traveler, long I stood And looked down one as far as I could To where it bent in the undergrowth;
 # newpar
 # newpar_block = p (1 s)
-1	Two	two	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=context-circumstance:1->3:3|Entity=(1-place-new-cf3-2-coref-NONE
+1	Two	two	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=context-circumstance:1->3:3|Entity=(1-place-new-cf3-2-coref
 2	roads	road	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=1)
 3	diverged	diverge	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	in	in	ADP	IN	_	7	case	7:case	_
@@ -29,7 +29,7 @@
 12	could	could	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
 13	not	not	PART	RB	Polarity=Neg	14	advmod	14:advmod	_
 14	travel	travel	VERB	VB	VerbForm=Inf	10	ccomp	10:ccomp	_
-15	both	both	DET	DT	PronType=Art	14	advmod	14:advmod	Entity=(1-place-giv:act-cf3-1-ana-NONE)
+15	both	both	DET	DT	PronType=Tot	14	advmod	14:advmod	Entity=(1-place-giv:act-cf3-1-ana)
 16	And	and	CCONJ	CC	_	19	cc	19:cc	_
 17	be	be	AUX	VB	VerbForm=Inf	19	cop	19:cop	_
 18	one	one	NUM	CD	NumForm=Word|NumType=Card	19	nummod	19:nummod	Entity=(3-person-giv:act-cf1-2-coref
@@ -103,7 +103,7 @@
 7	there	there	ADV	RB	PronType=Dem	6	advmod	6:advmod	Entity=9)
 8	Had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	9:aux	_
 9	worn	wear	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
-10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	9:obj	Entity=(1-place-giv:inact-cf1-1-ana-NONE)
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	9:obj	Entity=(1-place-giv:inact-cf1-1-ana)
 11	really	really	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
 12	about	about	ADV	RB	_	14	advmod	14:advmod	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(10-abstract-new-cf3-2-sgl
@@ -118,14 +118,14 @@
 # newpar
 # newpar_block = p (3 s)
 1	And	and	CCONJ	CC	_	6	cc	6:cc	Discourse=explanation-evidence:13->12:0
-2	both	both	DET	DT	PronType=Art	6	nsubj	6:nsubj	Entity=(1-place-giv:act-cf1*-1-ana-NONE)
+2	both	both	DET	DT	PronType=Tot	6	nsubj	6:nsubj	Entity=(1-place-giv:act-cf1*-1-ana)
 3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(11-time-new-cf3-2-coref
 4	morning	morning	NOUN	NN	Number=Sing	6	obl:tmod	6:obl:tmod	Entity=11)
 5	equally	equally	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 6	lay	lie	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	In	in	ADP	IN	_	8	case	8:case	_
 8	leaves	leave	NOUN	NNS	Number=Plur	6	obl	6:obl:in	Entity=(12-plant-new-cf4-1-sgl
-9	no	no	DET	DT	Polarity=Neg|PronType=Art	10	det	10:det	Discourse=elaboration-attribute:14->13:0|Entity=(13-abstract-new-cf2-2-sgl
+9	no	no	DET	DT	Polarity=Neg|PronType=Neg	10	det	10:det	Discourse=elaboration-attribute:14->13:0|Entity=(13-abstract-new-cf2-2-sgl
 10	step	step	NOUN	NN	Number=Sing	12	nsubj	12:nsubj|13:nsubj:xsubj	Entity=13)
 11	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	12:aux	_
 12	trodden	tread	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	8:acl:relcl	_
@@ -144,7 +144,7 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(4-place-giv:inact-cf2-2-coref
 6	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	obj	4:obj	Entity=4)
 7	for	for	ADP	IN	_	9	case	9:case	_
-8	another	another	DET	DT	PronType=Art	9	det	9:det	Bridge=11<14|Entity=(14-time-acc:inf-cf3-2-sgl
+8	another	another	DET	DT	PronType=Ind	9	det	9:det	Bridge=11<14|Entity=(14-time-acc:inf-cf3-2-sgl
 9	day	day	NOUN	NN	Number=Sing	4	obl	4:obl:for	Entity=14)|SpaceAfter=No
 10	!	!	PUNCT	.	_	4	punct	4:punct	_
 
@@ -193,7 +193,7 @@
 12	ages	age	NOUN	NNS	Number=Plur	10	conj	4:obl:tmod|10:conj:and	Entity=(21-time-new-cf9-1-sgl)
 13	hence	hence	ADV	RB	Degree=Pos	10	advmod	10:advmod	SpaceAfter=No
 14	:	:	PUNCT	:	_	17	punct	17:punct	_
-15	Two	two	NUM	CD	NumForm=Word|NumType=Card	16	nummod	16:nummod	Discourse=context-circumstance:21->22:0|Entity=(1-place-giv:inact-cf3-2-coref-NONE
+15	Two	two	NUM	CD	NumForm=Word|NumType=Card	16	nummod	16:nummod	Discourse=context-circumstance:21->22:0|Entity=(1-place-giv:inact-cf3-2-coref
 16	roads	road	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	Entity=1)
 17	diverged	diverge	VERB	VBN	Tense=Past|VerbForm=Part	4	parataxis	4:parataxis	_
 18	in	in	ADP	IN	_	20	case	20:case	_

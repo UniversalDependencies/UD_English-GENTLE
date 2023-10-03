@@ -1614,7 +1614,7 @@
 18	total	total	NOUN	NN	Number=Sing	17	nmod:npmod	17:nmod:npmod	SpaceAfter=No
 19	)	)	PUNCT	-RRB-	_	17	punct	17:punct	_
 20	for	for	ADP	IN	_	25	case	25:case	Discourse=same-unit_m:138->136:1
-21	up	up	ADV	IN	_	24	advmod	24:advmod	_
+21	up	up	ADP	IN	_	24	advmod	24:advmod	_
 22	to	to	ADP	IN	_	21	fixed	21:fixed	_
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(221-time-new-cf5-2-sgl
 24	week	week	NOUN	NN	Number=Sing	25	obl:tmod	25:obl:tmod	Entity=221)

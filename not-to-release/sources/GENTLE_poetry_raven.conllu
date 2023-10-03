@@ -90,7 +90,8 @@
 # transition = continue
 # text = "'Tis some visiter," I muttered, "tapping at my chamber door —
 1	"	''	PUNCT	``	_	5	punct	5:punct	Discourse=evaluation-comment:9->2:1|SpaceAfter=No
-2	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	SpaceAfter=No|XML=<w>
+2-3	'Tis	_	_	_	_	_	_	_	_
+2	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	XML=<w>
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	XML=</w>
 4	some	some	DET	DT	PronType=Ind	5	det	5:det	Entity=(7-person-giv:act-cf2-2-pred
 5	visiter	visiter	NOUN	NN	Number=Sing	0	root	0:root	Entity=7)|SpaceAfter=No
@@ -258,7 +259,8 @@
 # transition = continue
 # text = "'Tis some visiter entreating entrance at my chamber door —
 1	"	''	PUNCT	``	_	5	punct	5:punct	Discourse=joint-sequence_m:25->2:3|SpaceAfter=No
-2	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	SpaceAfter=No|XML=<w>
+2-3	'Tis	_	_	_	_	_	_	_	_
+2	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	XML=<w>
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	XML=</w>
 4	some	some	DET	DT	PronType=Ind	5	det	5:det	Entity=(7-person-giv:inact-cf2-2-pred
 5	visiter	visiter	NOUN	NN	Number=Sing	0	root	0:root	Entity=7)
@@ -293,7 +295,7 @@
 # text = This it is and nothing more."
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	obj	3:obj	Discourse=restatement-partial:29->25:2
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(28-event-giv:act-cf1*-1-ana)
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
 5	nothing	nothing	PRON	NN	Number=Sing|Polarity=Neg|PronType=Neg	1	conj	1:conj:and|3:obj	Entity=(10-abstract-giv:inact-cf2-1-coref
 6	more	more	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Entity=10)|SpaceAfter=No
@@ -438,7 +440,7 @@
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
 17	dreaming	dream	VERB	VBG	VerbForm=Ger	11	conj	9:advcl|11:conj	Discourse=joint-list_m:48->45:0
 18	dreams	dream	NOUN	NNS	Number=Plur	17	obj	17:obj	Entity=(33-abstract-new-cf4-1-sgl
-19	no	no	DET	DT	Polarity=Neg|PronType=Art	20	det	20:det	Discourse=elaboration-attribute:49->48:0|Entity=(34-person-new-cf3-2-sgl
+19	no	no	DET	DT	Polarity=Neg|PronType=Neg	20	det	20:det	Discourse=elaboration-attribute:49->48:0|Entity=(34-person-new-cf3-2-sgl
 20	mortals	mortal	NOUN	NNS	Number=Plur	22	nsubj	22:nsubj|24:nsubj:xsubj	Entity=34)
 21	ever	ever	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
 22	dared	dare	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
@@ -462,7 +464,7 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(36-abstract-new-cf4-2-sgl
 9	stillness	stillness	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=36)
 10	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	5:conj:and	_
-11	no	no	DET	DT	Polarity=Neg|PronType=Art	12	det	12:det	Entity=(37-abstract-new-cf5-2-sgl
+11	no	no	DET	DT	Polarity=Neg|PronType=Neg	12	det	12:det	Entity=(37-abstract-new-cf5-2-sgl
 12	token	token	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=37)|SpaceAfter=No
 13	,	,	PUNCT	,	_	23	punct	23:punct	_
 14	And	and	CCONJ	CC	_	23	cc	23:cc	Discourse=joint-sequence_m:52->2:3
@@ -615,7 +617,8 @@
 # s_type = decl
 # transition = zero
 # text = 'Tis the wind and nothing more."
-1	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|6:nsubj	Discourse=evaluation-comment:68->64:3|SpaceAfter=No|XML=<w>
+1-2	'Tis	_	_	_	_	_	_	_	_
+1	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|6:nsubj	Discourse=evaluation-comment:68->64:3|XML=<w>
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	Entity=(45-abstract-new-cf2-3-sgl|XML=</w>
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
 4	wind	wind	NOUN	NN	Number=Sing	0	root	0:root	Entity=45)
@@ -785,7 +788,7 @@
 39	"	''	PUNCT	``	_	40	punct	40:punct	Discourse=same-unit_m:83->81:0|SpaceAfter=No
 40	art	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	cop	49:cop	_
 41	sure	sure	ADJ	JJ	Degree=Pos	49	advmod	49:advmod	_
-42	no	no	DET	DT	Polarity=Neg|PronType=Art	49	det	49:det	Entity=(1-animal-giv:act-cf2-2-coref
+42	no	no	DET	DT	Polarity=Neg|PronType=Neg	49	det	49:det	Entity=(1-animal-giv:act-cf2-2-coref
 43	craven	craven	ADJ	JJ	Degree=Pos	49	amod	49:amod	Entity=1)|SpaceAfter=No
 44	,	,	PUNCT	,	_	46	punct	46:punct	_
 45	Ghastly	ghastly	ADJ	JJ	Degree=Pos	46	amod	46:amod	Entity=(1-animal-giv:act-cf2-5-coref
@@ -885,7 +888,7 @@
 5	help	help	VERB	VB	VerbForm=Inf	0	root	0:root	_
 6	agreeing	agree	VERB	VBG	VerbForm=Ger	5	xcomp	5:xcomp	_
 7	that	that	SCONJ	IN	_	15	mark	15:mark	Discourse=explanation-evidence:91->89:0
-8	no	no	DET	DT	Polarity=Neg|PronType=Art	11	det	11:det	Entity=(66-person-new-cf1-4-coref
+8	no	no	DET	DT	Polarity=Neg|PronType=Neg	11	det	11:det	Entity=(66-person-new-cf1-4-coref
 9	living	live	VERB	VBG	VerbForm=Ger	11	amod	11:amod	_
 10	human	human	NOUN	NN	Number=Sing	11	compound	11:compound	_
 11	being	being	NOUN	NN	Number=Sing	15	nsubj:pass	15:nsubj:pass	Entity=66)
@@ -1233,7 +1236,7 @@
 6	guessing	guess	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl:in	SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	11:punct	_
 8	but	but	CCONJ	CC	_	11	cc	11:cc	Discourse=adversative-contrast_m:126->125:1
-9	no	no	DET	DT	Polarity=Neg|PronType=Art	10	det	10:det	Entity=(90-abstract-new-cf3-2-sgl
+9	no	no	DET	DT	Polarity=Neg|PronType=Neg	10	det	10:det	Entity=(90-abstract-new-cf3-2-sgl
 10	syllable	syllable	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=90)
 11	expressing	express	VERB	VBG	VerbForm=Ger	3	conj	3:conj:but	_
 12	To	to	ADP	IN	_	14	case	14:case	_
@@ -1603,7 +1606,7 @@
 2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(102-person-giv:inact-cf2-5-coref-God
 3	God	God	PROPN	NNP	Number=Sing	6	acl:relcl	6:acl:relcl	_
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Discourse=elaboration-attribute:175->174:0|Entity=(122-person-giv:act-cf1*-1-ana
-5	both	both	DET	DT	PronType=Art	4	det	4:det	Entity=122)
+5	both	both	DET	DT	PronType=Tot	4	det	4:det	Entity=122)
 6	adore	adore	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Entity=102)
 7	—	—	PUNCT	:	_	6	punct	6:punct	_
 
@@ -1725,7 +1728,7 @@
 # transition = establishment
 # text = Leave no black plume as a token of that lie thy soul hath spoken!
 1	Leave	leave	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=mode-manner:190->189:0
-2	no	no	DET	DT	Polarity=Neg|PronType=Art	4	det	4:det	Entity=(127-object-new-cf3-3-sgl
+2	no	no	DET	DT	Polarity=Neg|PronType=Neg	4	det	4:det	Entity=(127-object-new-cf3-3-sgl
 3	black	black	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	plume	plume	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=127)
 5	as	as	ADP	IN	_	7	case	7:case	_

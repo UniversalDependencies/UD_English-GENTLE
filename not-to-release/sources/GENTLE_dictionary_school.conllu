@@ -392,11 +392,11 @@
 6	fish	fish	NOUN	NN	Number=Sing	9	obl	9:obl:of	Entity=(21-animal-giv:inact-cf1-1-coref)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/fish"></ref>
 7	)	)	PUNCT	-RRB-	_	6	punct	6:punct	_
 8	To	to	PART	TO	_	9	mark	9:mark	Discourse=joint-other_m:52->14:4
-9	form	form	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	XML=<ref target:::"https://en.wiktionary.org/wiki/form"></ref>
+9	form	form	VERB	VB	VerbForm=Inf	0	root	0:root	XML=<ref target:::"https://en.wiktionary.org/wiki/form"></ref>
 10	into	into	ADP	IN	_	9	obl	9:obl	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
 12	or	or	CCONJ	CC	_	13	cc	13:cc	_
-13	travel	travel	VERB	VB	Person=2|VerbForm=Inf	9	conj	9:conj:or	XML=<ref target:::"https://en.wiktionary.org/wiki/travel"></ref>
+13	travel	travel	VERB	VB	VerbForm=Inf	9	conj	9:conj:or	XML=<ref target:::"https://en.wiktionary.org/wiki/travel"></ref>
 14	in	in	ADP	IN	_	16	case	16:case	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(20-animal-giv:inact-cf2-2-coref
 16	school	school	NOUN	NN	Number=Sing	13	obl	13:obl:in	Entity=20)|SpaceAfter=No
@@ -518,7 +518,7 @@
 91	to	to	PART	TO	_	92	mark	92:mark	_
 92	hold	hold	VERB	VB	VerbForm=Inf	88	appos	88:appos	SpaceAfter=No
 93	,	,	PUNCT	,	_	94	punct	94:punct	_
-94	have	have	VERB	VB	VerbForm=Inf	92	conj	88:appos|92:conj	SpaceAfter=No
+94	have	have	AUX	VB	VerbForm=Inf	92	conj	88:appos|92:conj	SpaceAfter=No
 95	,	,	PUNCT	,	_	96	punct	96:punct	_
 96	possess	possess	VERB	VB	VerbForm=Inf	92	conj	88:appos|92:conj	SpaceAfter=No
 97	”	''	PUNCT	''	_	92	punct	92:punct	SpaceAfter=No
@@ -1298,12 +1298,12 @@
 2	transitive	transitive	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
 4	To	to	PART	TO	_	5	mark	5:mark	Discourse=joint-other_m:152->55:5
-5	educate	educate	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/educate"></ref>
+5	educate	educate	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/educate"></ref>
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
-7	teach	teach	VERB	VB	Person=2|VerbForm=Inf	5	conj	5:conj:or	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/teach"></ref>
+7	teach	teach	VERB	VB	VerbForm=Inf	5	conj	5:conj:or	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/teach"></ref>
 8	,	,	PUNCT	,	_	10	punct	10:punct	_
 9	or	or	CCONJ	CC	_	10	cc	10:cc	_
-10	train	train	VERB	VB	Person=2|VerbForm=Inf	5	conj	5:conj:or	XML=<ref target:::"https://en.wiktionary.org/wiki/train"></ref>
+10	train	train	VERB	VB	VerbForm=Inf	5	conj	5:conj:or	XML=<ref target:::"https://en.wiktionary.org/wiki/train"></ref>
 11	(	(	PUNCT	-LRB-	_	20	punct	20:punct	Discourse=context-circumstance:153->152:0|SpaceAfter=No
 12	often	often	ADV	RB	Degree=Pos	20	advmod	20:advmod	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	16:punct	_
@@ -1345,11 +1345,11 @@
 2	transitive	transitive	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
 4	To	to	PART	TO	_	5	mark	5:mark	Discourse=joint-list_m:156->152:3
-5	defeat	defeat	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	XML=<ref target:::"https://en.wiktionary.org/wiki/defeat"></ref>
+5	defeat	defeat	VERB	VB	VerbForm=Inf	0	root	0:root	XML=<ref target:::"https://en.wiktionary.org/wiki/defeat"></ref>
 6	emphatically	emphatically	ADV	RB	Degree=Pos	5	advmod	5:advmod	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/emphatically"></ref>
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
 8	to	to	PART	TO	_	9	mark	9:mark	Discourse=restatement-repetition_m:157->156:0
-9	teach	teach	VERB	VB	Person=2|VerbForm=Inf	5	conj	5:conj	_
+9	teach	teach	VERB	VB	VerbForm=Inf	5	conj	5:conj	_
 10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(211-person-new-cf2-2-sgl
 11	opponent	opponent	NOUN	NN	Number=Sing	9	iobj	9:iobj	Entity=211)|XML=<ref target:::"https://en.wiktionary.org/wiki/opponent"></ref>
 12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(212-abstract-new-cf1-3-sgl
@@ -1368,10 +1368,10 @@
 2	transitive	transitive	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
 4	To	to	PART	TO	_	5	mark	5:mark	Discourse=joint-list_m:159->152:3
-5	control	control	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	SpaceAfter=No
+5	control	control	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
 7	or	or	CCONJ	CC	_	8	cc	8:cc	_
-8	compose	compose	VERB	VB	Person=2|VerbForm=Inf	5	conj	5:conj:or	SpaceAfter=No
+8	compose	compose	VERB	VB	VerbForm=Inf	5	conj	5:conj:or	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	12:punct	_
 10-11	one's	_	_	_	_	_	_	_	_
 10	one	one	PRON	PRP	Number=Sing|Person=3|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(213-abstract-new-cf2-3-sgl(214-person-new-cf1-1-sgl

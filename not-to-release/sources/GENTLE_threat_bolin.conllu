@@ -201,7 +201,7 @@
 5	to	to	PART	TO	_	6	mark	6:mark	_
 6	find	find	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
 7	out	out	ADP	RP	_	6	compound:prt	6:compound:prt	_
-8	how	how	ADV	WRB	PronType=Int	9	advmod	9:advmod	_
+8	how	how	ADV	WRB	PronType=Rel	9	advmod	9:advmod	_
 9	much	much	ADJ	JJ	Degree=Pos	6	obj	6:obj	_
 10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Entity=(1-person-giv:act-cf2-1-ana)
 11	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
@@ -295,7 +295,7 @@
 8-9	don't	_	_	_	_	_	_	_	_
 8	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
 9	n't	not	PART	RB	Polarity=Neg	10	advmod	10:advmod	_
-10	play	play	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	2	ccomp	2:ccomp	_
+10	play	play	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	_
 11	fucking	fucking	INTJ	UH	_	12	discourse	12:discourse	Entity=(26-abstract-new-cf3-2-coref
 12	games	game	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=26)
 13	with	with	ADP	IN	_	14	case	14:case	_
@@ -307,7 +307,8 @@
 # s_type = decl
 # transition = continue
 # text = You're playing with the wrong person asshole.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=causal-cause:28->27:0|Entity=(1-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+1-2	You're	_	_	_	_	_	_	_	_
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=causal-cause:28->27:0|Entity=(1-person-giv:act-cf1*-1-ana)
 2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 4	with	with	ADP	IN	_	7	case	7:case	_
@@ -460,7 +461,7 @@
 8	or	or	CCONJ	CC	_	10	cc	10:cc	Discourse=joint-disjunction_m:43->41:1
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(3-person-giv:act-cf1*-1-ana)
 10	make	make	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	2:conj:or	_
-11	another	another	DET	DT	PronType=Art	13	det	13:det	Entity=(47-event-new-cf5-3-sgl
+11	another	another	DET	DT	PronType=Ind	13	det	13:det	Entity=(47-event-new-cf5-3-sgl
 12	phone	phone	NOUN	NN	Number=Sing	13	compound	13:compound	_
 13	call	call	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=47)|SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	2:punct	_

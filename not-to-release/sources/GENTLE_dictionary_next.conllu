@@ -765,7 +765,7 @@
 5	Tuesday	Tuesday	PROPN	NNP	Number=Sing	0	root	0:root	Entity=129)|SpaceAfter=No
 6	;	;	PUNCT	:	_	7	punct	7:punct	_
 7	that	that	PRON	DT	Number=Sing|PronType=Dem	11	advmod	11:advmod	Discourse=explanation-justify:92->91:0
-8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	7:fixed	SpaceAfter=No
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	7:fixed	SpaceAfter=No
 9	,	,	PUNCT	,	_	7	punct	7:punct	_
 10	not	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	Discourse=adversative-antithesis:93->94:0
 11	tomorrow	tomorrow	NOUN	NN	Number=Sing	5	parataxis	5:parataxis	Entity=(130-time-acc:com-cf2-1-sgl)|SpaceAfter=No
@@ -931,7 +931,7 @@
 4	So	so	SCONJ	IN	_	7	mark	7:mark	Discourse=elaboration-additional:110->106:1
 5	as	as	ADP	IN	_	4	fixed	4:fixed	_
 6	to	to	PART	TO	_	7	mark	7:mark	_
-7	follow	follow	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+7	follow	follow	VERB	VB	VerbForm=Inf	0	root	0:root	_
 8	in	in	ADP	IN	_	9	case	9:case	_
 9	time	time	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=(78-time-giv:inact-cf1-1-coref)
 10	or	or	CCONJ	CC	_	11	cc	11:cc	_
@@ -1144,7 +1144,7 @@
 8	next	next	ADJ	JJ	Degree=Pos	10	obl:tmod	10:obl:tmod	Entity=178)
 9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	Entity=(177-person-giv:act-cf1-1-ana)
 10-11	wasn't	_	_	_	_	_	_	_	SpaceAfter=No
-10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	5:parataxis	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	5:parataxis	_
 11	n't	not	PART	RB	Polarity=Neg	10	advmod	10:advmod	_
 12	.	.	PUNCT	.	_	5	punct	5:punct	XML=</hi>
 
