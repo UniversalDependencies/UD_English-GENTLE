@@ -1604,7 +1604,7 @@
 12	tactic	tactic	NOUN	NN	Number=Sing	9	obj	9:obj	_
 13-14	you've	_	_	_	_	_	_	_	_
 13	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=elaboration-attribute:152->151:0|Entity=(10-person-giv:act-cf1-1-ana)
-14	've	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
+14	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 15	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	12:acl:relcl	Entity=157)|SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	1:punct	_
 

@@ -168,7 +168,7 @@
 82	perspective	perspective	NOUN	NN	Number=Sing	86	obl	86:obl:from	Entity=25)
 83-84	thats	_	_	_	_	_	_	_	_
 83	that	that	PRON	DT	Number=Sing|PronType=Dem	86	nsubj	86:nsubj|91:nsubj	Discourse=evaluation-comment:15->14:0|Entity=(24-abstract-giv:act-cf2-1-coref)|XML=<w>
-84	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	86	cop	86:cop	XML=</w>
+84	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	86	cop	86:cop	CorrectForm='s|XML=<sic ana:::"'s"></sic></w>
 85	an	a	DET	DT	Definite=Ind|PronType=Art	86	det	86:det	Entity=(24-abstract-giv:act-cf2-2-coref
 86	eye	eye	NOUN	NN	Number=Sing	68	parataxis	68:parataxis|96:nsubj	Entity=24)
 87	for	for	ADP	IN	_	89	case	89:case	_
@@ -419,7 +419,7 @@
 24	not	not	PART	RB	Polarity=Neg	21	conj	21:conj:or|25:dislocated	Entity=44)
 25-26	thats	_	_	_	_	_	_	_	_
 25	that	that	PRON	DT	Number=Sing|PronType=Dem	29	nsubj	29:nsubj	Discourse=evaluation-comment:42->37:2|Entity=(44-abstract-giv:act-cf1-1-coref)|XML=<w>
-26	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	29:cop	XML=</w>
+26	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	29	cop	29:cop	CorrectForm='s|XML=<sic ana:::"'s"></sic></w>
 27	up	up	ADP	IN	_	29	case	29:case	_
 28	to	to	ADP	IN	_	29	case	29:case	_
 29	Judges	judge	NOUN	NNS	Number=Plur	1	parataxis	1:parataxis	Entity=(11-person-giv:inact-cf6-1-coref)|SpaceAfter=No
