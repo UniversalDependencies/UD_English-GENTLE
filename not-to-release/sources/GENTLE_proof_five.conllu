@@ -72,8 +72,8 @@
 23	k	k	NOUN	NN	Number=Sing	25	compound	25:compound	Entity=(14-abstract-new-cf1-1-coref)
 24	-	-	PUNCT	HYPH	_	23	punct	23:punct	_
 25	coloring	coloring	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=13)|XML=</ref>
-26	such	such	SCONJ	JJ	Degree=Pos	29	mark	29:mark	Discourse=elaboration-attribute:5->4:0:_
-27	that	that	SCONJ	IN	_	29	mark	29:mark	_
+26	such	such	ADJ	JJ	Degree=Pos	29	mark	29:mark	Discourse=elaboration-attribute:5->4:0:_
+27	that	that	SCONJ	IN	_	26	fixed	26:fixed	_
 28	k	k	NOUN	NN	Number=Sing	29	nsubj	29:nsubj	Entity=(14-abstract-giv:act-cf1-1-coref)
 29	≤	≤	SYM	SYM	_	25	acl	25:acl:such_that	Entity=(15-abstract-new-cf10-1-coref
 30	5	5	NUM	CD	NumForm=Digit|NumType=Card	29	obl:npmod	29:obl:npmod	Entity=15)12)|SpaceAfter=No
@@ -217,8 +217,8 @@
 15	k	k	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=(14-abstract-giv:inact-cf2-1-coref)
 16	-	-	PUNCT	HYPH	_	15	punct	15:punct	_
 17	coloring	coloring	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=30)|XML=</ref>
-18	such	such	SCONJ	JJ	Degree=Pos	21	mark	21:mark	Discourse=elaboration-attribute:19->18:0:_
-19	that	that	SCONJ	IN	_	21	mark	21:mark	_
+18	such	such	ADJ	JJ	Degree=Pos	21	mark	21:mark	Discourse=elaboration-attribute:19->18:0:_
+19	that	that	SCONJ	IN	_	18	fixed	18:fixed	_
 20	k	k	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	Entity=(14-abstract-giv:act-cf2-1-coref)
 21	≤	≤	SYM	SYM	_	17	acl	17:acl:such_that	Entity=(15-abstract-giv:inact-cf4-1-coref
 22	5	5	NUM	CD	NumForm=Digit|NumType=Card	21	obl:npmod	21:obl:npmod	Entity=15)29)24)|SpaceAfter=No
@@ -247,8 +247,8 @@
 14	k	k	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(14-abstract-giv:act-cf2-1-coref)
 15	-	-	PUNCT	HYPH	_	14	punct	14:punct	_
 16	coloring	coloring	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=33)|XML=</ref>
-17	such	such	SCONJ	JJ	Degree=Pos	20	mark	20:mark	Discourse=elaboration-attribute:22->21:0:_
-18	that	that	SCONJ	IN	_	20	mark	20:mark	_
+17	such	such	ADJ	JJ	Degree=Pos	20	mark	20:mark	Discourse=elaboration-attribute:22->21:0:_
+18	that	that	SCONJ	IN	_	17	fixed	17:fixed	_
 19	k	k	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=(14-abstract-giv:act-cf2-1-coref)
 20	≤	≤	SYM	SYM	_	16	acl	16:acl:such_that	Entity=(15-abstract-giv:act-cf3-1-coref
 21	5	5	NUM	CD	NumForm=Digit|NumType=Card	20	obl:npmod	20:obl:npmod	Entity=15)32)|SpaceAfter=No
@@ -886,8 +886,8 @@
 14	k	k	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(14-abstract-giv:inact-cf1-1-coref)
 15	-	-	PUNCT	HYPH	_	14	punct	14:punct	_
 16	coloring	coloring	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=13)|XML=</ref>
-17	such	such	SCONJ	JJ	Degree=Pos	20	mark	20:mark	Discourse=elaboration-attribute:79->78:0:_
-18	that	that	SCONJ	IN	_	20	mark	20:mark	_
+17	such	such	ADJ	JJ	Degree=Pos	20	mark	20:mark	Discourse=elaboration-attribute:79->78:0:_
+18	that	that	SCONJ	IN	_	17	fixed	17:fixed	_
 19	k	k	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=(14-abstract-giv:act-cf1-1-coref)
 20	≤	≤	SYM	SYM	_	16	acl	16:acl:such_that	Entity=(15-abstract-giv:inact-cf9-1-coref
 21	5	5	NUM	CD	NumForm=Digit|NumType=Card	20	obl:npmod	20:obl:npmod	Entity=15)12)|SpaceAfter=No

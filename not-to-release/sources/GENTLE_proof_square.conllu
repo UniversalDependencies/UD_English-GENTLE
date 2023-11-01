@@ -149,8 +149,8 @@
 6	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	1:xcomp	MSeg=appl-i-ed
 7	to	to	ADP	IN	_	8	case	8:case	_
 8	DE	DE	NOUN	NN	Number=Sing	6	obl	6:obl:to	Entity=(8-abstract-giv:inact-cf3-1-coref)
-9	such	such	SCONJ	JJ	Degree=Pos	12	mark	12:mark	Discourse=mode-manner:13->12:0:_
-10	that	that	SCONJ	IN	_	12	mark	12:mark	_
+9	such	such	ADJ	JJ	Degree=Pos	12	mark	12:mark	Discourse=mode-manner:13->12:0:_
+10	that	that	SCONJ	IN	_	9	fixed	9:fixed	_
 11	DH	DH	NOUN	NN	Abbr=Yes|Number=Sing	12	nsubj	12:nsubj	Entity=(22-abstract-giv:act-cf1-1-coref)
 12	=	=	SYM	SYM	_	6	advcl	6:advcl:such_that	_
 13	AC2	AC2	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=(18-abstract-giv:act-cf2*-1-coref)|SpaceAfter=No
@@ -169,8 +169,8 @@
 6	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	1:xcomp	MSeg=appl-i-ed
 7	to	to	ADP	IN	_	8	case	8:case	_
 8	DE	DE	NOUN	NN	Number=Sing	6	obl	6:obl:to	Entity=(8-abstract-giv:act-cf2*-1-coref)
-9	such	such	SCONJ	JJ	Degree=Pos	12	mark	12:mark	Discourse=mode-manner:15->14:0:_
-10	that	that	SCONJ	IN	_	12	mark	12:mark	_
+9	such	such	ADJ	JJ	Degree=Pos	12	mark	12:mark	Discourse=mode-manner:15->14:0:_
+10	that	that	SCONJ	IN	_	9	fixed	9:fixed	_
 11	KL	KL	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=(23-abstract-giv:act-cf1-1-coref)
 12	=	=	SYM	SYM	_	6	advcl	6:advcl:such_that	_
 13	BC2	BC2	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=(19-abstract-giv:inact-cf3-1-coref)|SpaceAfter=No
@@ -300,13 +300,13 @@
 16	in	in	ADP	IN	_	17	case	17:case	_
 17	square	square	NOUN	NN	Number=Sing	15	obl	15:obl:in	Entity=(35-abstract-new-cf5-1-sgl)
 18	only	only	ADV	RB	_	17	advmod	17:advmod	XML=</ref>
-19	such	such	SCONJ	JJ	Degree=Pos	27	mark	27:mark	Discourse=mode-manner:27->26:0:_
-20	that	that	SCONJ	IN	_	27	mark	27:mark	_
+19	such	such	ADJ	JJ	Degree=Pos	27	mark	27:mark	Discourse=mode-manner:27->26:0:_
+20	that	that	SCONJ	IN	_	19	fixed	19:fixed	_
 21	AC	AC	NOUN	NN	Number=Sing	27	nsubj	27:nsubj	Entity=(36-abstract-new-cf4-1-coref(6-abstract-giv:act-cf1-1-coref)
 22	⋅	⋅	SYM	SYM	_	23	case	23:case	_
 23	CB	CB	PROPN	NNP	Number=Sing	21	nmod	21:nmod:times	Entity=(7-abstract-giv:act-cf2-1-coref)36)
 24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	27:cop	_
-25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(36-abstract-giv:act-cf4-3-coref
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(36-abstract-giv:act-cf4-3-pred
 26	medial	medial	ADJ	JJ	Degree=Pos	27	amod	27:amod	MSeg=medi-al|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Medial_Area"></ref>
 27	rectangle	rectangle	NOUN	NN	Number=Sing	15	advcl	15:advcl:such_that	Entity=36)34)|SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rectangle"></ref>
 28	.	.	PUNCT	.	_	12	punct	12:punct	_

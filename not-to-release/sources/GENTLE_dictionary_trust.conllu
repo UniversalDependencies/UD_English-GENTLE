@@ -642,7 +642,7 @@
 # text = An arrangement whereby property or money is given to be held by a third party (a trustee), on the basis that it will be managed for the benefit of, or eventually transferred to, a stated beneficiary; for example, money to be given to a child when he or she reaches adulthood.
 1	An	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=joint-disjunction_m:79->46:1:_|Entity=(110-abstract-new-cf10-2-sgl
 2	arrangement	arrangement	NOUN	NN	Number=Sing	0	root	0:root	MSeg=arrange-ment
-3	whereby	whereby	SCONJ	JJ	Degree=Pos	8	mark	8:mark	Discourse=elaboration-attribute:80->79:0:_
+3	whereby	whereby	ADV	WRB	PronType=Int	8	advmod	8:advmod	Discourse=elaboration-attribute:80->79:0:_
 4	property	property	NOUN	NN	Number=Sing	8	nsubj:pass	8:nsubj:pass	Entity=(111-object-new-cf2-1,3-coref(112-object-new-cf6-1-sgl)|MSeg=proper-ty
 5	or	or	CCONJ	CC	_	6	cc	6:cc	_
 6	money	money	NOUN	NN	Number=Sing	4	conj	4:conj:or|8:nsubj:pass	Entity=(113-object-new-cf11-1-sgl)111)

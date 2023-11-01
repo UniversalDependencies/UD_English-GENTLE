@@ -203,7 +203,7 @@
 # transition = smooth-shift
 # text = So that her highborn kinsman came And bore her away from me, To shut her up in a sepulchre In this kingdom by the sea.
 1	So	so	ADP	IN	_	6	advmod	6:advmod	Discourse=causal-result:17->14:1:_
-2	that	that	ADP	IN	_	1	fixed	1:fixed	_
+2	that	that	SCONJ	IN	_	1	fixed	1:fixed	_
 3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(18-person-new-cf5-3-sgl(1-person-giv:act-cf1*-1-ana)
 4	highborn	highborn	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	kinsman	kinsman	NOUN	NN	Number=Sing	6	nsubj	6:nsubj|8:nsubj	Entity=18)|MSeg=kins-man

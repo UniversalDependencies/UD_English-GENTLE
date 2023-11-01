@@ -1894,7 +1894,7 @@
 9	will	will	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
 10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	11:aux:pass	_
 11	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=tak-en
-12	such	such	SCONJ	JJ	Degree=Pos	14	mark	14:mark	Discourse=elaboration-additional:168->167:0:_
+12	such	such	ADJ	JJ	Degree=Pos	14	mark	14:mark	Discourse=elaboration-additional:168->167:0:_
 13	as	as	ADP	IN	_	12	fixed	12:fixed	_
 14	lowering	lower	VERB	VBG	VerbForm=Ger	11	advcl	11:advcl:such_as	MSeg=low-er-ing
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=1<249|Entity=(249-abstract-acc:inf-cf2-3-sgl
