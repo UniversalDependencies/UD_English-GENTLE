@@ -784,7 +784,7 @@
 35	"	''	PUNCT	''	_	33	punct	33:punct	_
 36	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	37	nsubj	37:nsubj	Discourse=attribution-positive:82->83:1:_|Entity=(3-person-giv:act-cf1-1-ana)
 37	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	29	parataxis	29:parataxis	MSeg=sai-d|SpaceAfter=No
-38	,	,	PUNCT	,	_	29	punct	29:punct	_
+38	,	,	PUNCT	,	_	40	punct	40:punct	_
 39	"	''	PUNCT	``	_	40	punct	40:punct	Discourse=same-unit_m:83->81:0:_|SpaceAfter=No
 40	art	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Style=Arch|Tense=Pres|VerbForm=Fin	49	cop	49:cop	_
 41	sure	sure	ADJ	JJ	Degree=Pos	49	advmod	49:advmod	_
