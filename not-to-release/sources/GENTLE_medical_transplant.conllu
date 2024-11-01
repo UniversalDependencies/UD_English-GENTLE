@@ -10,23 +10,23 @@
 # meta::speakerCount = 0
 # meta::summary = This report on a followup and chemotherapy visit for 51-year-old white male patient with posttransplant lymphoproliferative disorder (diagonosed 2007) documents chronic renal insufficiency, squamous cell carcinoma of the skin, anemia and hypertension, as well as diffuse large B-cell lymphoma following transplantaiton and suggests followup in 3 weeks.
 # meta::title = Posttransplant Lymphoproliferative Disorder
+# newpar
+# newpar_block = head rend:::"bold red" (1 s)
 # sent_id = GENTLE_medical_transplant-1
 # s_prominence = 3
 # s_type = frag
 # transition = establishment
 # text = Description:
-# newpar
-# newpar_block = head rend:::"bold red" (1 s)
 1	Description	description	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->2:1:grf-ly-|Entity=(1-abstract-new-cf1-1-sgl)|MSeg=Descrip-tion|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_medical_transplant-2
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Posttransplant lymphoproliferative disorder, chronic renal insufficiency, squamous cell carcinoma of the skin, anemia secondary to chronic renal insufficiency and chemotherapy, and hypertension.
-# newpar
-# newpar_block = p (2 s)
 1	Posttransplant	posttransplant	ADJ	JJ	Degree=Pos	3	compound	3:compound	Discourse=organization-preparation:2->5:2:sem-rpt-25,51|Entity=(2-abstract-new-cf4-3-coref-Post%2Dtransplant_lymphoproliferative_disorder|MSeg=Post-trans-plant
 2	lymphoproliferative	lymphoproliferative	ADJ	JJ	Degree=Pos	3	compound	3:compound	MSeg=lympho-proliferat-ive
 3	disorder	disorder	NOUN	NN	Number=Sing	0	root	0:root	Entity=2)|MSeg=dis-ord-er|SpaceAfter=No
@@ -71,24 +71,24 @@
 9	chemotherapy	chemotherapy	NOUN	NN	Number=Sing	7	conj	4:obl:for|7:conj:and	Entity=(9-event-giv:act-cf1*-1-coref)|MSeg=chemo-therap-y|SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_transplant-4
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = CHIEF COMPLAINT:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	CHIEF	chief	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:4->5:0:grf-ly-|Entity=(13-abstract-new-cf1-2-sgl
 2	COMPLAINT	complaint	NOUN	NN	Number=Sing	0	root	0:root	Entity=13)|MSeg=COMPLAIN-T|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_medical_transplant-5
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = The patient is here for followup visit and chemotherapy.
-# newpar
-# newpar_block = p (1 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=ROOT:5:0|Entity=(11-person-giv:inact-cf1-2-coref
 2	patient	patient	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=11)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -100,49 +100,49 @@
 9	chemotherapy	chemotherapy	NOUN	NN	Number=Sing	7	conj	4:obl:for|7:conj:and	Entity=(9-event-giv:inact-cf3-1-coref)|MSeg=chemo-therap-y|SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_transplant-6
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = DIAGNOSES:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	DIAGNOSES	diagnosis	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:6->7:1:grf-ly-|Entity=(14-abstract-new-cf1-1-sgl)|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (5 s) | item n:::"1" (1 s)
 # sent_id = GENTLE_medical_transplant-7
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1. Posttransplant lymphoproliferative disorder.
-# newpar
-# newpar_block = list type:::"ordered" (5 s) | item n:::"1" (1 s)
 1	1.	1.	X	LS	_	4	discourse	4:discourse	Discourse=joint-list_m:7->5:1:_
 2	Posttransplant	posttransplant	ADJ	JJ	Degree=Pos	4	compound	4:compound	Entity=(2-abstract-giv:inact-cf1-3-coref-Post%2Dtransplant_lymphoproliferative_disorder|MSeg=Post-trans-plant
 3	lymphoproliferative	lymphoproliferative	ADJ	JJ	Degree=Pos	4	compound	4:compound	MSeg=lympho-proliferat-ive
 4	disorder	disorder	NOUN	NN	Number=Sing	0	root	0:root	Entity=2)|MSeg=dis-ord-er|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"2" (1 s)
 # sent_id = GENTLE_medical_transplant-8
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 2. Chronic renal insufficiency.
-# newpar
-# newpar_block = item n:::"2" (1 s)
 1	2.	2.	X	LS	_	4	discourse	4:discourse	Discourse=joint-list_m:8->7:0:grf-seq-60
 2	Chronic	chronic	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(3-abstract-giv:inact-cf1-3-coref
 3	renal	renal	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	insufficiency	insufficiency	NOUN	NN	Number=Sing	0	root	0:root	Entity=3)|MSeg=in-sufficien-cy|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"3" (1 s)
 # sent_id = GENTLE_medical_transplant-9
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 3. Squamous cell carcinoma of the skin.
-# newpar
-# newpar_block = item n:::"3" (1 s)
 1	3.	3.	X	LS	_	4	discourse	4:discourse	Discourse=joint-list_m:9->7:0:grf-seq-65|Entity=(15-abstract-new-cf4-4-sgl
 2	Squamous	Squamous	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(5-abstract-giv:inact-cf2-3-coref(6-animal-giv:inact-cf3-2-coref
 3	cell	cell	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=6)
@@ -152,13 +152,13 @@
 7	skin	skin	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=7)5)15)|SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"4" (1 s)
 # sent_id = GENTLE_medical_transplant-10
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 4. Anemia secondary to chronic renal insufficiency and chemotherapy.
-# newpar
-# newpar_block = item n:::"4" (1 s)
 1	4.	4.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:10->7:0:grf-seq-55,73
 2	Anemia	anemia	NOUN	NN	Number=Sing	0	root	0:root	Entity=(8-abstract-giv:inact-cf1-1-coref
 3	secondary	secondary	ADJ	JJ	Degree=Pos	2	amod	2:amod	MSeg=second-ary
@@ -170,37 +170,37 @@
 9	chemotherapy	chemotherapy	NOUN	NN	Number=Sing	7	conj	3:obl:to|7:conj:and	Entity=(9-event-giv:inact-cf3-1-coref)8)|MSeg=chemo-therap-y|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"5" (1 s)
 # sent_id = GENTLE_medical_transplant-11
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 5. Hypertension.
-# newpar
-# newpar_block = item n:::"5" (1 s)
 1	5.	5.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:11->7:0:grf-seq-83
 2	Hypertension	hypertension	NOUN	NN	Number=Sing	0	root	0:root	Entity=(10-abstract-giv:inact-cf1-1-coref)|MSeg=Hyper-tens-ion|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_transplant-12
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = HISTORY OF PRESENT ILLNESS:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	HISTORY	history	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:12->32:5:grf-ly-|Entity=(16-abstract-new-cf1-1-sgl
 2	OF	of	ADP	IN	_	4	case	4:case	_
 3	PRESENT	present	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(17-abstract-new-cf2-2-sgl
 4	ILLNESS	illness	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=17)16)|SpaceAfter=No
 5	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (8 s)
 # sent_id = GENTLE_medical_transplant-13
 # s_prominence = 3
 # s_type = frag
 # transition = null
 # text = A 51-year-old white male diagnosed with PTLD in latter half of 2007.
-# newpar
-# newpar_block = p (8 s)
 1	A	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Discourse=context-background:13->15:2:ref-prs-91-106,108|Entity=(11-person-giv:inact-cf2-8-coref
 2	51	51	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	SpaceAfter=No|XML=<w>
 3	-	-	PUNCT	:	_	2	punct	2:punct	SpaceAfter=No
@@ -364,13 +364,13 @@
 14	therapy	therapy	NOUN	NN	Number=Sing	11	conj	9:obl:to|11:conj:or	Entity=45)|SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_medical_transplant-21
 # s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = The patient has received 5 cycles of chemotherapy to date.
-# newpar
-# newpar_block = p (3 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-other_m:25->22:2:_|Entity=(11-person-giv:act-cf1*-2-coref
 2	patient	patient	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=11)
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	MSeg=ha-s
@@ -438,13 +438,13 @@
 22	infection	infection	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	Entity=55)|MSeg=infect-ion|SpaceAfter=No
 23	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GENTLE_medical_transplant-24
 # s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = The patient is here for the sixth and final cycle of chemotherapy.
-# newpar
-# newpar_block = p (5 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=context-background:30->32:3:ref-prs-265-266,278|Entity=(11-person-giv:act-cf1*-2-coref
 2	patient	patient	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=11)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -525,13 +525,13 @@
 7	negative	negative	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=neg-at-ive|SpaceAfter=No
 8	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_medical_transplant-29
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = Performance status on the ECOG scale is 1
-# newpar
-# newpar_block = p (1 s)
 1	Performance	performance	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=explanation-evidence:36->35:0:_|Entity=(71-abstract-new-cf1-2-coref|MSeg=Perform-an-ce
 2	status	status	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
 3	on	on	ADP	IN	_	6	case	6:case	_
@@ -541,24 +541,24 @@
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 8	1	1	NUM	CD	NumForm=Digit|NumType=Card	0	root	0:root	Entity=(71-abstract-giv:act-cf1-1-coref)
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_transplant-30
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = PHYSICAL EXAMINATION:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	PHYSICAL	physical	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:37->39:3:grf-ly-|Entity=(73-abstract-new-cf1-2-sgl
 2	EXAMINATION	examination	NOUN	NN	Number=Sing	0	root	0:root	Entity=73)|MSeg=EXAMIN-ATION|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (11 s)
 # sent_id = GENTLE_medical_transplant-31
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = VITAL SIGNS:
-# newpar
-# newpar_block = p (11 s)
 1	VITAL	vital	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:38->39:1:grf-ly-|Entity=(74-abstract-new-cf1-2-sgl|XML=<hi rend:::"caps">
 2	SIGNS	sign	NOUN	NNS	Number=Plur	0	root	0:root	Entity=74)|MSeg=SIGN-S|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	XML=</hi>
@@ -609,7 +609,7 @@
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=joint-list_m:44->39:0:_|PDTB=Implicit:Expansion.Conjunction:and:_:338-359:360-365
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 3	mild	mild	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(79-abstract-new-cf1-2-sgl
-4	pallor	pallor	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=Pivot|Entity=79)
+4	pallor	pallor	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|Entity=79)
 5	noted	note	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	4:acl	Discourse=elaboration-attribute:45->44:0:syn-mdf-363+syn-nmn-364|MSeg=not-ed|SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -621,7 +621,7 @@
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=joint-list_m:46->39:0:_|PDTB=Implicit:Expansion.Conjunction:and:_:360-365:366-375
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 3	no	no	DET	DT	PronType=Neg	4	det	4:det	Negation=Yes
-4	icterus	icterus	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=Pivot|Entity=(80-abstract-new-cf2-1-sgl)|SpaceAfter=No
+4	icterus	icterus	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|Entity=(80-abstract-new-cf2-1-sgl)|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	adenopathy	adenopathy	NOUN	NN	Number=Sing	4	conj	2:nsubj|4:conj:or	Entity=(21-abstract-giv:inact-cf1-1-coref)|MSeg=adeno-path-y
 7	or	or	CCONJ	CC	_	8	cc	8:cc	_
@@ -723,24 +723,24 @@
 5	edema	edema	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=94)|SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_transplant-42
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = LABORATORY DATA:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	LABORATORY	laboratory	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=organization-heading:58->59:0:grf-ly-|Entity=(95-abstract-new-cf1-2-sgl|MSeg=LABOR-ATORY
 2	DATA	datum	NOUN	NNS	Number=Plur	0	root	0:root	Entity=95)|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_medical_transplant-43
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = CBC from today shows white count of 9.6 with a normal differential, ANC of 7400, hemoglobin 8.9, hematocrit 26.5 with an MCV of 109, and platelet count of 220,000.
-# newpar
-# newpar_block = p (1 s)
 1	CBC	CBC	PROPN	NNP	Abbr=Yes|Number=Sing	4	nsubj	4:nsubj	Discourse=joint-list_m:59->5:1:_|Entity=(96-abstract-new-cf8-1-sgl(97-abstract-new-cf9-1-coref-Complete_blood_count)
 2	from	from	ADP	IN	_	3	case	3:case	_
 3	today	today	NOUN	NN	Number=Sing	1	nmod	1:nmod:from	Entity=(98-time-acc:com-cf7-1-coref)96)|MSeg=to-day
@@ -776,25 +776,25 @@
 33	220,000	220000	NUM	CD	NumForm=Digit|NumType=Card	31	nmod	31:nmod:of	Entity=(105-abstract-giv:act-cf6-1-coref)105)|SpaceAfter=No
 34	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_transplant-44
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = ASSESSMENT AND PLAN:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	ASSESSMENT	assessment	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:60->63:3:grf-ly-|Entity=(107-abstract-new-cf1-1-sgl)|MSeg=ASSESS-MENT
 2	AND	and	CCONJ	CC	_	3	cc	3:cc	_
 3	PLAN	plan	NOUN	NN	Number=Sing	1	conj	1:conj:and	Entity=(108-abstract-new-cf2-1-sgl)|SpaceAfter=No
 4	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (16 s) | item n:::"1" (4 s)
 # sent_id = GENTLE_medical_transplant-45
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = 1. Diffuse large B-cell lymphoma following transplantation.
-# newpar
-# newpar_block = list type:::"ordered" (16 s) | item n:::"1" (4 s)
 1	1.	1.	X	LS	_	2	discourse	2:discourse	Discourse=organization-preparation:61->63:1:_
 2	Diffuse	diffuse	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
 3	large	large	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(33-object-giv:inact-cf1-5-coref
@@ -869,26 +869,26 @@
 18	LDH	LDH	PROPN	NNP	Number=Sing	13	conj	3:obl:with|13:conj:and	Entity=(117-abstract-new-cf6-1-sgl-Lactate_dehydrogenase)|SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item n:::"2" (1 s)
 # sent_id = GENTLE_medical_transplant-49
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 2. Chronic renal insufficiency.
-# newpar
-# newpar_block = item n:::"2" (1 s)
 1	2.	2.	X	LS	_	4	discourse	4:discourse	Discourse=joint-list_m:66->63:2:grf-seq-530
 2	Chronic	chronic	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(3-abstract-giv:inact-cf1-3-coref
 3	renal	renal	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	insufficiency	insufficiency	NOUN	NN	Number=Sing	0	root	0:root	Entity=3)|MSeg=in-sufficien-cy|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"3" (2 s)
 # sent_id = GENTLE_medical_transplant-50
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = 3. Anemia secondary to chronic renal failure and chemotherapy.
-# newpar
-# newpar_block = item n:::"3" (2 s)
 1	3.	3.	X	LS	_	2	discourse	2:discourse	Discourse=organization-preparation:67->68:0:_
 2	Anemia	anemia	NOUN	NN	Number=Sing	0	root	0:root	Entity=(8-abstract-giv:inact-cf1-1-coref
 3	secondary	secondary	ADJ	JJ	Degree=Pos	2	amod	2:amod	MSeg=second-ary
@@ -918,13 +918,13 @@
 11	support	support	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=43)119)|SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"4" (3 s)
 # sent_id = GENTLE_medical_transplant-52
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = 4. Hypertension.
-# newpar
-# newpar_block = item n:::"4" (3 s)
 1	4.	4.	X	LS	_	2	discourse	2:discourse	Discourse=organization-preparation:69->70:3:ref-dem-558,560
 2	Hypertension	hypertension	NOUN	NN	Number=Sing	0	root	0:root	Entity=(10-abstract-giv:inact-cf1-1-coref)|MSeg=Hyper-tens-ion|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -970,13 +970,13 @@
 6	today	today	NOUN	NN	Number=Sing	4	obl	4:obl:from	Entity=(98-time-giv:act-cf2-1-coref)|MSeg=to-day|SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"5" (6 s)
 # sent_id = GENTLE_medical_transplant-55
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = 5. Squamous cell carcinoma of the skin.
-# newpar
-# newpar_block = item n:::"5" (6 s)
 1	5.	5.	X	LS	_	4	discourse	4:discourse	Discourse=organization-preparation:75->76:2:_
 2	Squamous	Squamous	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(5-abstract-giv:inact-cf1-3-coref(5-abstract-giv:act-cf1-3-coref(6-animal-giv:inact-cf3-2-coref
 3	cell	cell	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=6)

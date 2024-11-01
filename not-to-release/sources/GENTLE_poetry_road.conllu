@@ -10,13 +10,13 @@
 # meta::speakerCount = 0
 # meta::summary = In this poem, a traveller recounts deliberating which of two roads diverging in a yellow wood to take, finally choosing the one less travelled by, because it was grassy and wanted wear, and predicts one day telling somewhere that this choice had made all the difference.
 # meta::title = The Road Not Taken
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_poetry_road-1
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Two roads diverged in a yellow wood, And sorry I could not travel both And be one traveler, long I stood And looked down one as far as I could To where it bent in the undergrowth;
-# newpar
-# newpar_block = p (1 s)
 1	Two	two	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=context-circumstance:1->3:3:_|Entity=(1-place-new-cf3-2-coref
 2	roads	road	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=1)|MSeg=road-s
 3	diverged	diverge	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=diverg-ed
@@ -58,13 +58,13 @@
 39	undergrowth	undergrowth	NOUN	NN	Number=Sing	36	obl	36:obl:in	Entity=5)|MSeg=under-grow-th|SpaceAfter=No
 40	;	;	PUNCT	:	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_poetry_road-2
 # s_prominence = 2
 # s_type = other
 # transition = null
 # text = Then took the other, as just as fair, And having perhaps the better claim, Because it was grassy and wanted wear;
-# newpar
-# newpar_block = p (2 s)
 1	Then	then	ADV	RB	PronType=Dem	2	advmod	2:advmod	Discourse=joint-sequence_m:7->3:1:dm-then-41|PDTB=Explicit:Temporal.Asynchronous.Precedence:then:41:1-40:42-65
 2	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=1<6|Entity=(6-place-acc:inf-cf1-2-coref
@@ -112,13 +112,13 @@
 14	same	same	ADJ	JJ	Degree=Pos	9	obl:unmarked	9:obl:unmarked	Entity=10)|SpaceAfter=No
 15	,	,	PUNCT	,	_	9	punct	9:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_poetry_road-4
 # s_prominence = 6
 # s_type = decl
 # transition = establishment
 # text = And both that morning equally lay In leaves no step had trodden black.
-# newpar
-# newpar_block = p (3 s)
 1	And	and	CCONJ	CC	_	6	cc	6:cc	Discourse=explanation-evidence:13->12:0:_;elaboration-additional:13->12:1:0:orp-and-81+sem-synym-75,82|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:81:66-80:82-94
 2	both	both	DET	DT	PronType=Tot	6	nsubj	6:nsubj	Entity=(1-place-giv:act-cf1*-1-ana)
 3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(11-time-new-cf3-2-coref
@@ -170,17 +170,17 @@
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	16:nsubj	Entity=(3-person-giv:act-cf1*-1-ana)
 14	should	should	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
 15	ever	ever	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
-16	come	come	VERB	VB	VerbForm=Inf	11	ccomp	11:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=Clause
+16	come	come	VERB	VB	VerbForm=Inf	11	ccomp	11:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=16:Interrogative-Polar-Indirect.Clause
 17	back	back	ADV	RB	Degree=Pos	16	advmod	16:advmod	SpaceAfter=No
 18	.	.	PUNCT	.	_	11	punct	11:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_poetry_road-7
 # s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = I shall be telling this with a sigh Somewhere ages and ages hence: Two roads diverged in a wood, and I — I took the one less travelled by, And that has made all the difference.
-# newpar
-# newpar_block = p (1 s)
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=attribution-positive:20->22:2:sem-atsrc-123+lex-indwd-126|Entity=(3-person-giv:act-cf1*-1-ana)
 2	shall	shall	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	be	be	AUX	VB	VerbForm=Inf	4	aux	4:aux	_

@@ -10,22 +10,22 @@
 # meta::speakerCount = 0
 # meta::summary = This dictionary entry for the word 'school' gives its pronunciation /skuːl/, etymologies for its senses a group/to form a group of fish (from Middle English scole, Proto-Germanic *skulō 'crowd') and elementary school/to educate (from Proto-Germanic *skōla, from Late Latin schola, Ancient Greek σχολεῖον), along with cognates and usage examples as both noun and verb.
 # meta::title = school
+# newpar
+# newpar_block = head rend:::"bold" (1 s)
 # sent_id = GENTLE_dictionary_school-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = school
-# newpar
-# newpar_block = head rend:::"bold" (1 s)
 1	school	school	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->5:6:grf-ly-|Entity=(1-abstract-new-cf1-1-sgl)
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_dictionary_school-2
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = English
-# newpar
-# newpar_block = head (1 s)
 1	English	English	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:2->5:5:grf-ly-|Entity=(2-abstract-new-cf1-1-sgl-English)|MSeg=Engl-ish
 
 # sent_id = GENTLE_dictionary_school-3
@@ -35,13 +35,13 @@
 # text = Pronunciation
 1	Pronunciation	pronunciation	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:3->5:3:grf-ly-|Entity=(3-abstract-new-cf1-1-sgl)|MSeg=Pronunc-iation|PDTB=NoRel:NoRel:_:_:2:3|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (3 s) | item (1 s)
 # sent_id = GENTLE_dictionary_school-4
 # s_prominence = 1
 # s_type = other
 # transition = null
 # text = enPR: sko͞ol, IPA(key): / skuːl /
-# newpar
-# newpar_block = list type:::"unordered" (3 s) | item (1 s)
 1	enPR	enPR	NOUN	NN	Number=Sing	3	dep	3:dep	Discourse=organization-preparation:4->5:0:grf-col-5|Entity=(4-abstract-new-cf3-1-sgl)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:English_pronunciation"></ref>
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 3	sko͞ol	sko͞ol	NOUN	NN	Number=Sing	0	root	0:root	Discourse=ROOT:5:0|Entity=(5-abstract-new-cf1-1-coref)|SpaceAfter=No
@@ -55,26 +55,26 @@
 11	skuːl	skuːl	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	Entity=(5-abstract-giv:act-cf1-1-coref)
 12	/	/	PUNCT	:	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-5
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Audio (Received Pronunciation)
-# newpar
-# newpar_block = item (1 s)
 1	Audio	audio	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:9->5:2:grf-seq-|Entity=(8-abstract-new-cf2-1-sgl)
 2	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=elaboration-additional:10->9:0:grf-prn-17,20|SpaceAfter=No
 3	Received	Received	ADJ	NNP	Degree=Pos	4	amod	4:amod	Entity=(9-abstract-new-cf1-1,2-sgl|MSeg=Receiv-ed
 4	Pronunciation	Pronunciation	PROPN	NNP	Number=Sing	1	parataxis	1:parataxis	Entity=9)|MSeg=Pronunc-iation|SpaceAfter=No
 5	)	)	PUNCT	-RRB-	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-6
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = Rhymes: -uːl
-# newpar
-# newpar_block = item (1 s)
 1	Rhymes	rhyme	NOUN	NNS	Number=Plur	3	dep	3:dep	Discourse=organization-preparation:11->12:0:grf-col-22|Entity=(10-abstract-new-cf1-1-sgl)|MSeg=Rhyme-s|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 3	-uːl	-uːl	INTJ	UH	_	0	root	0:root	Discourse=joint-list_m:12->5:2:grf-seq-|Entity=(11-abstract-new-cf2-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/Rhymes:English/u%CB%90l"></ref>
@@ -87,13 +87,13 @@
 1	Etymology	etymology	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:13->14:5:grf-ly-|Entity=(12-abstract-new-cf1-1-sgl|MSeg=Etymo-logy|XML=<hi rend:::"bold">
 2	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Entity=12)|XML=</hi>
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_dictionary_school-8
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = From Middle English scole, schole (“group of persons, multitude, host, school of fish”), from Middle Dutch scole (“multitude, troop of people, swarm of animals”), from Old Dutch *scola, *skola (“troop, multitude”), from Proto-Germanic *skulō (“crowd”), from Proto-Indo-European *(s)kʷel- (“crowd, people”).
-# newpar
-# newpar_block = p (2 s)
 1	From	from	ADP	IN	_	4	case	4:case	Discourse=joint-other_m:14->5:4:_
 2	Middle	Middle	ADJ	NNP	Degree=Pos	3	amod	3:amod	Entity=(13-abstract-new-cf13-1,3-sgl(14-abstract-new-cf20-1,2-coref-Middle_English|XML=<ref target:::"https://en.wikipedia.org/wiki/Middle_English">
 3	English	English	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=14)|MSeg=Engl-ish|XML=</ref>
@@ -222,13 +222,13 @@
 1	Alternative	alternative	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:29->30:1:grf-ly-+sem-synym-139-144|Entity=(42-abstract-new-cf1-2-coref|MSeg=Alternat-ive|XML=<hi rend:::"bold">
 2	forms	form	NOUN	NNS	Number=Plur	0	root	0:root	Entity=42)|MSeg=form-s|XML=</hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 # sent_id = GENTLE_dictionary_school-11
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = skull (obsolete)
-# newpar
-# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 1	skull	skull	NOUN	NN	Number=Sing	0	root	0:root	Discourse=elaboration-additional:30->14:3:_|Entity=(42-abstract-giv:act-cf1*-1-coref(43-object-new-cf2-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/skull"></ref>
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:31->30:0:grf-prn-142,144|SpaceAfter=No
 3	obsolete	obsolete	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	SpaceAfter=No|XML=<hi rend:::"italic"></hi>
@@ -241,13 +241,13 @@
 # text = Noun
 1	Noun	noun	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:32->39:6:grf-ly-|Entity=(44-abstract-new-cf1-1-sgl)|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = figure rend:::"school (1) of fish." (1 s) | caption (1 s)
 # sent_id = GENTLE_dictionary_school-13
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = school (1) of fish.
-# newpar
-# newpar_block = figure rend:::"school (1) of fish." (1 s) | caption (1 s)
 1	school	school	NOUN	NN	Number=Sing	0	root	0:root	Discourse=explanation-evidence:33->39:5:_|Entity=(20-animal-giv:inact-cf1-1-coref
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:34->33:0:grf-prn-147,149|SpaceAfter=No
 3	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	SpaceAfter=No
@@ -267,13 +267,13 @@
 4	schools	school	NOUN	NNS	Number=Plur	1	parataxis	1:parataxis	Entity=(46-animal-giv:act-cf1-1-coref)|MSeg=school-s|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/schools#English"></ref>
 5	)	)	PUNCT	-RRB-	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (3 s) | item (1 s)
 # sent_id = GENTLE_dictionary_school-15
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = (collective) A group of fish or a group of marine mammals such as porpoises, dolphins, or whales.
-# newpar
-# newpar_block = list type:::"ordered" (3 s) | item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:38->39:0:_|SpaceAfter=No
 2	collective	collective	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	MSeg=collect-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#collective"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -297,13 +297,13 @@
 21	whales	whale	NOUN	NNS	Number=Plur	16	conj	13:nmod:such_as|16:conj:or	Entity=(51-animal-new-cf8-1-sgl)48)47)45)|MSeg=whale-s|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/whale"></ref>
 22	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-16
 # s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = The divers encountered a huge school of mackerel.
-# newpar
-# newpar_block = item (1 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=explanation-evidence:40->39:1:_|Entity=(52-person-new-cf1-2-sgl
 2	divers	diver	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=52)|MSeg=div-er-s
 3	encountered	encounter	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=encounter-ed
@@ -314,13 +314,13 @@
 8	mackerel	mackerel	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=(54-animal-new-cf3-1-sgl)53)|SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-17
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = A multitude.
-# newpar
-# newpar_block = item (1 s)
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=joint-disjunction_m:41->39:2:grf-seq-|Entity=(18-abstract-giv:inact-cf1-2-coref
 2	multitude	multitude	NOUN	NN	Number=Sing	0	root	0:root	Entity=18)|MSeg=multi-tude|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/multitude"></ref>
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -332,13 +332,13 @@
 # text = Synonyms
 1	Synonyms	synonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:42->44:1:grf-ly-|Entity=(55-abstract-new-cf1-1-sgl)|MSeg=Synonym-s|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 # sent_id = GENTLE_dictionary_school-19
 # s_prominence = 2
 # s_type = other
 # transition = null
 # text = (fish): shoal
-# newpar
-# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:43->44:0:_|SpaceAfter=No
 2	fish	fish	NOUN	NNS	Number=Plur	5	parataxis	5:parataxis	Entity=(21-animal-giv:inact-cf1-1-coref)|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	SpaceAfter=No
@@ -379,13 +379,13 @@
 20	schooled	school	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	9:conj	Entity=(59-abstract-giv:act-cf4-1-coref)|MSeg=school-ed|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/schooled#English"></ref>
 21	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
 
+# newpar
+# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 # sent_id = GENTLE_dictionary_school-22
 # s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = (intransitive) (of fish) To form into, or travel in a school.
-# newpar
-# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:50->52:1:_|SpaceAfter=No
 2	intransitive	intransitive	ADJ	JJ	Degree=Pos	9	parataxis	9:parataxis	MSeg=in-transit-ive|SpaceAfter=No|XML=<hi rend:::"italic"><ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#intransitive"></ref></hi>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -412,13 +412,13 @@
 1	Etymology	etymology	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:53->55:6:grf-ly-|Entity=(60-abstract-new-cf1-1-sgl|MSeg=Etymo-logy|XML=<hi rend:::"bold">
 2	2	2	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Entity=60)|XML=</hi>
 
+# newpar
+# newpar_block = figure rend:::"Elementary school" (1 s) | caption (1 s)
 # sent_id = GENTLE_dictionary_school-24
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Elementary school
-# newpar
-# newpar_block = figure rend:::"Elementary school" (1 s) | caption (1 s)
 1	Elementary	elementary	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=context-background:54->55:4:grf-ly-|Entity=(61-organization-new-cf1-2-sgl|MSeg=Element-ary
 2	school	school	NOUN	NN	Number=Sing	0	root	0:root	Entity=61)
 
@@ -726,13 +726,13 @@
 8	schools	school	NOUN	NNS	Number=Plur	3	parataxis	3:parataxis	Entity=(119-organization-giv:act-cf1-1-coref)|MSeg=school-s|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/schools#English"></ref>
 9	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (18 s) | item (3 s)
 # sent_id = GENTLE_dictionary_school-35
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = (US, Canada) An institution dedicated to teaching and learning; an educational institution.
-# newpar
-# newpar_block = list type:::"ordered" (18 s) | item (3 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:97->98:2:_|SpaceAfter=No
 2	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	7	parataxis	7:parataxis	Entity=(120-place-new-cf2-1-sgl-United_States)|SpaceAfter=No|XML=<ref target:::"https://en.wikipedia.org/wiki/United_States"></ref>
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -782,13 +782,13 @@
 8	school	school	NOUN	NN	Number=Sing	0	root	0:root	Entity=128)|SpaceAfter=No
 9	.	.	PUNCT	.	_	8	punct	8:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-38
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = (Britain) An educational institution providing primary and secondary education, prior to tertiary education (college or university).
-# newpar
-# newpar_block = item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:103->104:2:_|SpaceAfter=No
 2	Britain	Britain	PROPN	NNP	Number=Sing	6	parataxis	6:parataxis	Entity=(129-place-new-cf2-1-coref-United_Kingdom)|SpaceAfter=No|XML=<ref target:::"https://en.wikipedia.org/wiki/Great_Britain"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -812,13 +812,13 @@
 21	)	)	PUNCT	-RRB-	_	18	punct	18:punct	Entity=130)|SpaceAfter=No
 22	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_school-39
 # s_prominence = 1
 # s_type = frag
 # transition = establishment
 # text = (UK) At Eton College, a period or session of teaching.
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:108->109:0:_|SpaceAfter=No
 2	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	9	parataxis	9:parataxis	Entity=(129-place-giv:act-cf1*-1-coref-United_Kingdom)|SpaceAfter=No|XML=<ref target:::"https://en.wikipedia.org/wiki/United_Kingdom"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -853,13 +853,13 @@
 12	week	week	NOUN	NN	Number=Sing	7	obl	7:obl:per	Entity=(141-time-new-cf5-1-sgl)|SpaceAfter=No
 13	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_school-41
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Within a larger educational institution, an organizational unit, such as a department or institute, which is dedicated to a specific subject area.
-# newpar
-# newpar_block = item (2 s)
 1	Within	within	ADP	IN	_	5	case	5:case	Discourse=joint-disjunction_m:111->98:4:grf-seq-|MSeg=With-in
 2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(142-organization-new-cf1-4-sgl
 3	larger	large	ADJ	JJR	Degree=Cmp	5	amod	5:amod	MSeg=larg-er
@@ -918,13 +918,13 @@
 24	Music	Music	PROPN	NNP	Number=Sing	22	nmod	22:nmod:of	Entity=(152-abstract-new-cf8-1-sgl-Music)151)|SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_school-43
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = An art movement, a community of artists.
-# newpar
-# newpar_block = item (2 s)
 1	An	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=joint-disjunction_m:116->98:4:grf-seq-|Entity=(153-organization-new-cf2-3-sgl
 2	art	art	NOUN	NN	Number=Sing	3	compound	3:compound	XML=<ref target:::"https://en.wiktionary.org/wiki/art_movement">
 3	movement	movement	NOUN	NN	Number=Sing	0	root	0:root	Entity=153)|MSeg=move-ment|SpaceAfter=No|XML=</ref>
@@ -971,13 +971,13 @@
 29	time	time	NOUN	NN	Number=Sing	26	nmod	26:nmod:of	Entity=163)162)161)158)156)|SpaceAfter=No
 30	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_school-45
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = (considered collectively) The followers of a particular doctrine; a particular way of thinking or particular doctrine; a school of thought.
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:119->120:2:_|SpaceAfter=No
 2	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	parataxis	6:parataxis	MSeg=consider-ed
 3	collectively	collectively	ADV	RB	Degree=Pos	2	advmod	2:advmod	MSeg=collect-ive-ly|SpaceAfter=No
@@ -1018,13 +1018,13 @@
 7	school	school	NOUN	NN	Number=Sing	3	obl	3:obl:to	Entity=170)|SpaceAfter=No
 8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_school-47
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = The time during which classes are attended or in session in an educational institution.
-# newpar
-# newpar_block = item (2 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-disjunction_m:124->98:4:grf-seq-|Entity=(171-time-new-cf3-2-sgl
 2	time	time	NOUN	NN	Number=Sing	0	root	0:root|7:obl:during	_
 3	during	during	ADP	IN	_	4	case	4:case	Discourse=elaboration-attribute:125->124:0:syn-mdf-694+syn-relcl-696,699|MSeg=dur-ing
@@ -1055,13 +1055,13 @@
 6	school	school	NOUN	NN	Number=Sing	3	obl	3:obl:after	Entity=(175-time-new-cf3-1-sgl)|SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-49
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = The room or hall in English universities where the examinations for degrees and honours are held.
-# newpar
-# newpar_block = item (1 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-disjunction_m:127->98:4:grf-seq-|Entity=(176-place-new-cf1-2,4-sgl
 2	room	room	NOUN	NN	Number=Sing	0	root	0:root|16:obl	_
 3	or	or	CCONJ	CC	_	4	cc	4:cc	_
@@ -1080,13 +1080,13 @@
 16	held	hold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	2:acl:relcl	Entity=178)176)|SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_school-50
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = The canons, precepts, or body of opinion or practice, sanctioned by the authority of a particular class or age.
-# newpar
-# newpar_block = item (2 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-disjunction_m:129->98:4:grf-seq-|Entity=(181-abstract-new-cf1-2,4,7-sgl
 2	canons	canon	NOUN	NNS	Number=Plur	0	root	0:root	MSeg=canon-s|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -1126,13 +1126,13 @@
 8	school	school	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=187)186)|SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-52
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = An establishment offering specialized instruction, as for driving, cooking, typing, coding, etc.
-# newpar
-# newpar_block = item (1 s)
 1	An	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=joint-disjunction_m:132->98:4:grf-seq-|Entity=(188-organization-new-cf2-2-sgl
 2	establishment	establishment	NOUN	NN	Number=Sing	0	root	0:root	MSeg=establish-ment
 3	offering	offer	VERB	VBG	VerbForm=Ger	2	acl	2:acl	Discourse=elaboration-attribute:133->132:0:syn-mdf-765+syn-nmn-766+syn-pres-772|MSeg=offer-ing
@@ -1158,13 +1158,13 @@
 # text = Synonyms
 1	Synonyms	synonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:134->137:2:grf-ly-|Entity=(194-organization-new-cf1-1-sgl)|MSeg=Synonym-s|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (2 s) | item (1 s)
 # sent_id = GENTLE_dictionary_school-54
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (institution dedicated to teaching and learning): academy, college, university
-# newpar
-# newpar_block = list type:::"unordered" (2 s) | item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:135->137:0:_|SpaceAfter=No
 2	institution	institution	NOUN	NN	Number=Sing	10	parataxis	10:parataxis	Entity=(67-organization-giv:inact-cf1-1-coref|MSeg=institut-ion
 3	dedicated	dedicate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl	2:acl	Discourse=elaboration-attribute:136->135:0:grf-prn-782,789+syn-mdf-783+syn-nmn-784|MSeg=dedicat-ed
@@ -1180,13 +1180,13 @@
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
 14	university	university	NOUN	NN	Number=Sing	10	conj	10:conj	Entity=(134-organization-giv:inact-cf5-1-coref)|MSeg=univers-ity|XML=<ref target:::"https://en.wiktionary.org/wiki/university"></ref>
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-55
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = (organizational unity within an educational institution): college, department, faculty, institute
-# newpar
-# newpar_block = item (1 s)
 1	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=context-circumstance:138->139:0:_|SpaceAfter=No
 2	organizational	organizational	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(196-organization-new-cf3-2-sgl|MSeg=organiz-ation-al
 3	unity	unity	NOUN	NN	Number=Sing	10	parataxis	10:parataxis	MSeg=unit-y
@@ -1289,13 +1289,13 @@
 20	schooled	school	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	9:conj	Entity=(210-abstract-giv:act-cf4-1-coref)|MSeg=school-ed|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/schooled#English"></ref>
 21	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (5 s) | item (1 s)
 # sent_id = GENTLE_dictionary_school-62
 # s_prominence = 1
 # s_type = inf
 # transition = zero
 # text = (transitive) To educate, teach, or train (often, but not necessarily, in a school).
-# newpar
-# newpar_block = list type:::"ordered" (5 s) | item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:151->152:1:_|SpaceAfter=No
 2	transitive	transitive	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	MSeg=transit-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -1319,13 +1319,13 @@
 21	)	)	PUNCT	-RRB-	_	20	punct	20:punct	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-63
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = Many future prime ministers were schooled in Eton.
-# newpar
-# newpar_block = item (1 s)
 1	Many	many	ADJ	JJ	Degree=Pos	4	amod	4:amod	Discourse=explanation-evidence:154->152:2:_|Entity=(211-person-new-cf2-4-sgl
 2	future	future	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 3	prime	prime	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -1336,13 +1336,13 @@
 8	Eton	Eton	PROPN	NNP	Number=Sing	6	obl	6:obl:in	Entity=(135-place-giv:inact-cf1-1-coref-Eton_College)|SpaceAfter=No
 9	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-64
 # s_prominence = 1
 # s_type = inf
 # transition = null
 # text = (transitive) To defeat emphatically, to teach an opponent a harsh lesson.
-# newpar
-# newpar_block = item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:155->156:1:_|SpaceAfter=No
 2	transitive	transitive	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	MSeg=transit-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -1351,21 +1351,21 @@
 6	emphatically	emphatically	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=emphatic-ally|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/emphatically"></ref>
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
 8	to	to	PART	TO	_	9	mark	9:mark	Discourse=restatement-repetition_m:157->156:0:_
-9	teach	teach	VERB	VB	VerbForm=Inf	5	conj	5:conj	Cxn=Ditransitive|CxnElt=DitrV
+9	teach	teach	VERB	VB	VerbForm=Inf	5	conj	5:conj	Cxn=Ditransitive|CxnElt=9:Ditransitive.V
 10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(212-person-new-cf2-2-sgl
-11	opponent	opponent	NOUN	NN	Number=Sing	9	iobj	9:iobj	CxnElt=DitrRec|Entity=212)|MSeg=oppon-ent|XML=<ref target:::"https://en.wiktionary.org/wiki/opponent"></ref>
+11	opponent	opponent	NOUN	NN	Number=Sing	9	iobj	9:iobj	CxnElt=9:Ditransitive.Rec|Entity=212)|MSeg=oppon-ent|XML=<ref target:::"https://en.wiktionary.org/wiki/opponent"></ref>
 12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(213-abstract-new-cf1-3-sgl
 13	harsh	harsh	ADJ	JJ	Degree=Pos	14	amod	14:amod	XML=<ref target:::"https://en.wiktionary.org/wiki/harsh"></ref>
-14	lesson	lesson	NOUN	NN	Number=Sing	9	obj	9:obj	CxnElt=DitrTheme|Entity=213)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/lesson"></ref>
+14	lesson	lesson	NOUN	NN	Number=Sing	9	obj	9:obj	CxnElt=9:Ditransitive.Theme|Entity=213)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/lesson"></ref>
 15	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-65
 # s_prominence = 1
 # s_type = inf
 # transition = null
 # text = (transitive) To control, or compose, one's expression.
-# newpar
-# newpar_block = item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:158->159:0:_|SpaceAfter=No
 2	transitive	transitive	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	MSeg=transit-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -1381,13 +1381,13 @@
 12	expression	expression	NOUN	NN	Number=Sing	5	obj	5:obj|8:obj	Entity=214)|MSeg=express-ion|SpaceAfter=No
 13	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_school-66
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = She took care to school her expression, not giving away any of her feelings.
-# newpar
-# newpar_block = item (1 s)
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=explanation-evidence:160->159:1:_|Entity=(216-person-new-cf1-1-cata)
 2	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	care	care	NOUN	NN	Number=Sing	2	obj	2:obj|5:nsubj:xsubj	_

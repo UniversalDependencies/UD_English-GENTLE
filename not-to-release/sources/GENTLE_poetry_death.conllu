@@ -10,13 +10,13 @@
 # meta::speakerCount = 0
 # meta::summary = On a slow carriage ride with Death and Immortality, the narrator passes by the school, the fields of grain and the setting sun, then pauses before a house that seemed a swelling of the ground, where centuries later it feels shorter than the day the narrator realized the horses' heads were toward eternity.
 # meta::title = Because I could not stop for Death —
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_poetry_death-1
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Because I could not stop for Death — He kindly stopped for me —
-# newpar
-# newpar_block = p (2 s)
 1	Because	because	SCONJ	IN	_	5	mark	5:mark	Discourse=causal-cause:1->2:0:dm-because-1|PDTB=Explicit:Contingency.Cause.Reason:because:1:9-14:2-8
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(1-person-acc:com-cf2-1-ana)
 3	could	could	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
@@ -48,13 +48,13 @@
 9	Immortality	immortality	NOUN	NN	Number=Sing	6	conj	3:obj|6:conj:and	Entity=(5-abstract-new-cf3-1-sgl)|MSeg=Im-mort-al-ity|SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_poetry_death-3
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = We slowly drove —
-# newpar
-# newpar_block = p (3 s)
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=mode-manner:5->8:2:_|Entity=(4-person-giv:act-cf1*-1-ana)
 2	slowly	slowly	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=slow-ly
 3	drove	drive	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -93,13 +93,13 @@
 15	Civility	civility	NOUN	NN	Number=Sing	4	obl	4:obl:for	Entity=9)
 16	—	—	PUNCT	:	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_poetry_death-6
 # s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = We passed the School, where Children strove At recess — in the ring —
-# newpar
-# newpar_block = p (3 s)
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=ROOT:8:0|Entity=(4-person-giv:inact-cf1-1-ana)
 2	passed	pass	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=pass-ed
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(10-place-new-cf4-2-coref
@@ -142,13 +142,13 @@
 5	Sun	Sun	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=16)
 6	—	—	PUNCT	:	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_poetry_death-9
 # s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = Or rather — He passed Us —
-# newpar
-# newpar_block = p (3 s)
 1	Or	or	CCONJ	CC	_	5	cc	5:cc	Discourse=organization-preparation:13->14:0:grf-dsh-81|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:or rather:79-80:73-78:81-85
 2	rather	rather	ADV	RB	_	5	advmod	5:advmod	MSeg=rath-er
 3	—	—	PUNCT	:	_	2	punct	2:punct	_
@@ -189,13 +189,13 @@
 12	Tulle	Tulle	PROPN	NNP	Number=Sing	3	parataxis	3:parataxis	Entity=(21-substance-new-cf5-1-sgl)
 13	—	—	PUNCT	:	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_poetry_death-12
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = We paused before a House that seemed A Swelling of the Ground —
-# newpar
-# newpar_block = p (3 s)
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-sequence_m:19->8:1:_|Entity=(4-person-giv:inact-cf1-1-ana)
 2	paused	pause	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=paus-ed
 3	before	before	ADP	IN	_	5	case	5:case	_
@@ -235,13 +235,13 @@
 6	Ground	Ground	PROPN	NNP	Number=Sing	0	root	0:root	Entity=24)
 7	—	—	PUNCT	:	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_poetry_death-15
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = Since then — 'tis centuries — and yet Feels shorter than the Day I first surmised the Horses' Heads Were toward Eternity —
-# newpar
-# newpar_block = p (1 s)
 1	Since	since	ADP	IN	_	2	case	2:case	Discourse=organization-preparation:24->25:0:grf-dsh-134
 2	then	then	ADV	RB	PronType=Dem	6	obl	6:obl:since	_
 3	—	—	PUNCT	:	_	2	punct	2:punct	_

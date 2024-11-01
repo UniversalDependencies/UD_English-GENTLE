@@ -10,23 +10,23 @@
 # meta::speakerCount = 0
 # meta::summary = After examining a 72 year old man (allergic to Vicodin) with chronic lymphocytic leukemia (CLL) since May 2008 and currently taking 5mg predinsone every other day, a physician reports he is suffering from autoimmune hemolytic anemia and oral ulcers on the lip and tongue, and puts him back on Valtrex and lowers steroids to 1mg daily ahead of a clinic visit the next week.
 # meta::title = Anemia & Leukemia Followup
+# newpar
+# newpar_block = head rend:::"bold red" (1 s)
 # sent_id = GENTLE_medical_anemia-1
 # s_prominence = 3
 # s_type = frag
 # transition = establishment
 # text = Description:
-# newpar
-# newpar_block = head rend:::"bold red" (1 s)
 1	Description	description	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->2:3:grf-ly-|Entity=(1-abstract-new-cf1-1-sgl)|MSeg=Descrip-tion|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_medical_anemia-2
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Chronic lymphocytic leukemia (CLL), autoimmune hemolytic anemia, and oral ulcer.
-# newpar
-# newpar_block = p (2 s)
 1	Chronic	chronic	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=context-background:2->8:4:sem-rpt-3-5,46-48|Entity=(2-abstract-new-cf2-3,10,14-sgl(3-abstract-new-cf1-3-coref-Chronic_lymphocytic_leukemia
 2	lymphocytic	lymphocytic	ADJ	JJ	Degree=Pos	3	amod	3:amod	MSeg=lympho-cyt-ic
 3	leukemia	leukemia	NOUN	NN	Number=Sing	0	root	0:root	Entity=3)
@@ -73,24 +73,24 @@
 23	diagnosis	diagnosis	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	Entity=8)7)|MSeg=diagnos-is|SpaceAfter=No
 24	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head rend:::"red bold caps" (1 s)
 # sent_id = GENTLE_medical_anemia-4
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = CHIEF COMPLAINT:
-# newpar
-# newpar_block = head rend:::"red bold caps" (1 s)
 1	CHIEF	chief	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:7->8:2:grf-ly-|Entity=(9-abstract-new-cf1-2-sgl
 2	COMPLAINT	complaint	NOUN	NN	Number=Sing	0	root	0:root	Entity=9)|MSeg=COMPLAIN-T|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (3 s) | item n:::"1" (1 s)
 # sent_id = GENTLE_medical_anemia-5
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1. Chronic lymphocytic leukemia (CLL).
-# newpar
-# newpar_block = list type:::"ordered" (3 s) | item n:::"1" (1 s)
 1	1.	1.	X	LS	_	4	discourse	4:discourse	Discourse=ROOT:8:0
 2	Chronic	chronic	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(3-abstract-giv:inact-cf1-3-coref-Chronic_lymphocytic_leukemia
 3	lymphocytic	lymphocytic	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=lympho-cyt-ic
@@ -100,51 +100,51 @@
 7	)	)	PUNCT	-RRB-	_	6	punct	6:punct	SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"2" (1 s)
 # sent_id = GENTLE_medical_anemia-6
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 2. Autoimmune hemolytic anemia.
-# newpar
-# newpar_block = item n:::"2" (1 s)
 1	2.	2.	X	LS	_	4	discourse	4:discourse	Discourse=joint-list_m:10->8:1:grf-seq-45,53
 2	Autoimmune	autoimmune	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(4-abstract-giv:inact-cf1-3-coref|MSeg=Auto-immune
 3	hemolytic	hemolytic	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=hemo-lyt-ic
 4	anemia	anemia	NOUN	NN	Number=Sing	0	root	0:root	Entity=4)|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"3" (1 s)
 # sent_id = GENTLE_medical_anemia-7
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 3. Oral ulcer.
-# newpar
-# newpar_block = item n:::"3" (1 s)
 1	3.	3.	X	LS	_	3	discourse	3:discourse	Discourse=joint-list_m:11->8:1:grf-seq-58
 2	Oral	oral	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(5-abstract-giv:inact-cf1-2-coref
 3	ulcer	ulcer	NOUN	NN	Number=Sing	0	root	0:root	Entity=5)|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_anemia-8
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = HISTORY OF PRESENT ILLNESS:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	HISTORY	history	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:12->13:2:grf-ly-|Entity=(10-abstract-new-cf1-1-sgl
 2	OF	of	ADP	IN	_	4	case	4:case	_
 3	PRESENT	present	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(11-abstract-new-cf2-2-sgl
 4	ILLNESS	illness	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=11)10)|SpaceAfter=No
 5	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GENTLE_medical_anemia-9
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = The patient is a 72-year-old gentleman who was diagnosed with chronic lymphocytic leukemia in May 2008.
-# newpar
-# newpar_block = p (5 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-other_m:13->8:3:_|Entity=(6-person-giv:inact-cf1-2-coref
 2	patient	patient	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=6)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
@@ -256,24 +256,24 @@
 12	antibacterial	antibacterial	NOUN	NN	Number=Sing	10	conj	7:obj|10:conj:and	Entity=25)|MSeg=anti-bacteri-al|SpaceAfter=No
 13	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_anemia-14
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = CURRENT MEDICATIONS:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	CURRENT	current	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:21->22:0:grf-ly-|Entity=(26-abstract-new-cf1-2-sgl
 2	MEDICATIONS	medication	NOUN	NNS	Number=Plur	0	root	0:root	Entity=26)|MSeg=MED-IC-AT-ION-S|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_medical_anemia-15
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Prilosec 20 mg b.i.d., levothyroxine 50 mcg q.d., Lopressor 75 mg q.d., vitamin C 500 mg q.d., multivitamin q.d., simvastatin 20 mg q.d., and prednisone 5 mg q.o.d.
-# newpar
-# newpar_block = p (1 s)
 1	Prilosec	prilosec	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-other_m:22->8:3:_|Entity=(27-substance-new-cf5-1-sgl-Omeprazole)
 2	20	20	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Entity=(28-substance-new-cf1-2-coref
 3	mg	milligram	NOUN	NN	Abbr=Yes|Number=Sing	4	obl:unmarked	4:obl:unmarked	Entity=28)
@@ -309,45 +309,45 @@
 33	mg	milligram	NOUN	NN	Abbr=Yes|Number=Sing	34	obl:unmarked	34:obl:unmarked	Entity=17)
 34	q.o.d.	q.o.d.	NOUN	NN	Number=Sing	31	nmod:unmarked	31:nmod:unmarked	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_anemia-16
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = ALLERGIES:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	ALLERGIES	allergy	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:23->24:0:grf-ly-|Entity=(37-abstract-new-cf1-1-sgl)|MSeg=ALLERG-IES|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_medical_anemia-17
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Vicodin.
-# newpar
-# newpar_block = p (1 s)
 1	Vicodin	Vicodin	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-other_m:24->8:3:_|Entity=(38-substance-new-cf1-1-sgl-Hydrocodone/paracetamol)|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_anemia-18
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = REVIEW OF SYSTEMS:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	REVIEW	review	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:25->26:1:grf-ly-|Entity=(39-abstract-new-cf1-1-sgl
 2	OF	of	ADP	IN	_	3	case	3:case	_
 3	SYSTEMS	system	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	Entity=39)|MSeg=SYSTEM-S|SpaceAfter=No
 4	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (7 s)
 # sent_id = GENTLE_medical_anemia-19
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = The patient reports ulcer on his tongue and his lip.
-# newpar
-# newpar_block = p (7 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-other_m:26->8:3:_|Entity=(6-person-giv:inact-cf1-2-coref
 2	patient	patient	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=6)
 3	reports	report	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=report-s
@@ -453,25 +453,25 @@
 9	negative	negative	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=neg-at-ive|SpaceAfter=No
 10	.	.	PUNCT	.	_	9	punct	9:punct	_
 
+# newpar
+# newpar_block = head rend:::"red bold caps" (1 s)
 # sent_id = GENTLE_medical_anemia-26
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = PHYSICAL EXAM:
-# newpar
-# newpar_block = head rend:::"red bold caps" (1 s)
 1	PHYSICAL	physical	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:33->36:4:grf-ly-|Entity=(57-abstract-new-cf1-2-sgl
 2	EXAM	exam	NOUN	NN	Number=Sing	0	root	0:root	Entity=57)|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = list type:::"unordered" (20 s) | item (4 s)
 # sent_id = GENTLE_medical_anemia-27
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = VITALS: BP: 120/74.
-# newpar
-# newpar_block = list type:::"unordered" (20 s) | item (4 s)
-1	VITALS	VITALS	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:34->36:2:grf-ly-+grf-seq-|Entity=(58-abstract-new-cf2-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
+1	VITALS	VITALS	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:34->36:2:grf-seq-+grf-ly-|Entity=(58-abstract-new-cf2-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	3	punct	3:punct	XML=</hi>
 3	BP	BP	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Discourse=organization-heading:35->36:0:grf-ly-+sem-synym-271,273-275|Entity=(59-abstract-new-cf1-1-coref-Blood_pressure)|SpaceAfter=No|XML=<hi rend:::"caps">
 4	:	:	PUNCT	:	_	3	punct	3:punct	XML=</hi>
@@ -512,14 +512,14 @@
 4	kg	kilogram	NOUN	NN	Abbr=Yes|Number=Sing	1	nmod	1:nmod	Entity=62)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_medical_anemia-31
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = GEN:
-# newpar
-# newpar_block = item (2 s)
-1	GEN	GEN	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:43->44:0:grf-seq-+grf-ly-|SpaceAfter=No|XML=<hi rend:::"caps">
+1	GEN	GEN	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:43->44:0:grf-ly-+grf-seq-|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GENTLE_medical_anemia-32
@@ -542,13 +542,13 @@
 13	left	left	NOUN	NN	Number=Sing	10	obl	10:obl:on	Entity=65)63)|SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (5 s)
 # sent_id = GENTLE_medical_anemia-33
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = HEENT:
-# newpar
-# newpar_block = item (5 s)
 1	HEENT	HEENT	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:45->46:1:grf-seq-+grf-ly-|Entity=(66-abstract-new-cf1-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	1	punct	1:punct	XML=</hi>
 
@@ -608,14 +608,14 @@
 6	mucosa	mucosa	NOUN	NN	Number=Sing	2	nmod	2:nmod:on	Entity=72)71)|SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_medical_anemia-38
 # s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = NECK: Supple.
-# newpar
-# newpar_block = item (2 s)
-1	NECK	neck	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:50->51:1:grf-ly-+grf-seq-|Entity=(73-object-new-cf1-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
+1	NECK	neck	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:50->51:1:grf-seq-+grf-ly-|Entity=(73-object-new-cf1-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	3	punct	3:punct	XML=</hi>
 3	Supple	supple	NOUN	NN	Number=Sing	1	dep	1:dep	Discourse=joint-list_m:51->36:3:_|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -634,14 +634,14 @@
 7	adenopathy	adenopathy	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=74)|MSeg=adeno-path-y|SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_medical_anemia-40
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = LUNGS:
-# newpar
-# newpar_block = item (2 s)
-1	LUNGS	lung	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:53->54:0:grf-ly-+grf-seq-|Entity=(75-object-new-cf1-1-sgl)|MSeg=LUNG-S|SpaceAfter=No|XML=<hi rend:::"caps">
+1	LUNGS	lung	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:53->54:0:grf-seq-+grf-ly-|Entity=(75-object-new-cf1-1-sgl)|MSeg=LUNG-S|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GENTLE_medical_anemia-41
@@ -655,13 +655,13 @@
 4	bilaterally	bilaterally	ADV	RB	Degree=Pos	1	advmod	1:advmod	MSeg=bi-lateral-ly|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_medical_anemia-42
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = CV: Regular rate; normal S1, S2, no murmurs.
-# newpar
-# newpar_block = item (1 s)
 1	CV	CV	NOUN	NN	Abbr=Yes|Number=Sing	0	root	0:root	Discourse=organization-heading:55->56:1:grf-seq-+grf-ly-|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	4	punct	4:punct	XML=</hi>
 3	Regular	regular	ADJ	JJ	Degree=Pos	4	amod	4:amod	Discourse=joint-list_m:56->36:3:_|Entity=(77-abstract-new-cf1-2-sgl
@@ -676,14 +676,14 @@
 12	murmurs	murmur	NOUN	NNS	Number=Plur	7	appos	7:appos	Entity=(80-event-new-cf4-1-sgl)|MSeg=murmur-s|SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (3 s)
 # sent_id = GENTLE_medical_anemia-43
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = ABDOMEN: Soft.
-# newpar
-# newpar_block = item (3 s)
-1	ABDOMEN	abdomen	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:58->59:1:grf-ly-+grf-seq-|Entity=(81-object-new-cf1-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
+1	ABDOMEN	abdomen	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:58->59:1:grf-seq-+grf-ly-|Entity=(81-object-new-cf1-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	3	punct	3:punct	XML=</hi>
 3	Soft	soft	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	Discourse=joint-list_m:59->36:3:_|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -709,13 +709,13 @@
 2	hepatosplenomegaly	hepatosplenomegaly	NOUN	NN	Number=Sing	0	root	0:root	Entity=(84-substance-new-cf1-1-sgl)|MSeg=hepato-spleno-megal-y|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_medical_anemia-46
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = EXT: No lower extremity edema.
-# newpar
-# newpar_block = item (1 s)
 1	EXT	EXT	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:62->63:0:grf-seq-+grf-ly-|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	6	punct	6:punct	XML=</hi>
 3	No	no	DET	DT	PronType=Neg	6	det	6:det	Discourse=joint-list_m:63->36:3:_|Negation=Yes
@@ -724,24 +724,24 @@
 6	edema	edema	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	Entity=(86-abstract-new-cf2-1-sgl)85)|SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_anemia-47
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = LABORATORY DATA:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	LABORATORY	laboratory	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=organization-heading:64->65:1:grf-ly-|Entity=(87-abstract-new-cf1-2-sgl|MSeg=LABOR-ATORY
 2	DATA	datum	NOUN	NNS	Number=Plur	0	root	0:root	Entity=87)|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_medical_anemia-48
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = His white blood cell count is 4.6, hemoglobin 14.2, hematocrit 42, and platelets 207,000.
-# newpar
-# newpar_block = p (1 s)
 1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Discourse=joint-other_m:65->8:3:_|Entity=(88-abstract-new-cf1-5-coref(89-object-new-cf6-4-sgl(6-person-giv:inact-cf5-1-ana)
 2	white	white	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 3	blood	blood	NOUN	NN	Number=Sing	5	compound	5:compound	_
@@ -761,25 +761,25 @@
 17	207,000	207000	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	16:nummod	Entity=(92-abstract-giv:act-cf4-1-coref)|SpaceAfter=No
 18	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_anemia-49
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = ASSESSMENT/PLAN:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	ASSESSMENT	assessment	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:69->70:2:grf-ly-|Entity=(93-abstract-new-cf1-1,3-sgl|MSeg=ASSESS-MENT|SpaceAfter=No|XML=<w>
 2	/	/	SYM	SYM	_	3	cc	3:cc	SpaceAfter=No
 3	PLAN	plan	NOUN	NN	Number=Sing	1	conj	1:conj:slash	Entity=(94-abstract-new-cf2-1-sgl)93)|SpaceAfter=No|XML=</w>
 4	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GENTLE_medical_anemia-50
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = This is a 72-year-old gentleman with chronic lymphocytic leukemia on chronic steroids for autoimmune hemolytic anemia.
-# newpar
-# newpar_block = p (4 s)
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	9:nsubj	Discourse=joint-other_m:70->8:3:_|Entity=(6-person-giv:inact-cf1-1-ana)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(6-person-giv:act-cf1-7-coref

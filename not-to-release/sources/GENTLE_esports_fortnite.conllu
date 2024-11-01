@@ -10,15 +10,15 @@
 # meta::speakerCount = 2
 # meta::summary = In the Fortnite World Cup finals with 100 players on screen, Jack and another person discuss 16 year old Sentinels player Bugha, the current world champ who may win $3 million, while Skite is defeated, Maufin and Zayt fight by Loot Lake, BlastR fights outside Pressure Plant, letw1k3 beats JarkoS, and Pika, ranked 11th, takes down a player in Megamall, then tracks Kinstaar.
 # meta::title = WORLD CUP SOLO'S FINAL MATCH | Fortnite World Cup Game 6 | Live commentary
-# sent_id = GENTLE_esports_fortnite-1
-# addressee = Aud,Jack
-# s_prominence = 2
-# s_type = decl
-# speaker = Speaker1
-# transition = establishment
-# text = As in the game battle bus has launched one more time, the Fortnite World Cup Finals ends right here.
 # newpar
 # newpar_block = sp who:::"#Speaker1" whom:::"#Aud,#Jack" (1 s)
+# sent_id = GENTLE_esports_fortnite-1
+# s_prominence = 2
+# s_type = decl
+# transition = establishment
+# speaker = Speaker1
+# addressee = Aud,Jack
+# text = As in the game battle bus has launched one more time, the Fortnite World Cup Finals ends right here.
 1	As	as	ADP	IN	_	4	case	4:case	Discourse=explanation-evidence:1->2:0:dm-as-1|PDTB=Explicit:Contingency.Cause.Reason:as:1:2-12:13-21
 2	in	in	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(1-event-acc:com-cf1-2-coref
@@ -41,15 +41,15 @@
 20	here	here	ADV	RB	PronType=Dem	18	advmod	18:advmod	Entity=(7-place-acc:com-cf2-1-coref)|SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	8:punct	_
 
-# sent_id = GENTLE_esports_fortnite-2
-# addressee = Aud,Speaker1
-# s_prominence = 2
-# s_type = frag
-# speaker = Jack
-# transition = null
-# text = All 100 players on your screen there, Jack, Bugha, sitting out in front of everyone thus far a commanding lead.
 # newpar
 # newpar_block = sp who:::"#Jack" whom:::"#Aud,#Speaker1" (8 s)
+# sent_id = GENTLE_esports_fortnite-2
+# s_prominence = 2
+# s_type = frag
+# transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
+# text = All 100 players on your screen there, Jack, Bugha, sitting out in front of everyone thus far a commanding lead.
 1	All	all	DET	DT	PronType=Ind	3	det	3:det	Discourse=context-background:3->55:5:_|Entity=(8-person-new-cf1-3-coref
 2	100	100	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	_
 3	players	player	NOUN	NNS	Number=Plur	0	root	0:root	MSeg=play-er-s
@@ -76,11 +76,11 @@
 24	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-3
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = decl
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Kreo the winner of the previous game flying in there the northeast corner of the map.
 1	Kreo	Kreo	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-list_m:6->3:1:sem-lxchn-24,52|Entity=(14-person-new-cf1-1-coref)
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(14-person-giv:act-cf1-2-appos
@@ -101,11 +101,11 @@
 17	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_esports_fortnite-4
-# addressee = Aud,Speaker1
 # s_prominence = 3
 # s_type = decl
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Spread of players across the screen, there's your top ten on the left side, Bugha, Psalm, Kreo, Skite, Nayte, Riversan, Rhux and the rest.
 1	Spread	spread	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-preparation:8->9:0:_
 2	of	of	ADP	IN	_	3	case	3:case	_
@@ -119,7 +119,7 @@
 9	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	1:parataxis	Cxn=Existential-CopPred-ThereExpl
 10	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(18-person-new-cf1-3-coref(10-person-giv:inact-cf2-1-ana)
 11	top	top	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
-12	ten	ten	NUM	CD	NumForm=Word|NumType=Card	9	nsubj	9:nsubj	CxnElt=Pivot|Entity=18)
+12	ten	ten	NUM	CD	NumForm=Word|NumType=Card	9	nsubj	9:nsubj	CxnElt=9:Existential-CopPred-ThereExpl.Pivot|Entity=18)
 13	on	on	ADP	IN	_	16	case	16:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=9<19|Entity=(19-place-acc:inf-cf6-3-sgl
 15	left	left	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
@@ -144,11 +144,11 @@
 34	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_esports_fortnite-5
-# addressee = Aud,Speaker1
 # s_prominence = 3
 # s_type = frag
-# speaker = Jack
 # transition = establishment
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Average placements thus far of 25th for Kreo, only 8 eliminations but 30 points enough to put him in third place thus far.
 1	Average	average	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=elaboration-additional:10->3:3:_|Entity=(27-abstract-new-cf2-2-sgl
 2	placements	placement	NOUN	NNS	Number=Plur	0	root	0:root	MSeg=place-ment-s
@@ -177,11 +177,11 @@
 25	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_esports_fortnite-6
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = decl
-# speaker = Jack
 # transition = zero
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = One thing to remember from yesterday, Nayte and Saf held on to the lead the first five games and it slipped away in Game six.
 1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=organization-preparation:12->14:1:_|Entity=(32-abstract-new-cf7-2-sgl
 2	thing	thing	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -212,11 +212,11 @@
 27	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_esports_fortnite-7
-# addressee = Aud,Speaker1
 # s_prominence = 3
 # s_type = decl
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Bugha has been in the lead for all five games.
 1	Bugha	Bugha	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Discourse=context-background:16->18:1:ref-prs-149,170+ref-prs-153-154,179|Entity=(12-person-giv:inact-cf1-1-coref-Bugha_%28gamer%29)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	MSeg=ha-s
@@ -231,11 +231,11 @@
 11	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GENTLE_esports_fortnite-8
-# addressee = Aud,Speaker1
 # s_prominence = 4
 # s_type = decl
-# speaker = Jack
 # transition = establishment
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = He has never lost the first place spot.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=restatement-partial:17->16:0:ref-prs-149,160+sem-synym-153-154,164-167|Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)|PDTB=Implicit:Expansion.Equivalence:in other words:_:149-159:160-168
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	MSeg=ha-s
@@ -248,15 +248,15 @@
 9	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_esports_fortnite-9
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = q
-# speaker = Jack
 # transition = continue
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Will he suffer the same fate or can he close it out right here to remain our Fortnite world champ?
 1	Will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	Discourse=joint-other_m:18->3:4:_|PDTB=EntRel:EntRel:_:_:160-168:169-189
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)
-3	suffer	suffer	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=Clause
+3	suffer	suffer	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=3:Interrogative-Polar-Direct.Clause
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(37-abstract-giv:inact-cf3-3-coref
 5	same	same	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	fate	fate	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=37)
@@ -276,15 +276,15 @@
 20	champ	champ	NOUN	NN	Number=Sing	16	xcomp	16:xcomp	Entity=12)|SpaceAfter=No
 21	?	?	PUNCT	.	_	3	punct	3:punct	_
 
-# sent_id = GENTLE_esports_fortnite-10
-# addressee = Aud,Jack
-# s_prominence = 3
-# s_type = decl
-# speaker = Speaker1
-# transition = continue
-# text = Bugha by the way he is from Pennsylvania 16 year old player, Sentinels, qualified the very first week for the World Cup.
 # newpar
 # newpar_block = sp who:::"#Speaker1" whom:::"#Aud,#Jack" (1 s)
+# sent_id = GENTLE_esports_fortnite-10
+# s_prominence = 3
+# s_type = decl
+# transition = continue
+# speaker = Speaker1
+# addressee = Aud,Jack
+# text = Bugha by the way he is from Pennsylvania 16 year old player, Sentinels, qualified the very first week for the World Cup.
 1	Bugha	Bugha	PROPN	NNP	Number=Sing	8	dislocated	8:dislocated	Discourse=context-background:21->18:2:sem-synym-170,190|Entity=(12-person-giv:act-cf1*-1-coref-Bugha_%28gamer%29)
 2	by	by	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
@@ -311,15 +311,15 @@
 24	Cup	Cup	PROPN	NNP	Number=Sing	16	obl	16:obl:for	Entity=5)|SpaceAfter=No
 25	.	.	PUNCT	.	_	8	punct	8:punct	_
 
-# sent_id = GENTLE_esports_fortnite-11
-# addressee = Aud,Speaker1
-# s_prominence = 4
-# s_type = decl
-# speaker = Jack
-# transition = continue
-# text = So he just got his first part-time job to try to start earning money to buy himself a car.
 # newpar
 # newpar_block = sp who:::"#Jack" whom:::"#Aud,#Speaker1" (2 s)
+# sent_id = GENTLE_esports_fortnite-11
+# s_prominence = 4
+# s_type = decl
+# transition = continue
+# speaker = Jack
+# addressee = Aud,Speaker1
+# text = So he just got his first part-time job to try to start earning money to buy himself a car.
 1	So	so	ADV	RB	_	4	discourse	4:discourse	Discourse=adversative-antithesis:23->26:3:dm-but-237+dm-instead-238
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)
 3	just	just	ADV	RB	_	4	advmod	4:advmod	_
@@ -337,18 +337,18 @@
 15	earning	earn	VERB	VBG	VerbForm=Ger	14	xcomp	14:xcomp	MSeg=earn-ing
 16	money	money	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=(48-abstract-new-cf3-1-sgl)
 17	to	to	PART	TO	_	18	mark	18:mark	Discourse=purpose-goal:25->24:0:syn-inf-231|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:225-230:231-236
-18	buy	buy	VERB	VB	VerbForm=Inf	15	advcl	15:advcl:to	Cxn=Ditransitive|CxnElt=DitrV
-19	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	18	iobj	18:iobj	CxnElt=DitrRec|Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)|MSeg=him-self
+18	buy	buy	VERB	VB	VerbForm=Inf	15	advcl	15:advcl:to	Cxn=Ditransitive|CxnElt=18:Ditransitive.V
+19	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	18	iobj	18:iobj	CxnElt=18:Ditransitive.Rec|Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)|MSeg=him-self
 20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(49-object-new-cf4-2-sgl
-21	car	car	NOUN	NN	Number=Sing	18	obj	18:obj	CxnElt=DitrTheme|Entity=49)|SpaceAfter=No
+21	car	car	NOUN	NN	Number=Sing	18	obj	18:obj	CxnElt=18:Ditransitive.Theme|Entity=49)|SpaceAfter=No
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_esports_fortnite-12
-# addressee = Aud,Speaker1
 # s_prominence = 3
 # s_type = sub
-# speaker = Jack
 # transition = continue
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = But instead after this could walk away with three million dollars, he's gonna walk on in and say I quit, can't wait for him to get home, you know, imagine he wins three million dollars here, his parents gonna ask him to take the trash out and he's gonna laugh.
 1	But	but	CCONJ	CC	_	6	cc	6:cc	Discourse=joint-other_m:26->21:0:_|PDTB=Explicit:Comparison.Contrast:but:237:215-236:238-298
 2	instead	instead	ADV	RB	_	6	advmod	6:advmod	MSeg=in-stead|PDTB=Explicit:Expansion.Substitution.Arg1-as-subst:instead:238:215-236:237,239-298
@@ -419,28 +419,28 @@
 61	laugh	laugh	VERB	VB	VerbForm=Inf	59	xcomp	59:xcomp	SpaceAfter=No
 62	.	.	PUNCT	.	_	6	punct	6:punct	_
 
-# sent_id = GENTLE_esports_fortnite-13
-# addressee = Aud,Jack
-# s_prominence = 5
-# s_type = intj
-# speaker = Speaker1
-# transition = zero
-# text = Yeah right.
 # newpar
 # newpar_block = sp who:::"#Speaker1" whom:::"#Aud,#Jack" (1 s)
+# sent_id = GENTLE_esports_fortnite-13
+# s_prominence = 5
+# s_type = intj
+# transition = zero
+# speaker = Speaker1
+# addressee = Aud,Jack
+# text = Yeah right.
 1	Yeah	yeah	INTJ	UH	Polarity=Pos	2	discourse	2:discourse	Discourse=organization-phatic:36->34:1:lex-indwd-299+lex-indwd-300
 2	right	right	INTJ	UH	_	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
-# sent_id = GENTLE_esports_fortnite-14
-# addressee = Aud,Speaker1
-# s_prominence = 4
-# s_type = imp
-# speaker = Jack
-# transition = zero
-# text = Pay his butler to do that, I guess at that point.
 # newpar
 # newpar_block = sp who:::"#Jack" whom:::"#Aud,#Speaker1" (3 s)
+# sent_id = GENTLE_esports_fortnite-14
+# s_prominence = 4
+# s_type = imp
+# transition = zero
+# speaker = Jack
+# addressee = Aud,Speaker1
+# text = Pay his butler to do that, I guess at that point.
 1	Pay	pay	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:37->26:2:ref-prs-249,303
 2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(57-person-new-cf5-2-sgl(12-person-giv:inact-cf3-1-ana-Bugha_%28gamer%29)
 3	butler	butler	NOUN	NN	Number=Sing	1	iobj	1:iobj|5:nsubj:xsubj	Entity=57)
@@ -456,11 +456,11 @@
 13	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_esports_fortnite-15
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = decl
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Celce currently set up many builds, one of these very early awkward fights, sees those as well.
 1	Celce	Celce	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint-other_m:40->3:4:_|Entity=(58-person-new-cf2-1-coref)
 2	currently	currently	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=current-ly
@@ -484,11 +484,11 @@
 20	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-16
-# addressee = Aud,Speaker1
 # s_prominence = 3
 # s_type = decl
-# speaker = Jack
 # transition = establishment
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = You look at those what he has, common infantry rifle 25 shots and a drum gun.
 1	You	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-preparation:43->44:0:_|Entity=(52-person-giv:inact-cf3-1-ana)|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:315-334:335-352
 2	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -509,15 +509,15 @@
 17	gun	gun	NOUN	NN	Number=Sing	11	conj	4:appos|11:conj:and	Entity=64)|SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
-# sent_id = GENTLE_esports_fortnite-17
-# addressee = Aud,Jack
-# s_prominence = 2
-# s_type = decl
-# speaker = Speaker1
-# transition = zero
-# text = Jack, one of the first four to go down in this match is Skite, who was in the old place already, already gone from that top spot.
 # newpar
 # newpar_block = sp who:::"#Speaker1" whom:::"#Aud,#Jack" (5 s)
+# sent_id = GENTLE_esports_fortnite-17
+# s_prominence = 2
+# s_type = decl
+# transition = zero
+# speaker = Speaker1
+# addressee = Aud,Jack
+# text = Jack, one of the first four to go down in this match is Skite, who was in the old place already, already gone from that top spot.
 1	Jack	Jack	PROPN	NNP	Number=Sing	15	vocative	15:vocative	Discourse=joint-other_m:45->3:4:_|Entity=(11-person-giv:inact-cf3-1-coref)|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	15	nsubj	15:nsubj	Entity=(65-person-new-cf1-1-coref
@@ -551,11 +551,11 @@
 31	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GENTLE_esports_fortnite-18
-# addressee = Aud,Jack
 # s_prominence = 3
 # s_type = q
-# speaker = Speaker1
 # transition = null
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = If I do – as he throws them down, can you see all the players surrounded outside the sunny side of the map?
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=organization-phatic:50->51:0:syn-intrp-387|PDTB=Implicit:Expansion.Conjunction:furthermore:_:353-383:384-408
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(69-person-acc:com-cf4-1-ana)
@@ -569,7 +569,7 @@
 10	,	,	PUNCT	,	_	7	punct	7:punct	_
 11	can	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	Discourse=elaboration-additional:52->45:3:_
 12	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	13:nsubj	Entity=(52-person-giv:inact-cf2-1-ana)
-13	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=Clause
+13	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=13:Interrogative-Polar-Direct.Clause
 14	all	all	DET	PDT	PronType=Tot	16	det:predet	16:det:predet	Entity=(71-person-new-cf6-3-sgl
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	_
 16	players	player	NOUN	NNS	Number=Plur	13	obj	13:obj	Entity=71)|MSeg=play-er-s
@@ -584,11 +584,11 @@
 25	?	?	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GENTLE_esports_fortnite-19
-# addressee = Aud,Jack
 # s_prominence = 1
 # s_type = multiple
-# speaker = Speaker1
 # transition = establishment
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Celce he continues to bounce around for a moment, any AR shots left, will get solved at the end, right?
 1	Celce	Celce	PROPN	NNP	Number=Sing	3	dislocated	3:dislocated	Discourse=ROOT:55:0|Entity=(58-person-giv:act-cf1*-1-coref)|PDTB=EntRel:EntRel:_:_:384-408:409-432
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(58-person-giv:act-cf1*-1-ana)
@@ -616,11 +616,11 @@
 24	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-20
-# addressee = Aud,Jack
 # s_prominence = 3
 # s_type = decl
-# speaker = Speaker1
 # transition = zero
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Which's good, anything good counts.
 1-2	Which's	_	_	_	_	_	_	_	_
 1	Which	which	PRON	WDT	PronType=Int	3	nsubj	3:nsubj	Discourse=evaluation-comment:59->56:2:lex-indwd-435+lex-indwd-438|PDTB=Implicit:Expansion.Conjunction:but:_:409-432:433-440
@@ -633,11 +633,11 @@
 8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-21
-# addressee = Aud,Jack
 # s_prominence = 1
 # s_type = decl
-# speaker = Speaker1
 # transition = null
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = The farming of stone continues, Maufin and Zayt outside of Loot Lake just fighting on the outskirts of it.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-sequence_m:61->55:1:_|Entity=(78-abstract-new-cf2-2-sgl
 2	farming	farming	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	MSeg=farm-ing
@@ -661,15 +661,15 @@
 20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nmod	18:nmod:of	Entity=(82-place-giv:act-cf1-1-ana)83)|SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	5:punct	_
 
-# sent_id = GENTLE_esports_fortnite-22
-# addressee = Aud,Speaker1
-# s_prominence = 2
-# s_type = decl
-# speaker = Jack
-# transition = establishment
-# text = He's just kind of building walling against any pressure from Zayt, doesn't want to get caught on rotation.
 # newpar
 # newpar_block = sp who:::"#Jack" whom:::"#Aud,#Speaker1" (17 s)
+# sent_id = GENTLE_esports_fortnite-22
+# s_prominence = 2
+# s_type = decl
+# transition = establishment
+# speaker = Jack
+# addressee = Aud,Speaker1
+# text = He's just kind of building walling against any pressure from Zayt, doesn't want to get caught on rotation.
 1-2	He's	_	_	_	_	_	_	_	_
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=elaboration-additional:64->62:1:ref-prs-447,462+sem-rpt-449,473|Entity=(80-person-giv:act-cf1*-1-ana)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
@@ -696,11 +696,11 @@
 22	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GENTLE_esports_fortnite-23
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = decl
-# speaker = Jack
 # transition = zero
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Interesting load, that gold combat very early.
 1	Interesting	interesting	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	amod	2:amod	Discourse=evaluation-comment:66->62:2:lex-indwd-490|Entity=(86-object-new-cf1-2-coref
 2	load	load	NOUN	NN	Number=Sing	0	root	0:root	Entity=86)|SpaceAfter=No
@@ -713,11 +713,11 @@
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_esports_fortnite-24
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = decl
-# speaker = Jack
 # transition = establishment
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = That's a very solid pickup to start this match, single shockwave remaining, legendary grenade launcher drop gun and as well.
 1-2	That's	_	_	_	_	_	_	_	_
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Discourse=joint-list_m:67->66:0:_|Entity=(86-object-giv:act-cf1*-1-ana)|PDTB=Implicit:Expansion.Conjunction:and:_:484-492:493-516
@@ -746,11 +746,11 @@
 24	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GENTLE_esports_fortnite-25
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = decl
-# speaker = Jack
 # transition = rough-shift
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = We talk about a great starting inventory, BlastR in a fight, outside Pressure Plant but you're only 73 HP, but again you're this far to the tournament, you kind of get simpler, you just kind of go for it, you got to just forge and engage.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-preparation:71->72:1:_|Entity=(10-person-giv:inact-cf3-1-ana)
 2	talk	talk	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -811,24 +811,24 @@
 55	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_esports_fortnite-26
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = wh
-# speaker = Jack
 # transition = zero
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = What's up?
 1-2	What's	_	_	_	_	_	_	_	_
-1	What	what	PRON	WP	PronType=Int	3	nsubj	3:nsubj	CxnElt=WHWord|Discourse=topic-question:78->80:1:lex-indwd-572+grf-qst-575|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:517-571:572-575
+1	What	what	PRON	WP	PronType=Int	3	nsubj	3:nsubj	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:78->80:1:lex-indwd-572+grf-qst-575|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:517-571:572-575
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
-3	up	up	ADV	RB	Degree=Pos	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=Clause|SpaceAfter=No
+3	up	up	ADV	RB	Degree=Pos	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-WHInfo-Direct.Clause|SpaceAfter=No
 4	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-27
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = wh
-# speaker = Jack
 # transition = zero
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Shot comes on through, not able to get it done as of yet.
 1	Shot	shot	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Discourse=adversative-concession:79->80:0:_|Entity=(97-object-new-cf2-1-sgl)|PDTB=Hypophora:Hypophora:_:_:572-575:576-590
 2	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=come-s
@@ -847,11 +847,11 @@
 15	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_esports_fortnite-28
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = decl
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = BlastR still healing up, will have bandages to get back up to take 75 HP.
 1	BlastR	BlastR	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint-sequence_m:81->55:1:_|Entity=(93-person-giv:inact-cf1-1-coref)
 2	still	still	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
@@ -872,11 +872,11 @@
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-29
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = imp
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Looks like Tfue picking up in elimination.
 1	Looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:85->86:0:sem-atsrc-517|MSeg=Look-s|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:591-607:608-615
 2	like	like	SCONJ	IN	_	4	mark	4:mark	_
@@ -888,11 +888,11 @@
 8	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_esports_fortnite-30
-# addressee = Aud,Speaker1
 # s_prominence = 3
 # s_type = inf
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = To see how things play out.
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=organization-preparation:87->88:1:_|PDTB=Implicit:Expansion.Conjunction:and:_:608-615:616-622
 2	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -903,11 +903,11 @@
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_esports_fortnite-31
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = decl
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = 90 players remaining.
 1	90	90	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=context-background:88->86:1:_|Entity=(104-person-new-cf1-2-sgl|PDTB=NoRel:NoRel:_:_:616-622:623-626
 2	players	player	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=104)|MSeg=play-er-s
@@ -915,11 +915,11 @@
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-32
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = decl
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = The first circle starts to close in 50 seconds.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=4<105|Discourse=joint-other_m:89->88:0:_|Entity=(105-place-acc:inf-cf1-3-sgl|PDTB=Implicit:Expansion.Conjunction:and:_:623-626:627-636
 2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	3:amod	_
@@ -933,11 +933,11 @@
 10	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_esports_fortnite-33
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = decl
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Bandaging on the egg BlastR is just hanging out here.
 1	Bandaging	bandage	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl	Discourse=context-circumstance:90->91:0:syn-pres-637|MSeg=Bandag-ing|PDTB=Implicit:Temporal.Asynchronous.Succession:when:_:641-647:637-640
 2	on	on	ADP	IN	_	4	case	4:case	_
@@ -952,11 +952,11 @@
 11	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GENTLE_esports_fortnite-34
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = decl
-# speaker = Jack
 # transition = establishment
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = That player down below gonna see if he can take shots here in a second.
 1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=attribution-positive:92->93:0:sem-atsrc-648-651+lex-indwd-654+syn-rpr-655|Entity=(109-person-new-cf3-2-sgl|PDTB=Implicit:Comparison.Contrast:but:_:637-647:648-664
 2	player	player	NOUN	NN	Number=Sing	5	nsubj	5:nsubj|7:nsubj:xsubj	MSeg=play-er
@@ -969,7 +969,7 @@
 8	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=adversative-contrast_m:93->91:1:_
 9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(93-person-giv:act-cf1*-1-ana)
 10	can	can	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
-11	take	take	VERB	VB	VerbForm=Inf	7	ccomp	7:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=Clause
+11	take	take	VERB	VB	VerbForm=Inf	7	ccomp	7:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=11:Interrogative-Polar-Indirect.Clause
 12	shots	shot	NOUN	NNS	Number=Plur	11	obj	11:obj	Entity=(110-object-new-cf4-1-sgl)|MSeg=shot-s
 13	here	here	ADV	RB	PronType=Dem	11	advmod	11:advmod	Entity=(108-place-giv:act-cf2-1-coref)
 14	in	in	ADP	IN	_	16	case	16:case	_
@@ -978,11 +978,11 @@
 17	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GENTLE_esports_fortnite-35
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = decl
-# speaker = Jack
 # transition = zero
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Tchub was gonna roll all the way down looks like no engagement gonna happen.
 1	Tchub	Tchub	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=joint-sequence_m:94->55:1:_|Entity=(112-person-new-cf1-1-sgl)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	3:aux	_
@@ -1005,11 +1005,11 @@
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-36
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = decl
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Here, JarkoS, letw1k3, two players that have faced off against each other a number of times, gonna go for the wall.
 1	Here	here	ADV	RB	PronType=Dem	21	advmod	21:advmod	Discourse=joint-sequence_m:96->55:1:_|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
@@ -1041,11 +1041,11 @@
 27	.	.	PUNCT	.	_	21	punct	21:punct	_
 
 # sent_id = GENTLE_esports_fortnite-37
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = multiple
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Yes, the angle inside and pushes on through a solid aggressive play.
 1	Yes	yes	INTJ	UH	Polarity=Pos	4	discourse	4:discourse	Discourse=context-circumstance:99->100:0:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:682-708:709-722|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
@@ -1063,11 +1063,11 @@
 14	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_esports_fortnite-38
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = decl
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = letw1k3 pick up his first elimination of Game six.
 1	letw1k3	letw1k3	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-sequence_m:102->96:2:_|Entity=(116-person-giv:inact-cf1-1-coref)
 2	pick	pick	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	0:root	CorrectForm=picks|XML=<sic ana:::"picks"></sic>
@@ -1080,15 +1080,15 @@
 9	six	six	NUM	CD	NumForm=Word|NumType=Card	8	dep	8:dep	Entity=38)121)|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
-# sent_id = GENTLE_esports_fortnite-39
-# addressee = Aud,Jack
-# s_prominence = 2
-# s_type = decl
-# speaker = Speaker1
-# transition = establishment
-# text = Very clean and that will end JarkoS' Fortnite World Cup run, solid performance earlier on.
 # newpar
 # newpar_block = sp who:::"#Speaker1" whom:::"#Aud,#Jack" (21 s)
+# sent_id = GENTLE_esports_fortnite-39
+# s_prominence = 2
+# s_type = decl
+# transition = establishment
+# speaker = Speaker1
+# addressee = Aud,Jack
+# text = Very clean and that will end JarkoS' Fortnite World Cup run, solid performance earlier on.
 1	Very	very	ADV	RB	_	2	advmod	2:advmod	Discourse=evaluation-comment:103->102:0:lex-indwd-733+lex-indwd-734
 2	clean	clean	ADJ	JJ	Degree=Pos	0	root	0:root	_
 3	and	and	CCONJ	CC	_	6	cc	6:cc	Discourse=causal-result:104->102:1:dm-and-735|PDTB=Explicit:Contingency.Cause.Result:and:735:723-732:733-734,736-750
@@ -1110,11 +1110,11 @@
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_esports_fortnite-40
-# addressee = Aud,Jack
 # s_prominence = 4
 # s_type = decl
-# speaker = Speaker1
 # transition = smooth-shift
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = We'll see where he stacks up with the rest of this lobby when it's all said and done.
 1-2	We'll	_	_	_	_	_	_	_	_
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=adversative-concession:106->105:0:_|Entity=(10-person-giv:inact-cf2-1-ana)|PDTB=Implicit:Comparison.Concession.Arg2-as-denier:but:_:733-750:751-771
@@ -1141,11 +1141,11 @@
 21	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-41
-# addressee = Aud,Jack
 # s_prominence = 3
 # s_type = decl
-# speaker = Speaker1
 # transition = smooth-shift
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Reminder this is our final game here tonight.
 1	Reminder	reminder	NOUN	NN	Number=Sing	0	root	0:root	Discourse=context-background:108->109:1:_
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Entity=(4-event-giv:act-cf1*-1-ana)
@@ -1158,11 +1158,11 @@
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_esports_fortnite-42
-# addressee = Aud,Jack
 # s_prominence = 2
 # s_type = imp
-# speaker = Speaker1
 # transition = zero
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Use the hashtag #FortniteWorldCup get it trending just like yesterday.
 1	Use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=context-background:109->55:2:lex-indwd-790|PDTB=Implicit:Expansion.Conjunction:and:_:772-780:781-791
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(127-abstract-new-cf1-2-coref
@@ -1177,11 +1177,11 @@
 11	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_esports_fortnite-43
-# addressee = Aud,Jack
 # s_prominence = 3
 # s_type = decl
-# speaker = Speaker1
 # transition = null
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Well, I've said the millions of people watching online, Psalm was our player as well near the top of the leaderboards.
 1	Well	well	INTJ	UH	_	5	discourse	5:discourse	Discourse=attribution-positive:111->113:0:sem-atsrc-794+lex-indwd-796|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
@@ -1211,16 +1211,16 @@
 25	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GENTLE_esports_fortnite-44
-# addressee = Aud,Jack
 # s_prominence = 2
 # s_type = wh
-# speaker = Speaker1
 # transition = establishment
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = What could he do in this last game?
-1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	CxnElt=WHWord|Discourse=evaluation-comment:114->55:3:_|PDTB=EntRel:EntRel:_:_:792-816:817-825
+1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=evaluation-comment:114->55:3:_|PDTB=EntRel:EntRel:_:_:792-816:817-825
 2	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(20-person-giv:act-cf1*-1-ana)
-4	do	do	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=Clause
+4	do	do	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause
 5	in	in	ADP	IN	_	8	case	8:case	_
 6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Entity=(4-event-giv:inact-cf2-3-coref
 7	last	last	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
@@ -1228,11 +1228,11 @@
 9	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_esports_fortnite-45
-# addressee = Aud,Jack
 # s_prominence = 3
 # s_type = sub
-# speaker = Speaker1
 # transition = continue
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Could he make the trek to try to catch up to Bugha who was 15 points, 15 points ahead, in first.
 1	Could	could	AUX	MD	VerbForm=Fin	3	aux	3:aux	Discourse=elaboration-additional:115->114:0:ref-prs-819,827|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:817-825:826-849
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(20-person-giv:act-cf1*-1-ana)
@@ -1260,11 +1260,11 @@
 24	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-46
-# addressee = Aud,Jack
 # s_prominence = 1
 # s_type = decl
-# speaker = Speaker1
 # transition = zero
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Pika one v. one and angled down through a handful of edits here at Megamall is gonna push around the side and try and make his way inside mall itself.
 1	Pika	Pika	PROPN	NNP	Number=Sing	17	nsubj:outer	17:nsubj:outer|19:nsubj:xsubj|24:nsubj:xsubj	Discourse=joint-sequence_m:118->55:4:_|Entity=(133-person-new-cf1-1-coref)
 2	one	one	NUM	CD	NumForm=Word|NumType=Card	1	appos	1:appos	Entity=(133-person-giv:act-cf1-1-appos)
@@ -1292,20 +1292,20 @@
 23	and	and	CCONJ	CC	_	24	cc	24:cc	Discourse=joint-sequence_m:121->118:2:dm-and-872|PDTB=Explicit:Expansion.Conjunction:and:872:850-871:873-881;Implicit:Temporal.Asynchronous.Precedence:then:_:850-871:872-881
 24	try	try	VERB	VB	VerbForm=Inf	19	conj	17:xcomp|19:conj:and	_
 25	and	and	CCONJ	CC	_	26	cc	26:cc	_
-26	make	make	VERB	VB	VerbForm=Inf	24	conj	19:conj|24:conj:and	Cxn=Way|CxnElt=WayV
-27	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	CxnElt=WayPoss|Entity=(133-person-giv:act-cf1-1-ana)
-28	way	way	NOUN	NN	Number=Sing	26	obj	26:obj	CxnElt=WayWay
+26	make	make	VERB	VB	VerbForm=Inf	24	conj	19:conj|24:conj:and	Cxn=Way|CxnElt=26:Way.V
+27	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	CxnElt=26:Way.Poss|Entity=(133-person-giv:act-cf1-1-ana)
+28	way	way	NOUN	NN	Number=Sing	26	obj	26:obj	CxnElt=26:Way.Way
 29	inside	inside	ADP	IN	_	30	case	30:case	MSeg=in-side
 30	mall	mall	NOUN	NN	Number=Sing	26	obl	26:obl:inside	Entity=(136-place-giv:act-cf2-1-coref
 31	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	30	nmod:unmarked	30:nmod:unmarked	Entity=136)|MSeg=it-self|SpaceAfter=No
 32	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GENTLE_esports_fortnite-47
-# addressee = Aud,Jack
 # s_prominence = 2
 # s_type = decl
-# speaker = Speaker1
 # transition = establishment
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Pika earned 12 of his total points in just the last match and I think that says a lot about what is possible.
 1	Pika	Pika	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=context-background:122->118:3:sem-rpt-850,882|Entity=(133-person-giv:act-cf2*-1-coref)|PDTB=Implicit:Expansion.Conjunction:in fact:_:850-881:882-905
 2	earned	earn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Entity=(138-event-new-cf1-1-disc|MSeg=earn-ed
@@ -1333,11 +1333,11 @@
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_esports_fortnite-48
-# addressee = Aud,Jack
 # s_prominence = 1
 # s_type = decl
-# speaker = Speaker1
 # transition = continue
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = In 11th place when we rolled into this game Pika trying to find a way inside, pushing down through the outside.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=joint-sequence_m:125->118:4:_
 2	11th	11th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	3	amod	3:amod	Entity=(141-abstract-new-cf6-2-sgl
@@ -1364,11 +1364,11 @@
 23	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GENTLE_esports_fortnite-49
-# addressee = Aud,Jack
 # s_prominence = 1
 # s_type = multiple
-# speaker = Speaker1
 # transition = zero
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Does in fact get the wall replace, are you kidding me?
 1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	Discourse=joint-sequence_m:129->118:4:_|MSeg=Doe-s|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:906-928:929-941
 2	in	in	ADP	IN	_	3	case	3:case	_
@@ -1385,11 +1385,11 @@
 13	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_esports_fortnite-50
-# addressee = Aud,Jack
 # s_prominence = 2
 # s_type = other
-# speaker = Speaker1
 # transition = establishment
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Used the shockwave to get down the wall.
 1	Used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=mode-manner:131->129:1:_|Entity=(147-event-new-cf3-1-disc|MSeg=Us-ed|PDTB=NoRel:NoRel:_:_:929-941:942-950
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(148-object-new-cf2-2-sgl
@@ -1402,11 +1402,11 @@
 9	.	.	PUNCT	.	_	1	punct	1:punct	Entity=147)
 
 # sent_id = GENTLE_esports_fortnite-51
-# addressee = Aud,Jack
 # s_prominence = 3
 # s_type = decl
-# speaker = Speaker1
 # transition = continue
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = The player inside was smacking out of it.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=context-circumstance:133->131:1:_|Entity=(134-person-giv:inact-cf2-2-coref|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:942-950:951-959
 2	player	player	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	MSeg=play-er
@@ -1419,11 +1419,11 @@
 9	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GENTLE_esports_fortnite-52
-# addressee = Aud,Jack
 # s_prominence = 2
 # s_type = decl
-# speaker = Speaker1
 # transition = zero
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = He, that's unbelievable.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	reparandum	5:reparandum	Discourse=evaluation-comment:134->129:2:lex-indwd-964|Entity=(133-person-giv:inact-cf2-1-ana)|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
@@ -1434,11 +1434,11 @@
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GENTLE_esports_fortnite-53
-# addressee = Aud,Jack
 # s_prominence = 2
 # s_type = decl
-# speaker = Speaker1
 # transition = establishment
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = He called the bluff, he called the bluff.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-list_m:135->134:0:_|Entity=(133-person-giv:act-cf1*-1-ana)|PDTB=Implicit:Expansion.Conjunction:indeed:_:960-965:966-975
 2	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=call-ed
@@ -1452,11 +1452,11 @@
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_esports_fortnite-54
-# addressee = Aud,Jack
 # s_prominence = 3
 # s_type = decl
-# speaker = Speaker1
 # transition = zero
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = The guy was trying to break the wall to secure for his own.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=context-circumstance:137->140:2:_|Entity=(134-person-giv:inact-cf1-2-coref
 2	guy	guy	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|6:nsubj:xsubj	Entity=134)
@@ -1474,11 +1474,11 @@
 14	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_esports_fortnite-55
-# addressee = Aud,Jack
 # s_prominence = 2
 # s_type = decl
-# speaker = Speaker1
 # transition = establishment
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Pika was like "okay, break the wall for me, I'll just replace it with my own."
 1	Pika	Pika	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution-positive:139->140:1:sem-atsrc-990+lex-indwd-991+lex-indwd-992+grf-qt-993,1011|Entity=(133-person-giv:inact-cf1-1-coref)|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:976-989:990-1011
 2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -1505,11 +1505,11 @@
 22	"	''	PUNCT	''	_	7	punct	7:punct	XML=</quote>
 
 # sent_id = GENTLE_esports_fortnite-56
-# addressee = Aud,Jack
 # s_prominence = 3
 # s_type = decl
-# speaker = Speaker1
 # transition = smooth-shift
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = He does just that.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=causal-result:142->140:3:_|Entity=(133-person-giv:act-cf1*-1-ana)
 2	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=doe-s
@@ -1518,11 +1518,11 @@
 5	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_esports_fortnite-57
-# addressee = Aud,Jack
 # s_prominence = 1
 # s_type = decl
-# speaker = Speaker1
 # transition = continue
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Pika, full HP, two slurp juices, 6 minis, a very good assault for the shotgun but looks like the aggression doesn't end here.
 1	Pika	Pika	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-sequence_m:143->118:4:_|Entity=(133-person-giv:act-cf1*-1-coref)|SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -1556,11 +1556,11 @@
 29	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_esports_fortnite-58
-# addressee = Aud,Jack
 # s_prominence = 2
 # s_type = decl
-# speaker = Speaker1
 # transition = continue
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = He can just continue to play these box fights by using the shockwave to try to chomp down this opponent again.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Discourse=evaluation-comment:146->143:1:_|Entity=(133-person-giv:act-cf1*-1-ana)
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
@@ -1586,11 +1586,11 @@
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_esports_fortnite-59
-# addressee = Aud,Jack
 # s_prominence = 2
 # s_type = decl
-# speaker = Speaker1
 # transition = rough-shift
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Said it once, it surprised you to use that same tactic you've seen.
 1	Said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Discourse=attribution-positive:149->150:1:sem-atsrc-895+lex-indwd-1068
 2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	1:obj	Entity=(162-abstract-acc:com-cf3-1-sgl)
@@ -1610,15 +1610,15 @@
 15	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	12:acl:relcl	Entity=159)|MSeg=see-n|SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	1:punct	_
 
-# sent_id = GENTLE_esports_fortnite-60
-# addressee = Aud,Speaker1
-# s_prominence = 3
-# s_type = frag
-# speaker = Jack
-# transition = zero
-# text = At this point, 100 HP, 100 shield.
 # newpar
 # newpar_block = sp who:::"#Jack" whom:::"#Aud,#Speaker1" (4 s)
+# sent_id = GENTLE_esports_fortnite-60
+# s_prominence = 3
+# s_type = frag
+# transition = zero
+# speaker = Jack
+# addressee = Aud,Speaker1
+# text = At this point, 100 HP, 100 shield.
 1	At	at	ADP	IN	_	3	case	3:case	Discourse=context-circumstance:152->153:1:_
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(163-time-acc:com-cf2-2-sgl
 3	point	point	NOUN	NN	Number=Sing	6	obl	6:obl:at	Entity=163)|SpaceAfter=No
@@ -1631,11 +1631,11 @@
 10	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GENTLE_esports_fortnite-61
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = decl
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = I do not blame him for being aggressive here, knowing that players may be a little sparse in terms of loot.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=adversative-contrast_m:153->150:2:_|Entity=(11-person-giv:inact-cf1-1-ana)
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
@@ -1662,11 +1662,11 @@
 23	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_esports_fortnite-62
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = decl
-# speaker = Jack
 # transition = establishment
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = He's trying to track Kinstaar on the outside rotating around the edge of Megamall.
 1-2	He's	_	_	_	_	_	_	_	_
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=joint-sequence_m:156->118:4:_|Entity=(133-person-giv:act-cf1*-1-ana)
@@ -1687,11 +1687,11 @@
 16	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-63
-# addressee = Aud,Speaker1
 # s_prominence = 1
 # s_type = decl
-# speaker = Jack
 # transition = zero
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = These two players gonna end up on top of each other before you know it, oh my gosh, floor loot.
 1	These	this	DET	DT	Number=Plur|PronType=Dem	3	det	3:det	Discourse=evaluation-comment:158->156:1:lex-indwd-1141|Entity=(169-person-acc:aggr-cf1-3-coref|PDTB=Implicit:Expansion.Conjunction:in fact:_:1117-1132:1133-1156|SplitAnte=133<169,167<169
 2	two	two	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
@@ -1719,42 +1719,42 @@
 23	loot	loot	NOUN	NN	Number=Sing	4	parataxis	4:parataxis	Entity=170)|SpaceAfter=No
 24	.	.	PUNCT	.	_	4	punct	4:punct	_
 
-# sent_id = GENTLE_esports_fortnite-64
-# addressee = Aud,Jack
-# s_prominence = 2
-# s_type = intj
-# speaker = Speaker1
-# transition = null
-# text = Okay.
 # newpar
 # newpar_block = sp who:::"#Speaker1" whom:::"#Aud,#Jack" (1 s)
+# sent_id = GENTLE_esports_fortnite-64
+# s_prominence = 2
+# s_type = intj
+# transition = null
+# speaker = Speaker1
+# addressee = Aud,Jack
+# text = Okay.
 1	Okay	okay	INTJ	UH	_	0	root	0:root	Discourse=organization-phatic:161->160:0:lex-indwd-1157|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
-# sent_id = GENTLE_esports_fortnite-65
-# addressee = Aud,Speaker1
-# s_prominence = 2
-# s_type = frag
-# speaker = Jack
-# transition = null
-# text = A heavy sniper rifle.
 # newpar
 # newpar_block = sp who:::"#Jack" whom:::"#Aud,#Speaker1" (1 s)
+# sent_id = GENTLE_esports_fortnite-65
+# s_prominence = 2
+# s_type = frag
+# transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
+# text = A heavy sniper rifle.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Discourse=elaboration-additional:162->160:1:_|Entity=(172-object-new-cf1-4-coref
 2	heavy	heavy	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=heav-y
 3	sniper	sniper	NOUN	NN	Number=Sing	4	compound	4:compound	_
 4	rifle	rifle	NOUN	NN	Number=Sing	0	root	0:root	Entity=172)|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
-# sent_id = GENTLE_esports_fortnite-66
-# addressee = Aud,Jack
-# s_prominence = 2
-# s_type = decl
-# speaker = Speaker1
-# transition = establishment
-# text = That's end of another slurp.
 # newpar
 # newpar_block = sp who:::"#Speaker1" whom:::"#Aud,#Jack" (2 s)
+# sent_id = GENTLE_esports_fortnite-66
+# s_prominence = 2
+# s_type = decl
+# transition = establishment
+# speaker = Speaker1
+# addressee = Aud,Jack
+# text = That's end of another slurp.
 1-2	That's	_	_	_	_	_	_	_	_
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=joint-list_m:163->162:0:_|Entity=(172-object-giv:act-cf1*-1-ana)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
@@ -1765,24 +1765,24 @@
 7	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-67
-# addressee = Aud,Jack
 # s_prominence = 3
 # s_type = intj
-# speaker = Speaker1
 # transition = zero
+# speaker = Speaker1
+# addressee = Aud,Jack
 # text = Okay.
 1	Okay	okay	INTJ	UH	_	0	root	0:root	Discourse=organization-phatic:164->162:1:lex-indwd-1171|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
-# sent_id = GENTLE_esports_fortnite-68
-# addressee = Aud,Speaker1
-# s_prominence = 1
-# s_type = decl
-# speaker = Jack
-# transition = zero
-# text = He's looking for it.
 # newpar
 # newpar_block = sp who:::"#Jack" whom:::"#Aud,#Speaker1" (2 s)
+# sent_id = GENTLE_esports_fortnite-68
+# s_prominence = 1
+# s_type = decl
+# transition = zero
+# speaker = Jack
+# addressee = Aud,Speaker1
+# text = He's looking for it.
 1-2	He's	_	_	_	_	_	_	_	_
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-sequence_m:165->118:4:_|Entity=(133-person-giv:inact-cf1-1-ana)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
@@ -1792,11 +1792,11 @@
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-69
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = imp
-# speaker = Jack
 # transition = establishment
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = See him watching, waiting.
 1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:166->167:1:sem-atsrc-1179+lex-indwd-1179|PDTB=Implicit:Contingency.Cause.Result:so:_:1173-1178:1179-1184
 2	him	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	Discourse=explanation-evidence:167->165:0:_|Entity=(133-person-giv:act-cf1*-1-ana)
@@ -1805,15 +1805,15 @@
 5	waiting	wait	VERB	VBG	VerbForm=Ger	3	conj	1:ccomp|3:conj	Discourse=joint-list_m:168->167:0:sem-lxchn-1181,1183|MSeg=wait-ing|PDTB=Implicit:Expansion.Conjunction:and:_:1180-1182:1183-1184|SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
-# sent_id = GENTLE_esports_fortnite-70
-# addressee = Aud,Speaker1
-# s_prominence = 1
-# s_type = other
-# speaker = Jack
-# transition = zero
-# text = Does use those audio cues to try and track down the opponent underneath opts to back out of the fight for just a second.
 # newpar
 # newpar_block = sp who:::"#Jack" whom:::"#Aud,#Speaker1" (2 s)
+# sent_id = GENTLE_esports_fortnite-70
+# s_prominence = 1
+# s_type = other
+# transition = zero
+# speaker = Jack
+# addressee = Aud,Speaker1
+# text = Does use those audio cues to try and track down the opponent underneath opts to back out of the fight for just a second.
 1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	2:aux	Discourse=mode-means:169->165:1:_|MSeg=Doe-s
 2	use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	those	this	DET	DT	Number=Plur|PronType=Dem	5	det	5:det	Entity=(176-abstract-new-cf2-3-sgl
@@ -1841,11 +1841,11 @@
 25	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_esports_fortnite-71
-# addressee = Aud,Speaker1
 # s_prominence = 2
 # s_type = inf
-# speaker = Jack
 # transition = null
+# speaker = Jack
+# addressee = Aud,Speaker1
 # text = Get a different angle because awareness inside Megamall is insane knowing exactly where his opponents are and exactly when to push.
 1	Get	get	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Discourse=purpose-goal:172->171:0:syn-inf-1229|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:1185-1209:1210-1231
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(180-abstract-new-cf5-3-sgl

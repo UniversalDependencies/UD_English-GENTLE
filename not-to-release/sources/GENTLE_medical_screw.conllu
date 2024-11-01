@@ -10,23 +10,23 @@
 # meta::speakerCount = 0
 # meta::summary = A 59-year-old man's followup 4 months post percutaneous screw fixation of a right Schatzker IV tibial plateau fracture and 2nd-5th metatarsal head fractures shows good pain control and incision and fracture healing, but decreased foot sensation (L4-L5 distribution bilaterally) and bridging callus, recommending physical therapy and neurologist/surgeon if paresthesias worsen.
 # meta::title = Followup Screw Fixation
+# newpar
+# newpar_block = head rend:::"bold red" (1 s)
 # sent_id = GENTLE_medical_screw-1
 # s_prominence = 3
 # s_type = frag
 # transition = establishment
 # text = Description:
-# newpar
-# newpar_block = head rend:::"bold red" (1 s)
 1	Description	description	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->2:1:grf-ly-|Entity=(1-abstract-new-cf1-1-sgl)|MSeg=Descrip-tion|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_medical_screw-2
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Followup 4 months status post percutaneous screw fixation of a right Schatzker IV tibial plateau fracture and second through fifth metatarsal head fractures treated nonoperatively.
-# newpar
-# newpar_block = p (1 s)
 1	Followup	followup	NOUN	NN	Number=Sing	4	nmod	4:nmod	Discourse=organization-preparation:2->5:3:sem-lxchn-3,33+sem-rpt-4-18,34-48+sem-rpt-4-5,34-35+sem-rpt-8-18,38-48+sem-rpt-8-9,38-39+sem-rpt-12-18,42-48+sem-rpt-14-15,44-45+sem-rpt-20-25,50-55+sem-rpt-22-24,52-54+sem-lxchn-26,56+sem-lxchn-27,57
 2	4	4	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Entity=(2-event-new-cf1-3-coref(3-time-new-cf2-2-coref
 3	months	month	NOUN	NNS	Number=Plur	4	nmod:unmarked	4:nmod:unmarked	Entity=3)|MSeg=mon-th-s
@@ -54,25 +54,25 @@
 25	nonoperatively	nonoperatively	ADV	RB	Degree=Pos	24	advmod	24:advmod	MSeg=non-operat-ive-ly|SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_screw-3
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = REASON FOR VISIT:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	REASON	reason	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:4->5:1:grf-ly-|Entity=(10-abstract-new-cf1-1-sgl
 2	FOR	for	ADP	IN	_	3	case	3:case	_
 3	VISIT	visit	NOUN	NN	Number=Sing	1	nmod	1:nmod:for	Entity=10)|SpaceAfter=No
 4	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_medical_screw-4
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Followup 4 months status post percutaneous screw fixation of a right Schatzker IV tibial plateau fracture and second through fifth metatarsal head fractures treated nonoperatively.
-# newpar
-# newpar_block = p (1 s)
 1	Followup	followup	NOUN	NN	Number=Sing	4	dep	4:dep	Discourse=ROOT:5:0
 2	4	4	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Entity=(2-event-giv:inact-cf1-3-coref(3-time-giv:inact-cf2-2-coref
 3	months	month	NOUN	NNS	Number=Plur	4	nmod:unmarked	4:nmod:unmarked	Entity=3)|MSeg=mon-th-s
@@ -100,26 +100,26 @@
 25	nonoperatively	nonoperatively	ADV	RB	Degree=Pos	24	advmod	24:advmod	MSeg=non-operat-ive-ly|SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_screw-5
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = HISTORY OF PRESENT ILLNESS:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	HISTORY	history	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:7->8:2:grf-ly-|Entity=(11-abstract-new-cf1-1-sgl
 2	OF	of	ADP	IN	_	4	case	4:case	_
 3	PRESENT	present	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(12-abstract-new-cf2-2-sgl
 4	ILLNESS	illness	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=12)11)|SpaceAfter=No
 5	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (6 s)
 # sent_id = GENTLE_medical_screw-6
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = The patient is a 59-year-old gentleman who is now approximately 4 months status post percutaneous screw fixation of Schatzker IV tibial plateau fracture and nonoperative management of second through fifth metatarsal head fractures.
-# newpar
-# newpar_block = p (6 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-other_m:8->5:2:_|Entity=(13-person-new-cf1-2-coref
 2	patient	patient	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=13)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
@@ -254,23 +254,23 @@
 21	neuropathy	neuropathy	NOUN	NN	Number=Sing	17	nmod	17:nmod:with	Entity=30)29)28)|MSeg=neuro-path-y|SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_screw-12
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = FINDINGS:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	FINDINGS	finding	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:18->19:1:grf-ly-|Entity=(31-abstract-new-cf1-1-sgl)|MSeg=FINDING-S|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (7 s)
 # sent_id = GENTLE_medical_screw-13
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = On physical exam, his incision is near well healed.
-# newpar
-# newpar_block = p (7 s)
 1	On	on	ADP	IN	_	3	case	3:case	Discourse=joint-other_m:19->5:2:_
 2	physical	physical	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(32-event-new-cf3-2-sgl|MSeg=physic-al
 3	exam	exam	NOUN	NN	Number=Sing	10	obl	10:obl:on	Entity=32)|SpaceAfter=No
@@ -398,13 +398,13 @@
 18	bilaterally	bilaterally	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=bi-lateral-ly|SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GENTLE_medical_screw-20
 # s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = X-rays taken including AP and lateral of the right knee demonstrate a healed medial tibial plateau fracture status post percutaneous screw fixation.
-# newpar
-# newpar_block = p (4 s)
 1	X	X	NOUN	NN	Number=Sing	3	compound	3:compound	Discourse=joint-list_m:27->20:1:_|Entity=(52-abstract-new-cf3-3-sgl|SpaceAfter=No|XML=<w>
 2	-	-	PUNCT	HYPH	_	1	punct	1:punct	SpaceAfter=No
 3	rays	ray	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj	MSeg=ray-s|XML=</w>
@@ -495,23 +495,23 @@
 22	film	film	NOUN	NN	Number=Sing	18	nmod	18:nmod:on	Entity=64)63)|SpaceAfter=No
 23	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_screw-24
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = ASSESSMENT:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	ASSESSMENT	assessment	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:34->35:0:grf-ly-|Entity=(65-abstract-new-cf1-1-sgl)|MSeg=ASSESS-MENT|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_medical_screw-25
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Four months status post percutaneous screw fixation of the right medial tibial plateau and second through fifth metatarsal head fractures.
-# newpar
-# newpar_block = p (1 s)
 1	Four	four	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=joint-other_m:35->5:2:_|Entity=(3-time-giv:inact-cf2-2-coref
 2	months	month	NOUN	NNS	Number=Plur	3	nmod	3:nmod	Entity=3)|MSeg=mon-th-s
 3	status	status	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -534,23 +534,23 @@
 20	fractures	fracture	NOUN	NNS	Number=Plur	13	conj	7:nmod:of|13:conj:and	Entity=8)|MSeg=fract-ure-s|SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_screw-26
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = PLANS:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	PLANS	plan	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:36->37:2:grf-ly-|Entity=(66-abstract-new-cf1-1-sgl)|MSeg=PLAN-S|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GENTLE_medical_screw-27
 # s_prominence = 1
 # s_type = sub
 # transition = null
 # text = I would like the patient to continue working with physical therapy.
-# newpar
-# newpar_block = p (4 s)
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-other_m:37->5:2:_|Entity=(67-person-acc:com-cf3-1-ana)
 2	would	would	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	like	like	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -630,13 +630,13 @@
 11	strengthening	strengthening	NOUN	NN	Number=Sing	9	conj	7:obl:on|9:conj:and	Entity=(74-event-new-cf4-1-sgl)|MSeg=streng-th-en-ing|SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GENTLE_medical_screw-31
 # s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = I discussed with the patient his concerning symptoms of paresthesias.
-# newpar
-# newpar_block = p (5 s)
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-list_m:44->37:1:_|Entity=(67-person-giv:act-cf1*-1-ana)
 2	discussed	discuss	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=discuss-ed
 3	with	with	ADP	IN	_	5	case	5:case	_
@@ -726,12 +726,12 @@
 # transition = retain
 # text = I told him that I would see his neurologist for evaluation or possibly a spinal surgeon if his symptoms progress.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:52->53:1:sem-atsrc-479+lex-indwd-480+syn-rpr-482-484,487,489,494-495,498|Entity=(67-person-giv:inact-cf1-1-ana)|PDTB=Implicit:Expansion.Conjunction:and:_:467-478:479-499
-2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=DitrV|MSeg=tol-d
-3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	2:iobj	CxnElt=DitrRec|Entity=(13-person-giv:act-cf2*-1-ana)
+2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=2:Ditransitive.V|MSeg=tol-d
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	2:iobj	CxnElt=2:Ditransitive.Rec|Entity=(13-person-giv:act-cf2*-1-ana)
 4	that	that	SCONJ	IN	_	7	mark	7:mark	Discourse=joint-list_m:53->46:2:_
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(67-person-giv:act-cf1-1-ana)
 6	would	would	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
-7	see	see	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis,DitrTheme
+7	see	see	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=2:Ditransitive.Theme,7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(78-person-giv:inact-cf4-2-coref(13-person-giv:act-cf2*-1-ana)
 9	neurologist	neurologist	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=78)|MSeg=neuro-log-ist
 10	for	for	ADP	IN	_	11	case	11:case	_
@@ -744,16 +744,16 @@
 17	if	if	SCONJ	IN	_	20	mark	20:mark	Discourse=contingency-condition:54->53:0:mrf-md-484+dm-if-495|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:495:482-494:496-499
 18	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(81-abstract-giv:act-cf3-2-coref(13-person-giv:act-cf2*-1-ana)
 19	symptoms	symptom	NOUN	NNS	Number=Plur	20	nsubj	20:nsubj	Entity=81)|MSeg=symptom-s
-20	progress	progress	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:if	CxnElt=Protasis|SpaceAfter=No
+20	progress	progress	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:if	CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|SpaceAfter=No
 21	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_medical_screw-36
 # s_prominence = 1
 # s_type = sub
 # transition = continue
 # text = The patient should follow up in 2 months at which time he should have AP and lateral of the right knee and three views of the right foot.
-# newpar
-# newpar_block = p (1 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-list_m:55->37:1:sem-lxchn-396,527|Entity=(13-person-giv:act-cf1*-2-coref
 2	patient	patient	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=13)
 3	should	should	AUX	MD	VerbForm=Fin	4	aux	4:aux	_

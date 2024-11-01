@@ -10,22 +10,22 @@
 # meta::speakerCount = 0
 # meta::summary = This mathematical proof shows by induction that for any graph Gr of n vertices a proper vertex k-coloring can be assigned such that k≤5 colors, using the Minimum Degree Bound for Simple Planar Graph theorem, which states that Gr+1 has at least one vertex x with at most 5 edges, whose removal would yield a 5-colorable graph, allowing one of 5 colors for x in each condition.
 # meta::title = Five Color Theorem
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_proof_five-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = Proof
-# newpar
-# newpar_block = head (1 s)
 1	Proof	proof	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->7:7:grf-ly-|Entity=(1-abstract-new-cf1-1-coref)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_proof_five-2
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = The proof proceeds by the Principle of Mathematical Induction on the number of vertices.
-# newpar
-# newpar_block = p (1 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=context-background:2->7:6:_|Entity=(1-abstract-giv:act-cf1*-2-coref
 2	proof	proof	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=1)
 3	proceeds	proceed	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -42,13 +42,13 @@
 14	vertices	vertice	NOUN	NNS	Number=Plur	12	nmod	12:nmod:of	Entity=(5-abstract-new-cf5-1-sgl)4)2)|MSeg=vertice-s|SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Vertex_of_Graph"></ref>
 15	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_proof_five-3
 # s_prominence = 2
 # s_type = imp
 # transition = zero
 # text = For all n ∈ N>0, let P (n) be the proposition: Gn can be assigned a proper vertex k - coloring such that k ≤ 5.
-# newpar
-# newpar_block = p (1 s)
 1	For	for	ADP	IN	_	3	case	3:case	Discourse=organization-preparation:3->4:1:grf-col-31
 2	all	all	DET	DT	PronType=Ind	3	det	3:det	Entity=(6-abstract-new-cf7-2-coref
 3	n	n	NOUN	NN	Number=Sing	7	obl	7:obl:for	Entity=(7-abstract-new-cf3-1-coref)6)
@@ -64,16 +64,16 @@
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(10-abstract-giv:act-cf2-2-coref
 14	proposition	proposition	NOUN	NN	Number=Sing	7	xcomp	7:xcomp	Entity=10)|MSeg=propos-it-ion|SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Proposition"></ref>
 15	:	:	PUNCT	:	_	19	punct	19:punct	_
-16	Gn	Gn	NOUN	NN	Number=Sing	19	nsubj:pass	19:nsubj:pass	CxnElt=DitrRec|Discourse=context-background:4->7:5:_|Entity=(11-abstract-new-cf4-1-coref)
+16	Gn	Gn	NOUN	NN	Number=Sing	19	nsubj:pass	19:nsubj:pass	CxnElt=19:Ditransitive.Rec|Discourse=context-background:4->7:5:_|Entity=(11-abstract-new-cf4-1-coref)
 17	can	can	AUX	MD	VerbForm=Fin	19	aux	19:aux	_
 18	be	be	AUX	VB	VerbForm=Inf	19	aux:pass	19:aux:pass	_
-19	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	appos	14:appos	Cxn=Ditransitive|CxnElt=DitrV|MSeg=assign-ed
+19	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	appos	14:appos	Cxn=Ditransitive|CxnElt=19:Ditransitive.V|MSeg=assign-ed
 20	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	25:det	Entity=(12-abstract-new-cf5-6-coref(13-abstract-new-cf6-6-coref
 21	proper	proper	ADJ	JJ	Degree=Pos	25	amod	25:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Proper_Vertex_Coloring">
 22	vertex	vertex	NOUN	NN	Number=Sing	25	compound	25:compound	_
 23	k	k	NOUN	NN	Number=Sing	25	compound	25:compound	Entity=(14-abstract-new-cf1-1-coref)
 24	-	-	PUNCT	HYPH	_	23	punct	23:punct	_
-25	coloring	coloring	NOUN	NN	Number=Sing	19	obj	19:obj	CxnElt=DitrTheme|Entity=13)|MSeg=color-ing|XML=</ref>
+25	coloring	coloring	NOUN	NN	Number=Sing	19	obj	19:obj	CxnElt=19:Ditransitive.Theme|Entity=13)|MSeg=color-ing|XML=</ref>
 26	such	such	ADJ	JJ	_	29	mark	29:mark	Discourse=elaboration-attribute:5->4:0:syn-mdf-41+dm-such that-42-43+syn-nmn-45
 27	that	that	SCONJ	IN	_	26	fixed	26:fixed	_
 28	k	k	NOUN	NN	Number=Sing	29	nsubj	29:nsubj	Entity=(14-abstract-giv:act-cf1-1-coref)
@@ -81,25 +81,25 @@
 30	5	5	NUM	CD	NumForm=Digit|NumType=Card	29	obl:unmarked	29:obl:unmarked	Entity=15)12)|SpaceAfter=No
 31	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_proof_five-4
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Basis for the Induction
-# newpar
-# newpar_block = head (1 s)
 1	Basis	basis	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:6->7:2:grf-ly-+sem-synym-48-76|Entity=(16-abstract-new-cf2-1-coref
 2	for	for	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(17-abstract-new-cf1-2-coref
 4	Induction	induction	NOUN	NN	Number=Sing	1	nmod	1:nmod:for	Entity=17)16)|MSeg=Induct-ion
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_proof_five-5
 # s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = P (r) is trivially true for 1 ≤ r ≤ 5, as there are no more than 5 vertices to be colored.
-# newpar
-# newpar_block = p (1 s)
 1	P	P	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Discourse=ROOT:7:0|Entity=(16-abstract-giv:act-cf2*-7-disc(18-abstract-new-cf3-1-coref
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	SpaceAfter=No
 3	r	reter	NOUN	NN	Number=Sing	1	nmod:unmarked	1:nmod:unmarked	Entity=(19-abstract-new-cf1-1-coref)|SpaceAfter=No
@@ -121,19 +121,19 @@
 19	more	more	ADV	RBR	Degree=Cmp|ExtPos=ADV	21	advmod	21:advmod	_
 20	than	than	ADP	IN	_	19	fixed	19:fixed	_
 21	5	5	NUM	CD	NumForm=Digit|NumType=Card	22	nummod	22:nummod	_
-22	vertices	vertice	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	CxnElt=Pivot|Entity=22)|MSeg=vertice-s|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Vertex_of_Graph"></ref>
+22	vertices	vertice	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	CxnElt=17:Existential-CopPred-ThereExpl.Pivot|Entity=22)|MSeg=vertice-s|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Vertex_of_Graph"></ref>
 23	to	to	PART	TO	_	25	mark	25:mark	Discourse=elaboration-attribute:9->8:0:syn-mdf-73+syn-inf-74
 24	be	be	AUX	VB	VerbForm=Inf	25	aux:pass	25:aux:pass	_
 25	colored	color	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	acl	22:acl:to	Entity=16)|MSeg=color-ed|SpaceAfter=No
 26	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_proof_five-6
 # s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = This is our basis for the induction.
-# newpar
-# newpar_block = p (1 s)
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=evaluation-comment:10->7:1:_|Entity=(16-abstract-giv:act-cf1*-1-coref)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(16-abstract-giv:act-cf1*-2-coref(23-person-acc:com-cf3-1-ana)
@@ -143,23 +143,23 @@
 7	induction	induction	NOUN	NN	Number=Sing	4	nmod	4:nmod:for	Entity=17)16)|MSeg=induct-ion|SpaceAfter=No|XML=</ref>
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_proof_five-7
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = Induction Hypothesis
-# newpar
-# newpar_block = head (1 s)
 1	Induction	induction	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=organization-heading:11->18:4:grf-ly-+ref-dem-86-87,123+sem-lxchn-86,126+sem-lxchn-87,127|Entity=(24-abstract-new-cf1-2-coref|MSeg=Induct-ion
 2	Hypothesis	hypothesis	NOUN	NN	Number=Sing	0	root	0:root	Entity=24)|MSeg=Hypothes-is
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_proof_five-8
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = Now we need to show that, if P (r) is true, where r ≥ 5, then it logically follows that P (r + 1) is true.
-# newpar
-# newpar_block = p (1 s)
 1	Now	now	ADV	RB	_	3	advmod	3:advmod	Discourse=attribution-positive:12->13:1:sem-atsrc-89+lex-indwd-92+syn-rpr-93,95,112
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(23-person-giv:inact-cf2-1-ana)
 3	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -173,7 +173,7 @@
 11	r	reter	NOUN	NN	Number=Sing	9	nmod:unmarked	9:nmod:unmarked	Entity=(19-abstract-giv:inact-cf1-1-coref)|SpaceAfter=No
 12	)	)	PUNCT	-RRB-	_	11	punct	11:punct	Entity=18)
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
-14	true	true	ADJ	JJ	Degree=Pos	24	advcl	18:obl|24:advcl:if	CxnElt=Protasis|SpaceAfter=No
+14	true	true	ADJ	JJ	Degree=Pos	24	advcl	18:obl|24:advcl:if	CxnElt=24:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|SpaceAfter=No
 15	,	,	PUNCT	,	_	18	punct	18:punct	_
 16	where	where	ADV	WRB	PronType=Rel	18	advmod	14:ref|18:advmod	Discourse=context-circumstance:15->14:0:dm-where-103|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:where:103:95-102:104-107
 17	r	reter	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=(19-abstract-giv:act-cf1-1-coref)
@@ -183,7 +183,7 @@
 21	then	then	ADV	RB	PronType=Dem	24	advmod	24:advmod	Discourse=same-unit_m:16->13:0:_
 22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	24:expl	Entity=(25-abstract-new-cf5-1-sgl)
 23	logically	logically	ADV	RB	Degree=Pos	24	advmod	24:advmod	MSeg=log-ic-al-ly
-24	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|MSeg=follow-s
+24	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=24:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=follow-s
 25	that	that	SCONJ	IN	_	33	mark	33:mark	_
 26	P	P	NOUN	NN	Number=Sing	33	nsubj	33:nsubj	Entity=(26-abstract-new-cf6-1-coref
 27	(	(	PUNCT	-LRB-	_	28	punct	28:punct	SpaceAfter=No
@@ -195,13 +195,13 @@
 33	true	true	ADJ	JJ	Degree=Pos	24	csubj	24:csubj	SpaceAfter=No
 34	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_proof_five-9
 # s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = So this is our induction hypothesis: Gr can be assigned a proper vertex k - coloring such that k ≤ 5.
-# newpar
-# newpar_block = p (1 s)
 1	So	so	ADV	RB	_	6	advmod	6:advmod	Discourse=organization-preparation:17->18:1:sem-synym-123,129-143+grf-col-128|PDTB=Explicit:Contingency.Cause.Result:so:122:88-121:123-144
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Entity=(24-abstract-giv:inact-cf3-1-ana)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
@@ -209,16 +209,16 @@
 5	induction	induction	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=17)|MSeg=induct-ion|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Induction_Hypothesis">
 6	hypothesis	hypothesis	NOUN	NN	Number=Sing	0	root	0:root	Entity=24)|MSeg=hypothes-is|SpaceAfter=No|XML=</ref>
 7	:	:	PUNCT	:	_	11	punct	11:punct	_
-8	Gr	Gr	NOUN	NN	Number=Sing	11	nsubj:pass	11:nsubj:pass	CxnElt=DitrRec|Discourse=joint-list_m:18->7:3:_;causal-result:18->13:3:2:orp-so-122|Entity=(24-abstract-giv:act-cf3-4-disc(28-abstract-new-cf6-1-sgl)
+8	Gr	Gr	NOUN	NN	Number=Sing	11	nsubj:pass	11:nsubj:pass	CxnElt=11:Ditransitive.Rec|Discourse=joint-list_m:18->7:3:_;causal-result:18->13:3:2:orp-so-122|Entity=(24-abstract-giv:act-cf3-4-disc(28-abstract-new-cf6-1-sgl)
 9	can	can	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
 10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	11:aux:pass	_
-11	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	parataxis	6:parataxis	Cxn=Ditransitive|CxnElt=DitrV|MSeg=assign-ed
+11	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	parataxis	6:parataxis	Cxn=Ditransitive|CxnElt=11:Ditransitive.V|MSeg=assign-ed
 12	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(29-abstract-new-cf7-6-sgl(30-abstract-new-cf8-6-sgl
 13	proper	proper	ADJ	JJ	Degree=Pos	17	amod	17:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Proper_Vertex_Coloring">
 14	vertex	vertex	NOUN	NN	Number=Sing	17	compound	17:compound	_
 15	k	k	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=(14-abstract-giv:inact-cf2-1-coref)
 16	-	-	PUNCT	HYPH	_	15	punct	15:punct	_
-17	coloring	coloring	NOUN	NN	Number=Sing	11	obj	11:obj	CxnElt=DitrTheme|Entity=30)|MSeg=color-ing|XML=</ref>
+17	coloring	coloring	NOUN	NN	Number=Sing	11	obj	11:obj	CxnElt=11:Ditransitive.Theme|Entity=30)|MSeg=color-ing|XML=</ref>
 18	such	such	ADJ	JJ	_	21	mark	21:mark	Discourse=elaboration-attribute:19->18:0:syn-mdf-138+dm-such that-139-140+syn-nmn-142
 19	that	that	SCONJ	IN	_	18	fixed	18:fixed	_
 20	k	k	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	Entity=(14-abstract-giv:act-cf2-1-coref)
@@ -226,29 +226,29 @@
 22	5	5	NUM	CD	NumForm=Digit|NumType=Card	21	obl:unmarked	21:obl:unmarked	Entity=15)29)24)|SpaceAfter=No
 23	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_proof_five-10
 # s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = Then we need to show: Gr+1 can be assigned a proper vertex k - coloring such that k ≤ 5.
-# newpar
-# newpar_block = p (1 s)
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=attribution-positive:20->21:1:sem-atsrc-146+lex-indwd-149+syn-rpr-162|PDTB=Explicit:Temporal.Asynchronous.Precedence:then:145:122-144:146-166
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(23-person-giv:act-cf1*-1-ana)
 3	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	show	show	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	SpaceAfter=No
 6	:	:	PUNCT	:	_	10	punct	10:punct	_
-7	Gr+1	Gr+1	NOUN	NN	Number=Sing	10	nsubj:pass	10:nsubj:pass	CxnElt=DitrRec|Discourse=joint-sequence_m:21->18:2:dm-then-145|Entity=(31-abstract-new-cf4-1-coref)
+7	Gr+1	Gr+1	NOUN	NN	Number=Sing	10	nsubj:pass	10:nsubj:pass	CxnElt=10:Ditransitive.Rec|Discourse=joint-sequence_m:21->18:2:dm-then-145|Entity=(31-abstract-new-cf4-1-coref)
 8	can	can	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
 9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	10:aux:pass	_
-10	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	5:ccomp	Cxn=Ditransitive|CxnElt=DitrV|MSeg=assign-ed
+10	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	5:ccomp	Cxn=Ditransitive|CxnElt=10:Ditransitive.V|MSeg=assign-ed
 11	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(32-abstract-new-cf5-6-sgl(33-abstract-new-cf6-6-sgl
 12	proper	proper	ADJ	JJ	Degree=Pos	16	amod	16:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Proper_Vertex_Coloring">
 13	vertex	vertex	NOUN	NN	Number=Sing	16	compound	16:compound	_
 14	k	k	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(14-abstract-giv:act-cf2-1-coref)
 15	-	-	PUNCT	HYPH	_	14	punct	14:punct	_
-16	coloring	coloring	NOUN	NN	Number=Sing	10	obj	10:obj	CxnElt=DitrTheme|Entity=33)|MSeg=color-ing|XML=</ref>
+16	coloring	coloring	NOUN	NN	Number=Sing	10	obj	10:obj	CxnElt=10:Ditransitive.Theme|Entity=33)|MSeg=color-ing|XML=</ref>
 17	such	such	ADJ	JJ	_	20	mark	20:mark	Discourse=elaboration-attribute:22->21:0:syn-mdf-160+dm-such that-161-162+syn-nmn-164
 18	that	that	SCONJ	IN	_	17	fixed	17:fixed	_
 19	k	k	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=(14-abstract-giv:act-cf2-1-coref)
@@ -256,23 +256,23 @@
 21	5	5	NUM	CD	NumForm=Digit|NumType=Card	20	obl:unmarked	20:obl:unmarked	Entity=15)32)|SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_proof_five-11
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = Induction Step
-# newpar
-# newpar_block = head (1 s)
 1	Induction	induction	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=organization-heading:23->75:3:grf-ly-|Entity=(34-abstract-new-cf1-2-coref|MSeg=Induct-ion
 2	Step	step	NOUN	NN	Number=Sing	0	root	0:root	Entity=34)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_proof_five-12
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = This is our induction step:
-# newpar
-# newpar_block = p (1 s)
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=organization-preparation:24->75:2:grf-col-174|Entity=(34-abstract-giv:act-cf1*-1-ana)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(34-abstract-giv:act-cf1*-3-coref(23-person-giv:inact-cf2-1-ana)
@@ -280,13 +280,13 @@
 5	step	step	NOUN	NN	Number=Sing	0	root	0:root	Entity=34)|SpaceAfter=No|XML=</ref>
 6	:	:	PUNCT	:	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = p (6 s)
 # sent_id = GENTLE_proof_five-13
 # s_prominence = 4
 # s_type = decl
 # transition = zero
 # text = According to the Minimum Degree Bound for Simple Planar Graph, Gr+1 has at least one vertex with at most 5 edges.
-# newpar
-# newpar_block = p (6 s)
 1	According	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	6	case	6:case	Discourse=explanation-evidence:25->26:0:_|MSeg=Accord-ing
 2	to	to	ADP	IN	_	1	fixed	1:fixed	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(35-abstract-new-cf3-2,3,4,6,7,8-sgl
@@ -382,11 +382,11 @@
 1	Then	then	ADV	RB	PronType=Dem	4	advmod	4:advmod	Discourse=explanation-evidence:33->34:0:_|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:then:237:227-236:238-251
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(23-person-giv:inact-cf2-1-ana)
 3	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
-4	give	give	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Ditransitive|CxnElt=DitrV
-5	x	x	NOUN	NN	Number=Sing	4	iobj	4:iobj	CxnElt=DitrRec|Entity=(37-abstract-giv:act-cf1*-1-coref)
+4	give	give	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Ditransitive|CxnElt=4:Ditransitive.V
+5	x	x	NOUN	NN	Number=Sing	4	iobj	4:iobj	CxnElt=4:Ditransitive.Rec|Entity=(37-abstract-giv:act-cf1*-1-coref)
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(42-abstract-new-cf4-3-sgl
 7	missing	missing	ADJ	JJ	Degree=Pos	8	amod	8:amod	MSeg=miss-ing
-8	color	color	NOUN	NN	Number=Sing	4	obj	4:obj	CxnElt=DitrTheme|Entity=42)
+8	color	color	NOUN	NN	Number=Sing	4	obj	4:obj	CxnElt=4:Ditransitive.Theme|Entity=42)
 9	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=explanation-evidence:34->75:1:dm-so-561;causal-result:34->33:0:0:orp-and-245+orp-thus-246|PDTB=Explicit:Contingency.Cause.Result:and:245:237-244:246-251
 10	thus	thus	ADV	RB	_	13	advmod	13:advmod	PDTB=Explicit:Contingency.Cause.Result:thus:246:237-244:245,247-251
 11	five	five	NUM	CD	NumForm=Word|NumType=Card	13	nummod	13:nummod	Entity=(43-abstract-new-cf5-3-sgl
@@ -395,14 +395,14 @@
 14	Gr+1	Gr+1	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=(31-abstract-giv:inact-cf3-1-coref)43)|SpaceAfter=No
 15	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GENTLE_proof_five-19
 # s_prominence = 4
 # s_type = imp
 # transition = continue
 # text = Suppose all five colors are connected to x.
-# newpar
-# newpar_block = p (4 s)
-1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:35->36:0:sem-atsrc-252+lex-indwd-252
+1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:35->36:0:lex-indwd-252+sem-atsrc-252
 2	all	all	DET	DT	PronType=Ind	4	det	4:det	Discourse=contingency-condition:36->37:2:dm-then-261|Entity=(41-abstract-giv:inact-cf2-3-coref
 3	five	five	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	_
 4	colors	color	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=41)|MSeg=color-s
@@ -482,13 +482,13 @@
 24	c5	c5	NOUN	NN	Number=Sing	16	conj	15:dep|16:conj:and	Entity=(55-abstract-new-cf11-1-coref)50)|SpaceAfter=No
 25	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (6 s)
 # sent_id = GENTLE_proof_five-23
 # s_prominence = 3
 # s_type = imp
 # transition = zero
 # text = Let us denote Hi,j a subgraph of G′r induced by the vertices colored with ci and cj.
-# newpar
-# newpar_block = p (6 s)
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:41->37:1:_
 2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(23-person-giv:inact-cf1-1-ana)
 3	denote	denote	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
@@ -526,7 +526,7 @@
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	Discourse=contingency-condition:46->47:0:_
 3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential-CopPred-ThereExpl,Existential-ExistPred-NoExpl|MSeg=exist-s
 4	no	no	DET	DT	PronType=Neg	5	det	5:det	Entity=(62-abstract-new-cf4-8-sgl|Negation=Yes
-5	path	path	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=Pivot|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Path"></ref>
+5	path	path	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=3:Existential-CopPred-ThereExpl.Pivot,3:Existential-ExistPred.Pivot|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Path"></ref>
 6	between	between	ADP	IN	_	7	case	7:case	MSeg=be-tween
 7	y1	y1	NOUN	NN	Number=Sing	5	nmod	5:nmod:between	Entity=(45-abstract-giv:inact-cf2-1-coref)
 8	and	and	CCONJ	CC	_	9	cc	9:cc	_
@@ -595,25 +595,25 @@
 12	c1	c1	NOUN	NN	Number=Sing	11	dep	11:dep	Entity=51)65)|SpaceAfter=No
 13	,	,	PUNCT	,	_	18	punct	18:punct	_
 14	so	so	ADV	RB	_	18	advmod	18:advmod	Discourse=joint-disjunction_m:51->34:2:_|PDTB=Explicit:Contingency.Cause.Result:so:388:355-374:375-387,389-394
-15	x	x	NOUN	NN	Number=Sing	18	nsubj:pass	18:nsubj:pass	CxnElt=DitrRec|Entity=(37-abstract-giv:act-cf1-1-coref)
+15	x	x	NOUN	NN	Number=Sing	18	nsubj:pass	18:nsubj:pass	CxnElt=18:Ditransitive.Rec|Entity=(37-abstract-giv:act-cf1-1-coref)
 16	can	can	AUX	MD	VerbForm=Fin	18	aux	18:aux	_
 17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	18:aux:pass	_
-18	colored	color	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	6:advcl	Cxn=Ditransitive|CxnElt=DitrV|MSeg=color-ed
-19	c1	c1	NOUN	NN	Number=Sing	18	obj	18:obj	CxnElt=DitrTheme|Entity=(51-abstract-giv:act-cf2*-1-coref)|SpaceAfter=No
+18	colored	color	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	6:advcl	Cxn=Ditransitive|CxnElt=18:Ditransitive.V|MSeg=color-ed
+19	c1	c1	NOUN	NN	Number=Sing	18	obj	18:obj	CxnElt=18:Ditransitive.Theme|Entity=(51-abstract-giv:act-cf2*-1-coref)|SpaceAfter=No
 20	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p (6 s)
 # sent_id = GENTLE_proof_five-29
 # s_prominence = 3
 # s_type = imp
 # transition = zero
 # text = Suppose there exists a path between y1 and y3 in H1,3.
-# newpar
-# newpar_block = p (6 s)
 1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:52->53:0:lex-indwd-395+sem-atsrc-395
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	Discourse=contingency-condition:53->62:1:_
 3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential-CopPred-ThereExpl,Existential-ExistPred-NoExpl|MSeg=exist-s
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(66-abstract-new-cf4-8-coref
-5	path	path	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=Pivot|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Path"></ref>
+5	path	path	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=3:Existential-CopPred-ThereExpl.Pivot,3:Existential-ExistPred.Pivot|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Path"></ref>
 6	between	between	ADP	IN	_	7	case	7:case	MSeg=be-tween
 7	y1	y1	NOUN	NN	Number=Sing	5	nmod	5:nmod:between	Entity=(45-abstract-giv:inact-cf1-1-coref)
 8	and	and	CCONJ	CC	_	9	cc	9:cc	_
@@ -744,13 +744,13 @@
 19	c2	c2	NOUN	NN	Number=Sing	17	xcomp	17:xcomp	Entity=(52-abstract-giv:act-cf3-1-coref)|SpaceAfter=No
 20	.	.	PUNCT	.	_	6	punct	6:punct	XML=</figure>
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_proof_five-35
 # s_prominence = 3
 # s_type = decl
 # transition = zero
 # text = This graph illustrates the case in which the path from y1 to y3 can be completed.
-# newpar
-# newpar_block = p (3 s)
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=elaboration-additional:63->62:2:_|Entity=(76-abstract-new-cf4-2-coref|XML=<figure rend:::"Five Color Theorem.png">
 2	graph	graph	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=76)
 3	illustrates	illustrate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=illustrate-s
@@ -807,7 +807,7 @@
 5	edges	edge	NOUN	NNS	Number=Plur	4	obj	4:obj|10:nsubj	Entity=(84-object-new-cf4-1-sgl)|MSeg=edge-s
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_
 7	vertices	vertice	NOUN	NNS	Number=Plur	5	conj	4:obj|5:conj:and	Entity=(85-abstract-new-cf5-4-sgl|MSeg=vertice-s
-8	that	that	PRON	WDT	PronType=Rel	10	nsubj	5:ref	CxnElt=Pivot|Discourse=elaboration-attribute:71->70:0:syn-mdf-540+syn-relcl-543,545
+8	that	that	PRON	WDT	PronType=Rel	10	nsubj	5:ref	CxnElt=10:Existential-ExistPred.Pivot|Discourse=elaboration-attribute:71->70:0:syn-mdf-540+syn-relcl-543,545
 9	might	might	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
 10	exist	exist	VERB	VB	VerbForm=Inf	5	acl:relcl	5:acl:relcl	Cxn=Existential-ExistPred-NoExpl|Entity=85)|SpaceAfter=No
 11	,	,	PUNCT	,	_	20	punct	20:punct	_
@@ -826,13 +826,13 @@
 24	conditions	condition	NOUN	NNS	Number=Plur	22	obj	22:obj	Entity=77)76)|MSeg=condition-s|SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_proof_five-38
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = So P (r) ⟹ P (r + 1) and the result follows by the Principle of Mathematical Induction.
-# newpar
-# newpar_block = p (1 s)
 1	So	so	ADV	RB	_	6	advmod	6:advmod	Discourse=explanation-evidence:74->75:0:_|PDTB=Explicit:Contingency.Cause.Result:so:561:237-251:562-583
 2	P	P	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=(18-abstract-giv:inact-cf1-1-coref
 3	(	(	PUNCT	-LRB-	_	4	punct	4:punct	SpaceAfter=No
@@ -857,13 +857,13 @@
 22	Induction	Induction	PROPN	NNP	Number=Sing	19	nmod	19:nmod:of	Entity=3)2)|MSeg=Induct-ion|SpaceAfter=No|XML=</ref>
 23	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_proof_five-39
 # s_prominence = 3
 # s_type = other
 # transition = null
 # text = Therefore:
-# newpar
-# newpar_block = p (2 s)
 1	Therefore	therefore	ADV	RB	Degree=Pos	0	root	0:root	Discourse=organization-preparation:76->77:1:grf-col-585|MSeg=There-fore|PDTB=Explicit:Contingency.Cause.Result:therefore:584:52-77:585-607|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
@@ -878,16 +878,16 @@
 4	∈	∈	SYM	SYM	_	3	appos	3:appos	Entity=(8-abstract-giv:inact-cf8-1-coref
 5	N>0	N>0	NOUN	NN	Number=Sing	4	nmod:unmarked	4:nmod:unmarked	Entity=(9-abstract-giv:inact-cf7-1-coref)8)|SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
-7	Gn	Gn	NOUN	NN	Number=Sing	10	nsubj:pass	10:nsubj:pass	CxnElt=DitrRec|Entity=(11-abstract-giv:inact-cf2-1-coref)
+7	Gn	Gn	NOUN	NN	Number=Sing	10	nsubj:pass	10:nsubj:pass	CxnElt=10:Ditransitive.Rec|Entity=(11-abstract-giv:inact-cf2-1-coref)
 8	can	can	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
 9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	10:aux:pass	_
-10	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Cxn=Ditransitive|CxnElt=DitrV|MSeg=assign-ed
+10	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Cxn=Ditransitive|CxnElt=10:Ditransitive.V|MSeg=assign-ed
 11	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(12-abstract-giv:inact-cf3-6-coref(13-abstract-giv:inact-cf4-6-coref
 12	proper	proper	ADJ	JJ	Degree=Pos	16	amod	16:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Proper_Vertex_Coloring">
 13	vertex	vertex	NOUN	NN	Number=Sing	16	compound	16:compound	_
 14	k	k	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(14-abstract-giv:inact-cf1-1-coref)
 15	-	-	PUNCT	HYPH	_	14	punct	14:punct	_
-16	coloring	coloring	NOUN	NN	Number=Sing	10	obj	10:obj	CxnElt=DitrTheme|Entity=13)|MSeg=color-ing|XML=</ref>
+16	coloring	coloring	NOUN	NN	Number=Sing	10	obj	10:obj	CxnElt=10:Ditransitive.Theme|Entity=13)|MSeg=color-ing|XML=</ref>
 17	such	such	ADJ	JJ	_	20	mark	20:mark	Discourse=elaboration-attribute:78->77:0:syn-mdf-601+dm-such that-602-603+syn-nmn-605
 18	that	that	SCONJ	IN	_	17	fixed	17:fixed	_
 19	k	k	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=(14-abstract-giv:act-cf1-1-coref)

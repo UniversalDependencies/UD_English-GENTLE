@@ -10,24 +10,24 @@
 # meta::speakerCount = 0
 # meta::summary = This poem tells of the strong childhood love of the narrator and the beautiful Annabel Lee many years ago in a kingdom by the sea, which led the envious angels of heaven to chill and kill her via a wind out of a cloud at night, though their souls cannot be dissevered and the narrator continues to dream of her and feel her bright eyes.
 # meta::title = Annabel Lee
+# newpar
+# newpar_block = head rend:::"caps" (1 s)
 # sent_id = GENTLE_poetry_annabel-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = ANNABEL LEE.
-# newpar
-# newpar_block = head rend:::"caps" (1 s)
 1	ANNABEL	Annabel	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:1->20:4:grf-ly-+ref-prs-1-2,173|Entity=(1-person-new-cf1-1,2-coref
 2	LEE	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)|SpaceAfter=No
 3	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_poetry_annabel-2
 # s_prominence = 4
 # s_type = decl
 # transition = establishment
 # text = IT was many and many a year ago, In a kingdom by the sea, That a maiden there lived whom you may know By the name of ANNABEL LEE;
-# newpar
-# newpar_block = p (2 s)
 1	IT	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	8:expl	Discourse=context-background:2->9:3:_|Entity=(2-event-new-cf3-1-cata)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
 3	many	many	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(3-time-new-cf8-6-sgl
@@ -85,13 +85,13 @@
 17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obl:agent	15:obl:agent	Entity=(10-person-acc:com-cf2-1-ana)|SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GENTLE_poetry_annabel-4
 # s_prominence = 4
 # s_type = decl
 # transition = smooth-shift
 # text = I was a child and she was a child, In this kingdom by the sea:
-# newpar
-# newpar_block = p (4 s)
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=context-background:7->9:2:_;adversative-concession:7->9:1:2:orp-but-71|Entity=(10-person-giv:act-cf1*-1-ana)|XML=<hi rend:::"italic"></hi>
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(10-person-giv:act-cf1*-2-pred
@@ -148,25 +148,25 @@
 1	With	with	ADP	IN	_	3	case	3:case	Discourse=elaboration-additional:12->9:1:ref-prop-72-81,90-101|PDTB=EntRel:EntRel:_:_:83-88:89-102
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(11-abstract-giv:inact-cf3-2-coref
 3	love	love	NOUN	NN	Number=Sing	0	root	0:root|10:obj	_
-4	that	that	PRON	WDT	PronType=Rel	10	obj	3:ref	CxnElt=DitrTheme|Discourse=elaboration-attribute:13->12:0:syn-mdf-91+syn-relcl-92,98
+4	that	that	PRON	WDT	PronType=Rel	10	obj	3:ref	CxnElt=10:Ditransitive.Theme|Discourse=elaboration-attribute:13->12:0:syn-mdf-91+syn-relcl-92,98
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(14-person-new-cf4-3-coref
 6	winged	winged	ADJ	JJ	Degree=Pos	7	amod	7:amod	MSeg=wing-ed
 7	seraphs	seraph	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	MSeg=seraph-s
 8	of	of	ADP	IN	_	9	case	9:case	_
 9	heaven	heaven	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=(15-place-new-cf5-1-coref-Heaven)14)
-10	Coveted	covet	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	Cxn=Ditransitive|CxnElt=DitrV|MSeg=Covet-ed
-11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	10:iobj	CxnElt=DitrRec|Entity=(1-person-giv:act-cf1*-1-ana)
+10	Coveted	covet	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	Cxn=Ditransitive|CxnElt=10:Ditransitive.V|MSeg=Covet-ed
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	10:iobj	CxnElt=10:Ditransitive.Rec|Entity=(1-person-giv:act-cf1*-1-ana)
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
 13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	conj	10:iobj|11:conj:and	Entity=(10-person-giv:act-cf2-1-ana)11)|SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_poetry_annabel-8
 # s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = And this was the reason that, long ago, In this kingdom by the sea, A wind blew out of a cloud, chilling My beautiful ANNABEL LEE;
-# newpar
-# newpar_block = p (2 s)
 1	And	and	CCONJ	CC	_	5	cc	5:cc	Discourse=context-background:14->20:3:ref-prs-129-132,173+ref-prs-129,175|PDTB=Explicit:Contingency.Cause.Result:and:103:71-82:104-133
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Entity=(11-abstract-giv:act-cf1*-1-ana)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
@@ -232,13 +232,13 @@
 26	sea	sea	NOUN	NN	Number=Sing	23	nmod	23:nmod:by	Entity=5)4)|SpaceAfter=No
 27	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_poetry_annabel-10
 # s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = The angels, not half so happy in heaven, Went envying her and me —
-# newpar
-# newpar_block = p (2 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=ROOT:20:0;causal-cause:20->22:0:2:lex-altlex-180-183|Entity=(20-abstract-new-cf5-11-disc(14-person-giv:inact-cf3-2-coref
 2	angels	angel	NOUN	NNS	Number=Plur	11	nsubj	11:nsubj|12:nsubj:xsubj	Entity=14)|MSeg=angel-s|SpaceAfter=No
 3	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -300,13 +300,13 @@
 37	LEE	Lee	PROPN	NNP	Number=Sing	36	flat	36:flat	Entity=1)20)|SpaceAfter=No
 38	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_poetry_annabel-12
 # s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = But our love it was stronger by far than the love Of those who were older than we —
-# newpar
-# newpar_block = p (3 s)
 1	But	but	CCONJ	CC	_	6	cc	6:cc	Discourse=adversative-contrast_m:26->20:2:dm-but-215|PDTB=Explicit:Comparison.Contrast:but:215:161-176:216-233
 2	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(11-abstract-giv:inact-cf1-2-coref(12-person-giv:inact-cf2-1-ana)
 3	love	love	NOUN	NN	Number=Sing	6	dislocated	6:dislocated	Entity=11)
@@ -376,13 +376,13 @@
 29	LEE	Lee	PROPN	NNP	Number=Sing	28	flat	28:flat	Entity=1)28)|SpaceAfter=No
 30	:	:	PUNCT	:	_	19	punct	19:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_poetry_annabel-15
 # s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = For the moon never beams, without bringing me dreams Of the beautiful ANNABEL LEE;
-# newpar
-# newpar_block = p (3 s)
 1	For	for	SCONJ	IN	_	5	mark	5:mark	Discourse=adversative-concession:30->33:0:dm-but-293|PDTB=Explicit:Contingency.Cause.Result:for:271:241-270:272-304
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(29-object-new-cf3-2-sgl
 3	moon	moon	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=29)
@@ -390,9 +390,9 @@
 5	beams	beam	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
 7	without	without	SCONJ	IN	_	8	mark	8:mark	Discourse=mode-manner:31->30:0:dm-without-277+syn-pres-278|MSeg=with-out|PDTB=Explicit:Expansion.Manner.Arg2-as-manner:without:277:271-276:278-286
-8	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl:without	Cxn=Ditransitive|CxnElt=DitrV|MSeg=bring-ing
-9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	iobj	8:iobj	CxnElt=DitrRec|Entity=(10-person-giv:act-cf1*-1-ana)
-10	dreams	dream	NOUN	NNS	Number=Plur	8	obj	8:obj	CxnElt=DitrTheme|Entity=(30-abstract-new-cf4-1,6-sgl|MSeg=dream-s
+8	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl:without	Cxn=Ditransitive|CxnElt=8:Ditransitive.V|MSeg=bring-ing
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	iobj	8:iobj	CxnElt=8:Ditransitive.Rec|Entity=(10-person-giv:act-cf1*-1-ana)
+10	dreams	dream	NOUN	NNS	Number=Plur	8	obj	8:obj	CxnElt=8:Ditransitive.Theme|Entity=(30-abstract-new-cf4-1,6-sgl|MSeg=dream-s
 11	Of	of	ADP	IN	_	14	case	14:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(1-person-giv:act-cf2-3,4-coref
 13	beautiful	beautiful	ADJ	JJ	Degree=Pos	14	amod	14:amod	MSeg=beauti-ful

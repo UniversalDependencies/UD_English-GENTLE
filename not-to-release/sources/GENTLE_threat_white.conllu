@@ -10,13 +10,13 @@
 # meta::speakerCount = 0
 # meta::summary = In this letter, the writer tells the addressee, who is in the collections business, that they have hired someone to find them, and threatens to disclose damaging information to their Citibank customers, as well as publicizing information on outstanding disputed credit accounts, if they do not fax over a certain letter quickly.
 # meta::title = United States v. White, 670 F.3d 498, 502, 2012 U.S. App. LEXIS 4198, *5-6 (4th Cir. Va. March 1, 2012)
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_threat_white-1
 # s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = I understand you think you're very tough and you think that by dragging this process out you have created me a lot of misery; that is an incorrect assessment, but I must admit I have run out of patience with you and your smug attitude.
-# newpar
-# newpar_block = p (2 s)
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:1->3:1:sem-atsrc-1+lex-indwd-2+syn-rpr-3,8|Entity=(1-abstract-new-cf3-2-disc(2-person-acc:com-cf2-1-ana)
 2	understand	understand	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=under-stand
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=attribution-positive:2->3:0:sem-atsrc-3+lex-indwd-4|Entity=(3-person-acc:com-cf1-1-ana)
@@ -37,10 +37,10 @@
 17	out	out	ADP	RP	_	14	compound:prt	14:compound:prt	_
 18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	Discourse=same-unit_m:7->5:0:_|Entity=(3-person-giv:act-cf1-1-ana)
 19	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
-20	created	create	VERB	VBN	Tense=Past|VerbForm=Part	11	ccomp	11:ccomp	Cxn=Ditransitive|CxnElt=DitrV|MSeg=creat-ed
-21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	iobj	20:iobj	CxnElt=DitrRec|Entity=(2-person-giv:act-cf2-1-ana)
+20	created	create	VERB	VBN	Tense=Past|VerbForm=Part	11	ccomp	11:ccomp	Cxn=Ditransitive|CxnElt=20:Ditransitive.V|MSeg=creat-ed
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	iobj	20:iobj	CxnElt=20:Ditransitive.Rec|Entity=(2-person-giv:act-cf2-1-ana)
 22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(6-abstract-new-cf5-2-sgl
-23	lot	lot	NOUN	NN	Number=Sing	20	obj	20:obj	CxnElt=DitrTheme
+23	lot	lot	NOUN	NN	Number=Sing	20	obj	20:obj	CxnElt=20:Ditransitive.Theme
 24	of	of	ADP	IN	_	25	case	25:case	_
 25	misery	misery	NOUN	NN	Number=Sing	23	nmod	23:nmod:of	Entity=6)1)|SpaceAfter=No
 26	;	;	PUNCT	:	_	31	punct	31:punct	_
@@ -99,16 +99,16 @@
 23	attitude	attitude	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=8)11)|SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_threat_white-3
 # s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = If you resolve this issue quickly and efficiently I can guarantee you will not hear from me again; if you don't, well, you will be well known to the Citibank customers you are currently in litigation with in a very short amount of time.
-# newpar
-# newpar_block = p (1 s)
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:16->18:1:dm-if-74|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:74:82-92:75-81
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(3-person-giv:act-cf1*-1-ana)
-3	resolve	resolve	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	CxnElt=Protasis
+3	resolve	resolve	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	CxnElt=11:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(12-abstract-new-cf3-2-sgl
 5	issue	issue	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=12)
 6	quickly	quickly	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=quick-ly
@@ -116,7 +116,7 @@
 8	efficiently	efficiently	ADV	RB	Degree=Pos	6	conj	3:advmod|6:conj:and	MSeg=efficient-ly
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Discourse=attribution-positive:17->18:0:sem-atsrc-82+lex-indwd-84+syn-rpr-85-87,90-91|Entity=(2-person-giv:act-cf2-1-ana)
 10	can	can	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
-11	guarantee	guarantee	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|MSeg=guarant-ee
+11	guarantee	guarantee	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=11:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=guarant-ee
 12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=explanation-motivation:18->24:2:_|Entity=(13-abstract-new-cf4-4-sgl
 13	will	will	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
 14	not	not	PART	RB	Polarity=Neg	15	advmod	15:advmod	Negation=Yes
@@ -128,7 +128,7 @@
 20	if	if	SCONJ	IN	_	22	mark	22:mark	Discourse=contingency-condition:19->20:2:dm-if-93|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:93:98-122:94-97
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	22:nsubj	Entity=(3-person-giv:act-cf1*-1-ana)
 22-23	don't	_	_	_	_	_	_	_	SpaceAfter=No
-22	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl:if	CxnElt=Protasis
+22	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl:if	CxnElt=31:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 23	n't	not	PART	RB	Polarity=Neg	22	advmod	22:advmod	Negation=Yes|PDTB=AltLex:Expansion.Substitution.Arg2-as-subst:n't:96:74-92:93-95,97-122
 24	,	,	PUNCT	,	_	22	punct	22:punct	_
 25	well	well	INTJ	UH	_	31	discourse	31:discourse	Discourse=adversative-antithesis:20->18:2:sem-ngt-96|SpaceAfter=No
@@ -137,7 +137,7 @@
 28	will	will	AUX	MD	VerbForm=Fin	31	aux	31:aux	_
 29	be	be	AUX	VB	VerbForm=Inf	31	aux:pass	31:aux:pass	_
 30	well	well	ADV	RB	Degree=Pos	31	advmod	31:advmod	_
-31	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	parataxis	11:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|MSeg=know-n
+31	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	parataxis	11:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=31:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=know-n
 32	to	to	ADP	IN	_	35	case	35:case	_
 33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	35:det	_
 34	Citibank	Citibank	PROPN	NNP	Number=Sing	35	compound	35:compound	Entity=(14-person-new-cf5-2-sgl(15-organization-new-cf8-1-coref-Citibank)
@@ -157,19 +157,19 @@
 48	time	time	NOUN	NN	Number=Sing	46	nmod	46:nmod:of	Entity=17)|SpaceAfter=No
 49	.	.	PUNCT	.	_	11	punct	11:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_threat_white-4
 # s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = Again, make my life easy, fax over the letter, and you will not be hearing from me again.
-# newpar
-# newpar_block = p (1 s)
 1	Again	again	ADV	RB	Degree=Pos	3	advmod	3:advmod	Discourse=explanation-motivation:23->24:0:_|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	make	make	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Cxn=Resultative|CxnElt=ResPredicate
+3	make	make	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Cxn=Resultative|CxnElt=3:Resultative.Predicate
 4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(18-abstract-new-cf4-2-sgl(2-person-giv:act-cf2-1-ana)
 5	life	life	NOUN	NN	Number=Sing	3	obj	3:obj|6:nsubj:xsubj	Entity=18)
-6	easy	easy	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	CxnElt=ResResult|Entity=(19-abstract-new-cf5-1-sgl)|MSeg=eas-y|SpaceAfter=No
+6	easy	easy	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	CxnElt=3:Resultative.Result|Entity=(19-abstract-new-cf5-1-sgl)|MSeg=eas-y|SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
 8	fax	fax	VERB	VB	Person=2|VerbForm=Inf	3	parataxis	3:parataxis	Discourse=ROOT:24:0
 9	over	over	ADP	RP	_	8	compound:prt	8:compound:prt	_
@@ -187,13 +187,13 @@
 21	again	again	ADV	RB	Degree=Pos	18	advmod	18:advmod	SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_threat_white-5
 # s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = PS: I took the liberty of buying the corporate phone directory and locating information on your outstanding disputed credit accounts from an internet dealer today, and can probably make you better known to your customers than the security measures you enact at your company indicate you would like.
-# newpar
-# newpar_block = p (3 s)
 1	PS	PS	X	FW	Abbr=Yes	4	discourse	4:discourse	Discourse=organization-preparation:26->30:3:lex-indwd-145+grf-col-146|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|31:nsubj	Discourse=mode-means:27->30:1:_|Entity=(2-person-giv:act-cf1*-1-ana)
@@ -224,10 +224,10 @@
 28	and	and	CCONJ	CC	_	31	cc	31:cc	Discourse=explanation-motivation:30->24:3:_;causal-result:30->27:1:1:orp-and-172|PDTB=Explicit:Contingency.Cause.Result:and:172:147-171:173-195
 29	can	can	AUX	MD	VerbForm=Fin	31	aux	31:aux	_
 30	probably	probably	ADV	RB	Degree=Pos	31	advmod	31:advmod	MSeg=probab-ly
-31	make	make	VERB	VB	VerbForm=Inf	4	conj	4:conj:and	Cxn=Resultative|CxnElt=ResPredicate|Entity=(27-abstract-new-cf11-1-disc
+31	make	make	VERB	VB	VerbForm=Inf	4	conj	4:conj:and	Cxn=Resultative|CxnElt=31:Resultative.Predicate|Entity=(27-abstract-new-cf11-1-disc
 32	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	31	obj	31:obj|34:nsubj:pass:xsubj	Entity=(3-person-giv:act-cf2-1-ana)
 33	better	well	ADV	RBR	Degree=Cmp	34	advmod	34:advmod	MSeg=bett-er
-34	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	xcomp	31:xcomp	CxnElt=ResResult|MSeg=know-n
+34	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	xcomp	31:xcomp	CxnElt=31:Resultative.Result|MSeg=know-n
 35	to	to	ADP	IN	_	37	case	37:case	_
 36	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	37	nmod:poss	37:nmod:poss	Entity=(28-person-new-cf6-2-sgl(3-person-giv:act-cf2-1-ana)
 37	customers	customer	NOUN	NNS	Number=Plur	34	obl	34:obl:to	Entity=28)27)|MSeg=custom-er-s
@@ -278,9 +278,9 @@
 24	that	that	SCONJ	IN	_	27	mark	27:mark	Discourse=explanation-motivation:40->35:0:mrf-md-196+dm-as-199
 25	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	27	nsubj	27:nsubj	Entity=(3-person-giv:act-cf2-1-ana)
 26	often	often	ADV	RB	Degree=Pos	27	advmod	27:advmod	_
-27	make	make	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	ccomp	7:ccomp	Cxn=Resultative|CxnElt=ResPredicate
+27	make	make	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	ccomp	7:ccomp	Cxn=Resultative|CxnElt=27:Resultative.Predicate
 28	people	person	NOUN	NNS	Number=Plur	27	obj	27:obj|29:nsubj:xsubj	Entity=(34-person-new-cf6-1-coref)
-29	upset	upset	ADJ	JJ	Degree=Pos	27	xcomp	27:xcomp	CxnElt=ResResult|MSeg=up-set|SpaceAfter=No
+29	upset	upset	ADJ	JJ	Degree=Pos	27	xcomp	27:xcomp	CxnElt=27:Resultative.Result|MSeg=up-set|SpaceAfter=No
 30	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_threat_white-7
@@ -296,9 +296,9 @@
 6	much	much	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	publicity	publicity	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=36)|MSeg=public-ity
 8	and	and	CCONJ	CC	_	9	cc	9:cc	_
-9	making	make	VERB	VBG	VerbForm=Ger	4	conj	4:conj:and|13:csubj	Cxn=Resultative|CxnElt=ResPredicate|MSeg=mak-ing
+9	making	make	VERB	VBG	VerbForm=Ger	4	conj	4:conj:and|13:csubj	Cxn=Resultative|CxnElt=9:Resultative.Predicate|MSeg=mak-ing
 10	people	person	NOUN	NNS	Number=Plur	9	obj	9:obj|11:nsubj:xsubj	Entity=(34-person-giv:act-cf1*-1-coref)
-11	upset	upset	ADJ	JJ	Degree=Pos	9	xcomp	9:xcomp	CxnElt=ResResult|MSeg=up-set
+11	upset	upset	ADJ	JJ	Degree=Pos	9	xcomp	9:xcomp	CxnElt=9:Resultative.Result|MSeg=up-set
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
 13	what	what	PRON	WP	PronType=Rel	2	ccomp	2:ccomp	_
 14	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_

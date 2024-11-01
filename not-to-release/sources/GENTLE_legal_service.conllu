@@ -10,33 +10,33 @@
 # meta::speakerCount = 0
 # meta::summary = This services agreement between StartEngine Crowdfunding, Inc. and Solutions Vending Internaitonal, Inc. CEOs Dawn Dickson and Howard Marks on 08/19/2019 specifies the conditions for services to present its securities offering to users and manage user accounts and subscriptions, including fees and billing, reimbursable expenses, warranties and terms to terminate the agreement.
 # meta::title = Services Agreement
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_legal_service-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = Exhibit 1.2
-# newpar
-# newpar_block = head (1 s)
 1	Exhibit	exhibit	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:1->13:9:grf-ly-|Entity=(1-abstract-new-cf1-1-sgl
 2	1.2	1.2	NUM	CD	NumForm=Digit|NumType=Frac	1	dep	1:dep	Entity=1)
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_legal_service-2
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = SERVICES AGREEMENT
-# newpar
-# newpar_block = head (1 s)
 1	SERVICES	service	NOUN	NNS	Number=Plur	2	compound	2:compound	Discourse=organization-heading:2->13:7:grf-ly-+sem-lxchn-4,130|Entity=(2-abstract-new-cf1-2-sgl|MSeg=SERVICE-S
 2	AGREEMENT	agreement	NOUN	NN	Number=Sing	0	root	0:root	Entity=2)|MSeg=AGREE-MENT
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-3
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = This Services Agreement ("Services Agreement" or "Agreement") is entered into as of the date noted below (the "Effective Date") between StartEngine Crowdfunding, Inc., a Delaware corporation ("Company"), and Solutions Vending International, Inc a ___DE corporation ("Customer" or "you").
-# newpar
-# newpar_block = p (1 s)
 1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Discourse=context-background:3->13:6:sem-rpt-6,141-144+sem-synym-35-38,50-57,70,76|Entity=(3-abstract-new-cf3-2,3-coref-Contract
 2	Services	service	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(4-abstract-new-cf5-1-coref-Service_%28business%29)
 3	Agreement	Agreement	PROPN	NNP	Number=Sing	15	nsubj:pass	15:nsubj:pass	Entity=3)|MSeg=Agree-ment
@@ -101,28 +101,28 @@
 62	)	)	PUNCT	-RRB-	_	56	punct	56:punct	SpaceAfter=No
 63	.	.	PUNCT	.	_	15	punct	15:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_legal_service-4
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = 1. Services
-# newpar
-# newpar_block = head (1 s)
 1	1.	1.	X	LS	_	2	discourse	2:discourse	Discourse=organization-heading:12->13:4:grf-ly-+grf-seq-68+sem-rpt-69,141-144|XML=<hi rend:::"bold">
 2	Services	service	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(4-abstract-giv:act-cf1*-1-coref-Service_%28business%29)|MSeg=Service-s|XML=</hi>
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_legal_service-5
 # s_prominence = 1
 # s_type = decl
 # transition = retain
 # text = Company agrees to make available to Customer the ability to present information with respect to its securities offering (the "Offering") to Users, and to permit Users to create and manage online accounts, view information regarding the Customer, indicate interest in the Offering, and to subscribe to the Offering by signing a subscription agreement or similar instrument and transmitting payment instructions (together, the "Services").
-# newpar
-# newpar_block = p (2 s)
 1	Company	company	NOUN	NN	Number=Sing	2	nsubj	2:nsubj|4:nsubj:xsubj|5:nsubj:xsubj	Discourse=ROOT:13:0|Entity=(6-organization-giv:inact-cf1-1-coref)
 2	agrees	agree	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
-4	make	make	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	Cxn=Resultative|CxnElt=ResPredicate
-5	available	available	ADJ	JJ	Degree=Pos	4	xcomp	4:xcomp	CxnElt=ResResult|MSeg=avail-able
+4	make	make	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	Cxn=Resultative|CxnElt=4:Resultative.Predicate
+5	available	available	ADJ	JJ	Degree=Pos	4	xcomp	4:xcomp	CxnElt=4:Resultative.Result|MSeg=avail-able
 6	to	to	ADP	IN	_	7	case	7:case	_
 7	Customer	customer	NOUN	NN	Number=Sing	4	obl	4:obl:to	Entity=(8-organization-giv:inact-cf4-1-coref)|MSeg=Custom-er
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(9-abstract-new-cf6-2-sgl
@@ -227,25 +227,25 @@
 23	website	website	NOUN	NN	Number=Sing	18	nmod	18:nmod:on	Entity=29)24)|MSeg=web-site|SpaceAfter=No
 24	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_legal_service-7
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = 2. Fees and expenses
-# newpar
-# newpar_block = head (1 s)
 1	2.	2.	X	LS	_	2	discourse	2:discourse	Discourse=organization-heading:26->30:5:grf-ly-+grf-seq-171+sem-lxchn-172,214|XML=<hi rend:::"bold">
 2	Fees	fee	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(30-abstract-new-cf1-1-coref)|MSeg=Fee-s
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	expenses	expense	NOUN	NNS	Number=Plur	2	conj	2:conj:and	Entity=(31-abstract-new-cf2-1-coref)|MSeg=expense-s|XML=</hi>
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GENTLE_legal_service-8
 # s_prominence = 2
 # s_type = sub
 # transition = establishment
 # text = a) Generally In exchange for the Services, you shall pay the Company the then applicable fees and expenses set out below.
-# newpar
-# newpar_block = p (4 s)
 1	a)	a)	X	LS	_	11	discourse	11:discourse	Discourse=organization-heading:27->30:3:grf-ly-+grf-seq-175|XML=<hi rend:::"bold">
 2	Generally	generally	ADV	RB	Degree=Pos	11	dep	11:dep	MSeg=General-ly|XML=</hi>
 3	In	in	ADP	IN	_	4	case	4:case	Discourse=organization-preparation:28->30:2:ref-prs-183,239+sem-rpt-186-187,198-199+sem-lxchn-190,206+sem-lxchn-191,214
@@ -256,15 +256,15 @@
 8	,	,	PUNCT	,	_	4	punct	4:punct	_
 9	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Entity=(8-organization-giv:inact-cf2-1-ana)
 10	shall	shall	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
-11	pay	pay	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Ditransitive|CxnElt=DitrV
+11	pay	pay	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Ditransitive|CxnElt=11:Ditransitive.V
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(6-organization-giv:inact-cf4-2-coref
-13	Company	Company	PROPN	NNP	Number=Sing	11	iobj	11:iobj	CxnElt=DitrRec|Entity=6)
+13	Company	Company	PROPN	NNP	Number=Sing	11	iobj	11:iobj	CxnElt=11:Ditransitive.Rec|Entity=6)
 14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(32-abstract-new-cf5-4-sgl
 15	then	then	ADV	RB	PronType=Dem	16	advmod	16:advmod	_
 16	applicable	applicable	ADJ	JJ	Degree=Pos	17	amod	17:amod	MSeg=applic-able
-17	fees	fee	NOUN	NNS	Number=Plur	11	obj	11:obj	CxnElt=DitrTheme|Entity=32)|MSeg=fee-s
+17	fees	fee	NOUN	NNS	Number=Plur	11	obj	11:obj	CxnElt=11:Ditransitive.Theme|Entity=32)|MSeg=fee-s
 18	and	and	CCONJ	CC	_	19	cc	19:cc	_
-19	expenses	expense	NOUN	NNS	Number=Plur	11	obj	11:obj	CxnElt=DitrTheme|Entity=(31-abstract-giv:act-cf1*-1-coref)|MSeg=expense-s
+19	expenses	expense	NOUN	NNS	Number=Plur	11	obj	11:obj	CxnElt=11:Ditransitive.Theme|Entity=(31-abstract-giv:act-cf1*-1-coref)|MSeg=expense-s
 20	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	acl	17:acl	Discourse=elaboration-attribute:29->28:0:syn-mdf-191+syn-nmn-194
 21	out	out	ADP	RP	_	20	compound:prt	20:compound:prt	_
 22	below	below	ADV	RB	Degree=Pos	20	advmod	20:advmod	MSeg=be-low|SpaceAfter=No
@@ -326,7 +326,7 @@
 # text = If you believe that the Company has billed you incorrectly, you must contact Company no later than 60 days after the closing date on the first billing statement in which the error or problem appeared, in order to receive an adjustment or credit.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=attribution-positive:35->36:0:sem-atsrc-242+lex-indwd-243+syn-rpr-244|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:241:252-286:242-251;Implicit:Comparison.Contrast:but:_:198-240:241-286
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(8-organization-giv:act-cf1*-1-ana)
-3	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl:if	CxnElt=Protasis
+3	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl:if	CxnElt=14:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 4	that	that	SCONJ	IN	_	8	mark	8:mark	Discourse=contingency-condition:36->37:2:dm-if-241
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(6-organization-giv:act-cf2-2-coref
 6	Company	Company	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj	Entity=6)
@@ -337,7 +337,7 @@
 11	,	,	PUNCT	,	_	3	punct	3:punct	_
 12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj	Discourse=adversative-contrast_m:37->30:1:_|Entity=(8-organization-giv:act-cf1*-1-ana)
 13	must	must	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
-14	contact	contact	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
+14	contact	contact	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=14:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 15	Company	Company	PROPN	NNP	Number=Sing	14	obj	14:obj	Entity=(6-organization-giv:act-cf2-1-coref)
 16	no	no	ADV	RB	Degree=Pos|Polarity=Neg	17	advmod	17:advmod	Negation=Yes
 17	later	late	ADV	RBR	Degree=Cmp	14	advmod	14:advmod	MSeg=lat-er
@@ -384,26 +384,26 @@
 6	contact@startengine.com	contact@startengine.com	PROPN	NNP	Number=Sing	4	obl	4:obl:to	Entity=(50-place-new-cf2-1-sgl)|SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-12
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = b) Monthly Fees and Billing
-# newpar
-# newpar_block = p (1 s)
 1	b)	b)	X	LS	_	3	discourse	3:discourse	Discourse=organization-heading:41->42:1:grf-ly-+grf-seq-294+sem-lxchn-295,304+sem-lxchn-298,302|XML=<hi rend:::"bold">
 2	Monthly	Monthly	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(51-abstract-new-cf1-2-sgl
 3	Fees	fee	NOUN	NNS	Number=Plur	0	root	0:root	Entity=51)|MSeg=Fee-s
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
 5	Billing	billing	NOUN	NN	Number=Sing	3	conj	3:conj:and	Entity=(52-event-new-cf2-1-sgl)|MSeg=Bill-ing|XML=</hi>
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GENTLE_legal_service-13
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = The Company will bill you monthly for the Services.
-# newpar
-# newpar_block = p (4 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-list_m:42->30:4:_|Entity=(6-organization-giv:inact-cf2-2-coref
 2	Company	company	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=6)
 3	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
@@ -559,24 +559,24 @@
 21	income	income	NOUN	NN	Number=Sing	15	obl	15:obl:on	Entity=77)74)|MSeg=in-come|SpaceAfter=No
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-17
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = c) Transaction Fees
-# newpar
-# newpar_block = p (1 s)
 1	c)	c)	X	LS	_	3	discourse	3:discourse	Discourse=organization-heading:56->59:3:grf-ly-+grf-seq-434+sem-lxchn-435,459|XML=<hi rend:::"bold">
 2	Transaction	transaction	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(78-abstract-new-cf1-2-coref|MSeg=Trans-act-ion
 3	Fees	fee	NOUN	NNS	Number=Plur	0	root	0:root	Entity=78)|MSeg=Fee-s|XML=</hi>
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-18
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Company's transaction fees depend on the method of payment (e.g. ACH - US or WIRE - US).
-# newpar
-# newpar_block = p (1 s)
 1-2	Company's	_	_	_	_	_	_	_	_
 1	Company	company	NOUN	NN	Number=Sing	4	nmod:poss	4:nmod:poss	Discourse=organization-preparation:57->59:2:_|Entity=(6-organization-giv:inact-cf3-1-coref
 2	's	's	PART	POS	_	1	case	1:case	Entity=6)
@@ -600,49 +600,49 @@
 20	)	)	PUNCT	-RRB-	_	17	punct	17:punct	SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-19
 # s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = ACH transaction: $ 1
-# newpar
-# newpar_block = p (1 s)
 1	ACH	ACH	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=joint-list_m:59->30:4:_|Entity=(83-abstract-new-cf1-2-sgl(84-abstract-new-cf3-1-coref-National_Automated_Clearing_House)
 2	transaction	transaction	NOUN	NN	Number=Sing	4	dep	4:dep	Entity=83)|MSeg=transact-ion|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 4	$	$	SYM	SYM	_	0	root	0:root	Discourse=elaboration-additional:60->59:0:grf-col-460|Entity=(85-abstract-new-cf2-1-sgl
 5	1	1	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=85)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-20
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Wire: $ 15
-# newpar
-# newpar_block = p (1 s)
 1	Wire	wire	NOUN	NN	Number=Sing	3	dep	3:dep	Discourse=joint-list_m:61->59:1:_|Entity=(86-abstract-new-cf1-1-sgl)|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 3	$	$	SYM	SYM	_	0	root	0:root	Discourse=elaboration-additional:62->61:0:grf-col-464|Entity=(87-abstract-new-cf2-1-sgl
 4	15	15	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Entity=87)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-21
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = d) AML Fees
-# newpar
-# newpar_block = p (1 s)
 1	d)	d)	X	LS	_	3	discourse	3:discourse	Discourse=organization-heading:63->65:3:grf-ly-+grf-seq-467+sem-rpt-468,480|XML=<hi rend:::"bold">
 2	AML	AML	PROPN	NNP	Number=Sing	3	dep	3:dep	Entity=(88-abstract-new-cf2-1-coref-Money_laundering)
 3	Fees	fee	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(30-abstract-giv:inact-cf1-1-coref)|MSeg=Fee-s|XML=</hi>
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-22
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = AML fees are charged per User per initial transaction.
-# newpar
-# newpar_block = p (1 s)
 1	AML	AML	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=organization-preparation:64->65:2:sem-rpt-470,480|Entity=(89-abstract-new-cf5-4-sgl(30-abstract-giv:act-cf1*-2-coref(88-abstract-giv:act-cf2-1-coref-Money_laundering)
 2	fees	fee	NOUN	NNS	Number=Plur	4	nsubj:pass	4:nsubj:pass	Entity=30)|MSeg=fee-s
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
@@ -654,49 +654,49 @@
 9	transaction	transaction	NOUN	NN	Number=Sing	4	obl	4:obl:per	Entity=90)89)|MSeg=transact-ion|SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-23
 # s_prominence = 1
 # s_type = frag
 # transition = smooth-shift
 # text = AML: $ 2
-# newpar
-# newpar_block = p (1 s)
 1	AML	AML	PROPN	NNP	Number=Sing	3	dep	3:dep	Discourse=joint-list_m:65->30:4:_|Entity=(88-abstract-giv:act-cf1*-1-coref-Money_laundering)|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 3	$	$	SYM	SYM	_	0	root	0:root	Discourse=elaboration-additional:66->65:0:grf-col-481|Entity=(91-abstract-new-cf2-1-sgl
 4	2	2	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Entity=91)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-24
 # s_prominence = 1
 # s_type = frag
 # transition = continue
 # text = AML UK: $ 5
-# newpar
-# newpar_block = p (1 s)
 1	AML	AML	PROPN	NNP	Number=Sing	4	dep	4:dep	Discourse=joint-list_m:67->65:1:_|Entity=(88-abstract-giv:act-cf1*-1-coref-Money_laundering)
 2	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	4	dep	4:dep	Entity=(92-place-new-cf2-1-sgl-United_Kingdom)|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 4	$	$	SYM	SYM	_	0	root	0:root	Discourse=elaboration-additional:68->67:0:grf-col-486|Entity=(93-abstract-new-cf3-1-sgl
 5	5	5	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=93)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-25
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = e) Reimbursable expenses
-# newpar
-# newpar_block = p (1 s)
 1	e)	e)	X	LS	_	3	discourse	3:discourse	Discourse=organization-heading:69->71:4:grf-ly-+grf-seq-489|XML=<hi rend:::"bold">
 2	Reimbursable	Reimbursable	ADJ	JJ	Degree=Pos	3	amod	3:amod	MSeg=Re-im-burs-able
 3	expenses	expense	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(94-abstract-new-cf1-1-sgl)|MSeg=expense-s|XML=</hi>
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-26
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = You shall reimburse the Company for the following expenses:
-# newpar
-# newpar_block = p (1 s)
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=organization-preparation:70->71:2:sem-rpt-495-496,509-510+lex-indph-498-499+grf-col-501|Entity=(8-organization-giv:inact-cf1-1-ana)
 2	shall	shall	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	reimburse	reimburse	VERB	VB	VerbForm=Inf	0	root	0:root	MSeg=re-im-burse
@@ -708,13 +708,13 @@
 9	expenses	expense	NOUN	NNS	Number=Plur	3	obl	3:obl:for	Entity=95)|MSeg=expense-s|SpaceAfter=No
 10	:	:	PUNCT	:	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (5 s) | item n:::"1" (1 s)
 # sent_id = GENTLE_legal_service-27
 # s_prominence = 1
 # s_type = frag
 # transition = establishment
 # text = (i) All credit card charges charged to the Company by its third-party credit card processor.
-# newpar
-# newpar_block = list type:::"ordered" (5 s) | item n:::"1" (1 s)
 1	(i)	(i)	X	LS	_	5	discourse	5:discourse	Discourse=joint-list_m:71->30:4:_
 2	All	all	DET	DT	PronType=Ind	5	det	5:det	Entity=(96-abstract-new-cf3-4-sgl
 3	credit	credit	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(97-object-new-cf2-2-coref
@@ -734,13 +734,13 @@
 17	processor	processor	NOUN	NN	Number=Sing	6	obl:agent	6:obl:agent	Entity=98)96)|MSeg=process-or|SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = item n:::"2" (1 s)
 # sent_id = GENTLE_legal_service-28
 # s_prominence = 1
 # s_type = frag
 # transition = continue
 # text = (ii) All transaction fees charged to the Company or its affiliates by its third-party transaction processor.
-# newpar
-# newpar_block = item n:::"2" (1 s)
 1	(ii)	(ii)	X	LS	_	4	discourse	4:discourse	Discourse=joint-list_m:73->71:1:grf-seq-502,520
 2	All	all	DET	DT	PronType=Ind	4	det	4:det	Entity=(99-abstract-new-cf2-3-sgl
 3	transaction	transaction	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(100-event-new-cf5-1-sgl)|MSeg=transact-ion
@@ -761,13 +761,13 @@
 18	processor	processor	NOUN	NN	Number=Sing	5	obl:agent	5:obl:agent	Entity=102)99)|MSeg=process-or|SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"3" (1 s)
 # sent_id = GENTLE_legal_service-29
 # s_prominence = 1
 # s_type = frag
 # transition = continue
 # text = (iii) Escrow agent fees charged to the Company or its affiliates by third-party escrow agents.
-# newpar
-# newpar_block = item n:::"3" (1 s)
 1	(iii)	(iii)	X	LS	_	4	discourse	4:discourse	Discourse=joint-list_m:75->71:1:grf-seq-539
 2	Escrow	escrow	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(103-abstract-new-cf4-3-sgl(104-person-new-cf5-2-sgl
 3	agent	agent	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=104)
@@ -787,13 +787,13 @@
 17	agents	agent	NOUN	NNS	Number=Plur	5	obl:agent	5:obl:agent	Entity=105)103)|MSeg=agent-s|SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"4" (2 s)
 # sent_id = GENTLE_legal_service-30
 # s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = (iv) Return fees as set out in Section 4 (Returns, Reversals, Disputes and Reserves) below.
-# newpar
-# newpar_block = item n:::"4" (2 s)
 1	(iv)	(iv)	X	LS	_	3	discourse	3:discourse	Discourse=joint-list_m:77->71:1:grf-seq-557
 2	Return	return	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(106-abstract-new-cf6-2-sgl
 3	fees	fee	NOUN	NNS	Number=Plur	0	root	0:root	Entity=106)|MSeg=fee-s
@@ -847,26 +847,26 @@
 25	vendor	vendor	NOUN	NN	Number=Sing	20	obl:agent	20:obl:agent	Entity=115)114)112)|SpaceAfter=No
 26	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_legal_service-32
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = 2. Customer Representations and Warranties
-# newpar
-# newpar_block = head (1 s)
 1	2.	2.	X	LS	_	3	discourse	3:discourse	Discourse=organization-heading:86->90:2:grf-ly-+grf-seq-603+sem-rpt-604,608|XML=<hi rend:::"bold">
 2	Customer	customer	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(116-abstract-new-cf2-2,4-sgl(117-abstract-new-cf3-2-sgl(8-organization-giv:inact-cf1-1-coref)|MSeg=Custom-er
 3	Representations	representation	NOUN	NNS	Number=Plur	0	root	0:root	Entity=117)|MSeg=Representation-s
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
 5	Warranties	warranty	NOUN	NNS	Number=Plur	3	conj	3:conj:and	Entity=(118-abstract-new-cf4-1-sgl)116)|MSeg=Warrant-ie-s|XML=</hi>
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-33
 # s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = Customer represents and warrants to the Company that then executed and delivered by Customer, this Service Agreement will constitute the legal, valid, and binding obligation of Customer, enforceable in accordance with its terms.
-# newpar
-# newpar_block = p (1 s)
 1	Customer	customer	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Discourse=context-background:87->90:1:sem-rpt-608,637|Entity=(8-organization-giv:act-cf1*-1-coref)|MSeg=Custom-er
 2	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=represent-s
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
@@ -906,37 +906,37 @@
 37	terms	term	NOUN	NNS	Number=Plur	34	nmod	34:nmod:with	Entity=122)|MSeg=term-s|SpaceAfter=No
 38	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_legal_service-34
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = 4. Returns and Reversals
-# newpar
-# newpar_block = head (1 s)
 1	4.	4.	X	LS	_	2	discourse	2:discourse	Discourse=organization-heading:92->94:4:grf-ly-+grf-seq-646+sem-rpt-647,665+sem-lxchn-649,673+sem-synym-649,709-712|XML=<hi rend:::"bold">
 2	Returns	return	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(123-abstract-new-cf3-1,3-coref(108-abstract-giv:inact-cf1-1-coref-Returns_%28economics%29)|MSeg=Return-s
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	Reversals	reversal	NOUN	NNS	Number=Plur	2	conj	2:conj:and	Entity=(109-abstract-giv:inact-cf2-1-coref)123)|MSeg=Revers-al-s|XML=</hi>
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-35
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = a) Returns and Reversals
-# newpar
-# newpar_block = p (1 s)
 1	a)	a)	X	LS	_	2	discourse	2:discourse	Discourse=organization-heading:93->94:3:grf-ly-+grf-seq-650+sem-rpt-651,665+sem-synym-653,709-712|XML=<hi rend:::"bold">
 2	Returns	return	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(123-abstract-giv:act-cf1*-1,3-coref(108-abstract-giv:act-cf2-1-coref-Returns_%28economics%29)|MSeg=Return-s
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	Reversals	reversal	NOUN	NNS	Number=Plur	2	conj	2:conj:and	Entity=(109-abstract-giv:act-cf3-1-coref)123)|MSeg=Revers-al-s|XML=</hi>
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_legal_service-36
 # s_prominence = 1
 # s_type = decl
 # transition = smooth-shift
 # text = User transactions debited from bank accounts via ACH are subject to returns (e.g., non-sufficient funds) and reversals from chargebacks (e.g., unauthorized activity) per the Electronic Fund Transfer Act (15 U.S.C. 1693 et seq. as may be amended), Regulation E, and NACHA guidelines (collectively, such returns and reversals are "Reversals").
-# newpar
-# newpar_block = p (2 s)
 1	User	user	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=joint-list_m:94->13:5:_|Entity=(124-abstract-new-cf5-2-sgl
 2	transactions	transaction	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	MSeg=transact-ion-s
 3	debited	debit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl	2:acl	Discourse=elaboration-attribute:95->94:0:syn-mdf-655+syn-nmn-656|MSeg=debit-ed
@@ -1032,13 +1032,13 @@
 22	that	that	SCONJ	IN	_	19	mark	19:mark	Discourse=organization-preparation:107->108:2:sem-rpt-736,743+grf-col-741|SpaceAfter=No
 23	:	:	PUNCT	:	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (8 s) | item n:::"1" (1 s)
 # sent_id = GENTLE_legal_service-38
 # s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = i) Customer is liable for all User Activity and Reversals associated with User Activity;
-# newpar
-# newpar_block = list type:::"ordered" (8 s) | item n:::"1" (1 s)
 1	i)	i)	X	LS	_	4	discourse	4:discourse	Discourse=adversative-contrast_m:108->105:0:dm-however-734
 2	Customer	customer	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(8-organization-giv:act-cf1*-1-coref)|MSeg=Custom-er
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -1055,20 +1055,20 @@
 14	Activity	Activity	PROPN	NNP	Number=Sing	11	obl	11:obl:with	Entity=136)138)136)|SpaceAfter=No
 15	;	;	PUNCT	:	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"2" (1 s)
 # sent_id = GENTLE_legal_service-39
 # s_prominence = 1
 # s_type = decl
 # transition = rough-shift
 # text = ii) If Company's agent receives a Reversal, the Company may in its sole discretion charge Customer the full amount of the Reversal ("Reversed Payment") plus an additional $ 7 reversal fee ("Reversal Fee" and collectively the "Reversal Liability");
-# newpar
-# newpar_block = item n:::"2" (1 s)
 1	ii)	ii)	X	LS	_	17	discourse	17:discourse	Discourse=contingency-condition:110->111:2:dm-if-758+mrf-md-768
 2	If	if	SCONJ	IN	_	6	mark	6:mark	PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:758:766-807:757,759-765
 3-4	Company's	_	_	_	_	_	_	_	_
 3	Company	Company	PROPN	NNP	Number=Sing	5	nmod:poss	5:nmod:poss	Entity=(139-person-new-cf6-3-sgl(6-organization-giv:inact-cf1-1-coref
 4	's	's	PART	POS	_	3	case	3:case	Entity=6)
 5	agent	agent	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=139)
-6	receives	receive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	17:advcl:if	CxnElt=Protasis|MSeg=receive-s
+6	receives	receive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	17:advcl:if	CxnElt=17:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|MSeg=receive-s
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(109-abstract-giv:act-cf2*-2-coref
 8	Reversal	reversal	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=109)|SpaceAfter=No
 9	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -1079,7 +1079,7 @@
 14	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(140-abstract-new-cf7-3-sgl(6-organization-giv:act-cf1-1-ana)|MSeg=it-s
 15	sole	sole	ADJ	JJ	Degree=Pos	16	amod	16:amod	MSeg=so-le
 16	discretion	discretion	NOUN	NN	Number=Sing	17	obl	17:obl:in	Entity=140)|MSeg=discret-ion
-17	charge	charge	NOUN	NN	Number=Sing	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
+17	charge	charge	NOUN	NN	Number=Sing	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=17:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 18	Customer	customer	NOUN	NN	Number=Sing	17	iobj	17:iobj	Entity=(8-organization-giv:act-cf5-1-coref)|MSeg=Custom-er
 19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(141-abstract-new-cf4-3-coref
 20	full	full	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
@@ -1115,13 +1115,13 @@
 50	)	)	PUNCT	-RRB-	_	48	punct	48:punct	SpaceAfter=No
 51	;	;	PUNCT	:	_	17	punct	17:punct	_
 
+# newpar
+# newpar_block = item n:::"3" (1 s)
 # sent_id = GENTLE_legal_service-40
 # s_prominence = 1
 # s_type = decl
 # transition = smooth-shift
 # text = iii) The Company has sole discretion to determine who is at fault and liable for the Reversed Payment and Reversal Fee;
-# newpar
-# newpar_block = item n:::"3" (1 s)
 1	iii)	iii)	X	LS	_	4	discourse	4:discourse	Discourse=joint-list_m:115->108:1:grf-seq-808
 2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(6-organization-giv:act-cf1*-2-coref
 3	Company	Company	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=6)
@@ -1130,10 +1130,10 @@
 6	discretion	discretion	NOUN	NN	Number=Sing	4	obj	4:obj	MSeg=discret-ion
 7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-attribute:116->115:0:syn-mdf-813+syn-inf-814
 8	determine	determine	VERB	VB	VerbForm=Inf	6	acl	6:acl:to	_
-9	who	who	PRON	WP	PronType=Int	12	nsubj	12:nsubj|14:nsubj	CxnElt=WHWord
+9	who	who	PRON	WP	PronType=Int	12	nsubj	12:nsubj|14:nsubj	CxnElt=12:Interrogative-WHInfo-Indirect.WHWord
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 11	at	at	ADP	IN	_	12	case	12:case	_
-12	fault	fault	NOUN	NN	Number=Sing	8	ccomp	8:ccomp	Cxn=Interrogative-WHInfo-Indirect|CxnElt=Clause
+12	fault	fault	NOUN	NN	Number=Sing	8	ccomp	8:ccomp	Cxn=Interrogative-WHInfo-Indirect|CxnElt=12:Interrogative-WHInfo-Indirect.Clause
 13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=joint-list_m:117->116:0:dm-and-820+grf-semcol-829
 14	liable	liable	ADJ	JJ	Degree=Pos	12	conj	8:ccomp|12:conj:and	_
 15	for	for	ADP	IN	_	18	case	18:case	_
@@ -1145,13 +1145,13 @@
 21	Fee	Fee	PROPN	NNP	Number=Sing	18	conj	12:obl:for|18:conj:and	Entity=109)143)|SpaceAfter=No
 22	;	;	PUNCT	:	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item n:::"4" (5 s)
 # sent_id = GENTLE_legal_service-41
 # s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = iv) Customer authorizes the Company to take any of the following actions (in any particular order):
-# newpar
-# newpar_block = item n:::"4" (5 s)
 1	iv)	iv)	X	LS	_	3	discourse	3:discourse	Discourse=organization-preparation:118->120:2:ref-prs-831,862+lex-indph-839-840+grf-col-848
 2	Customer	customer	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(8-organization-giv:inact-cf2-1-coref)|MSeg=Custom-er
 3	authorizes	authorize	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=author-ize-s
@@ -1262,25 +1262,25 @@
 12	Agreement	Agreement	PROPN	NNP	Number=Sing	2	obl	2:obl:under	Entity=3)155)|MSeg=Agree-ment|SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_legal_service-46
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = 5. Term and Survival
-# newpar
-# newpar_block = head (1 s)
 1	5.	5.	X	LS	_	2	discourse	2:discourse	Discourse=organization-heading:126->127:4:grf-ly-+grf-seq-915|XML=<hi rend:::"bold">
 2	Term	Term	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(157-abstract-new-cf1-1-sgl-Contractual_term)
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	Survival	Survival	NOUN	NN	Number=Sing	2	conj	2:conj:and	Entity=(158-abstract-new-cf2-1-sgl)|XML=</hi>
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-47
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = a) Subject to earlier termination as provided below, this Service Agreement is for the total duration of the Company's Offering (the "Initial Term") unless either party requests termination at least 30 days prior to the end of the then-current term.
-# newpar
-# newpar_block = p (1 s)
 1	a)	a)	X	LS	_	17	discourse	17:discourse	Discourse=joint-list_m:127->13:5:_
 2	Subject	Subject	ADJ	JJ	Degree=Pos	17	acl	17:acl	_
 3	to	to	ADP	IN	_	5	case	5:case	_
@@ -1332,13 +1332,13 @@
 48	term	term	NOUN	NN	Number=Sing	42	nmod	42:nmod:of	Entity=165)164)163)|SpaceAfter=No
 49	.	.	PUNCT	.	_	17	punct	17:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-48
 # s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = b) Additionally, either party may terminate this Service Agreement in the event:
-# newpar
-# newpar_block = p (1 s)
 1	b)	b)	X	LS	_	7	discourse	7:discourse	Discourse=joint-list_m:132->127:3:grf-seq-919,968+dm-additionally-969
 2	Additionally	additionally	ADV	RB	Degree=Pos	7	advmod	7:advmod	MSeg=Add-ition-al-ly|PDTB=Explicit:Expansion.Conjunction:additionally:969:919-967:968,970-981|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -1354,13 +1354,13 @@
 13	event	event	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=166)|SpaceAfter=No
 14	:	:	PUNCT	:	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (7 s) | item n:::"1" (1 s)
 # sent_id = GENTLE_legal_service-49
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = i) The other party's material breach that remains not cured and continues for a period of (A) in the case of a failure involving the payment of any undisputed amount due hereunder, 15 days and (B) in the case of any other failure, 30 days after the non performing party receives notice from the terminating party specifying such failure;
-# newpar
-# newpar_block = list type:::"ordered" (7 s) | item n:::"1" (1 s)
 1	i)	i)	X	LS	_	7	discourse	7:discourse	Discourse=contingency-condition:133->132:0:lex-indph-1000-1002+lex-indph-1020-1022+dm-if-1151+dm-if-1244
 2	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=161<168|Entity=(167-abstract-new-cf6-6-sgl(168-organization-acc:inf-cf3-3-sgl
 3	other	other	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -1426,13 +1426,13 @@
 62	failure	failure	NOUN	NN	Number=Sing	60	obj	60:obj	Entity=175)167)|MSeg=fail-ure|SpaceAfter=No
 63	;	;	PUNCT	:	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = item n:::"2" (1 s)
 # sent_id = GENTLE_legal_service-50
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = ii) Any statement, representation or warranty of the other party is untrue or misleading in any material respect or omits material information;
-# newpar
-# newpar_block = item n:::"2" (1 s)
 1	ii)	ii)	X	LS	_	13	discourse	13:discourse	Discourse=joint-disjunction_m:142->133:1:_
 2	Any	any	DET	DT	PronType=Ind	3	det	3:det	Entity=(179-abstract-new-cf2-2,4,6-sgl
 3	statement	statement	NOUN	NN	Number=Sing	13	nsubj	13:nsubj|15:nsubj|21:nsubj	MSeg=state-ment|SpaceAfter=No
@@ -1458,13 +1458,13 @@
 23	information	information	NOUN	NN	Number=Sing	21	obj	21:obj	Entity=183)|MSeg=in-form-ation|SpaceAfter=No
 24	;	;	PUNCT	:	_	13	punct	13:punct	_
 
+# newpar
+# newpar_block = item n:::"3" (1 s)
 # sent_id = GENTLE_legal_service-51
 # s_prominence = 2
 # s_type = other
 # transition = null
 # text = iii) The other party (A) voluntarily or involuntarily is subject to bankruptcy proceedings, (B) applies for or consents to the appointment of a receiver, trustee, custodian, sequestrator, or similar official, (C) makes a general assignment to creditors, (D) commences winding down or liquidation of its business affairs, (E) otherwise takes corporate action for the purpose of effecting any of the foregoing, or (F) ceases operating in the normal course of business;
-# newpar
-# newpar_block = item n:::"3" (1 s)
 1	iii)	iii)	X	LS	_	10	discourse	10:discourse	Discourse=joint-disjunction_m:144->133:1:_
 2	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=161<184|Entity=(184-organization-acc:inf-cf1-3-coref
 3	other	other	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -1547,13 +1547,13 @@
 80	business	business	NOUN	NN	Number=Sing	78	nmod	78:nmod:of	Entity=(201-abstract-new-cf17-1-sgl)200)|MSeg=busi-ness|SpaceAfter=No
 81	;	;	PUNCT	:	_	10	punct	10:punct	_
 
+# newpar
+# newpar_block = item n:::"4" (1 s)
 # sent_id = GENTLE_legal_service-52
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = iv) If any change to, enactment of, or change in interpretation or enforcement of any law occurs that would have a material adverse effect upon a party's ability to perform its obligations under this Service Agreement or a party's costs/revenues with respect to the services under this Service Agreement;
-# newpar
-# newpar_block = item n:::"4" (1 s)
 1	iv)	iv)	X	LS	_	19	discourse	19:discourse	Discourse=joint-disjunction_m:151->133:1:grf-seq-1150+grf-semcol-1205
 2	If	if	SCONJ	IN	_	19	mark	19:mark	PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:1151:968-981:982-1150,1152-1168
 3	any	any	DET	DT	PronType=Ind	4	det	4:det	Entity=(202-abstract-new-cf4-2,5,9-sgl
@@ -1613,13 +1613,13 @@
 55	Agreement	Agreement	PROPN	NNP	Number=Sing	51	nmod	51:nmod:under	Entity=3)212)209)208)204)|MSeg=Agree-ment|SpaceAfter=No
 56	;	;	PUNCT	:	_	19	punct	19:punct	_
 
+# newpar
+# newpar_block = item n:::"5" (1 s)
 # sent_id = GENTLE_legal_service-53
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = v) Upon direction to a party from any regulatory authority or National Automated Clearing House Association to cease or materially limit the exercise or performance of such party's rights or obligations under this Service Agreement;
-# newpar
-# newpar_block = item n:::"5" (1 s)
 1	v)	v)	X	LS	_	3	discourse	3:discourse	Discourse=joint-disjunction_m:154->133:1:grf-seq-1206+grf-semcol-1242
 2	Upon	upon	ADP	IN	_	3	case	3:case	MSeg=Up-on
 3	direction	direction	NOUN	NN	Number=Sing	0	root	0:root	Entity=(213-abstract-new-cf7-1-sgl|MSeg=direct-ion
@@ -1659,13 +1659,13 @@
 36	Agreement	Agreement	PROPN	NNP	Number=Sing	30	nmod	30:nmod:under	Entity=3)218)213)|MSeg=Agree-ment|SpaceAfter=No
 37	;	;	PUNCT	:	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item n:::"6" (1 s)
 # sent_id = GENTLE_legal_service-54
 # s_prominence = 2
 # s_type = sub
 # transition = zero
 # text = vi) If there shall have occurred a material adverse change in the financial condition of the other party; or
-# newpar
-# newpar_block = item n:::"6" (1 s)
 1	vi)	vi)	X	LS	_	6	discourse	6:discourse	Discourse=joint-disjunction_m:156->133:1:grf-seq-982,1243
 2	If	if	SCONJ	IN	_	6	mark	6:mark	PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:1244:968-981:982-1243,1245-1262
 3	there	there	PRON	EX	PronType=Dem	6	expl	6:expl	_
@@ -1687,13 +1687,13 @@
 19	;	;	PUNCT	:	_	20	punct	20:punct	_
 20	or	or	CCONJ	CC	_	6	conj	6:conj	PDTB=Explicit:Expansion.Disjunction:or:1262:1243-1261:1263-1290
 
+# newpar
+# newpar_block = item n:::"7" (1 s)
 # sent_id = GENTLE_legal_service-55
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = vii) Upon a force majeure event that materially prevents or impedes a party from performing its obligations hereunder for a period of more than 10 business days.
-# newpar
-# newpar_block = item n:::"7" (1 s)
 1	vii)	vii)	X	LS	_	6	discourse	6:discourse	Discourse=joint-disjunction_m:157->133:1:dm-or-1262+grf-seq-1263
 2	Upon	upon	ADP	IN	_	6	case	6:case	MSeg=Up-on
 3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(223-event-new-cf3-4-sgl
@@ -1723,25 +1723,25 @@
 27	days	day	NOUN	NNS	Number=Plur	21	nmod	21:nmod:of	Entity=228)227)223)|MSeg=day-s|SpaceAfter=No
 28	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-56
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = StartEngine Crowdfunding, Inc.
-# newpar
-# newpar_block = p (1 s)
 1	StartEngine	StartEngine	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=attribution-positive:159->13:8:sem-atsrc-1291-1294,1298-1299,1305-1310,1315-1319|Entity=(6-organization-giv:inact-cf1-1,2,4-coref|MSeg=Start-Engine
 2	Crowdfunding	Crowdfunding	PROPN	NNP	Number=Sing	4	compound	4:compound	MSeg=Crowd-fund-ing|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Inc.	Inc.	PROPN	NNP	Abbr=Yes|Number=Sing	0	root	0:root	Entity=6)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-57
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = By: /s/ Dawn Dickson,
-# newpar
-# newpar_block = p (1 s)
 1	By	by	ADP	IN	_	4	case	4:case	Discourse=organization-preparation:160->161:0:grf-col-1296|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 3	/s/	/s/	X	LS	_	4	discourse	4:discourse	Discourse=joint-list_m:161->159:0:grf-seq-1297|Entity=(229-person-new-cf1-2,3-coref
@@ -1749,23 +1749,23 @@
 5	Dickson	Dickson	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=229)|SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-58
 # s_prominence = 3
 # s_type = frag
 # transition = null
 # text = Customer:
-# newpar
-# newpar_block = p (1 s)
 1	Customer	customer	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-preparation:162->164:1:grf-col-1302|Entity=(8-organization-giv:inact-cf1-1-coref)|MSeg=Custom-er|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-59
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = By:Dawn Dickson, CEO and Founder
-# newpar
-# newpar_block = p (1 s)
 1	By	by	ADP	IN	_	3	case	3:case	Discourse=organization-preparation:163->164:0:grf-col-1304|SpaceAfter=No|XML=<w>
 2	:	:	PUNCT	:	_	1	punct	1:punct	SpaceAfter=No
 3	Dawn	Dawn	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=restatement-repetition_m:164->161:1:sem-rpt-1297-1299,1305-1306|Entity=(229-person-giv:inact-cf1-1,2-coref|XML=</w>
@@ -1775,24 +1775,24 @@
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	Founder	founder	NOUN	NN	Number=Sing	3	appos	3:appos	Entity=(229-person-giv:act-cf1-1-coref)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-60
 # s_prominence = 3
 # s_type = frag
 # transition = null
 # text = Date: 08/19/2019
-# newpar
-# newpar_block = p (1 s)
 1	Date	Date	NOUN	NN	Number=Sing	3	dep	3:dep	Discourse=organization-preparation:165->166:0:grf-col-1312|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 3	08/19/2019	08/19/2019	NUM	CD	NumForm=Digit|NumType=Card	0	root	0:root	Discourse=context-circumstance:166->161:2:lex-indwd-1313|Entity=(230-time-new-cf1-1-sgl)|XML=<date when:::"2019-08-19"></date>
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_legal_service-61
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = /s/ Howard Marks Howard Marks CEO
-# newpar
-# newpar_block = p (1 s)
 1	/s/	/s/	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:167->159:0:grf-seq-1314|Entity=(231-person-new-cf1-2,3-coref
 2	Howard	Howard	PROPN	NNP	Number=Sing	6	dep	6:dep	_
 3	Marks	Marks	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=231)

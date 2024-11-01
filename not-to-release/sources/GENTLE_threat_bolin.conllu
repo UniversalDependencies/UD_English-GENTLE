@@ -10,23 +10,23 @@
 # meta::speakerCount = 0
 # meta::summary = In a letter to Jerry on 6/25/90, the author threatens Jerry for hitting their daughter Paula and underreporting how much he got for some vehicles, and then demands that Jerry return the author and Paula's things such as clothes, books, a gun, TV and VCR to Paula within a week or suffer the consequences.
 # meta::title = People v. Bolin, 18 Cal. 4th 297, 336, 956 P.2d 374, 401, 75 Cal. Rptr. 2d 412, 439, 1998 Cal. LEXIS 3645, *65, 98 Daily Journal DAR 6653, 98 Cal. Daily Op. Service 4680 (Cal. June 18, 1998)
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_threat_bolin-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = Jerry 6/25/90
-# newpar
-# newpar_block = p (1 s)
 1	Jerry	Jerry	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:1->9:5:grf-ly-+ref-prs-1,57|Entity=(1-person-new-cf1-1-coref)
 2	6/25/90	6/25/90	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Entity=(2-time-new-cf2-1-sgl)|XML=<date when:::"1990-06-25"></date>
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GENTLE_threat_bolin-2
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = Well I finally heard from Paula and what I heard from her I'm not to pleased with.
-# newpar
-# newpar_block = p (5 s)
 1	Well	well	INTJ	UH	_	4	discourse	4:discourse	Discourse=context-background:2->3:0:ref-prs-4,11+ref-prs-8,14
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(3-person-acc:com-cf1-1-ana)
 3	finally	finally	ADV	RB	Degree=Pos	4	advmod	4:advmod	MSeg=final-ly
@@ -103,7 +103,7 @@
 1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:8->9:0:dm-if-56|PDTB=EntRel:EntRel:_:_:39-55:56-76;Explicit:Contingency.Condition.Arg2-as-cond:if:56:64-76:57-63
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
 3	ever	ever	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
-4	touch	touch	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	CxnElt=Protasis
+4	touch	touch	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	CxnElt=11:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(8-person-new-cf3-2-coref(3-person-giv:act-cf2-1-ana)
 6	daughter	daughter	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=8)
 7	again	again	ADV	RB	Degree=Pos	4	advmod	4:advmod	SpaceAfter=No
@@ -111,7 +111,7 @@
 9-10	I'll	_	_	_	_	_	_	_	_
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Discourse=ROOT:9:0|Entity=(3-person-giv:act-cf2-1-ana)
 10	'll	will	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
-11	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
+11	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=11:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 12	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	obj	11:obj|14:nsubj:pass:xsubj	Entity=(1-person-giv:act-cf1*-1-ana)
 13	permanently	permanently	ADV	RB	Degree=Pos	14	advmod	14:advmod	MSeg=permanent-ly
 14	removed	remove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp	11:xcomp	MSeg=re-mov-ed
@@ -151,13 +151,13 @@
 19	broke	break	VERB	VBN	Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	15	xcomp	15:xcomp	CorrectForm=broken|SpaceAfter=No|XML=<sic ana:::"broken"></sic>
 20	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (13 s)
 # sent_id = GENTLE_threat_bolin-7
 # s_prominence = 2
 # s_type = decl
 # transition = retain
 # text = I found out what happend to most of the money from the van, and I also found out you got 1500 for the truck not 1300 like you said.
-# newpar
-# newpar_block = p (13 s)
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:13->14:0:sem-atsrc-97+lex-indwd-98|Entity=(3-person-giv:inact-cf1-1-ana)
 2	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	out	out	ADP	RP	_	2	compound:prt	2:compound:prt	_
@@ -216,12 +216,12 @@
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	Entity=(17-object-giv:act-cf3-1-ana-Buick)
 18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
 19	1	1	NUM	CD	NumForm=Digit|NumType=Card	20	nummod	20:nummod	Entity=(18-abstract-new-cf5-2-sgl(19-abstract-new-cf6-2-sgl
-20	¢	¢	NOUN	NN	Number=Sing	25	advcl	25:advcl:if	CxnElt=Protasis|Entity=19)
+20	¢	¢	NOUN	NN	Number=Sing	25	advcl	25:advcl:if	CxnElt=25:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|Entity=19)
 21	over	over	ADP	IN	_	22	case	22:case	_
 22	1000	1000	NUM	CD	NumForm=Digit|NumType=Card	20	nmod	20:nmod:over	Entity=18)|XML=<date when:::"1000"></date>
 23	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	25:nsubj	Discourse=same-unit_m:22->20:0:_|Entity=(1-person-giv:act-cf2-1-ana)
 24	can	can	AUX	MD	VerbForm=Fin	25	aux	25:aux	_
-25	kiss	kiss	VERB	VB	VerbForm=Inf	4	conj	4:conj:and	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
+25	kiss	kiss	VERB	VB	VerbForm=Inf	4	conj	4:conj:and	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=25:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 26	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(20-object-new-cf4-2-sgl(1-person-giv:act-cf2-1-ana)
 27	ass	ass	NOUN	NN	Number=Sing	25	obj	25:obj	Entity=20)
 28	goodbye	goodbye	NOUN	NN	Number=Sing	25	obl:unmarked	25:obl:unmarked	SpaceAfter=No
@@ -288,8 +288,8 @@
 # transition = establishment
 # text = I told you a long time ago don't play fucking games with me.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:29->30:1:sem-atsrc-200+lex-indwd-201|Entity=(3-person-giv:inact-cf2-1-ana)
-2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=DitrV|MSeg=tol-d
-3	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	iobj	2:iobj	CxnElt=DitrRec|Entity=(1-person-giv:act-cf1*-1-ana)
+2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=2:Ditransitive.V|MSeg=tol-d
+3	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	iobj	2:iobj	CxnElt=2:Ditransitive.Rec|Entity=(1-person-giv:act-cf1*-1-ana)
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(25-time-new-cf4-4-sgl
 5	long	long	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	time	time	NOUN	NN	Number=Sing	7	obl:unmarked	7:obl:unmarked	_
@@ -297,7 +297,7 @@
 8-9	don't	_	_	_	_	_	_	_	_
 8	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	Discourse=joint-other_m:30->14:3:_
 9	n't	not	PART	RB	Polarity=Neg	10	advmod	10:advmod	Negation=Yes
-10	play	play	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	CxnElt=DitrTheme
+10	play	play	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	CxnElt=2:Ditransitive.Theme
 11	fucking	fucking	INTJ	UH	_	12	discourse	12:discourse	Entity=(26-abstract-new-cf3-2-coref|MSeg=fuck-ing
 12	games	game	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=26)|MSeg=game-s
 13	with	with	ADP	IN	_	14	case	14:case	_
@@ -410,14 +410,14 @@
 20	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	23:aux	_
 21	n't	not	PART	RB	Polarity=Neg	23	advmod	23:advmod	Negation=Yes
 22	fucking	fucking	INTJ	UH	_	23	discourse	23:discourse	MSeg=fuck-ing
-23	care	care	VERB	VB	VerbForm=Inf	33	parataxis	33:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
+23	care	care	VERB	VB	VerbForm=Inf	33	parataxis	33:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=23:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 24	if	if	SCONJ	IN	_	29	mark	29:mark	Discourse=evaluation-comment:41->39:0:lex-indwd-292
 25-26	it's	_	_	_	_	_	_	_	_
 25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	29:nsubj	Entity=(42-object-new-cf6-1-cata)
 26	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	29:cop	_
 27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	29:det	Entity=(42-object-acc:com-cf6-3-coref
 28	bobby	bobby	NOUN	NN	Number=Sing	29	compound	29:compound	_
-29	pin	pin	NOUN	NN	Number=Sing	23	advcl	23:advcl:if	CxnElt=Protasis|Entity=42)|SpaceAfter=No
+29	pin	pin	NOUN	NN	Number=Sing	23	advcl	23:advcl:if	CxnElt=23:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|Entity=42)|SpaceAfter=No
 30	,	,	PUNCT	,	_	23	punct	23:punct	_
 31	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	33	nsubj	33:nsubj	Discourse=same-unit_m:42->37:1:_|Entity=(1-person-giv:inact-cf5-1-ana)
 32	better	well	ADV	RBR	Degree=Cmp	33	advmod	33:advmod	MSeg=bett-er
@@ -508,25 +508,25 @@
 19	handle	handle	VERB	VB	VerbForm=Inf	11	acl	11:acl:than	MSeg=hand-le|SpaceAfter=No
 20	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_threat_bolin-20
 # s_prominence = 2
 # s_type = frag
 # transition = continue
 # text = 1 week asshole.
-# newpar
-# newpar_block = p (1 s)
 1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=restatement-partial:51->45:3:sem-synym-323,367+sem-rpt-325-326,365-366|Entity=(46-time-giv:inact-cf2-2-coref
 2	week	week	NOUN	NN	Number=Sing	0	root	0:root	Entity=46)
 3	asshole	asshole	NOUN	NN	Number=Sing	2	vocative	2:vocative	Entity=(1-person-giv:act-cf1*-1-coref)|MSeg=ass-hole|SpaceAfter=No
 4	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_threat_bolin-21
 # s_prominence = 2
 # s_type = imp
 # transition = continue
 # text = And keep playing your game with Paula and see what happens.
-# newpar
-# newpar_block = p (1 s)
 1	And	and	CCONJ	CC	_	2	cc	2:cc	Discourse=contingency-condition:52->53:0:dm-and-376|PDTB=Explicit:Comparison.Contrast:and:369:271-307:370-380
 2	keep	keep	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	playing	play	VERB	VBG	VerbForm=Ger	2	xcomp	2:xcomp	MSeg=play-ing

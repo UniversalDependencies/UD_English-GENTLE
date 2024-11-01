@@ -10,22 +10,22 @@
 # meta::speakerCount = 0
 # meta::summary = This dictionary entry for the word 'trust' provides its etymology from Middle English 'trust' and Proto-Indo-European *deru- 'be firm', cognates such as Danish trøst, pronunciations like /trʌst/ and /trʊst/ and synonyms, antonyms, usage examples and definitions as a noun (e.g. 'confidence', 'hope'), senses in computing and law, and as a verb meaning to have faith or believe.
 # meta::title = trust
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_dictionary_trust-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = trust
-# newpar
-# newpar_block = head (1 s)
 1	trust	trust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->4:6:grf-ly-+sem-lxchn-1,7|Entity=(1-abstract-new-cf1-1-sgl)
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_dictionary_trust-2
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = English
-# newpar
-# newpar_block = head (1 s)
 1	English	English	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:2->4:5:grf-ly-|Entity=(2-abstract-new-cf1-1-sgl-English)|MSeg=Engl-ish
 
 # sent_id = GENTLE_dictionary_trust-3
@@ -35,13 +35,13 @@
 # text = Etymology
 1	Etymology	etymology	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:3->4:3:grf-ly-|Entity=(3-abstract-new-cf1-1-coref)|MSeg=Etymo-logy|PDTB=NoRel:NoRel:_:_:2:3|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_dictionary_trust-4
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = From Middle English trust (“trust, protection”).
-# newpar
-# newpar_block = p (3 s)
 1	From	from	ADP	IN	_	4	case	4:case	Discourse=ROOT:4:0
 2	Middle	Middle	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(4-abstract-new-cf2-1,3-sgl(5-abstract-new-cf1-1,2-sgl-Middle_English|XML=<ref target:::"https://en.wikipedia.org/wiki/Middle_English">
 3	English	English	ADJ	NNP	Degree=Pos	4	amod	4:amod	Entity=5)|MSeg=Engl-ish|XML=</ref>
@@ -159,13 +159,13 @@
 17	)	)	PUNCT	-RRB-	_	15	punct	15:punct	SpaceAfter=No
 18	.	.	PUNCT	.	_	8	punct	8:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_dictionary_trust-7
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = Akin to Danish trøst (“comfort, solace”), Saterland Frisian Traast (“comfort, solace”), West Frisian treast (“comfort, solace”), Dutch troost (“comfort, consolation”), German Trost (“comfort, consolation”), Gothic trausti (trausti, “alliance, pact”).
-# newpar
-# newpar_block = p (3 s)
 1	Akin	akin	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=joint-other_m:15->4:2:_
 2	to	to	ADP	IN	_	4	case	4:case	_
 3	Danish	Danish	ADJ	NNP	Degree=Pos	4	amod	4:amod	Entity=(27-abstract-new-cf9-2-sgl(28-abstract-new-cf5-1-sgl)|MSeg=Dan-ish|XML=<ref target:::"https://en.wikipedia.org/wiki/Danish_language"></ref>
@@ -262,13 +262,13 @@
 # text = Pronunciation
 1	Pronunciation	pronunciation	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:29->31:3:grf-ly-|Entity=(49-abstract-new-cf1-1-sgl)|MSeg=Pronunc-iation|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (4 s) | item (1 s)
 # sent_id = GENTLE_dictionary_trust-11
 # s_prominence = 1
 # s_type = other
 # transition = null
 # text = enPR: trŭst, IPA(key): /trʌst/, [tɹʌst], [tɹɐst], [t͡ʃɹ-]
-# newpar
-# newpar_block = list type:::"unordered" (4 s) | item (1 s)
 1	enPR	enPR	PROPN	NNP	Number=Sing	3	dep	3:dep	Discourse=organization-preparation:30->31:0:grf-col-185|Entity=(50-abstract-new-cf2-1-sgl)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:English_pronunciation"></ref>
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 3	trŭst	trŭst	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-other_m:31->4:4:_|Entity=(6-abstract-giv:inact-cf1-1-coref)|SpaceAfter=No
@@ -286,13 +286,13 @@
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
 16	[t͡ʃɹ-]	[t͡ʃɹ-]	NOUN	NN	Number=Sing	10	conj	3:conj|10:conj	Entity=(6-abstract-giv:act-cf1-1-coref)
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-12
 # s_prominence = 1
 # s_type = other
 # transition = establishment
 # text = (Northern England) IPA(key): /trʊst/
-# newpar
-# newpar_block = item (1 s)
 1	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=context-circumstance:35->38:1:_|SpaceAfter=No
 2	Northern	Northern	ADJ	NNP	Degree=Pos	3	amod	3:amod	Entity=(53-place-new-cf4-1,2-sgl-Northern_England|MSeg=North-ern|XML=<ref target:::"https://en.wikipedia.org/wiki/English_language_in_Northern_England">
 3	England	England	PROPN	NNP	Number=Sing	10	nmod	10:nmod	Entity=53)|SpaceAfter=No|XML=</ref>
@@ -304,25 +304,25 @@
 9	:	:	PUNCT	:	_	5	punct	5:punct	_
 10	/trʊst/	/trʊst/	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-other_m:38->31:2:grf-seq-|Entity=(6-abstract-giv:act-cf3-1-coref)
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-13
 # s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = Audio (GA)
-# newpar
-# newpar_block = item (1 s)
 1	Audio	audio	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-other_m:39->31:2:grf-seq-|Entity=(54-abstract-new-cf2-1-sgl)
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:40->39:0:grf-prn-211,213|SpaceAfter=No
 3	GA	GA	PROPN	NNP	Abbr=Yes|Number=Sing	1	dep	1:dep	Entity=(55-abstract-new-cf1-1-sgl-General_American_English)|SpaceAfter=No
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-14
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Rhymes: -ʌst
-# newpar
-# newpar_block = item (1 s)
 1	Rhymes	rhyme	NOUN	NNS	Number=Plur	3	dep	3:dep	Discourse=organization-preparation:41->42:0:grf-col-215|Entity=(56-abstract-new-cf1-1-sgl)|MSeg=Rhyme-s|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 3	-ʌst	-ʌst	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-other_m:42->31:2:grf-seq-|Entity=(57-abstract-new-cf2-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/Rhymes:English/%CA%8Cst"></ref>
@@ -349,13 +349,13 @@
 8	trusts	trust	NOUN	NNS	Number=Plur	1	appos	1:appos	Entity=(59-abstract-giv:act-cf2-1-coref)|MSeg=trust-s|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/trusts#English"></ref>
 9	)	)	PUNCT	-RRB-	_	8	punct	8:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (21 s) | item (5 s)
 # sent_id = GENTLE_dictionary_trust-17
 # s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Confidence in or reliance on some person or quality.
-# newpar
-# newpar_block = list type:::"ordered" (21 s) | item (5 s)
 1	Confidence	confidence	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-other_m:46->4:4:_|Entity=(60-abstract-new-cf2-1,4-sgl|MSeg=Confid-ence|XML=<ref target:::"https://en.wiktionary.org/wiki/confidence"></ref>
 2	in	in	ADP	IN	_	1	nmod	1:nmod	_
 3	or	or	CCONJ	CC	_	4	cc	4:cc	_
@@ -375,14 +375,14 @@
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=explanation-evidence:47->46:0:_|Entity=(63-person-new-cf2-1-cata)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:for example:_:227-236:237-252
 2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=need-s
 3	to	to	PART	TO	_	4	mark	4:mark	_
-4	regain	regain	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
+4	regain	regain	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=4:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(64-abstract-new-cf3-2-sgl(65-person-acc:com-cf1-1-ana)
 6	trust	trust	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=64)|XML=<hi rend:::"bold"></hi>
 7	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=contingency-condition:48->47:0:dm-if-243|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:if:_:237-242:243-252
 8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=(63-person-acc:com-cf2-1-coref)
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 10	ever	ever	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
-11	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:if	CxnElt=Protasis|MSeg=go-ing
+11	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:if	CxnElt=4:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|MSeg=go-ing
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	win	win	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	MSeg=w-in
 14	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	13:obj	Entity=(65-person-giv:act-cf1-1-ana)
@@ -421,13 +421,13 @@
 5	mutual	mutual	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(69-abstract-new-cf2-2-sgl
 6	trust	trust	NOUN	NN	Number=Sing	3	obl	3:obl:on	Entity=69)68)
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-22
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = Dependence upon something in the future; hope.
-# newpar
-# newpar_block = item (1 s)
 1	Dependence	dependence	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-disjunction_m:53->46:1:grf-seq-|Entity=(70-abstract-new-cf2-1-sgl|MSeg=Depend-ence|XML=<ref target:::"https://en.wiktionary.org/wiki/dependence"></ref>
 2	upon	upon	ADP	IN	_	3	case	3:case	MSeg=up-on
 3	something	something	PRON	NN	Number=Sing|PronType=Ind	1	nmod	1:nmod:upon	Entity=(71-abstract-new-cf3-1-coref)|MSeg=some-thing
@@ -438,13 +438,13 @@
 8	hope	hope	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	Entity=(73-abstract-new-cf4-1-coref)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/hope"></ref>
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-23
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = Confidence in the future payment for goods or services supplied; credit.
-# newpar
-# newpar_block = item (2 s)
 1	Confidence	confidence	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-disjunction_m:54->46:1:grf-seq-+grf-semcol-286|Entity=(74-abstract-new-cf2-1-coref|MSeg=Confid-ence
 2	in	in	ADP	IN	_	5	case	5:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(75-event-new-cf1-3-coref
@@ -481,13 +481,13 @@
 15	trust	trust	NOUN	NN	Number=Sing	12	obl	12:obl:on	Entity=(82-abstract-new-cf4-1-sgl)|SpaceAfter=No|XML=<hi rend:::"bold"></hi>
 16	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-25
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = That which is committed or entrusted; something received in confidence; a charge.
-# newpar
-# newpar_block = item (1 s)
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	root	0:root|4:nsubj	Discourse=joint-disjunction_m:59->46:1:grf-seq-+grf-semcol-311,316|Entity=(83-abstract-new-cf4-1-sgl
 2	which	which	PRON	WDT	PronType=Rel	4	nsubj	1:ref	Discourse=elaboration-attribute:60->59:0:syn-mdf-305+syn-relcl-306,308
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass|6:aux:pass	_
@@ -504,13 +504,13 @@
 14	charge	charge	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	Entity=86)|SpaceAfter=No
 15	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-26
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = That upon which confidence is reposed; ground of reliance; hope.
-# newpar
-# newpar_block = item (1 s)
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	root	0:root|6:obl:upon	Discourse=joint-disjunction_m:64->46:1:grf-seq-+grf-semcol-326|Entity=(87-abstract-new-cf5-1-sgl
 2	upon	upon	ADP	IN	_	3	case	3:case	Discourse=elaboration-attribute:65->64:0:syn-mdf-320+syn-relcl-322,325|MSeg=up-on
 3	which	which	PRON	WDT	PronType=Rel	6	obl	1:ref	_
@@ -525,13 +525,13 @@
 12	hope	hope	NOUN	NN	Number=Sing	8	parataxis	8:parataxis	Entity=(73-abstract-giv:inact-cf1-1-coref)|SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-27
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (rare)
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=evaluation-comment:67->68:0:lex-indwd-334|SpaceAfter=No
 2	rare	rare	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#rare"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -546,13 +546,13 @@
 3	reliability	reliability	NOUN	NN	Number=Sing	1	conj	1:conj	Entity=(92-abstract-new-cf2-1-sgl)|MSeg=reli-abil-ity|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/reliability"></ref>
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-29
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = The condition or obligation of one to whom anything is confided; responsible charge or office.
-# newpar
-# newpar_block = item (1 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-disjunction_m:69->46:1:grf-seq-+grf-semcol-351|Entity=(93-abstract-new-cf2-2,4-sgl
 2	condition	condition	NOUN	NN	Number=Sing	0	root	0:root	_
 3	or	or	CCONJ	CC	_	4	cc	4:cc	_
@@ -571,13 +571,13 @@
 16	office	office	NOUN	NN	Number=Sing	14	conj	14:conj:or	Entity=96)|SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (3 s)
 # sent_id = GENTLE_dictionary_trust-30
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (law)
-# newpar
-# newpar_block = item (3 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:72->73:1:_|SpaceAfter=No
 2	law	law	NOUN	NN	Number=Sing	0	root	0:root	Entity=(97-abstract-new-cf1-1-coref)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/law#English"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -626,13 +626,13 @@
 9	trust	trust	NOUN	NN	Number=Sing	2	obl	2:obl:into	Entity=105)|SpaceAfter=No|XML=<hi rend:::"bold"></hi>
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-33
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (law)
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:78->79:2:_|SpaceAfter=No
 2	law	law	NOUN	NN	Number=Sing	0	root	0:root	Entity=(97-abstract-giv:inact-cf1-1-coref)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/law#English"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -702,13 +702,13 @@
 58	adulthood	adulthood	NOUN	NN	Number=Sing	57	obj	57:obj	Entity=(118-abstract-new-cf7-1-sgl)|MSeg=adult-hood|SpaceAfter=No
 59	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-35
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = A group of businessmen or traders organised for mutual benefit to produce and distribute specific commodities or services, and managed by a central body of trustees.
-# newpar
-# newpar_block = item (1 s)
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=joint-disjunction_m:88->46:1:grf-seq-|Entity=(119-person-new-cf3-2-sgl
 2	group	group	NOUN	NN	Number=Sing	0	root	0:root	_
 3	of	of	ADP	IN	_	4	case	4:case	_
@@ -738,13 +738,13 @@
 27	trustees	trustee	NOUN	NNS	Number=Plur	25	nmod	25:nmod:of	Entity=(126-person-new-cf6-1-sgl)125)119)|MSeg=trustee-s|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/trustees"></ref>
 28	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-36
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (computing)
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:92->93:0:_|SpaceAfter=No
 2	computing	computing	NOUN	NN	Number=Sing	0	root	0:root	Entity=(127-abstract-new-cf1-1-sgl)|MSeg=comput-ing|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/computing#Noun"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -775,13 +775,13 @@
 # text = Synonyms
 1	Synonyms	synonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:94->96:2:grf-ly-|Entity=(132-abstract-new-cf1-1-sgl)|MSeg=Synonym-s|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (2 s) | item (1 s)
 # sent_id = GENTLE_dictionary_trust-39
 # s_prominence = 2
 # s_type = other
 # transition = null
 # text = (confidence in a person or quality) belief, confidence, faith
-# newpar
-# newpar_block = list type:::"unordered" (2 s) | item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:95->96:0:_|SpaceAfter=No
 2	confidence	confidence	NOUN	NN	Number=Sing	9	dep	9:dep	Entity=(133-abstract-new-cf3-1-sgl|MSeg=confid-ence|XML=<hi rend:::"italic">
 3	in	in	ADP	IN	_	5	case	5:case	_
@@ -796,13 +796,13 @@
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	faith	faith	NOUN	NN	Number=Sing	9	conj	9:conj	Entity=(137-abstract-new-cf6-1-coref)|MSeg=fai-th|XML=<ref target:::"https://en.wiktionary.org/wiki/faith#English"></ref>
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-40
 # s_prominence = 2
 # s_type = other
 # transition = null
 # text = (hope) expectation, hope
-# newpar
-# newpar_block = item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:97->98:0:_|SpaceAfter=No
 2	hope	hope	NOUN	NN	Number=Sing	4	dep	4:dep	Entity=(73-abstract-giv:inact-cf1-1-coref)|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -817,40 +817,40 @@
 # text = Antonyms
 1	Antonyms	Antonym	PROPN	NNPS	Number=Plur	0	root	0:root	Discourse=organization-heading:99->100:1:grf-ly-|Entity=(139-abstract-new-cf1-1-sgl-Opposite_%28semantics%29)|MSeg=Antonym-s|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (4 s) | item (1 s)
 # sent_id = GENTLE_dictionary_trust-42
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = distrust
-# newpar
-# newpar_block = list type:::"unordered" (4 s) | item (1 s)
 1	distrust	distrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:100->96:3:_|Entity=(140-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/distrust#English"></ref>
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-43
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = mistrust
-# newpar
-# newpar_block = item (1 s)
 1	mistrust	mistrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:101->100:0:grf-seq-|Entity=(141-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/mistrust#English"></ref>
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-44
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = untrust
-# newpar
-# newpar_block = item (1 s)
 1	untrust	untrust	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=joint-list_m:102->100:0:grf-seq-|Entity=(142-abstract-new-cf1-1-sgl)|Negation=Yes|XML=<ref target:::"https://en.wiktionary.org/wiki/untrust#English"></ref>
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-45
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = wantrust
-# newpar
-# newpar_block = item (1 s)
 1	wantrust	wantrust	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-list_m:103->100:0:grf-seq-|Entity=(143-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/wantrust#English"></ref>
 
 # sent_id = GENTLE_dictionary_trust-46
@@ -887,13 +887,13 @@
 20	trusted	trust	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	parataxis	13:parataxis	Entity=(147-abstract-giv:act-cf4-1-coref)|MSeg=trust-ed|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/trusted#English"></ref>
 21	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (28 s) | item (3 s)
 # sent_id = GENTLE_dictionary_trust-48
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = (transitive)
-# newpar
-# newpar_block = list type:::"ordered" (28 s) | item (3 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:109->110:1:_|SpaceAfter=No
 2	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=transit-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -933,13 +933,13 @@
 8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obj	7:obj	Entity=(148-person-giv:act-cf1-1-ana)149)|SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item (3 s)
 # sent_id = GENTLE_dictionary_trust-51
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (intransitive, with in)
-# newpar
-# newpar_block = item (3 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:115->116:1:_|SpaceAfter=No
 2	intransitive	intransitive	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=in-transit-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#intransitive"></ref>
 3	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -982,13 +982,13 @@
 8	motto	motto	NOUN	NN	Number=Sing	4	dep	4:dep	Entity=151)|SpaceAfter=No
 9	)	)	PUNCT	-RRB-	_	8	punct	8:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-54
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (transitive)
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:120->121:1:_|SpaceAfter=No
 2	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=transit-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -1010,13 +1010,13 @@
 10	credit	credit	NOUN	NN	Number=Sing	2	parataxis	2:parataxis	SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (3 s)
 # sent_id = GENTLE_dictionary_trust-56
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (transitive)
-# newpar
-# newpar_block = item (3 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:124->125:2:_|SpaceAfter=No
 2	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=transit-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -1051,7 +1051,7 @@
 # transition = null
 # text = I trust you have cleaned your room?
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:128->129:0:sem-atsrc-633+lex-indwd-634|Entity=(158-person-acc:com-cf2-1-sgl)
-2	trust	trust	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-Polar-DeclarativeDirect|CxnElt=Clause|XML=<hi rend:::"bold"></hi>
+2	trust	trust	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-Polar-DeclarativeDirect|CxnElt=2:Interrogative-Polar-DeclarativeDirect.Clause|XML=<hi rend:::"bold"></hi>
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=explanation-evidence:129->125:3:_|Entity=(159-person-acc:com-cf1-1-ana)
 4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5	cleaned	clean	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	2:ccomp	MSeg=clean-ed
@@ -1059,13 +1059,13 @@
 7	room	room	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=160)|SpaceAfter=No
 8	?	?	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-59
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (transitive)
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:130->131:1:_|SpaceAfter=No
 2	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=transit-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -1088,13 +1088,13 @@
 11	something	something	PRON	NN	Number=Sing|PronType=Ind	8	obl	8:obl:with	Entity=(71-abstract-giv:inact-cf1-1-coref)|MSeg=some-thing|SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-61
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (transitive)
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:133->134:1:_|SpaceAfter=No
 2	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=transit-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -1118,13 +1118,13 @@
 11	entrust	entrust	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (3 s)
 # sent_id = GENTLE_dictionary_trust-63
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (transitive)
-# newpar
-# newpar_block = item (3 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:136->137:1:_|SpaceAfter=No
 2	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=transit-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#transitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -1169,13 +1169,13 @@
 9	goods	good	NOUN	NNS	Number=Plur	4	obl	4:obl:with	Entity=(170-object-new-cf5-1-sgl)|MSeg=good-s|SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = item (4 s)
 # sent_id = GENTLE_dictionary_trust-66
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (intransitive followed by to
-# newpar
-# newpar_block = item (4 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:140->141:1:_|SpaceAfter=No
 2	intransitive	intransitive	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=in-transit-ive|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#intransitive"></ref>
 3	followed	follow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	2:parataxis	MSeg=follow-ed
@@ -1236,13 +1236,13 @@
 15	details	detail	NOUN	NNS	Number=Plur	9	obl	9:obl:for	Entity=175)|MSeg=detail-s|SpaceAfter=No
 16	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-70
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (archaic, transitive
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:147->148:1:_|SpaceAfter=No
 2	archaic	archaic	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#archaic"></ref>
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -1261,13 +1261,13 @@
 6	confidently	confidently	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=confid-ent-ly|SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-72
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (intransitive)
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:150->151:1:_|SpaceAfter=No
 2	intransitive	intransitive	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=in-transit-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#intransitive"></ref>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -1295,13 +1295,13 @@
 16	confide	confide	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-74
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (archaic, intransitive
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:155->156:1:_|SpaceAfter=No
 2	archaic	archaic	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#archaic"></ref>
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -1337,22 +1337,22 @@
 # text = Antonyms
 1	Antonyms	Antonym	PROPN	NNPS	Number=Plur	0	root	0:root	Discourse=organization-heading:158->159:1:grf-ly-|Entity=(178-abstract-new-cf1-1-sgl)|MSeg=Antonym-s|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (2 s) | item (1 s)
 # sent_id = GENTLE_dictionary_trust-77
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = distrust
-# newpar
-# newpar_block = list type:::"unordered" (2 s) | item (1 s)
 1	distrust	distrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=elaboration-additional:159->110:5:_|Entity=(179-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/distrust#English"></ref>
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_trust-78
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = mistrust
-# newpar
-# newpar_block = item (1 s)
 1	mistrust	mistrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:160->159:0:grf-seq-|Entity=(180-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/mistrust#English"></ref>
 
 # sent_id = GENTLE_dictionary_trust-79
@@ -1378,13 +1378,13 @@
 9	trust	trust	NOUN	NN	Number=Sing	1	dep	1:dep	SpaceAfter=No|XML=</hi>
 10	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (6 s) | item (2 s)
 # sent_id = GENTLE_dictionary_trust-81
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = (obsolete)
-# newpar
-# newpar_block = list type:::"ordered" (6 s) | item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:165->166:0:_|SpaceAfter=No
 2	obsolete	obsolete	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No|XML=<hi rend:::"italic"><ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#obsolete"></ref></hi>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -1399,13 +1399,13 @@
 3	safe	safe	ADJ	JJ	Degree=Pos	1	conj	1:conj	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/safe"></ref>
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-83
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = (obsolete)
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:167->168:0:_|SpaceAfter=No
 2	obsolete	obsolete	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No|XML=<hi rend:::"italic"><ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#obsolete"></ref></hi>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
@@ -1420,13 +1420,13 @@
 3	dependable	dependable	ADJ	JJ	Degree=Pos	1	conj	1:conj	MSeg=depend-able|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/dependable"></ref>
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (2 s)
 # sent_id = GENTLE_dictionary_trust-85
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = (law)
-# newpar
-# newpar_block = item (2 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:169->170:0:_|SpaceAfter=No
 2	law	law	NOUN	NN	Number=Sing	0	root	0:root	Entity=(97-abstract-giv:inact-cf1-1-coref)|SpaceAfter=No|XML=<hi rend:::"italic"><ref target:::"https://en.wiktionary.org/wiki/law#English"></ref></hi>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_

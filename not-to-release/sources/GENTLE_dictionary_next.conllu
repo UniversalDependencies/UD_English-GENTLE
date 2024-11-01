@@ -10,22 +10,22 @@
 # meta::speakerCount = 0
 # meta::summary = This dictionary entry for the word 'next' gives its dialectal forms, etymology as a superlative of 'near' from Middle and Old English nexte and nīehsta from Proto-Germanic *nēhwist, its cognates (e.g. Dutch naast, Danish næste), pronunciation /nεkst/ and related synonyms and antonyms, accompanied by usage examples as an adjective, determiner, adverb, preposition and noun.
 # meta::title = next
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_dictionary_next-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = next
-# newpar
-# newpar_block = head (1 s)
 1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:1->4:5:grf-ly-|Entity=(1-abstract-new-cf1-1-coref)
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_dictionary_next-2
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = English
-# newpar
-# newpar_block = head (1 s)
 1	English	English	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:2->4:4:grf-ly-|Entity=(2-abstract-new-cf1-1-sgl-English_language)|MSeg=Engl-ish
 
 # sent_id = GENTLE_dictionary_next-3
@@ -36,49 +36,49 @@
 1	Alternative	alternative	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:3->4:2:grf-ly-|Entity=(3-abstract-new-cf1-2-sgl|MSeg=Alternat-ive|PDTB=NoRel:NoRel:_:_:2:3-4|XML=<hi rend:::"bold">
 2	forms	form	NOUN	NNS	Number=Plur	0	root	0:root	Entity=3)|MSeg=form-s|XML=</hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (4 s) | item (1 s)
 # sent_id = GENTLE_dictionary_next-4
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = neest (dialectal)
-# newpar
-# newpar_block = list type:::"unordered" (4 s) | item (1 s)
 1	neest	neest	X	FW	_	0	root	0:root	Discourse=ROOT:4:0|Entity=(4-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/w/index.php?title:::neest&amp;action:::edit&amp;redlink:::1"></ref>
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:5->4:0:grf-prn-6,8|SpaceAfter=No
 3	dialectal	dialectal	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	MSeg=dialect-al|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_next-5
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = neist (Scotland)
-# newpar
-# newpar_block = item (1 s)
 1	neist	neist	X	FW	_	0	root	0:root	Discourse=joint-list_m:6->4:1:grf-seq-|Entity=(5-abstract-new-cf2-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/neist#English"></ref>
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:7->6:0:grf-prn-10,12|SpaceAfter=No
 3	Scotland	Scotland	PROPN	NNP	Number=Sing	1	parataxis	1:parataxis	Entity=(6-place-new-cf1-1-sgl-Scotland)|MSeg=Scot-land|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_next-6
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = nex (archaic)
-# newpar
-# newpar_block = item (1 s)
 1	nex	nex	X	FW	_	0	root	0:root	Discourse=joint-list_m:8->4:1:grf-seq-|Entity=(7-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/nex#English"></ref>
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:9->8:0:grf-prn-14,16|SpaceAfter=No
 3	archaic	archaic	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	SpaceAfter=No|XML=<hi rend:::"italic"></hi>
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_next-7
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = nex' (dialectal)
-# newpar
-# newpar_block = item (1 s)
 1	nex'	nex'	X	FW	_	0	root	0:root	Discourse=joint-list_m:10->4:1:grf-seq-|Entity=(8-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/nex%27#English"></ref>
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:11->10:0:grf-prn-18,20|SpaceAfter=No
 3	dialectal	dialectal	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	MSeg=dialect-al|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
@@ -233,13 +233,13 @@
 # text = Pronunciation
 1	Pronunciation	pronunciation	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:34->36:3:grf-ly-|Entity=(54-abstract-new-cf1-1-sgl)|MSeg=Pronunc-iation|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (3 s) | item (1 s)
 # sent_id = GENTLE_dictionary_next-12
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = enPR: nĕ kst, IPA (key): / nɛkst /
-# newpar
-# newpar_block = list type:::"unordered" (3 s) | item (1 s)
 1	enPR	enPR	NOUN	NN	Number=Sing	3	dep	3:dep	Discourse=organization-preparation:35->36:0:grf-col-147|Entity=(55-abstract-new-cf2-1-sgl)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:English_pronunciation"></ref>
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 3	nĕ	nĕ	INTJ	UH	_	0	root	0:root	Discourse=joint-other_m:36->4:3:_|Entity=(56-abstract-new-cf4-1,2-sgl
@@ -254,25 +254,25 @@
 12	nɛkst	nɛkst	ADJ	JJ	Degree=Pos	3	parataxis	3:parataxis	Entity=(59-abstract-new-cf5-1-sgl)
 13	/	/	PUNCT	SYM	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_next-13
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Audio (US)
-# newpar
-# newpar_block = item (1 s)
 1	Audio	audio	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:40->36:2:grf-seq-|Entity=(60-abstract-new-cf2-1-sgl)
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	SpaceAfter=No
 3	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	1	parataxis	1:parataxis	Entity=(61-abstract-new-cf1-1-sgl-United_States)|SpaceAfter=No
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_next-14
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Rhymes: -ɛkst
-# newpar
-# newpar_block = item (1 s)
 1	Rhymes	rhyme	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:41->42:0:ref-prop-163,165+grf-col-164|Entity=(62-abstract-new-cf1-1-disc)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
 3	-ɛkst	-ɛkst	INTJ	UH	_	1	dep	1:dep	Discourse=joint-list_m:42->36:2:grf-seq-|Entity=(62-abstract-giv:act-cf1-1-coref)|XML=<ref target:::"https://en.wiktionary.org/wiki/Rhymes:English/%C9%9Bkst"></ref>
@@ -295,13 +295,13 @@
 4	comparable	comparable	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	MSeg=compar-able|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#comparable"></ref>
 5	)	)	PUNCT	-RRB-	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (12 s) | item (4 s)
 # sent_id = GENTLE_dictionary_next-17
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Nearest in place or position, having nothing similar intervening; adjoining.
-# newpar
-# newpar_block = list type:::"ordered" (12 s) | item (4 s)
 1	Nearest	near	ADJ	JJS	Degree=Sup	0	root	0:root	Discourse=joint-other_m:46->4:3:_|XML=<ref target:::"https://en.wiktionary.org/wiki/nearest#English"></ref>
 2	in	in	ADP	IN	_	3	case	3:case	_
 3	place	place	NOUN	NN	Number=Sing	1	obl	1:obl:in	Entity=(65-place-new-cf2-1-sgl)
@@ -377,13 +377,13 @@
 14	time	time	NOUN	NN	Number=Sing	12	conj	5:obl:in|12:conj:or	Entity=(78-time-new-cf2-1-coref)|SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = item (5 s)
 # sent_id = GENTLE_dictionary_next-21
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Nearest in order, succession, or rank; immediately following (or sometimes preceding) in order.
-# newpar
-# newpar_block = item (5 s)
 1	Nearest	near	ADJ	JJS	Degree=Sup	0	root	0:root	Discourse=joint-disjunction_m:54->46:3:grf-seq-+grf-semcol-182,236
 2	in	in	ADP	IN	_	3	case	3:case	_
 3	order	order	NOUN	NN	Number=Sing	1	obl	1:obl:in	Entity=(79-abstract-new-cf1-1-coref)|SpaceAfter=No
@@ -478,13 +478,13 @@
 18	Gates	Gates	PROPN	NNP	Number=Sing	17	flat	17:flat	Entity=95)94)93)|SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	4:punct	XML=</hi>
 
+# newpar
+# newpar_block = item (3 s)
 # sent_id = GENTLE_dictionary_next-26
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = (chiefly law) Nearest in relationship.
-# newpar
-# newpar_block = item (3 s)
 1	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=context-circumstance:63->64:0:_|SpaceAfter=No
 2	chiefly	chiefly	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 3	law	law	NOUN	NN	Number=Sing	5	parataxis	5:parataxis	Entity=(96-abstract-new-cf1-1-sgl)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/law#English"></ref>
@@ -524,13 +524,13 @@
 1	Usage	usage	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=organization-heading:67->68:2:grf-ly-|Entity=(100-abstract-new-cf1-2-sgl|XML=<hi rend:::"bold">
 2	notes	note	NOUN	NNS	Number=Plur	0	root	0:root	Entity=100)|MSeg=note-s|XML=</hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (2 s) | item (2 s)
 # sent_id = GENTLE_dictionary_next-30
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = Near was originally the comparative form of nigh; the superlative form was next.
-# newpar
-# newpar_block = list type:::"unordered" (2 s) | item (2 s)
 1	Near	near	ADJ	JJ	Degree=Pos	6	nsubj	6:nsubj	Discourse=elaboration-additional:68->46:5:_|Entity=(101-abstract-new-cf1-1-coref)|XML=<ref target:::"https://en.wiktionary.org/wiki/near#English"></ref>
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 3	originally	originally	ADV	RB	Degree=Pos	6	advmod	6:advmod	MSeg=origin-al-ly
@@ -574,13 +574,13 @@
 # text = Synonyms
 1	Synonyms	synonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:71->73:1:grf-ly-|Entity=(105-abstract-new-cf1-1-sgl)|MSeg=Synonym-s|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 # sent_id = GENTLE_dictionary_next-33
 # s_prominence = 2
 # s_type = imp
 # transition = null
 # text = (nearest in order): See also Thesaurus: former or Thesaurus: subsequent
-# newpar
-# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:72->73:0:_|SpaceAfter=No
 2	nearest	near	ADJ	JJS	Degree=Sup	7	parataxis	7:parataxis	MSeg=near-est
 3	in	in	ADP	IN	_	4	case	4:case	_
@@ -604,13 +604,13 @@
 # text = Antonyms
 1	Antonyms	antonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:74->75:0:grf-ly-+sem-synym-361-362|Entity=(109-abstract-new-cf1-1-coref-Opposite_%28semantics%29)|MSeg=Antonym-s|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 # sent_id = GENTLE_dictionary_next-35
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = previous
-# newpar
-# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 1	previous	previous	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=joint-list_m:75->68:3:grf-seq-|Entity=(109-abstract-giv:act-cf1*-1-coref-Opposite_%28semantics%29)|XML=<ref target:::"https://en.wiktionary.org/wiki/previous#English"></ref>
 
 # sent_id = GENTLE_dictionary_next-36
@@ -621,13 +621,13 @@
 1	Derived	derive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	amod	2:amod	Discourse=organization-heading:76->77:0:grf-ly-+sem-synym-363-367|Entity=(110-abstract-new-cf1-2-coref|MSeg=Deriv-ed|XML=<hi rend:::"bold">
 2	terms	term	NOUN	NNS	Number=Plur	0	root	0:root	Entity=110)|MSeg=term-s|XML=</hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 # sent_id = GENTLE_dictionary_next-37
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = next - day
-# newpar
-# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 1	next	next	ADJ	JJ	Degree=Pos	3	compound	3:compound	Discourse=joint-list_m:77->68:3:grf-seq-|Entity=(110-abstract-giv:act-cf1*-3-coref|XML=<ref target:::"https://en.wiktionary.org/wiki/next-day#English">
 2	-	-	PUNCT	HYPH	_	1	punct	1:punct	_
 3	day	day	NOUN	NN	Number=Sing	0	root	0:root	Entity=110)|XML=</ref>
@@ -646,13 +646,13 @@
 # text = next
 1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:79->80:3:grf-ly-|Entity=(111-abstract-giv:act-cf1*-1-coref-Determiner)|PDTB=NoRel:NoRel:_:_:368:369|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"ordered" (6 s) | item (3 s)
 # sent_id = GENTLE_dictionary_next-40
 # s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = Denotes the one immediately following the current or most recent one.
-# newpar
-# newpar_block = list type:::"ordered" (6 s) | item (3 s)
 1	Denotes	denote	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:80->46:7:_|XML=<hi rend:::"italic">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(112-abstract-new-cf1-2-sgl
 3	one	one	NOUN	NN	Number=Sing	1	obj	1:obj	_
@@ -696,13 +696,13 @@
 6	time	time	NOUN	NN	Number=Sing	3	obl:unmarked	3:obl:unmarked	Entity=116)|SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	3:punct	XML=</hi>
 
+# newpar
+# newpar_block = item (3 s)
 # sent_id = GENTLE_dictionary_next-43
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = (of days of the week or months of the year) Closest in the future, or closest but one if the closest is very soon; of days, sometimes thought to specifically refer to the instance closest to seven days (one week) in the future.
-# newpar
-# newpar_block = item (3 s)
 1	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=context-circumstance:85->86:1:_|SpaceAfter=No
 2	of	of	ADP	IN	_	3	case	3:case	XML=<hi rend:::"italic">
 3	days	day	NOUN	NNS	Number=Plur	13	parataxis	13:parataxis	Entity=(117-time-new-cf7-1-sgl|MSeg=day-s
@@ -721,7 +721,7 @@
 16	future	future	NOUN	NN	Number=Sing	13	obl	13:obl:in	Entity=121)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/future"></ref>
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
 18	or	or	CCONJ	CC	_	19	cc	19:cc	_
-19	closest	close	ADJ	JJS	Degree=Sup	13	conj	13:conj:or	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|MSeg=clos-est
+19	closest	close	ADJ	JJS	Degree=Sup	13	conj	13:conj:or	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=19:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=clos-est
 20	but	but	ADP	IN	_	21	case	21:case	_
 21	one	one	NUM	CD	NumForm=Word|NumType=Card	19	obl	19:obl:but	Entity=(122-abstract-new-cf10-1-sgl)
 22	if	if	SCONJ	IN	_	27	mark	27:mark	Discourse=contingency-condition:87->86:0:dm-if-420|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:if:_:411-419:420-426
@@ -729,7 +729,7 @@
 24	closest	close	ADJ	JJS	Degree=Sup	27	nsubj	27:nsubj	Entity=123)|MSeg=clos-est
 25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	27:cop	_
 26	very	very	ADV	RB	_	27	advmod	27:advmod	_
-27	soon	soon	ADV	RB	Degree=Pos	19	advcl	19:advcl:if	CxnElt=Protasis|SpaceAfter=No
+27	soon	soon	ADV	RB	Degree=Pos	19	advcl	19:advcl:if	CxnElt=19:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|SpaceAfter=No
 28	;	;	PUNCT	:	_	30	punct	30:punct	_
 29	of	of	ADP	IN	_	30	case	30:case	Discourse=joint-disjunction_m:88->86:2:grf-seq-+grf-semcol-426
 30	days	day	NOUN	NNS	Number=Plur	33	obl	33:obl:of	Entity=(124-time-new-cf9-1-sgl)|MSeg=day-s|SpaceAfter=No
@@ -792,7 +792,7 @@
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
 7	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	9:aux	Discourse=joint-list_m:96->91:1:grf-semcol-455
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(132-person-giv:act-cf1-1-ana)
-9	mean	mean	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=Clause
+9	mean	mean	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=9:Interrogative-Polar-Direct.Clause
 10	Thursday	Thursday	PROPN	NNP	Number=Sing	9	obj	9:obj	Entity=(134-time-new-cf5-1-sgl
 11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	12:det	Entity=(135-time-acc:com-cf3-2-coref
 12	week	week	NOUN	NN	Number=Sing	10	nmod:unmarked	10:nmod:unmarked	Entity=135)134)
@@ -810,41 +810,41 @@
 1	See	see	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Discourse=organization-heading:97->98:1:grf-ly-|XML=<hi rend:::"bold">
 2	also	also	ADV	RB	_	1	advmod	1:advmod	XML=</hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (4 s) | item (1 s)
 # sent_id = GENTLE_dictionary_next-47
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = last
-# newpar
-# newpar_block = list type:::"unordered" (4 s) | item (1 s)
 1	last	last	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=elaboration-additional:98->80:4:dm-also-486|Entity=(138-time-new-cf1-1-sgl)|PDTB=Explicit:Expansion.Conjunction:also:_:370-381:487|XML=<ref target:::"https://en.wiktionary.org/wiki/last#English"></ref>
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_next-48
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = this
-# newpar
-# newpar_block = item (1 s)
 1	this	this	PRON	DT	Number=Sing|PronType=Dem	0	root	0:root	Discourse=joint-list_m:99->98:0:grf-seq-|Entity=(139-time-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/this#English"></ref>
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_next-49
 # s_prominence = 2
 # s_type = other
 # transition = null
 # text = this coming
-# newpar
-# newpar_block = item (1 s)
 1	this	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=joint-list_m:100->98:0:grf-seq-|Entity=(140-time-new-cf1-2-sgl|XML=<ref target:::"https://en.wiktionary.org/wiki/this_coming">
 2	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Entity=140)|MSeg=com-ing|XML=</ref>
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GENTLE_dictionary_next-50
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = week (as in Saturday week)
-# newpar
-# newpar_block = item (1 s)
 1	week	week	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:101->98:0:grf-seq-|Entity=(141-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/week"></ref>
 2	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=mode-manner:102->101:0:dm-as-493|PDTB=Explicit:Comparison.Similarity:as:_:491:492-497|SpaceAfter=No
 3	as	as	ADP	IN	_	6	case	6:case	_
@@ -871,13 +871,13 @@
 4	comparable	comparable	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	MSeg=compar-able|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#comparable"></ref></hi>
 5	)	)	PUNCT	-RRB-	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (9 s) | item (5 s)
 # sent_id = GENTLE_dictionary_next-53
 # s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = In a time, place, rank or sequence closest or following.
-# newpar
-# newpar_block = list type:::"ordered" (9 s) | item (5 s)
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=joint-list_m:106->46:7:sem-lxchn-172-174,176,508,510,513
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_
 3	time	time	NOUN	NN	Number=Sing	10	obl	10:obl:in	Entity=(145-time-new-cf1-1-sgl)|SpaceAfter=No
@@ -966,13 +966,13 @@
 15	paint	paint	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=156)|SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	3:punct	XML=</hi>
 
+# newpar
+# newpar_block = item (4 s)
 # sent_id = GENTLE_dictionary_next-58
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = On the first subsequent occasion.
-# newpar
-# newpar_block = item (4 s)
 1	On	on	ADP	IN	_	5	case	5:case	Discourse=joint-disjunction_m:114->106:2:grf-seq-
 2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(157-event-new-cf1-4-sgl
 3	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	5	amod	5:amod	_
@@ -980,13 +980,13 @@
 5	occasion	occasion	NOUN	NN	Number=Sing	0	root	0:root	Entity=157)|SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = hi rend:::"italic" (2 s)
 # sent_id = GENTLE_dictionary_next-59
 # s_prominence = 3
 # s_type = frag
 # transition = null
 # text = Financial panic, earthquakes, oil spills, riots.
-# newpar
-# newpar_block = hi rend:::"italic" (2 s)
 1	Financial	Financial	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=context-background:115->116:0:_|Entity=(158-event-new-cf1-2-sgl|MSeg=Financ-ial
 2	panic	panic	NOUN	NN	Number=Sing	0	root	0:root	Entity=158)|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -1032,13 +1032,13 @@
 # text = Antonyms
 1	Antonyms	antonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:119->120:0:grf-ly-+sem-synym-596-597|Entity=(109-abstract-giv:inact-cf1-1-coref-Opposite_%28semantics%29)|MSeg=Antonym-s|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 # sent_id = GENTLE_dictionary_next-63
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = previously
-# newpar
-# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 1	previously	previously	ADV	RB	Degree=Pos	0	root	0:root	Discourse=elaboration-additional:120->106:4:_|Entity=(109-abstract-giv:act-cf1*-1-coref-Opposite_%28semantics%29)|MSeg=previous-ly|XML=<ref target:::"https://en.wiktionary.org/wiki/previously#English"></ref>
 
 # sent_id = GENTLE_dictionary_next-64
@@ -1055,13 +1055,13 @@
 # text = next
 1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:122->124:1:grf-ly-+sem-lxchn-599,615|Entity=(165-abstract-giv:act-cf1*-1-coref)|PDTB=NoRel:NoRel:_:_:598:599|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"ordered" (1 s) | item (1 s)
 # sent_id = GENTLE_dictionary_next-66
 # s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = (obsolete or poetic) On the side of; nearest or adjacent to; next to.
-# newpar
-# newpar_block = list type:::"ordered" (1 s) | item (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:123->124:0:_|SpaceAfter=No|XML=<hi rend:::"italic">
 2	obsolete	obsolete	ADJ	JJ	Degree=Pos	8	parataxis	8:parataxis	XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#obsolete"></ref>
 3	or	or	CCONJ	CC	_	4	cc	4:cc	_
@@ -1098,13 +1098,13 @@
 3	uncountable	uncountable	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	MSeg=un-count-able|Negation=Yes|SpaceAfter=No|XML=<hi rend:::"bold"><ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#uncountable"></ref></hi>
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (4 s) | item (4 s)
 # sent_id = GENTLE_dictionary_next-69
 # s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = The one that follows after this one.
-# newpar
-# newpar_block = list type:::"ordered" (4 s) | item (4 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-list_m:128->46:7:grf-seq-|Entity=(168-abstract-new-cf1-2-sgl
 2	one	one	NOUN	NN	Number=Sing	0	root	0:root|4:nsubj	_
 3	that	that	PRON	WDT	PronType=Rel	4	nsubj	2:ref	Discourse=elaboration-attribute:129->128:0:syn-mdf-624+syn-relcl-625-626

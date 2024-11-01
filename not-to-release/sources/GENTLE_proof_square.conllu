@@ -10,22 +10,22 @@
 # meta::speakerCount = 0
 # meta::summary = This proof demonstrates that if AB is a second bimedial line divided at C into its medials, and DE is a rational line where DEFG = AB² is applied to DE such that DG is its breadth, then DG is a third binomial straight line.
 # meta::title = Square on Second Bimedial Straight Line applied to Rational Straight Line
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_proof_square-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = Proof
-# newpar
-# newpar_block = head (1 s)
 1	Proof	proof	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->16:5:grf-ly-|Entity=(1-abstract-new-cf1-1-sgl)|XML=</figure>
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GENTLE_proof_square-2
 # s_prominence = 3
 # s_type = imp
 # transition = null
 # text = Let AB be a second bimedial straight line divided into its medials at C.
-# newpar
-# newpar_block = p (5 s)
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=context-background:2->8:0:_|XML=<figure rend:::"Euclid-X-60.png">
 2	AB	AB	NOUN	NN	Number=Sing	1	obj	1:obj|8:nsubj:xsubj	Entity=(2-abstract-new-cf1-1-coref)
 3	be	be	AUX	VB	VerbForm=Inf	8	cop	8:cop	_
@@ -108,13 +108,13 @@
 13	line	line	NOUN	NN	Number=Sing	5	ccomp	5:ccomp	Entity=11)13)|SpaceAfter=No|XML=</ref>
 14	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = p (7 s)
 # sent_id = GENTLE_proof_square-7
 # s_prominence = 2
 # s_type = other
 # transition = zero
 # text = From Proposition 4 of Book II: Square of Sum: AB2 = AC2 + CB2 + 2 ⋅ AC ⋅ CB
-# newpar
-# newpar_block = p (7 s)
 1	From	from	ADP	IN	_	2	case	2:case	Discourse=organization-preparation:9->10:0:sem-synym-60-64,66-68+grf-col-65
 2	Proposition	Proposition	PROPN	NNP	Number=Sing	8	obl	8:obl:from	Entity=(14-abstract-new-cf1-1,4-coref|MSeg=Propos-it-ion|XML=<ref target:::"https://proofwiki.org/wiki/Square_of_Sum">
 3	4	4	NUM	CD	NumForm=Digit|NumType=Card	2	dep	2:dep	_
@@ -253,13 +253,13 @@
 12	CB	CB	NOUN	NN	Number=Sing	10	nmod	10:nmod:times	Entity=(6-abstract-giv:inact-cf2-1-coref)|SpaceAfter=No
 13	.	.	PUNCT	.	_	9	punct	9:punct	_
 
+# newpar
+# newpar_block = p (9 s)
 # sent_id = GENTLE_proof_square-14
 # s_prominence = 3
 # s_type = decl
 # transition = null
 # text = We have that AB is a second bimedial which has been divided into its medials at C.
-# newpar
-# newpar_block = p (9 s)
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:22->23:1:sem-atsrc-160+syn-rpr-162|Entity=(31-person-acc:com-cf4-1-ana)
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	that	that	SCONJ	IN	_	8	mark	8:mark	Discourse=explanation-evidence:23->25:1:dm-therefore-178
@@ -485,13 +485,13 @@
 16	DE	DE	NOUN	NN	Number=Sing	12	obl	12:obl:with	Entity=(7-abstract-giv:act-cf4-1-coref)|SpaceAfter=No
 17	.	.	PUNCT	.	_	10	punct	10:punct	_
 
+# newpar
+# newpar_block = p (8 s)
 # sent_id = GENTLE_proof_square-23
 # s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = We have that AC is incommensurable in length with CB.
-# newpar
-# newpar_block = p (8 s)
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:45->46:0:sem-atsrc-336+syn-rpr-338|Entity=(31-person-giv:inact-cf2-1-ana)
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=explanation-evidence:46->51:1:dm-therefore-358
@@ -700,13 +700,13 @@
 6	binomial	binomial	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Binomial_(Euclidean)"></ref>
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p (10 s)
 # sent_id = GENTLE_proof_square-31
 # s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = It remains to be proved that DG is a third binomial straight line.
-# newpar
-# newpar_block = p (10 s)
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	2:expl	Discourse=organization-preparation:68->73:2:sem-lxchn-511,526+sem-lxchn-512,527+sem-lxchn-513,528|Entity=(61-abstract-acc:com-cf1-1-ana)
 2	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=remain-s
 3	to	to	PART	TO	_	5	mark	5:mark	_

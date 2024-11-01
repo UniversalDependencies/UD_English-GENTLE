@@ -10,24 +10,24 @@
 # meta::speakerCount = 0
 # meta::summary = In this threat letter, Angel Dillard admonishes Dr. Means for carrying out abortions at the Harry St. clinic in Wichita, which are portrayed as killing children, arguing that other physicians will avoid associating with Dr. Means, and invoking the threat of a car bomb, picketing at home and at the office, loss of clientele and staff, as well as religious objections to abortion.
 # meta::title = United States v. Dillard, 835 F. Supp. 2d 1120, 1121-1122, 2011 U.S. Dist. LEXIS 148562, *2-5, 2011 WL 6719138 (D. Kan. December 21, 2011)
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_threat_dillard-1
 # s_prominence = 2
 # s_type = other
 # transition = establishment
 # text = Dr. Means,
-# newpar
-# newpar_block = p (1 s)
 1	Dr.	Dr.	PROPN	NNP	Abbr=Yes|Number=Sing	0	root	0:root	Discourse=organization-preparation:1->64:4:ref-prs-1-2,514|Entity=(1-person-new-cf1-1,2-coref
 2	Means	Means	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)|SpaceAfter=No
 3	,	,	PUNCT	,	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_threat_dillard-2
 # s_prominence = 4
 # s_type = decl
 # transition = establishment
 # text = It has come to our attention that you are planning to do abortions at your Harry St. location.
-# newpar
-# newpar_block = p (3 s)
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=context-background:2->4:2:ref-prs-11,27|Entity=(2-abstract-acc:com-cf3-1-sgl)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	MSeg=ha-s
 3	come	come	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -124,13 +124,13 @@
 49	baby	baby	NOUN	NN	Number=Sing	46	nmod	46:nmod:to	Entity=21)18)|MSeg=bab-y|SpaceAfter=No
 50	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = p (20 s)
 # sent_id = GENTLE_threat_dillard-5
 # s_prominence = 4
 # s_type = decl
 # transition = null
 # text = Maybe you don't realize the consequences of killing the innocent.
-# newpar
-# newpar_block = p (20 s)
 1	Maybe	maybe	ADV	RB	_	5	advmod	5:advmod	Discourse=adversative-concession:9->12:1:_
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(1-person-giv:inact-cf1-1-ana)
 3-4	don't	_	_	_	_	_	_	_	_
@@ -153,18 +153,18 @@
 1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:11->12:0:dm-if-98+mrf-md-106|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:98:105-124:99-104;Implicit:Comparison.Concession.Arg2-as-denier:but:_:86-97:98-124
 2	Tiller	Tiller	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=(24-person-new-cf1-1-coref)
 3	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
-4	speak	speak	VERB	VB	VerbForm=Inf	10	advcl	10:advcl:if	CxnElt=Protasis
+4	speak	speak	VERB	VB	VerbForm=Inf	10	advcl	10:advcl:if	CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 5	from	from	ADP	IN	_	6	case	6:case	_
 6	hell	hell	NOUN	NN	Number=Sing	4	obl	4:obl:from	Entity=(25-place-new-cf4-1-sgl)|SpaceAfter=No
 7	,	,	PUNCT	,	_	4	punct	4:punct	_
 8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	Discourse=organization-preparation:12->17:4:ref-prs-108,173+lex-indwd-116|Entity=(24-person-giv:act-cf1-1-ana)
 9	would	would	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
-10	tell	tell	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
+10	tell	tell	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 11	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	10	iobj	10:iobj	Entity=(1-person-giv:act-cf2*-1-ana)
-12	what	what	DET	WDT	PronType=Int	15	det	15:det	CxnElt=ExclWh
+12	what	what	DET	WDT	PronType=Int	15	det	15:det	CxnElt=15:Exclamative-What.Wh
 13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(26-abstract-new-cf3-3-sgl
 14	soulless	soulless	ADJ	JJ	Degree=Pos	15	amod	15:amod	MSeg=soul-less
-15	existence	existence	NOUN	NN	Number=Sing	19	obj	19:obj	Cxn=Exclamative-What|CxnElt=ExclN|Entity=26)|MSeg=exist-ence
+15	existence	existence	NOUN	NN	Number=Sing	19	obj	19:obj	Cxn=Exclamative-What|CxnElt=15:Exclamative-What.N|Entity=26)|MSeg=exist-ence
 16	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Entity=(1-person-giv:act-cf2*-1-ana)
 17	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
 18	purposefully	purposefully	ADV	RB	Degree=Pos	19	advmod	19:advmod	MSeg=purpose-ful-ly
@@ -574,7 +574,7 @@
 6	There	there	PRON	EX	PronType=Dem	7	expl	7:expl	_
 7	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	Cxn=Existential-CopPred-ThereExpl
 8	six	six	NUM	CD	NumForm=Word|NumType=Card	9	nummod	9:nummod	Entity=(69-abstract-new-cf3-2-sgl
-9	things	thing	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	CxnElt=Pivot|MSeg=thing-s
+9	things	thing	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	CxnElt=7:Existential-CopPred-ThereExpl.Pivot|MSeg=thing-s
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Discourse=elaboration-attribute:52->51:0:syn-mdf-421+syn-relcl-424|Entity=(70-person-new-cf1-2-coref-God
 11	Lord	Lord	PROPN	NNP	Number=Sing	12	nsubj	12:nsubj	Entity=70)
 12	hates	hate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	Entity=69)
@@ -620,11 +620,11 @@
 4	life	life	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=79)
 5	-	-	PUNCT	:	_	7	punct	7:punct	_
 6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	7:expl	Discourse=explanation-justify:61->60:0:_|Entity=(80-event-new-cf5-1-sgl)
-7	matters	matter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
+7	matters	matter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 8	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	Negation=Yes
 9	if	if	SCONJ	IN	_	11	mark	11:mark	_
 10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Entity=(1-person-giv:inact-cf3-1-ana)
-11	kill	kill	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:if	CxnElt=Protasis
+11	kill	kill	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:if	CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	11:obj	Entity=(79-person-giv:act-cf2-1-ana)
 13	at	at	ADP	IN	_	15	case	15:case	_
 14	6	6	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	15:nummod	Entity=(81-time-new-cf7-2-sgl
@@ -680,13 +680,13 @@
 18	cat	cat	NOUN	NN	Number=Sing	16	conj	12:obl:to|16:conj:or	Entity=86)|SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (8 s)
 # sent_id = GENTLE_threat_dillard-25
 # s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = I urge you to think very carefully about the choices you are making.
-# newpar
-# newpar_block = p (8 s)
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=ROOT:64:0|Entity=(87-person-acc:com-cf2-1-ana)
 2	urge	urge	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	2:obj|5:nsubj:xsubj	Entity=(1-person-giv:act-cf1*-1-ana)
@@ -710,7 +710,7 @@
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=explanation-motivation:66->64:1:_|PDTB=Implicit:Contingency.Cause.Reason:because:_:512-525:526-545
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 3	3	3	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=(89-place-new-cf4-5-sgl
-4	churches	church	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	CxnElt=Pivot|MSeg=churche-s
+4	churches	church	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|MSeg=churche-s
 5	within	within	ADP	IN	_	7	case	7:case	MSeg=with-in
 6	1	1	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	7:nummod	Entity=(90-place-new-cf5-2-sgl
 7	block	block	NOUN	NN	Number=Sing	2	obl	2:obl:within	_
@@ -844,11 +844,11 @@
 # s_type = imp
 # transition = continue
 # text = Do the world a favor and ABORT this stupid plan of yours.
-1	Do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=DitrV|Discourse=explanation-motivation:82->83:0:mrf-md-638|PDTB=EntRel:EntRel:_:_:612-631:632-644
+1	Do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=1:Ditransitive.V|Discourse=explanation-motivation:82->83:0:mrf-md-638|PDTB=EntRel:EntRel:_:_:612-631:632-644
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(51-place-giv:inact-cf2-2-coref
-3	world	world	NOUN	NN	Number=Sing	1	iobj	1:iobj	CxnElt=DitrRec|Entity=51)
+3	world	world	NOUN	NN	Number=Sing	1	iobj	1:iobj	CxnElt=1:Ditransitive.Rec|Entity=51)
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(103-abstract-new-cf4-2-sgl
-5	favor	favor	NOUN	NN	Number=Sing	1	obj	1:obj	CxnElt=DitrTheme|Entity=103)
+5	favor	favor	NOUN	NN	Number=Sing	1	obj	1:obj	CxnElt=1:Ditransitive.Theme|Entity=103)
 6	and	and	CCONJ	CC	_	7	cc	7:cc	Discourse=joint-list_m:83->64:2:_;elaboration-additional:83->82:0:0:orp-and-637|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:637:632-636:638-644
 7	ABORT	abort	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 8	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	10:det	Entity=(104-abstract-new-cf3-3-sgl
@@ -875,13 +875,13 @@
 9	mind	mind	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=106)|SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_threat_dillard-33
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = Angel Dillard
-# newpar
-# newpar_block = p (1 s)
 1	Angel	Angel	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=attribution-positive:86->64:5:sem-atsrc-655-656|Entity=(87-person-giv:inact-cf1-1,2-coref
 2	Dillard	Dillard	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=87)
 

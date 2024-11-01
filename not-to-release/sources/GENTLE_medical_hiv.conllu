@@ -10,23 +10,23 @@
 # meta::speakerCount = 0
 # meta::summary = A physician report on examining a 41-year-old white male with HIV disease (stable control on Atripla), resolving left gluteal abscess, diabetes on oral therapy, hypertension, depression and chronic pain, and plans to continue medication (Gabapentin, Metformin, Glipizide, Atripla etc.) and psychological treatment, order lab work in 3-4 weeks and then see him a few weeks later.
 # meta::title = HIV Followup
+# newpar
+# newpar_block = head rend:::"bold red" (1 s)
 # sent_id = GENTLE_medical_hiv-1
 # s_prominence = 3
 # s_type = frag
 # transition = establishment
 # text = Description:
-# newpar
-# newpar_block = head rend:::"bold red" (1 s)
 1	Description	description	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->2:1:grf-ly-|Entity=(1-abstract-new-cf1-1-sgl)|MSeg=Descrip-tion|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GENTLE_medical_hiv-2
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Human immunodeficiency virus disease with stable control on Atripla.
-# newpar
-# newpar_block = p (4 s)
 1	Human	human	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=context-background:2->9:5:_|Entity=(2-abstract-new-cf2-4-coref(3-animal-new-cf3-3-coref-HIV
 2	immunodeficiency	immunodeficiency	NOUN	NN	Number=Sing	3	compound	3:compound	MSeg=immuno-defic-ien-cy
 3	virus	virus	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=3)
@@ -84,26 +84,26 @@
 11	etiology	etiology	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=12)11)|MSeg=etio-logy|SpaceAfter=No
 12	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_hiv-6
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = HISTORY OF PRESENT ILLNESS:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	HISTORY	history	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:7->9:3:grf-ly-|Entity=(13-abstract-new-cf2-1-coref
 2	OF	of	ADP	IN	_	4	case	4:case	_
 3	PRESENT	present	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(2-abstract-giv:inact-cf1-2-coref
 4	ILLNESS	illness	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=2)13)|SpaceAfter=No
 5	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (10 s)
 # sent_id = GENTLE_medical_hiv-7
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = The patient is a 41-year-old white male with a history of HIV disease.
-# newpar
-# newpar_block = p (10 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=context-background:8->9:2:ref-prs-46-47,64|Entity=(14-person-new-cf1-2-coref
 2	patient	patient	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=14)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
@@ -327,24 +327,24 @@
 17	today	today	NOUN	NN	Number=Sing	13	obl:unmarked	13:obl:unmarked	Entity=(35-time-acc:com-cf3-1-sgl)|MSeg=to-day|SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_hiv-17
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = CURRENT MEDICATIONS:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	CURRENT	current	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:31->32:1:grf-ly-|Entity=(36-abstract-new-cf1-2-coref
 2	MEDICATIONS	medication	NOUN	NNS	Number=Plur	0	root	0:root	Entity=36)|MSeg=MED-IC-AT-ION-S|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (9 s) | item n:::"1" (1 s)
 # sent_id = GENTLE_medical_hiv-18
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1. Gabapentin 600 mg at night.
-# newpar
-# newpar_block = list type:::"ordered" (9 s) | item n:::"1" (1 s)
 1	1.	1.	X	LS	_	2	discourse	2:discourse	Discourse=joint-other_m:32->9:4:_
 2	Gabapentin	Gabapentin	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(37-substance-new-cf1-1-sgl-Gabapentin)
 3	600	600	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=(38-substance-new-cf2-2-sgl
@@ -353,13 +353,13 @@
 6	night	night	NOUN	NN	Number=Sing	4	obl	4:obl:at	Entity=(39-time-new-cf3-1-coref)|SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"2" (1 s)
 # sent_id = GENTLE_medical_hiv-19
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 2. Metformin 1000 mg twice a day.
-# newpar
-# newpar_block = item n:::"2" (1 s)
 1	2.	2.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:33->32:0:sem-lxchn-222,230+grf-seq-224
 2	Metformin	Metformin	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(40-substance-new-cf1-1-sgl-Metformin)
 3	1000	1000	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=(41-substance-new-cf2-2-sgl
@@ -369,13 +369,13 @@
 7	day	day	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	Entity=42)|SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"3" (1 s)
 # sent_id = GENTLE_medical_hiv-20
 # s_prominence = 1
 # s_type = frag
 # transition = establishment
 # text = 3. Glipizide 5 mg a day.
-# newpar
-# newpar_block = item n:::"3" (1 s)
 1	3.	3.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:34->32:0:grf-seq-232
 2	Glipizide	Glipizide	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(43-substance-new-cf2-1-sgl-Glipizide)
 3	5	5	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=(44-substance-new-cf3-2-sgl
@@ -384,13 +384,13 @@
 6	day	day	NOUN	NN	Number=Sing	4	obl:unmarked	4:obl:unmarked	Entity=42)|SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"4" (1 s)
 # sent_id = GENTLE_medical_hiv-21
 # s_prominence = 1
 # s_type = frag
 # transition = continue
 # text = 4. Flagyl 500 mg four times a day.
-# newpar
-# newpar_block = item n:::"4" (1 s)
 1	4.	4.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:35->32:0:grf-seq-239
 2	Flagyl	Flagyl	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(6-substance-giv:inact-cf2-1-coref-Metronidazole)
 3	500	500	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=(45-substance-new-cf3-2-sgl
@@ -401,13 +401,13 @@
 8	day	day	NOUN	NN	Number=Sing	6	obl:unmarked	6:obl:unmarked	Entity=42)|SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"5" (1 s)
 # sent_id = GENTLE_medical_hiv-22
 # s_prominence = 1
 # s_type = frag
 # transition = continue
 # text = 5. Flexeril 10 mg twice a day.
-# newpar
-# newpar_block = item n:::"5" (1 s)
 1	5.	5.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:36->32:0:grf-seq-248
 2	Flexeril	Flexeril	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(46-substance-new-cf2-1-sgl-Cyclobenzaprine)
 3	10	10	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=(47-substance-new-cf3-2-sgl
@@ -417,13 +417,13 @@
 7	day	day	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	Entity=42)|SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"6" (1 s)
 # sent_id = GENTLE_medical_hiv-23
 # s_prominence = 1
 # s_type = frag
 # transition = continue
 # text = 6. Paroxetine 20 mg a day.
-# newpar
-# newpar_block = item n:::"6" (1 s)
 1	6.	6.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:37->32:0:grf-seq-256
 2	Paroxetine	Paroxetine	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(48-substance-new-cf2-1-sgl-Paroxetine)
 3	20	20	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=(49-substance-new-cf3-2-sgl
@@ -432,13 +432,13 @@
 6	day	day	NOUN	NN	Number=Sing	4	obl:unmarked	4:obl:unmarked	Entity=42)|SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"7" (1 s)
 # sent_id = GENTLE_medical_hiv-24
 # s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = 7. Atripla one at night.
-# newpar
-# newpar_block = item n:::"7" (1 s)
 1	7.	7.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:38->32:0:grf-seq-263
 2	Atripla	Atripla	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(4-substance-giv:inact-cf1-1-coref-Efavirenz/emtricitabine/tenofovir)
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	appos	2:appos	Entity=(50-object-new-cf3-1-sgl)
@@ -446,13 +446,13 @@
 5	night	night	NOUN	NN	Number=Sing	3	obl	3:obl:at	Entity=(39-time-giv:inact-cf2-1-coref)|SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"8" (1 s)
 # sent_id = GENTLE_medical_hiv-25
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 8. Clonazepam 1 mg twice a day.
-# newpar
-# newpar_block = item n:::"8" (1 s)
 1	8.	8.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:39->32:0:grf-seq-269
 2	Clonazepam	Clonazepam	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(51-substance-new-cf2-1-sgl-Clonazepam)
 3	1	1	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=(52-substance-new-cf3-2-sgl
@@ -462,13 +462,13 @@
 7	day	day	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	Entity=42)|SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"9" (1 s)
 # sent_id = GENTLE_medical_hiv-26
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 9. Blood pressure medicine, name unknown.
-# newpar
-# newpar_block = item n:::"9" (1 s)
 1	9.	9.	X	LS	_	4	discourse	4:discourse	Discourse=joint-list_m:40->32:0:grf-seq-217,277
 2	Blood	blood	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(53-abstract-new-cf2-3-coref(54-abstract-new-cf3-2-coref(55-substance-new-cf4-1-coref)
 3	pressure	pressure	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=54)|MSeg=press-ure
@@ -478,25 +478,25 @@
 7	unknown	unknown	ADJ	JJ	Degree=Pos	4	parataxis	4:parataxis	MSeg=un-know-n|Negation=Yes|SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_hiv-27
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = REVIEW OF SYSTEMS:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	REVIEW	review	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:42->43:0:grf-ly-+sem-lxchn-285,294+sem-rpt-287,296|Entity=(57-abstract-new-cf1-1-sgl
 2	OF	of	ADP	IN	_	3	case	3:case	_
 3	SYSTEMS	system	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	Entity=(58-abstract-new-cf2-1-coref)57)|MSeg=SYSTEM-S|SpaceAfter=No
 4	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_medical_hiv-28
 # s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = He otherwise has a negative review of systems.
-# newpar
-# newpar_block = p (1 s)
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-other_m:43->9:4:_;adversative-antithesis:43->9:0:3:orp-otherwise-290|Entity=(14-person-giv:inact-cf2-1-ana)
 2	otherwise	otherwise	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=other-wise|PDTB=Explicit:Expansion.Exception.Arg2-as-except:otherwise:290:189-195:289,291-297
 3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=ha-s
@@ -507,24 +507,24 @@
 8	systems	system	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	Entity=(58-abstract-giv:act-cf1*-1-coref)59)|MSeg=system-s|SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_hiv-29
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = PHYSICAL EXAMINATION:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	PHYSICAL	physical	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:44->46:3:grf-ly-|Entity=(60-abstract-new-cf1-2-sgl
 2	EXAMINATION	examination	NOUN	NN	Number=Sing	0	root	0:root	Entity=60)|MSeg=EXAMIN-ATION|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (9 s)
 # sent_id = GENTLE_medical_hiv-30
 # s_prominence = 1
 # s_type = other
 # transition = null
 # text = VITAL SIGNS: Temperature 36.6, blood pressure 145/90, pulse 123, respirations 20, and weight is 89.9 kg (198 pounds.)
-# newpar
-# newpar_block = p (9 s)
 1	VITAL	vital	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:45->46:1:grf-ly-|Entity=(61-abstract-new-cf7-2-sgl|XML=<hi rend:::"caps">
 2	SIGNS	sign	NOUN	NNS	Number=Plur	5	dep	5:dep	Entity=61)|MSeg=SIGN-S|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	XML=</hi>
@@ -682,23 +682,23 @@
 18	secretions	secretion	NOUN	NNS	Number=Plur	15	obl	15:obl:with	Entity=87)5)|MSeg=secret-ion-s|SpaceAfter=No
 19	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_hiv-39
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = IMPRESSION:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	IMPRESSION	impression	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:70->71:1:grf-ly-|Entity=(88-abstract-new-cf1-1-sgl)|MSeg=IMPRESS-ION|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = list type:::"ordered" (6 s) | item n:::"1" (1 s)
 # sent_id = GENTLE_medical_hiv-40
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1. Human immunodeficiency virus disease with stable control on Atripla.
-# newpar
-# newpar_block = list type:::"ordered" (6 s) | item n:::"1" (1 s)
 1	1.	1.	X	LS	_	5	discourse	5:discourse	Discourse=joint-other_m:71->9:4:_
 2	Human	human	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(2-abstract-giv:inact-cf2-4-coref(3-animal-giv:inact-cf3-3-coref-HIV
 3	immunodeficiency	immunodeficiency	NOUN	NN	Number=Sing	4	compound	4:compound	MSeg=immuno-defic-ien-cy
@@ -711,13 +711,13 @@
 10	Atripla	Atripla	PROPN	NNP	Number=Sing	8	nmod	8:nmod:on	Entity=(4-substance-giv:inact-cf1-1-coref-Efavirenz/emtricitabine/tenofovir)2)|SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = item n:::"2" (1 s)
 # sent_id = GENTLE_medical_hiv-41
 # s_prominence = 1
 # s_type = ger
 # transition = null
 # text = 2. Resolving left gluteal abscess, completing Flagyl.
-# newpar
-# newpar_block = item n:::"2" (1 s)
 1	2.	2.	X	LS	_	5	discourse	5:discourse	Discourse=joint-list_m:72->71:0:grf-seq-411,422
 2	Resolving	resolve	VERB	VBG	VerbForm=Ger	5	amod	5:amod	MSeg=Resolv-ing
 3	left	left	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(5-object-giv:inact-cf2-3-coref
@@ -728,13 +728,13 @@
 8	Flagyl	Flagyl	PROPN	NNP	Number=Sing	7	obj	7:obj	Entity=(6-substance-giv:inact-cf1-1-coref-Metronidazole)|SpaceAfter=No
 9	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = item n:::"3" (1 s)
 # sent_id = GENTLE_medical_hiv-42
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 3. Diabetes mellitus, currently on oral therapy.
-# newpar
-# newpar_block = item n:::"3" (1 s)
 1	3.	3.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:74->71:0:grf-seq-431
 2	Diabetes	diabetes	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(7-abstract-giv:inact-cf1-1,2-coref-Diabetes
 3	mellitus	mellitus	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=7)|SpaceAfter=No
@@ -745,35 +745,35 @@
 8	therapy	therapy	NOUN	NN	Number=Sing	2	nmod	2:nmod:on	Entity=8)|SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"4" (1 s)
 # sent_id = GENTLE_medical_hiv-43
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 4. Hypertension.
-# newpar
-# newpar_block = item n:::"4" (1 s)
 1	4.	4.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:75->71:0:grf-seq-440
 2	Hypertension	hypertension	NOUN	NN	Number=Sing	0	root	0:root	Entity=(9-abstract-giv:inact-cf1-1-coref)|MSeg=Hyper-tens-ion|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"5" (1 s)
 # sent_id = GENTLE_medical_hiv-44
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 5. Depression.
-# newpar
-# newpar_block = item n:::"5" (1 s)
 1	5.	5.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:76->71:0:sem-lxchn-415,444+grf-seq-443
 2	Depression	depression	NOUN	NN	Number=Sing	0	root	0:root	Entity=(10-abstract-giv:inact-cf1-1-coref)|MSeg=Depress-ion|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item n:::"6" (1 s)
 # sent_id = GENTLE_medical_hiv-45
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 6. Chronic musculoskeletal pain of unclear etiology.
-# newpar
-# newpar_block = item n:::"6" (1 s)
 1	6.	6.	X	LS	_	4	discourse	4:discourse	Discourse=joint-list_m:77->71:0:grf-seq-446
 2	Chronic	chronic	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(11-abstract-giv:inact-cf1-3-coref
 3	musculoskeletal	musculoskeletal	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=musculo-skelet-al
@@ -783,23 +783,23 @@
 7	etiology	etiology	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=12)11)|MSeg=etio-logy|SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head rend:::"bold red caps" (1 s)
 # sent_id = GENTLE_medical_hiv-46
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = PLAN:
-# newpar
-# newpar_block = head rend:::"bold red caps" (1 s)
 1	PLAN	plan	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:78->79:1:grf-ly-|Entity=(89-abstract-new-cf1-1-sgl)|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_medical_hiv-47
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = The patient will continue his current medications.
-# newpar
-# newpar_block = p (3 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-other_m:79->9:4:_|Entity=(14-person-giv:inact-cf1-2-coref
 2	patient	patient	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=14)
 3	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_

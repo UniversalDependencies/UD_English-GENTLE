@@ -10,22 +10,22 @@
 # meta::speakerCount = 0
 # meta::summary = This mathematical proof shows that two wosets S and T, ordered sets with a well-ordering, must be order isomorphic to each other, or else one set is order isomorphic to an initial segment of the other, trivially if they contain less than two elements, and otherwise provably using a relation ⪯, which is shown to be a reflexive, transitive and antisymmetric total well-ordering.
 # meta::title = Wosets are Isomorphic to Each Other or Initial Segments/Proof Without Using Choice
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_proof_wosets-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = Proof
-# newpar
-# newpar_block = head (1 s)
 1	Proof	proof	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->59:6:grf-ly-|Entity=(1-abstract-new-cf1-1-coref)
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_proof_wosets-2
 # s_prominence = 3
 # s_type = decl
 # transition = null
 # text = If the sets S and T considered are empty or singletons, the theorem holds vacuously or trivially.
-# newpar
-# newpar_block = p (2 s)
 1	If	if	SCONJ	IN	_	9	mark	9:mark	Discourse=contingency-condition:2->5:0:dm-if-2|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:2:14-20:3-13
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(2-abstract-new-cf2-2-sgl
 3	sets	set	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj|11:nsubj	MSeg=set-s|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Set"></ref>
@@ -34,13 +34,13 @@
 6	T	T	NOUN	NN	Number=Sing	4	conj	3:appos|4:conj:and	Entity=(4-abstract-new-cf4-1-coref)
 7	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl	3:acl	Discourse=elaboration-attribute:3->2:0:syn-mdf-4+syn-nmn-8|Entity=2)|MSeg=consider-ed
 8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	Discourse=same-unit_m:4->2:1:_
-9	empty	empty	ADJ	JJ	Degree=Pos	15	advcl	15:advcl:if	CxnElt=Protasis|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Empty_Set"></ref>
+9	empty	empty	ADJ	JJ	Degree=Pos	15	advcl	15:advcl:if	CxnElt=15:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Empty_Set"></ref>
 10	or	or	CCONJ	CC	_	11	cc	11:cc	_
 11	singletons	singleton	NOUN	NNS	Number=Plur	9	conj	9:conj:or|15:advcl:if	Entity=(5-abstract-new-cf5-1-sgl)|MSeg=single-ton-s|SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Singleton"></ref>
 12	,	,	PUNCT	,	_	9	punct	9:punct	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=1<6|Discourse=explanation-justify:5->7:1:dm-thus-21|Entity=(6-abstract-acc:inf-cf1-2-sgl
 14	theorem	theorem	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=6)
-15	holds	hold	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|MSeg=hold-s
+15	holds	hold	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=15:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=hold-s
 16	vacuously	vacuously	ADV	RB	Degree=Pos	15	advmod	15:advmod	MSeg=vacu-ous-ly|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Vacuous"></ref>
 17	or	or	CCONJ	CC	_	18	cc	18:cc	_
 18	trivially	trivially	ADV	RB	Degree=Pos	16	conj	15:advmod|16:conj:or	MSeg=trivi-al-ly|SpaceAfter=No
@@ -51,7 +51,7 @@
 # s_type = imp
 # transition = establishment
 # text = Thus assume S and T each contain at least two elements.
-1	Thus	thus	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution-positive:6->7:0:lex-indwd-22+sem-atsrc-22|PDTB=Explicit:Contingency.Cause.Result:thus:21:2-20:22-32
+1	Thus	thus	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution-positive:6->7:0:sem-atsrc-22+lex-indwd-22|PDTB=Explicit:Contingency.Cause.Result:thus:21:2-20:22-32
 2	assume	assume	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	S	S	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Discourse=context-background:7->59:5:_|Entity=(3-abstract-giv:act-cf1*-1-coref)
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
@@ -64,13 +64,13 @@
 11	elements	element	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=7)|MSeg=element-s|SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_proof_wosets-4
 # s_prominence = 4
 # s_type = inf
 # transition = continue
 # text = Let U = (S, ⪯S) ∪ (T, ⪯T)
-# newpar
-# newpar_block = p (2 s)
 1	Let	let	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Discourse=context-background:8->11:4:sem-rpt-34,55+sem-rpt-37,76+sem-rpt-44,88
 2	U	U	NOUN	NN	Number=Sing	1	obj	1:obj|3:nsubj:xsubj	Entity=(8-abstract-new-cf3-1-coref)
 3	=	=	SYM	SYM	_	1	xcomp	1:xcomp	_
@@ -148,13 +148,13 @@
 53	∈	∈	SYM	SYM	_	49	conj	31:conj|49:conj	Entity=(20-abstract-giv:act-cf13-1-coref
 54	T	T	NOUN	NN	Number=Sing	53	nmod:unmarked	53:nmod:unmarked	Entity=(4-abstract-giv:act-cf6-1-coref)20)
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GENTLE_proof_wosets-6
 # s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = We claim that ⪯ is a well-ordering.
-# newpar
-# newpar_block = p (3 s)
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:18->19:0:sem-atsrc-103+lex-indwd-104+syn-rpr-105|Entity=(21-person-acc:com-cf2-1-ana)
 2	claim	claim	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	that	that	SCONJ	IN	_	9	mark	9:mark	Discourse=organization-preparation:19->59:3:sem-rpt-106,346+sem-lxchn-111,350
@@ -200,25 +200,25 @@
 11	ordering	ordering	NOUN	NN	Number=Sing	7	nmod	7:nmod:for	Entity=24)23)22)|MSeg=order-ing|SpaceAfter=No
 12	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_proof_wosets-9
 # s_prominence = 3
 # s_type = frag
 # transition = null
 # text = Reflexivity
-# newpar
-# newpar_block = head (1 s)
 1	Reflexivity	reflexivity	NOUN	NN	Number=Sing	0	root	0:root	Bridge=22<25|Discourse=organization-heading:23->26:2:grf-ly-+sem-rpt-135,151|Entity=(25-abstract-acc:inf-cf1-1-coref)|MSeg=Re-flex-iv-ity|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Reflexive_Relation"></ref>
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_proof_wosets-10
 # s_prominence = 3
 # s_type = decl
 # transition = null
 # text = If x = y, they're necessarily both in S or T simultaneously.
-# newpar
-# newpar_block = p (2 s)
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:24->25:0:dm-if-136|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:136:141-150:137-140
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(11-abstract-giv:inact-cf1-1-coref)
-3	=	=	SYM	SYM	_	11	advcl	11:advcl:if	CxnElt=Protasis
+3	=	=	SYM	SYM	_	11	advcl	11:advcl:if	CxnElt=11:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 4	y	y	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(12-abstract-giv:inact-cf2-1-coref)|SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	3:punct	_
 6-7	they're	_	_	_	_	_	_	_	_
@@ -227,7 +227,7 @@
 8	necessarily	necessarily	ADV	RB	Degree=Pos	11	advmod	11:advmod	MSeg=necessari-ly
 9	both	both	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 10	in	in	ADP	IN	_	11	case	11:case	_
-11	S	S	NOUN	NN	Number=Sing	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|Entity=(3-abstract-giv:inact-cf3-1-coref)
+11	S	S	NOUN	NN	Number=Sing	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=11:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Entity=(3-abstract-giv:inact-cf3-1-coref)
 12	or	or	CCONJ	CC	_	13	cc	13:cc	_
 13	T	T	NOUN	NN	Number=Sing	11	conj	11:conj:or	Entity=(4-abstract-giv:inact-cf4-1-coref)
 14	simultaneously	simultaneously	ADV	RB	Degree=Pos	11	advmod	11:advmod	MSeg=simultaneous-ly|SpaceAfter=No
@@ -258,22 +258,22 @@
 18	orderings	ordering	NOUN	NNS	Number=Plur	3	advcl	3:advcl:as	Entity=29)|MSeg=order-ing-s|SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_proof_wosets-12
 # s_prominence = 3
 # s_type = frag
 # transition = zero
 # text = Transitivity
-# newpar
-# newpar_block = head (1 s)
 1	Transitivity	transitivity	NOUN	NN	Number=Sing	0	root	0:root	Bridge=22<30|Discourse=organization-heading:28->46:1:grf-ly-+sem-lxchn-170,273|Entity=(30-abstract-acc:inf-cf1-1-sgl)|MSeg=Transitiv-ity|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Transitive_Relation"></ref>
 
+# newpar
+# newpar_block = p (8 s)
 # sent_id = GENTLE_proof_wosets-13
 # s_prominence = 4
 # s_type = imp
 # transition = null
 # text = Let x, y, z ∈ U.
-# newpar
-# newpar_block = p (8 s)
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=context-background:29->32:2:sem-rpt-172,181+sem-rpt-174,183+sem-rpt-176,185
 2	x	x	NOUN	NN	Number=Sing	1	obj	1:obj|7:nsubj:xsubj	Entity=(31-abstract-new-cf1-1,3,5-coref(32-abstract-new-cf3-1-coref)|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -295,7 +295,7 @@
 4	y	y	NOUN	NN	Number=Sing	2	conj	2:conj|7:nsubj	Entity=(33-abstract-giv:act-cf2-1-coref)|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	z	z	NOUN	NN	Number=Sing	2	conj	2:conj|7:nsubj	Entity=(34-abstract-giv:act-cf3-1-coref)35)
-7	∈	∈	SYM	SYM	_	22	advcl	22:advcl:if	CxnElt=Protasis|Entity=(35-abstract-giv:act-cf6-1-coref
+7	∈	∈	SYM	SYM	_	22	advcl	22:advcl:if	CxnElt=22:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|Entity=(35-abstract-giv:act-cf6-1-coref
 8	S	S	NOUN	NN	Number=Sing	7	nmod:unmarked	7:nmod:unmarked	Entity=(3-abstract-giv:inact-cf4-1-coref)35)
 9	or	or	CCONJ	CC	_	15	cc	15:cc	Discourse=joint-disjunction_m:31->30:0:dm-or-188|PDTB=Explicit:Expansion.Disjunction:or:188:180-187:189-197
 10	x	x	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=(36-abstract-new-cf7-1,3,5-coref(32-abstract-giv:act-cf1*-1-coref)|SpaceAfter=No
@@ -310,7 +310,7 @@
 19	then	then	ADV	RB	PronType=Dem	22	advmod	22:advmod	Discourse=explanation-evidence:32->46:0:dm-thus-270
 20	⪯	⪯	SYM	SYM	_	22	nsubj	22:nsubj	Entity=(9-abstract-giv:inact-cf8-1-coref)
 21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
-22	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|MSeg=transit-ive
+22	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=22:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=transit-ive
 23	by	by	ADP	IN	_	25	case	25:case	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(37-abstract-new-cf11-2-sgl
 25	transitivity	transitivity	NOUN	NN	Number=Sing	22	obl	22:obl:by	MSeg=transitiv-ity
@@ -327,7 +327,7 @@
 # s_type = imp
 # transition = rough-shift
 # text = Suppose x, y ∈ S and z ∈ T.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:33->34:1:lex-indwd-212+sem-atsrc-212|PDTB=Implicit:Expansion.Disjunction:or:_:180-211:212-222
+1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:33->34:1:sem-atsrc-212+lex-indwd-212|PDTB=Implicit:Expansion.Disjunction:or:_:180-211:212-222
 2	x	x	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Discourse=context-background:34->37:3:sem-rpt-213,233+sem-rpt-215,241+sem-rpt-217,239+sem-rpt-219,235+sem-rpt-221,243|Entity=(38-abstract-new-cf1-1,3-coref(39-abstract-new-cf5-1-coref)|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	y	y	NOUN	NN	Number=Sing	2	conj	2:conj|5:nsubj	Entity=(40-abstract-new-cf6-1-coref)38)
@@ -378,7 +378,7 @@
 # s_type = imp
 # transition = rough-shift
 # text = Suppose x ∈ S and y, z ∈ T.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:40->41:1:lex-indwd-245+sem-atsrc-245
+1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:40->41:1:sem-atsrc-245+lex-indwd-245
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=context-background:41->43:1:sem-rpt-246,257+sem-rpt-248,264+sem-rpt-250,266+sem-rpt-252,259+sem-rpt-254,268|Entity=(42-abstract-new-cf1-1-coref)
 3	∈	∈	SYM	SYM	_	1	ccomp	1:ccomp	Entity=(42-abstract-giv:act-cf1-1-coref
 4	S	S	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	Entity=(3-abstract-giv:act-cf2*-1-coref)42)
@@ -421,22 +421,22 @@
 4	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=transit-ive|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GENTLE_proof_wosets-21
 # s_prominence = 3
 # s_type = frag
 # transition = null
 # text = Antisymmetry
-# newpar
-# newpar_block = head (1 s)
 1	Antisymmetry	antisymmetry	NOUN	NN	Number=Sing	0	root	0:root	Bridge=22<46|Discourse=organization-heading:47->57:2:grf-ly-|Entity=(46-abstract-acc:inf-cf1-1-sgl)|MSeg=Anti-symmetr-y|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Antisymmetric_Relation"></ref>
 
+# newpar
+# newpar_block = p (7 s)
 # sent_id = GENTLE_proof_wosets-22
 # s_prominence = 3
 # s_type = imp
 # transition = null
 # text = Let x ⪯ y and y ⪯ x.
-# newpar
-# newpar_block = p (7 s)
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=context-background:48->57:1:sem-rpt-277,331+sem-rpt-279,333
 2	x	x	NOUN	NN	Number=Sing	1	obj	1:obj|3:nsubj:xsubj	Entity=(47-abstract-new-cf2-1-coref)
 3	⪯	⪯	SYM	SYM	_	1	xcomp	1:xcomp	_
@@ -456,11 +456,11 @@
 2	x	x	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=(49-abstract-new-cf4-1,3-coref(47-abstract-giv:act-cf1*-1-coref)|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	y	y	NOUN	NN	Number=Sing	2	conj	2:conj|5:nsubj	Entity=(48-abstract-giv:act-cf2-1-coref)49)
-5	∈	∈	SYM	SYM	_	9	advcl	9:advcl:if	CxnElt=Protasis|Entity=(49-abstract-giv:act-cf4-1-coref
+5	∈	∈	SYM	SYM	_	9	advcl	9:advcl:if	CxnElt=9:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|Entity=(49-abstract-giv:act-cf4-1-coref
 6	S	S	NOUN	NN	Number=Sing	5	nmod:unmarked	5:nmod:unmarked	Entity=(3-abstract-giv:inact-cf3-1-coref)49)
 7	then	then	ADV	RB	PronType=Dem	9	advmod	9:advmod	Discourse=explanation-evidence:50->57:0:dm-thus-330
 8	x	x	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=(47-abstract-giv:act-cf1*-1-coref)
-9	=	=	SYM	SYM	_	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
+9	=	=	SYM	SYM	_	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=9:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 10	y	y	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=(48-abstract-giv:act-cf2-1-coref)
 11	by	by	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(50-abstract-new-cf6-2-sgl
@@ -491,7 +491,7 @@
 # text = If x ∈ S and y ∈ T, then y ∈ S and x ∈ T as well.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:53->55:1:dm-if then-310,319|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if then:310,319:320-329:311-318
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(47-abstract-giv:act-cf1*-1-coref)
-3	∈	∈	SYM	SYM	_	12	advcl	12:advcl:if	CxnElt=Protasis|Entity=(47-abstract-giv:act-cf1*-1-coref
+3	∈	∈	SYM	SYM	_	12	advcl	12:advcl:if	CxnElt=12:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|Entity=(47-abstract-giv:act-cf1*-1-coref
 4	S	S	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	Entity=(3-abstract-giv:inact-cf4-1-coref)47)
 5	and	and	CCONJ	CC	_	7	cc	7:cc	Discourse=joint-list_m:54->53:0:_
 6	y	y	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=(48-abstract-giv:act-cf2-1-coref)
@@ -500,7 +500,7 @@
 9	,	,	PUNCT	,	_	3	punct	3:punct	_
 10	then	then	ADV	RB	PronType=Dem	12	advmod	12:advmod	Discourse=joint-disjunction_m:55->50:2:_
 11	y	y	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=(48-abstract-giv:act-cf2-1-coref)
-12	∈	∈	SYM	SYM	_	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|Entity=(48-abstract-giv:act-cf2-1-coref
+12	∈	∈	SYM	SYM	_	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=12:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Entity=(48-abstract-giv:act-cf2-1-coref
 13	S	S	NOUN	NN	Number=Sing	12	nmod:unmarked	12:nmod:unmarked	Entity=(3-abstract-giv:act-cf4-1-coref)48)
 14	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint-list_m:56->55:0:dm-and-323|PDTB=Explicit:Expansion.Conjunction:and:323:319-322:324-329
 15	x	x	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=(47-abstract-giv:act-cf1*-1-coref)
@@ -535,7 +535,7 @@
 # s_type = imp
 # transition = zero
 # text = Conclude that ⪯ is a total ordering.
-1	Conclude	conclude	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:58->59:0:lex-indwd-344+sem-atsrc-344+syn-rpr-345|PDTB=NoRel:NoRel:_:_:330-343:344-351
+1	Conclude	conclude	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:58->59:0:sem-atsrc-344+lex-indwd-344+syn-rpr-345|PDTB=NoRel:NoRel:_:_:330-343:344-351
 2	that	that	SCONJ	IN	_	7	mark	7:mark	Discourse=ROOT:59:0
 3	⪯	⪯	SYM	SYM	_	7	nsubj	7:nsubj	Entity=(9-abstract-giv:inact-cf1-1-coref)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
@@ -567,13 +567,13 @@
 16	U	U	NOUN	NN	Number=Sing	15	nmod:unmarked	15:nmod:unmarked	Entity=(55-abstract-new-cf3-1-coref)54)|SpaceAfter=No
 17	.	.	PUNCT	.	_	10	punct	10:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_proof_wosets-29
 # s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = Then either: X ∩ S = ∅ or: X ∩ T = ∅ or: X ∩ S is non-empty and X ∩ T is non-empty.
-# newpar
-# newpar_block = p (1 s)
 1	Then	then	ADV	RB	PronType=Dem	7	advmod	7:advmod	Discourse=context-background:62->83:1:sem-rpt-374,543;causal-result:62->61:1:1:orp-then-369|PDTB=Explicit:Contingency.Cause.Result:then:369:352-368:370-397
 2	either	either	CCONJ	CC	_	7	cc:preconj	7:cc:preconj	SpaceAfter=No
 3	:	:	PUNCT	SYM	_	2	punct	2:punct	_
@@ -604,13 +604,13 @@
 28	non-empty	non-empty	ADJ	JJ	Degree=Pos	22	conj	7:conj|22:conj:and	Entity=61)|Negation=Yes|SpaceAfter=No
 29	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = p (9 s)
 # sent_id = GENTLE_proof_wosets-30
 # s_prominence = 3
 # s_type = decl
 # transition = continue
 # text = In the first case, X ⊆ T, by Intersection with Complement is Empty iff Subset.
-# newpar
-# newpar_block = p (9 s)
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=explanation-evidence:66->69:1:dm-then-416
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(56-event-giv:act-cf2-3-coref
 3	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
@@ -810,13 +810,13 @@
 12	.	.	PUNCT	.	_	7	punct	7:punct	_
 13	□	□	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GENTLE_proof_wosets-39
 # s_prominence = 4
 # s_type = imp
 # transition = continue
 # text = Consider the mapping: k: (T, ⪯T) → (U, ⪯): k (α) = α
-# newpar
-# newpar_block = p (4 s)
 1	Consider	consider	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:84->86:2:lex-indwd-548+sem-synym-549-550,552+grf-col-551
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(76-abstract-new-cf2-2-coref
 3	mapping	mapping	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=76)|MSeg=mapp-ing|SpaceAfter=No
@@ -872,7 +872,7 @@
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(76-abstract-giv:act-cf1*-4-coref
 5	strictly	strictly	ADV	RB	Degree=Pos	6	advmod	6:advmod	MSeg=strict-ly|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Strictly_Increasing_Mapping">
 6	increasing	increase	VERB	VBG	VerbForm=Ger	7	amod	7:amod	MSeg=increas-ing
-7	mapping	mapping	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=Pivot|MSeg=mapp-ing|XML=</ref>
+7	mapping	mapping	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=3:Existential-CopPred-ThereExpl.Pivot|MSeg=mapp-ing|XML=</ref>
 8	from	from	ADP	IN	_	9	case	9:case	_
 9	T	T	NOUN	NN	Number=Sing	7	nmod	7:nmod:from	Entity=(4-abstract-giv:inact-cf2-1-coref)
 10	to	to	ADP	IN	_	11	case	11:case	_
@@ -908,13 +908,13 @@
 22	U	U	NOUN	NN	Number=Sing	20	nmod	20:nmod:of	Entity=(8-abstract-giv:act-cf2-1-coref)84)|SpaceAfter=No
 23	.	.	PUNCT	.	_	14	punct	14:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_proof_wosets-43
 # s_prominence = 3
 # s_type = imp
 # transition = smooth-shift
 # text = Let Ix denote the initial segment in U determined by x, according to k.
-# newpar
-# newpar_block = p (2 s)
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=context-background:92->102:1:sem-rpt-621,679
 2	Ix	Ix	NOUN	NN	Number=Sing	1	obj	1:obj|3:nsubj:xsubj	Entity=(85-abstract-new-cf4-1-coref)
 3	denote	denote	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
@@ -955,13 +955,13 @@
 16	x	x	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=(89-abstract-giv:act-cf2-1-coref)|SpaceAfter=No
 17	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (12 s)
 # sent_id = GENTLE_proof_wosets-45
 # s_prominence = 4
 # s_type = imp
 # transition = zero
 # text = Suppose x ∈ S.
-# newpar
-# newpar_block = p (12 s)
 1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:98->99:0:sem-atsrc-653+lex-indwd-653
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=contingency-condition:99->100:1:dm-then-658|Entity=(90-abstract-new-cf1-1-coref)
 3	∈	∈	SYM	SYM	_	1	ccomp	1:ccomp	Entity=(90-abstract-giv:act-cf1-1-coref
@@ -996,7 +996,7 @@
 3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(93-abstract-new-cf5-9-sgl
 5	order	order	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(83-abstract-giv:inact-cf4-1-coref)
-6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=Pivot|MSeg=iso-morph-ism
+6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=3:Existential-CopPred-ThereExpl.Pivot|MSeg=iso-morph-ism
 7	from	from	ADP	IN	_	8	case	8:case	_
 8	T	T	NOUN	NN	Number=Sing	6	nmod	6:nmod:from	Entity=(4-abstract-giv:inact-cf2-1-coref)
 9	to	to	ADP	IN	_	10	case	10:case	_
@@ -1010,7 +1010,7 @@
 # s_type = imp
 # transition = rough-shift
 # text = Suppose x = min T, the smallest element of T.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:103->104:0:sem-atsrc-683+lex-indwd-683
+1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:103->104:0:lex-indwd-683+sem-atsrc-683
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=contingency-condition:104->105:2:dm-then-695|Entity=(94-abstract-new-cf1-1-coref)
 3	=	=	SYM	SYM	_	1	ccomp	1:ccomp	_
 4	min	min	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(94-abstract-giv:act-cf1-1-coref
@@ -1074,7 +1074,7 @@
 3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(98-abstract-new-cf4-3-sgl
 5	order	order	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(83-abstract-giv:inact-cf3-1-coref)
-6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=Pivot|MSeg=iso-morph-ism
+6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=3:Existential-CopPred-ThereExpl.Pivot|MSeg=iso-morph-ism
 7	from	from	ADP	IN	_	8	case	8:case	_
 8	T	T	NOUN	NN	Number=Sing	6	nmod	6:nmod:from	Entity=(4-abstract-giv:act-cf1*-1-coref)
 9	to	to	ADP	IN	_	10	case	10:case	_
@@ -1088,7 +1088,7 @@
 # s_type = imp
 # transition = retain
 # text = Suppose x ∈ T and x ≠ min T.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:110->111:1:sem-atsrc-737+lex-indwd-737|PDTB=NoRel:NoRel:_:_:724-736:737-746
+1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:110->111:1:lex-indwd-737+sem-atsrc-737|PDTB=NoRel:NoRel:_:_:724-736:737-746
 2	x	x	SYM	SYM	_	3	nsubj	3:nsubj	Discourse=contingency-condition:111->113:1:dm-then-747|Entity=(99-abstract-new-cf1-1-coref)
 3	∈	∈	NOUN	NN	Number=Sing	1	ccomp	1:ccomp	Entity=(99-abstract-giv:act-cf1-1-pred
 4	T	T	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	Entity=(4-abstract-giv:act-cf2*-1-coref)99)
@@ -1146,7 +1146,7 @@
 3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(101-abstract-new-cf4-3-sgl
 5	order	order	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(83-abstract-giv:inact-cf3-1-coref)
-6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=Pivot|MSeg=iso-morph-ism
+6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=3:Existential-CopPred-ThereExpl.Pivot|MSeg=iso-morph-ism
 7	from	from	ADP	IN	_	10	case	10:case	_
 8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(102-abstract-new-cf5-3-sgl
 9	initial	initial	ADJ	JJ	Degree=Pos	10	amod	10:amod	_

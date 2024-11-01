@@ -10,26 +10,26 @@
 # meta::speakerCount = 0
 # meta::summary = In this letter, an inmate in jail threatens a woman, who works at Walgreens and has perpetrated an insurance scam and stolen some things, that they will reveal this to the police and testify against her unless the woman drops the charges that put the author of the letter in jail, resulting in 3-5 years in jail for a class E felony.
 # meta::title = State v. Kelly, 2013 Tenn. Crim. App. LEXIS 890, *4-5, 2013 WL 5657672 (Tenn. Crim. App. October 16, 2013)
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_threat_kelly-1
 # s_prominence = 2
 # s_type = intj
 # transition = null
 # text = Hello,
-# newpar
-# newpar_block = p (1 s)
 1	Hello	hello	INTJ	UH	_	0	root	0:root	Discourse=organization-phatic:1->20:7:_|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (35 s)
 # sent_id = GENTLE_threat_kelly-2
 # s_prominence = 3
 # s_type = q
 # transition = null
 # text = Do you remember... when you did the insurance scam?
-# newpar
-# newpar_block = p (35 s)
 1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=attribution-positive:2->3:0:sem-atsrc-4+lex-indwd-5
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(1-person-acc:com-cf1-1-ana)
-3	remember	remember	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=Clause|SpaceAfter=No
+3	remember	remember	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=3:Interrogative-Polar-Direct.Clause|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	SpaceAfter=No
 5	.	.	PUNCT	.	_	3	punct	3:punct	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -107,7 +107,7 @@
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=elaboration-additional:9->8:0:ref-prs-43,61+sem-mrnym-46-48,52-55|PDTB=Implicit:Contingency.Condition.Arg2-as-cond:because:_:43-49:50-64
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Bridge=9<10|Entity=(10-person-acc:inf-cf2-2-coref
-4	bunch	bunch	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=Pivot
+4	bunch	bunch	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	nmod	4:nmod:of	Entity=10)
 7	right	right	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
@@ -161,7 +161,7 @@
 # text = If you think you can get away with it, you are so fucking dumb.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=attribution-positive:14->15:0:sem-atsrc-88+lex-indwd-89|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:87:97-102:88-96;NoRel:NoRel:_:_:81-86:87-102
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(1-person-giv:inact-cf1-1-ana)
-3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:if	CxnElt=Protasis
+3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:if	CxnElt=15:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Discourse=contingency-condition:15->16:0:dm-if-87|Entity=(1-person-giv:act-cf1-1-ana)
 5	can	can	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
 6	get	get	VERB	VB	VerbForm=Inf	3	ccomp	3:ccomp	_
@@ -173,7 +173,7 @@
 12	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
 13	so	so	ADV	RB	_	15	advmod	15:advmod	_
 14	fucking	fucking	INTJ	UH	_	15	discourse	15:discourse	MSeg=fuck-ing
-15	dumb	dumb	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|SpaceAfter=No
+15	dumb	dumb	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=15:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|SpaceAfter=No
 16	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GENTLE_threat_kelly-11
@@ -215,10 +215,10 @@
 # transition = retain
 # text = So do yourself a favor drop the charges on me or else I will tell them all about your scam.
 1	So	so	INTJ	UH	_	2	discourse	2:discourse	Discourse=organization-preparation:19->20:1:ref-prs-126,142|PDTB=EntRel:EntRel:_:_:116-123:124-144;Explicit:Contingency.Cause.Result:so:124:87-102:125-144
-2	do	do	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Cxn=Ditransitive|CxnElt=DitrV
-3	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	2	iobj	2:iobj	CxnElt=DitrRec|Entity=(1-person-giv:act-cf2*-1-ana)|MSeg=your-self
+2	do	do	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Cxn=Ditransitive|CxnElt=2:Ditransitive.V
+3	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	2	iobj	2:iobj	CxnElt=2:Ditransitive.Rec|Entity=(1-person-giv:act-cf2*-1-ana)|MSeg=your-self
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(18-abstract-new-cf6-2-sgl
-5	favor	favor	NOUN	NN	Number=Sing	2	obj	2:obj	CxnElt=DitrTheme|Entity=18)
+5	favor	favor	NOUN	NN	Number=Sing	2	obj	2:obj	CxnElt=2:Ditransitive.Theme|Entity=18)
 6	drop	drop	VERB	VB	Person=2|VerbForm=Inf	2	parataxis	2:parataxis	Discourse=ROOT:20:0
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(19-abstract-acc:com-cf5-2-coref
 8	charges	charge	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=19)|MSeg=charge-s
@@ -520,12 +520,12 @@
 13-14	don't	_	_	_	_	_	_	_	_
 13	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 14	n't	not	PART	RB	Polarity=Neg	15	advmod	15:advmod	Negation=Yes
-15	want	want	VERB	VB	VerbForm=Inf	20	advcl	20:advcl:if	CxnElt=Protasis
+15	want	want	VERB	VB	VerbForm=Inf	20	advcl	20:advcl:if	CxnElt=20:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 16	to	to	PART	TO	_	17	mark	17:mark	_
 17	go	go	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_
 18	to	to	ADP	IN	_	19	case	19:case	_
 19	jail	jail	NOUN	NN	Number=Sing	17	obl	17:obl:to	Entity=(17-place-giv:inact-cf3-1-coref-Prison)
-20	get	get	VERB	VB	VerbForm=Inf	3	advcl	3:advcl	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|Discourse=same-unit_m:53->51:0:_
+20	get	get	VERB	VB	VerbForm=Inf	3	advcl	3:advcl	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=20:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=same-unit_m:53->51:0:_
 21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	iobj	20:iobj|26:nsubj:xsubj	Entity=(8-person-giv:act-cf1*-1-ana)
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	_
 23	fuck	fuck	NOUN	NN	Number=Sing	20	discourse	20:discourse	_
@@ -580,10 +580,10 @@
 2-3	can't	_	_	_	_	_	_	_	_
 2	ca	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
-4	tell	tell	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Ditransitive|CxnElt=DitrV
-5	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	iobj	4:iobj	CxnElt=DitrRec|Entity=(1-person-giv:act-cf2-1-ana)
+4	tell	tell	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Ditransitive|CxnElt=4:Ditransitive.V
+5	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	iobj	4:iobj	CxnElt=4:Ditransitive.Rec|Entity=(1-person-giv:act-cf2-1-ana)
 6	how	how	ADV	WRB	PronType=Rel	7	advmod	7:advmod	_
-7	bad	bad	ADJ	JJ	Degree=Pos	4	obj	4:obj	CxnElt=DitrTheme
+7	bad	bad	ADJ	JJ	Degree=Pos	4	obj	4:obj	CxnElt=4:Ditransitive.Theme
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	7:expl	Entity=(36-abstract-new-cf3-1-cata)
 9	will	will	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
 10	be	be	AUX	VB	VerbForm=Inf	7	acl:relcl	7:acl:relcl	_
@@ -665,13 +665,13 @@
 15	friend	friend	NOUN	NN	Number=Sing	11	conj	9:obl:from|11:conj:and	Entity=42)|SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_threat_kelly-37
 # s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = I am not fucking playing Bitch.
-# newpar
-# newpar_block = p (2 s)
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=evaluation-comment:68->66:2:lex-indwd-433|Entity=(8-person-giv:act-cf1*-1-ana)
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 3	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	Negation=Yes
@@ -701,13 +701,13 @@
 13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	iobj	12:iobj	Entity=(8-person-giv:act-cf1*-1-ana)|SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_threat_kelly-39
 # s_prominence = 2
 # s_type = imp
 # transition = smooth-shift
 # text = Don't take your time.
-# newpar
-# newpar_block = p (2 s)
 1-2	Don't	_	_	_	_	_	_	_	_
 1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=explanation-motivation:71->20:5:_
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes

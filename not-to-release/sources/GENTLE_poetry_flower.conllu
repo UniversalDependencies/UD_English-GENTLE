@@ -10,13 +10,13 @@
 # meta::speakerCount = 0
 # meta::summary = In this poem, the narrator tells of hiding inside their flower, which the poem's addressee, unsuspecting, wears, while feeling almost a loneliness for the narrator.
 # meta::title = With a Flower
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GENTLE_poetry_flower-1
 # s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = I HIDE myself within my flower, That wearing on your breast, You, unsuspecting, wear me too —
-# newpar
-# newpar_block = p (2 s)
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=ROOT:1:0|Entity=(1-person-acc:com-cf2-1-ana)|XML=<hi rend:::"bold">
 2	HIDE	hide	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	XML=</hi>
 3	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	2:obj	Entity=(1-person-giv:act-cf2-1-ana)|MSeg=my-self
@@ -51,13 +51,13 @@
 5	rest	rest	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=6)|SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GENTLE_poetry_flower-3
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = I hide myself within my flower, That, fading from your vase, You, unsuspecting, feel for me Almost a loneliness.
-# newpar
-# newpar_block = p (1 s)
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-list_m:8->1:2:lex-indwd-20+syn-prl-1-9,14,16,18,28-37,42,44,46|Entity=(1-person-giv:inact-cf2-1-ana)
 2	hide	hide	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	2:obj	Entity=(1-person-giv:act-cf2-1-ana)|MSeg=my-self
