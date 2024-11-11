@@ -32,7 +32,7 @@ Note that stems are retained in their orthographic forms (explanation does not b
 
 ## Cxn
 
-GENTLE uses the MISC field `Cxn` annotation to distinguish some complex constructions in a Construction Grammar (CxG) framework developed by collaborators from [Dagstuhl Seminar 23191](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23191) for the integration of CxG analyses into UD trees. Construction labels are always attached to the highest token belonging to the necessary or defining elements of the construction, and carry hierarchical designations, such as a prefix `Cxn=Conditional` for all conditional constructions, but a more specific `Cxn=UnspecifiedEpistemic-Reduced` for reduced conditionals (the type seen in "if possible"). Currently covered constructions are listed in the [GUM wiki](https://wiki.gucorpling.org/gum/cxn).
+GENTLE uses the MISC field `Cxn` annotation to distinguish some complex constructions in a Construction Grammar (CxG) framework developed by collaborators from [Dagstuhl Seminar 23191](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23191) for the integration of CxG analyses into UD trees. Construction labels are always attached to the highest token belonging to the necessary or defining elements of the construction, and carry hierarchical designations, such as a prefix `Cxn=Conditional` for all conditional constructions, but a more specific `Cxn=UnspecifiedEpistemic-Reduced` for reduced conditionals (the type seen in "if possible"). Individual elements of a construction are annotated using the `CxnElt` MISC annotation. Currently covered constructions are listed in the [GUM wiki](https://wiki.gucorpling.org/gum/cxn). For more information and for work using these annotations, please refer to [Weissweiler et al. 2024](https://aclanthology.org/2024.lrec-main.1471).
 
 ## Entity
 
@@ -43,36 +43,44 @@ Multi-token mentions receive opening brackets on the line in which they open, su
 ```CoNLL-U
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
 ...
-1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:104->98:2:_
+1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:104->98:2:lex-indph-954-955
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=173<188|Entity=(188-event-acc:inf-cf6-3,6,8-sgl
-3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
+3	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
 4	campaign	campaign	NOUN	NN	Number=Sing	16	obl	16:obl:for	_
 5	in	in	ADP	IN	_	10	case	10:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(173-abstract-giv:inact-cf3-2,4,5-coref
-7	Always	Always	ADV	NNP	Number=Sing	8	advmod	8:advmod	XML=<hi rend:::"italic">
-8	Keep	Keep	PROPN	NNP	Number=Sing	10	compound	10:compound	_
-9	Fighting	Fighting	PROPN	NNP	Number=Sing	8	xcomp	8:xcomp	XML=</hi>
+7	Always	Always	ADV	NNP	_	8	advmod	8:advmod	MSeg=Al-way-s|XML=<hi rend:::"italic">
+8	Keep	Keep	VERB	NNP	Mood=Imp|Person=2|VerbForm=Fin	10	compound	10:compound	_
+9	Fighting	Fighting	VERB	NNP	VerbForm=Ger	8	xcomp	8:xcomp	MSeg=Fight-ing|XML=</hi>
 10	series	series	NOUN	NN	Number=Sing	4	nmod	4:nmod:in	Entity=173)
 11	in	in	ADP	IN	_	12	case	12:case	_
 12	April	April	PROPN	NNP	Number=Sing	4	nmod	4:nmod:in	Entity=(189-time-new-cf10-1-sgl|XML=<date when:::"2015-04">
-13	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:tmod	12:nmod:tmod	Entity=(175-time-giv:inact-cf5-1-coref)189)188)|SpaceAfter=No|XML=</date>
+13	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:unmarked	12:nmod:unmarked	Entity=(175-time-giv:inact-cf5-1-coref)189)188)|SpaceAfter=No|XML=</date>
 14	,	,	PUNCT	,	_	4	punct	4:punct	_
 15	Padalecki	Padalecki	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=(1-person-giv:act-cf2*-1-coref-Jared_Padalecki)
-16	partnered	partner	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+16	partnered	partner	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=partner-ed
 17	with	with	ADP	IN	_	18	case	18:case	_
-18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	16:obl:with	Entity=(97-person-giv:inact-cf4-1,3-coref-Jensen_Ackles
+18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	16:obl:with	Entity=(97-person-giv:inact-cf4-1,3-coref-Jensen_Ackles|MSeg=co-star
 19	Jensen	Jensen	PROPN	NNP	Number=Sing	18	appos	18:appos	XML=<ref target:::"https://en.wikipedia.org/wiki/Jensen_Ackles">
 20	Ackles	Ackles	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=97)|XML=</ref>
-21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:105->104:0:_
-22	release	release	VERB	VB	VerbForm=Inf|Voice=Act	16	advcl	16:advcl:to	_
+21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:105->104:0:syn-inf-963|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:943-962:963-981
+22	release	release	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-cf7-2-coref
 24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=190)
-25	featuring	feature	VERB	VBG	VerbForm=Ger|Voice=Act	24	acl	24:acl	Discourse=elaboration-attribute:106->105:0:_
+25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	24:acl	Discourse=elaboration-attribute:106->105:0:syn-mdf-966+syn-nmn-967|MSeg=featur-ing
 26	both	both	DET	DT	PronType=Tot	25	obj	25:obj	Entity=(191-object-new-cf9-1-sgl
 27	of	of	ADP	IN	_	29	case	29:case	_
 28	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(192-person-acc:aggr-cf1-1-coref)|SplitAnte=1<192,97<192
-29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=191)|SpaceAfter=No
+29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=191)|MSeg=face-s|SpaceAfter=No
 ```
+
+In addition, a list of the globally most salient entities in each document can be found in the metadata at the beginning of the document, for example:
+
+```CoNLL-U
+# meta::salientEntities = 1, 5, 6, 7, 8, 12, 98, 173, 180, 181, 182, 183, 184
+```
+
+Where the value `1` stands for Padalecki, as in the annotations above.
 
 Possible values for the other annotations mentioned above are:
 
@@ -106,11 +114,11 @@ The annotations `SplitAnte` and `Bridge` mark non-strict identity anaphora (see 
 
 Bridging anaphora is annotated when an entity has not been mentioned before, but is resolvable in context by way of a different entity: for example, token 2 has the annotation `Bridge=173<188`, which indicates that although `188-event` ("the second campaign...") has not been mentioned before, its identity is mediated by the previous mention of another entity, `173-abstract` (the project "Always Keep Fighting", mentioned earlier in the document, to which the campaign event belongs). In other words, readers can infer that "the second campaign" is part of the already introduced larger project, which also had a first campaign. This inference also leads to the information status label `acc:inf`, accessible-inferable.
 
-## RST discourse trees and signals
+## Enhanced RST discourse trees and signals
 
-Discourse annotations are given in [RST](https://wiki.gucorpling.org/en/gum/rst) dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GENTLE see the [source repo](https://github.com/gucorpling/gentle/). At the beginning of each Elementary Discourse Unit (EDU), an annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose-goal:105->104:0:_` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose-goal` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-goal-> to release a shirt..."). The third number `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The final part of the `Discourse` annotation is reserved for categorized signals which correspond to the discourse relation in question, as defined by RST++ but these are not yet implemented in GENTLE, and so this position is always occupied by a `_`.
+Discourse annotations are given in [eRST](https://wiki.gucorpling.org/en/gum/rst) dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GENTLE see the [source repo](https://github.com/gucorpling/gentle/). At the beginning of each Elementary Discourse Unit (EDU), an annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose-goal:105->104:0:syn-inf-963` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose-goal` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-goal-> to release a shirt..."). The third number `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The final part of the `Discourse` annotation indicates categorized signals which correspond to the discourse relation in question, as defined by eRST - in this case, `syn-inf-963` indicates a syntactic signal (`syn`) of the subtype "infinitival_clause" (`inf`), since the purpose relation is signaled by the use of an infinitive, a typical strategy in English. The index `963` refers to the position of the signal, in this case token number 963 in the document (excluding empty nodes), the infinitive 'to' (token 21 in the sentence). Multiple signals are separated by `+`. See below for the inventory of signal types.
 
-The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. Although it is easiest to recover RST constituent trees from the source repo, it is also possible to generate them automatically from the dependencies with depth information, using the scripts in the [rst2dep repo](https://github.com/amir-zeldes/rst2dep/).
+Additionally, note that multiple discourse relations can sometimes occur on the same line, since eRST allows multiple concurrent and tree-breaking relations to be identified. In such cases the multiple relation entries will be separated by `;` and ordered such that the primary relation (which indicates RST nuclearity and is guaranteed to be projective in the discourse tree) will be serialized first, and non-projective secondary relations are guaranteed to be serialized subsequently. The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. Although it is easiest to recover RST constituent trees from the source repo, it is also possible to generate them automatically from the dependencies with depth information, using the scripts in the [rst2dep repo](https://github.com/amir-zeldes/rst2dep/).
 
 Discourse relations in GENTLE are defined based on the effect that W (a writer/speaker) has on R (a reader/hearer) by modifying a Nucleus discourse unit (N) with another discourse unit (a Satellite, S, or another N). Discourse relation units can precede their nuclei (satellite-nucleus, or SN relation), follow them (NS), or be coordinated with each other (NN or multinuclear relations). Relations are classified hierarchically into 15 major classes and include:
 
@@ -161,6 +169,28 @@ Discourse relations in GENTLE are defined based on the effect that W (a writer/s
     * topic-solutionhood (SN/NS) - S steers the discourse topic by posing a problem, to which N presents a solution
   * Same-unit (NN) - connects parts of a discontinuous discourse unit (this is not a discourse relation)
 
+Relation signals fall into nine major classes, most with several subtypes each, and include:
+
+  * dm: discourse markers of primary relations ('but', 'additionally', 'on the other hand'...)
+  * orphan (orp): discourse markers of secondary relations
+  * graphical (grf): colon (col), dash (dsh), items_in_sequence (seq), layout (ly), parentheses (prn), quotation_marks (qt), question_mark (qst), semicolon (semcol)
+  * lexical (lex): alternate_expression (altlex), indicative_phrase (indph), indicative_word (indwd)
+  * morphological (mrf): mood (md), tense (tns)
+  * numerical (num): same_count (count)
+  * reference (ref): comparative_reference (cmp), demonstrative_reference (dem), general_word (gnrl), personal_reference (prs), propositional_reference (prop)
+  * semantic (sem): antonymy (antnm), attribution_source (atsrc), lexical_chain (lxchn), meronymy (mrnym), negation (ngt), repetition (rpt), synonymy (synym)
+  * syntactic (syn): subject_auxiliary_inversion (sbinv), infinitival_clause (inf), interrupted_matrix_clause (intrp), modified_head (mdf), nominal_modifier (nmn), parallel_syntactic_construction (prl), past_participial_clause (pst), present_participial_clause (pres), relative_clause (relcl), reported_speech (rpr)
+
+## PDTB shallow discourse relations
+
+With the publication of the GUM Discourse Treebank (GDTB), a shallow version of discourse relation annotations is now included in the `PDTB` key in the MISC field, which provides information for all Explicit, Implicit, AltLex, AltLexC, EntRel, Hypophora and NoRel annotations following the Penn Discourse Treebank (PDTB) v3 guidelines. Annotations are placed on the first token of the connective or alternative lexicalization marking the relation for explicit/altlex relations, or on the first token of the second argument span (arg2) for other cases. Token ranges for each argument span, the connective and relation label are provided as well. For example, the line in the excerpt above:
+
+```CoNLL-U
+21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:105->104:0:syn-inf-963|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:943-962:963-981
+```
+
+Indicates an Implicit relation with the label `Contingency.Purpose.Arg2-as-goal`, with an implicit connective "in order". Because the connective is implicit, it has no token indices (`_`), but arg1 spans token`943-962` of the document (ignoring decimal ellipsis tokens), and arg2 spans tokens `963-981`. If multiple PDTB relations apply at the same token position, they are separated by a semicolon.
+
 ## XML
 
 Markup from the original XML annotations using TEI tags is available in the XML MISC annotation, which indicates which XML tags, if any, were opened or closed before or after the current token, and in what order. In tokens 7-9 in the example above, the XML annotations indicate the words "Always Keep Fighting" were originally italicized using the tag pair `<hi rend="italic">...</hi>`, which opens at token 7 and closes after token 9. To avoid confusion with the `=` sign in MISC annotations, XML `=` signs are escaped and represented as `:::`.
@@ -199,7 +229,9 @@ Document metadata is given at the beginning of each new document in key-value pa
 # meta::title = Jared Padalecki
 ```
 
-Sentences carry some sentence-level annotations in CoNLL-U comment annotations, such as [sentence types](https://wiki.gucorpling.org/gum/tokenization_segmentation#sentence-annotation) in `s_type` (declarative, imperative, wh-question, fragment, etc.), as well as sentence transition types based on Centering Theory and sentence prominence levels based on graph proximity to the discourse parse root. For example, this fragment sentence (`frag`) establishes a new backwards looking Center (`establishment`) and is a level-2 sentence (`s_prominence = 2`, i.e. its discourse nesting level is one further than a sentence containing the level-1 Central Discourse Unit of the entire text.
+Document summaries are included in the metadata `summary` annotation and follow strict guidelines described [here](https://wiki.gucorpling.org/gum/summarization).
+
+Additionally, sentences carry some sentence-level annotations in CoNLL-U comment annotations, such as [sentence types](https://wiki.gucorpling.org/gum/tokenization_segmentation#sentence-annotation) in `s_type` (declarative, imperative, wh-question, fragment, etc.), as well as sentence transition types based on Centering Theory and sentence prominence levels based on graph proximity to the discourse parse root. For example, this fragment sentence (`frag`) establishes a new backwards looking Center (`establishment`) and is a level-2 sentence (`s_prominence = 2`, i.e. its discourse nesting level is one further than a sentence containing the level-1 Central Discourse Unit of the entire text.
 
 ```CoNLL-U
 # s_prominence = 2
@@ -242,6 +274,15 @@ As a scholarly citation for the GENTLE corpus, please use this paper:
 ```
 
 # Changelog
+
+* 2024-10-29
+  * Added summaries and salient entities per document
+  * Added eRST annotations in MISC Discourse, incl. multiple concurrent discourse relations and discourse relation signals
+  * Added PDTB-style shallow discourse relations from GDTB in MISC
+  * Added CxnElt in MISC
+  * Moved Polarity=Neg of negative morphological derviations to MISC Negation=Yes
+  * Added ExtPos to fixed expressions in FEATS
+  * Renamed :npmod and :tmod relation subtypes to :unmarked
 
 * 2023-10-31
   * Added morphological segmentation in MISC MSeg
