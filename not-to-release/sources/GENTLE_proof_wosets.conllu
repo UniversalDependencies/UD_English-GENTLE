@@ -724,7 +724,7 @@
 # text = Thus it precedes any element of T by the definition of ⪯.
 1	Thus	thus	ADV	RB	_	3	advmod	3:advmod	Discourse=context-background:77->81:1:_|PDTB=Explicit:Contingency.Cause.Result:thus:475:457-474:476-487
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(71-abstract-giv:act-nnnnn-cf1*-1-ana)
-3	precedes	precede	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	precedes	precede	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=precede-s
 4	any	any	DET	DT	PronType=Ind	5	det	5:det	Entity=(71-abstract-giv:act-nnnnn-cf1*-2-coref
 5	element	element	NOUN	NN	Number=Sing	3	obj	3:obj	_
 6	of	of	ADP	IN	_	7	case	7:case	_
@@ -752,7 +752,7 @@
 9	which	which	PRON	WDT	PronType=Rel	12	nsubj	3:ref	Discourse=elaboration-attribute:79->78:0:_
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(74-abstract-new-nnnnn-cf7-2-sgl
-12	subset	subset	NOUN	NN	Number=Sing	3	acl:relcl	3:acl:relcl	_
+12	subset	subset	NOUN	NN	Number=Sing	3	acl:relcl	3:acl:relcl	MSeg=sub-set
 13	of	of	ADP	IN	_	14	case	14:case	_
 14	S	S	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	Entity=(3-abstract-giv:inact-sssss-cf3-1-coref)74)71)|SpaceAfter=No
 15	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -906,7 +906,7 @@
 16	U	U	NOUN	NN	Number=Sing	14	obl	14:obl:to	Entity=(55-abstract-giv:inact-nnnnn-cf4-1-coref)
 17	or	or	CCONJ	CC	_	20	cc	20:cc	_
 18	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(84-abstract-new-sssnn-cf8-3-coref
-19	initial	initial	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
+19	initial	initial	ADJ	JJ	Degree=Pos	20	amod	20:amod	MSeg=initi-al
 20	segment	segment	NOUN	NN	Number=Sing	16	conj	14:obl:to|16:conj:or	_
 21	of	of	ADP	IN	_	22	case	22:case	_
 22	U	U	NOUN	NN	Number=Sing	20	nmod	20:nmod:of	Entity=(8-abstract-giv:act-nssss-cf2-1-coref)84)|SpaceAfter=No
@@ -923,7 +923,7 @@
 2	Ix	Ix	NOUN	NN	Number=Sing	1	obj	1:obj|3:nsubj:xsubj	Entity=(85-abstract-new-nnnnn-cf4-1-coref)
 3	denote	denote	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(84-abstract-giv:act-sssnn-cf1*-3-coref
-5	initial	initial	ADJ	JJ	Degree=Pos	6	amod	6:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Initial_Segment">
+5	initial	initial	ADJ	JJ	Degree=Pos	6	amod	6:amod	MSeg=initi-al|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Initial_Segment">
 6	segment	segment	NOUN	NN	Number=Sing	3	obj	3:obj	XML=</ref>
 7	in	in	ADP	IN	_	8	case	8:case	_
 8	U	U	NOUN	NN	Number=Sing	6	nmod	6:nmod:in	Entity=(55-abstract-giv:act-nnnnn-cf2-1-coref)84)
@@ -1038,7 +1038,7 @@
 4	of	of	ADP	IN	_	5	case	5:case	_
 5	S	S	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=(3-abstract-giv:inact-sssss-cf3-1-coref)96)
 6	strictly	strictly	ADV	RB	Degree=Pos	7	advmod	7:advmod	MSeg=strict-ly|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Strictly_Precede">
-7	precedes	precede	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	XML=</ref>
+7	precedes	precede	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=precede-s|XML=</ref>
 8	x	x	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=(94-abstract-giv:act-nnnns-cf1*-1-coref)95)|SpaceAfter=No
 9	,	,	PUNCT	,	_	14	punct	14:punct	_
 10	as	as	SCONJ	IN	_	14	mark	14:mark	Discourse=explanation-justify:106->105:0:dm-as-704|PDTB=Explicit:Contingency.Cause.Reason:as:704:695-703:705-709
@@ -1056,7 +1056,7 @@
 1	Also	also	ADV	RB	_	4	advmod	4:advmod	Discourse=joint-list_m:107->105:1:dm-also-710|PDTB=Explicit:Expansion.Conjunction:also:710:695-709:711-723|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	x	x	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(94-abstract-giv:act-nnnns-cf1*-1-coref)
-4	precedes	precede	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	precedes	precede	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=precede-s
 5	every	every	DET	DT	PronType=Ind	6	det	6:det	Entity=(97-abstract-new-nnnnn-cf4-2-sgl
 6	element	element	NOUN	NN	Number=Sing	4	obj	4:obj	_
 7	of	of	ADP	IN	_	8	case	8:case	_
@@ -1112,7 +1112,7 @@
 2	Ix	Ix	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(100-event-acc:com-nnnnn-cf4-2-coref(85-abstract-giv:inact-nnnnn-cf2-1-coref)
 3	defines	define	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(84-abstract-giv:inact-sssnn-cf3-3-coref
-5	initial	initial	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
+5	initial	initial	ADJ	JJ	Degree=Pos	6	amod	6:amod	MSeg=initi-al
 6	segment	segment	NOUN	NN	Number=Sing	3	obj	3:obj	_
 7	in	in	ADP	IN	_	8	case	8:case	_
 8	T	T	NOUN	NN	Number=Sing	6	nmod	6:nmod:in	Entity=(4-abstract-giv:act-sssss-cf1*-1-coref)84)100)|SpaceAfter=No
@@ -1130,7 +1130,7 @@
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	S	S	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=(3-abstract-giv:inact-sssss-cf4-1-coref)96)
 7	strictly	strictly	ADV	RB	Degree=Pos	8	advmod	8:advmod	MSeg=strict-ly|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Strictly_Precede">
-8	precedes	precede	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	XML=</ref>
+8	precedes	precede	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=precede-s|XML=</ref>
 9	x	x	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=(99-abstract-giv:inact-nnnnn-cf1-1-coref)|SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	15:punct	_
 11	as	as	SCONJ	IN	_	15	mark	15:mark	Discourse=explanation-justify:115->114:0:dm-as-766|PDTB=Explicit:Contingency.Cause.Reason:as:766:756-765:767-771
@@ -1153,7 +1153,7 @@
 6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	CxnElt=3:Existential-CopPred-ThereExpl.Pivot|MSeg=iso-morph-ism
 7	from	from	ADP	IN	_	10	case	10:case	_
 8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(102-abstract-new-nnnnn-cf5-3-sgl
-9	initial	initial	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
+9	initial	initial	ADJ	JJ	Degree=Pos	10	amod	10:amod	MSeg=initi-al
 10	segment	segment	NOUN	NN	Number=Sing	6	nmod	6:nmod:from	_
 11	of	of	ADP	IN	_	12	case	12:case	_
 12	T	T	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	Entity=(4-abstract-giv:act-sssss-cf1*-1-coref)102)

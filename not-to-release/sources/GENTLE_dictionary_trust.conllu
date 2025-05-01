@@ -363,7 +363,7 @@
 1	Confidence	confidence	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-other_m:46->4:4:_|Entity=(60-abstract-new-ssnsn-cf2-1,4-sgl|MSeg=Confid-ence|XML=<ref target:::"https://en.wiktionary.org/wiki/confidence"></ref>
 2	in	in	ADP	IN	_	1	nmod	1:nmod	_
 3	or	or	CCONJ	CC	_	4	cc	4:cc	_
-4	reliance	reliance	NOUN	NN	Number=Sing	1	conj	1:conj:or	XML=<ref target:::"https://en.wiktionary.org/wiki/reliance"></ref>
+4	reliance	reliance	NOUN	NN	Number=Sing	1	conj	1:conj:or	MSeg=reli-ance|XML=<ref target:::"https://en.wiktionary.org/wiki/reliance"></ref>
 5	on	on	ADP	IN	_	7	case	7:case	_
 6	some	some	DET	DT	PronType=Ind	7	det	7:det	Entity=(61-person-new-nnnnn-cf1-2-sgl
 7	person	person	NOUN	NN	Number=Sing	4	nmod	4:nmod:on	Entity=61)
@@ -379,7 +379,7 @@
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=explanation-evidence:47->46:0:_|Entity=(63-person-new-nnnnn-cf2-1-cata)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:for example:_:227-236:237-252
 2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=need-s
 3	to	to	PART	TO	_	4	mark	4:mark	_
-4	regain	regain	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=4:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
+4	regain	regain	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=4:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=re-gain
 5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(64-abstract-new-nnnnn-cf3-2-sgl(65-person-acc:com-nnnnn-cf1-1-ana)
 6	trust	trust	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=64)|XML=<hi rend:::"bold"></hi>
 7	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=contingency-condition:48->47:0:dm-if-243|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:if:_:237-242:243-252
@@ -524,7 +524,7 @@
 7	;	;	PUNCT	:	_	8	punct	8:punct	_
 8	ground	ground	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	Discourse=same-unit_m:66->64:1:_|Entity=(89-abstract-new-nnnnn-cf3-1-sgl
 9	of	of	ADP	IN	_	10	case	10:case	_
-10	reliance	reliance	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=(90-abstract-new-nnnnn-cf4-1-sgl)89)|SpaceAfter=No
+10	reliance	reliance	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=(90-abstract-new-nnnnn-cf4-1-sgl)89)|MSeg=reli-ance|SpaceAfter=No
 11	;	;	PUNCT	:	_	12	punct	12:punct	_
 12	hope	hope	NOUN	NN	Number=Sing	8	parataxis	8:parataxis	Entity=(73-abstract-giv:inact-snsns-cf1-1-coref)|SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -828,7 +828,7 @@
 # s_prominence = 2
 # transition = null
 # text = distrust
-1	distrust	distrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:100->96:3:_|Entity=(140-abstract-new-nnsnn-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/distrust#English"></ref>
+1	distrust	distrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:100->96:3:_|Entity=(140-abstract-new-nnsnn-cf1-1-sgl)|MSeg=dis-trust|XML=<ref target:::"https://en.wiktionary.org/wiki/distrust#English"></ref>
 
 # newpar
 # newpar_block = item (1 s)
@@ -837,7 +837,7 @@
 # s_prominence = 2
 # transition = null
 # text = mistrust
-1	mistrust	mistrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:101->100:0:_|Entity=(141-abstract-new-nnsnn-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/mistrust#English"></ref>
+1	mistrust	mistrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:101->100:0:_|Entity=(141-abstract-new-nnsnn-cf1-1-sgl)|MSeg=mis-trust|XML=<ref target:::"https://en.wiktionary.org/wiki/mistrust#English"></ref>
 
 # newpar
 # newpar_block = item (1 s)
@@ -846,7 +846,7 @@
 # s_prominence = 2
 # transition = null
 # text = untrust
-1	untrust	untrust	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=joint-list_m:102->100:0:_|Entity=(142-abstract-new-nnnnn-cf1-1-sgl)|Negation=Yes|XML=<ref target:::"https://en.wiktionary.org/wiki/untrust#English"></ref>
+1	untrust	untrust	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=joint-list_m:102->100:0:_|Entity=(142-abstract-new-nnnnn-cf1-1-sgl)|MSeg=un-trust|Negation=Yes|XML=<ref target:::"https://en.wiktionary.org/wiki/untrust#English"></ref>
 
 # newpar
 # newpar_block = item (1 s)
@@ -1322,7 +1322,7 @@
 4	deliver	deliver	VERB	VB	VerbForm=Inf	2	conj	2:conj:or	_
 5	anything	anything	PRON	NN	Number=Sing|PronType=Ind	2	obj	2:obj|4:obj	Entity=(176-object-new-nnnnn-cf3-1-sgl)|MSeg=any-thing
 6	in	in	ADP	IN	_	7	case	7:case	_
-7	reliance	reliance	NOUN	NN	Number=Sing	2	obl	2:obl:in	_
+7	reliance	reliance	NOUN	NN	Number=Sing	2	obl	2:obl:in	MSeg=reli-ance
 8	upon	upon	ADP	IN	_	10	case	10:case	MSeg=up-on
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(177-abstract-new-nnnnn-cf4-2-sgl
 10	promise	promise	NOUN	NN	Number=Sing	2	obl	2:obl:upon	_
@@ -1348,7 +1348,7 @@
 # s_prominence = 2
 # transition = null
 # text = distrust
-1	distrust	distrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=elaboration-additional:159->110:5:_|Entity=(179-abstract-new-nnnnn-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/distrust#English"></ref>
+1	distrust	distrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=elaboration-additional:159->110:5:_|Entity=(179-abstract-new-nnnnn-cf1-1-sgl)|MSeg=dis-trust|XML=<ref target:::"https://en.wiktionary.org/wiki/distrust#English"></ref>
 
 # newpar
 # newpar_block = item (1 s)
@@ -1357,7 +1357,7 @@
 # s_prominence = 2
 # transition = null
 # text = mistrust
-1	mistrust	mistrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:160->159:0:_|Entity=(180-abstract-new-nnnnn-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/mistrust#English"></ref>
+1	mistrust	mistrust	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:160->159:0:_|Entity=(180-abstract-new-nnnnn-cf1-1-sgl)|MSeg=mis-trust|XML=<ref target:::"https://en.wiktionary.org/wiki/mistrust#English"></ref>
 
 # sent_id = GENTLE_dictionary_trust-79
 # s_type = frag

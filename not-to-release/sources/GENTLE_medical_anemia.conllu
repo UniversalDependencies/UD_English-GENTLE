@@ -568,7 +568,7 @@
 5	round	round	ADJ	JJ	Degree=Pos	3	conj	3:conj:and	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
-8	reactive	reactive	ADJ	JJ	Degree=Pos	3	conj	3:conj:and	_
+8	reactive	reactive	ADJ	JJ	Degree=Pos	3	conj	3:conj:and	MSeg=react-ive
 9	to	to	ADP	IN	_	10	case	10:case	_
 10	light	light	NOUN	NN	Number=Sing	8	obl	8:obl:to	Entity=(68-abstract-new-nnnnn-cf2-1-sgl)|SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -753,16 +753,16 @@
 5	count	count	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=88)
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 7	4.6	4.6	NUM	CD	NumForm=Digit|NumType=Frac	0	root	0:root	Entity=(88-abstract-giv:act-nnnnn-cf1-1-coref)|SpaceAfter=No
-8	,	,	PUNCT	,	_	9	punct	9:punct	_
-9	hemoglobin	hemoglobin	NOUN	NN	Number=Sing	7	conj	7:conj:and	Discourse=joint-list_m:66->65:0:_|Entity=(90-abstract-new-nnnnn-cf2-1-coref)|MSeg=hemo-globin
-10	14.2	14.2	NUM	CD	NumForm=Digit|NumType=Frac	9	nummod	9:nummod	Entity=(90-abstract-giv:act-nnnnn-cf2-1-coref)|SpaceAfter=No
-11	,	,	PUNCT	,	_	12	punct	12:punct	_
-12	hematocrit	hematocrit	NOUN	NN	Number=Sing	7	conj	7:conj:and	Discourse=joint-list_m:67->65:0:_|Entity=(91-abstract-new-nnnnn-cf3-1-coref)|MSeg=hemato-crit
-13	42	42	NUM	CD	NumForm=Digit|NumType=Card	12	nummod	12:nummod	Entity=(91-abstract-giv:act-nnnnn-cf3-1-coref)|SpaceAfter=No
-14	,	,	PUNCT	,	_	16	punct	16:punct	_
-15	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint-list_m:68->65:0:dm-and-410|PDTB=Explicit:Expansion.Conjunction:and:410:407-409:411-413
-16	platelets	platelet	NOUN	NNS	Number=Plur	7	conj	7:conj:and	Entity=(92-abstract-new-nnnnn-cf4-1-coref)|MSeg=platelet-s
-17	207,000	207000	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	16:nummod	Entity=(92-abstract-giv:act-nnnnn-cf4-1-coref)|SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	10:punct	_
+9	hemoglobin	hemoglobin	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Discourse=joint-list_m:66->65:0:_|Entity=(90-abstract-new-nnnnn-cf2-1-coref)|MSeg=hemo-globin
+10	14.2	14.2	NUM	CD	NumForm=Digit|NumType=Frac	7	conj	7:conj:and	Entity=(90-abstract-giv:act-nnnnn-cf2-1-coref)|SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	hematocrit	hematocrit	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Discourse=joint-list_m:67->65:0:_|Entity=(91-abstract-new-nnnnn-cf3-1-coref)|MSeg=hemato-crit
+13	42	42	NUM	CD	NumForm=Digit|NumType=Card	7	conj	7:conj:and	Entity=(91-abstract-giv:act-nnnnn-cf3-1-coref)|SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	17:punct	_
+15	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=joint-list_m:68->65:0:dm-and-410|PDTB=Explicit:Expansion.Conjunction:and:410:407-409:411-413
+16	platelets	platelet	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	Entity=(92-abstract-new-nnnnn-cf4-1-coref)|MSeg=platelet-s
+17	207,000	207000	NUM	CD	NumForm=Digit|NumType=Card	7	conj	7:conj:and	Entity=(92-abstract-giv:act-nnnnn-cf4-1-coref)|SpaceAfter=No
 18	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # newpar

@@ -367,7 +367,7 @@
 16	,	,	PUNCT	,	_	4	punct	4:punct	_
 17	Can	can	AUX	MD	VerbForm=Fin	19	aux	19:aux	_
 18	ever	ever	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
-19	dissever	dissever	VERB	VB	VerbForm=Inf	0	root	0:root	_
+19	dissever	dissever	VERB	VB	VerbForm=Inf	0	root	0:root	MSeg=dis-sever
 20	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(26-abstract-new-nnnnn-cf6-2-sgl(9-person-giv:inact-sssss-cf1-1-ana)
 21	soul	soul	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=26)
 22	from	from	ADP	IN	_	24	case	24:case	_

@@ -498,7 +498,7 @@
 3	denote	denote	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
 4	Hi,j	Hi,j	NOUN	NN	Number=Sing	3	obj	3:obj|6:nsubj:xsubj	Entity=(56-abstract-new-nnnnn-cf3-1-sgl)
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(57-abstract-new-nnnnn-cf5-2-sgl
-6	subgraph	subgraph	NOUN	NN	Number=Sing	3	xcomp	3:xcomp	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Subgraph"></ref>
+6	subgraph	subgraph	NOUN	NN	Number=Sing	3	xcomp	3:xcomp	MSeg=sub-graph|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Subgraph"></ref>
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	G′r	G′r	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=(40-abstract-giv:inact-snnnn-cf2-1-coref)
 9	induced	induce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	6:acl	Discourse=elaboration-attribute:42->41:0:_|MSeg=induc-ed

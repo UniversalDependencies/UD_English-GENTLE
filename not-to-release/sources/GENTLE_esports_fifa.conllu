@@ -971,7 +971,7 @@
 31	na	to	PART	TO	_	32	mark	32:mark	XML=</w>
 32	get	get	VERB	VB	VerbForm=Inf	30	xcomp	30:xcomp	_
 33	an	a	DET	DT	Definite=Ind|PronType=Art	35	det	35:det	Entity=(89-event-new-nnnnn-cf4-3-coref
-34	overhead	overhead	ADJ	JJ	Degree=Pos	35	amod	35:amod	_
+34	overhead	overhead	ADJ	JJ	Degree=Pos	35	amod	35:amod	MSeg=over-head
 35	kick	kick	NOUN	NN	Number=Sing	32	obj	32:obj	Entity=89)
 36	and	and	CCONJ	CC	_	37	cc	37:cc	Discourse=joint-sequence_m:97->96:0:dm-and-681|PDTB=Explicit:Expansion.Conjunction:and:681:665-680:682-683;Implicit:Temporal.Asynchronous.Precedence:then:_:665-680:681-683
 37	miss	miss	VERB	VB	VerbForm=Inf	32	conj	30:xcomp|32:conj:and	SpaceAfter=No
@@ -988,7 +988,7 @@
 2	guy	guy	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|13:nsubj	Entity=87)
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	MSeg=ha-s
 4	scored	score	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=scor-ed
-5	overhead	overhead	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(90-event-new-nnnnn-cf5-2-sgl
+5	overhead	overhead	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(90-event-new-nnnnn-cf5-2-sgl|MSeg=over-head
 6	kicks	kick	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=90)|MSeg=kick-s
 7	from	from	ADP	IN	_	9	case	9:case	_
 8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(91-place-new-nnnnn-cf6-2-sgl(22-person-giv:inact-sssss-cf1-1-ana)

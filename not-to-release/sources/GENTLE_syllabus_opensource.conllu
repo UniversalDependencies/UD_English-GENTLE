@@ -1537,7 +1537,7 @@
 1	Please	please	INTJ	UH	_	2	discourse	2:discourse	Discourse=joint-other_m:132->13:4:_
 2	join	join	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(208-abstract-new-nnnnn-cf3-3-sgl(209-person-new-nnnnn-cf2-1-sgl)
-4	discord	discord	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(210-abstract-new-nnnnn-cf4-2-sgl
+4	discord	discord	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(210-abstract-new-nnnnn-cf4-2-sgl|MSeg=dis-cord
 5	server	server	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=210)208)
 6	OSS	OSS	PROPN	NNP	Number=Sing	5	appos	5:appos	Entity=(211-abstract-new-nnnnn-cf5-1,3-sgl|XML=<hi rend:::"bold">
 7	-	-	PUNCT	HYPH	_	8	punct	8:punct	_

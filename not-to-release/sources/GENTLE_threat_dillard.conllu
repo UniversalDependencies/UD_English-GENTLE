@@ -678,7 +678,7 @@
 12	happen	happen	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	MSeg=happ-en
 13	to	to	ADP	IN	_	16	case	16:case	_
 14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(86-animal-new-nnnnn-cf3-3,5-sgl
-15	pregnant	pregnant	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
+15	pregnant	pregnant	ADJ	JJ	Degree=Pos	16	amod	16:amod	MSeg=pregn-ant
 16	dog	dog	NOUN	NN	Number=Sing	12	obl	12:obl:to	_
 17	or	or	CCONJ	CC	_	18	cc	18:cc	_
 18	cat	cat	NOUN	NN	Number=Sing	16	conj	12:obl:to|16:conj:or	Entity=86)|SpaceAfter=No
