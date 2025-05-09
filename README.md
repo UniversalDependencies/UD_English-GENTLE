@@ -17,11 +17,11 @@ This repository contains release versions of the Genre Tests for Linguistic Eval
 
 # Additional annotations in MISC
 
-The MISC column contains **morphological segmentation, Construction Grammar, entity, coreference, information status, Wikification and discourse** annotations from the full GENTLE corpus, encoded using the annotations `MSeg`, `Cxn`, `Entity`, `SplitAnte`, `Bridge` and `Discourse`. 
+The MISC column contains **morphological segmentation, Construction Grammar, entity, coreference, information status, Wikification and discourse** annotations from the full corpus, encoded using the annotations `MSeg`, `Cxn`, `Entity`, `SplitAnte`, `Bridge` and `Discourse`. 
 
 ## MSeg
 
-Morphological segmentation in GENTLE is annotated in the MISC field `MSeg` attribute semi-automatically using the [Unimorph](https://unimorph.github.io/) lexical resource (Kirov et al. 2018), specifically using scripts based on the lexicon data [here](https://github.com/unimorph/eng). Analyses are concatenative, using hyphens as separators, and are guaranteed to sum up to the string of each token with only hyphens added. Existing hyphens in a word form are retained and assumed to be meaningful. Analyses cover inflection, derivation and compounding. For example:
+Morphological segmentation is annotated in the MISC field `MSeg` attribute semi-automatically using the [Unimorph](https://unimorph.github.io/) lexical resource (Kirov et al. 2018), specifically using scripts based on the lexicon data [here](https://github.com/unimorph/eng). Analyses are concatenative, using hyphens as separators, and are guaranteed to sum up to the string of each token with only hyphens added. Existing hyphens in a word form are retained and assumed to be meaningful. Analyses cover inflection, derivation and compounding. For example:
 
   * books -> book-s
   * explanation -> explan-ation
@@ -32,55 +32,57 @@ Note that stems are retained in their orthographic forms (explanation does not b
 
 ## Cxn
 
-GENTLE uses the MISC field `Cxn` annotation to distinguish some complex constructions in a Construction Grammar (CxG) framework developed by collaborators from [Dagstuhl Seminar 23191](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23191) for the integration of CxG analyses into UD trees. Construction labels are always attached to the highest token belonging to the necessary or defining elements of the construction, and carry hierarchical designations, such as a prefix `Cxn=Conditional` for all conditional constructions, but a more specific `Cxn=UnspecifiedEpistemic-Reduced` for reduced conditionals (the type seen in "if possible"). Individual elements of a construction are annotated using the `CxnElt` MISC annotation. Currently covered constructions are listed in the [GUM wiki](https://wiki.gucorpling.org/gum/cxn). For more information and for work using these annotations, please refer to [Weissweiler et al. 2024](https://aclanthology.org/2024.lrec-main.1471).
+We use the MISC field `Cxn` annotation to distinguish some complex constructions in a Construction Grammar (CxG) framework developed by collaborators from [Dagstuhl Seminar 23191](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23191) for the integration of CxG analyses into UD trees. Construction labels are always attached to the highest token belonging to the necessary or defining elements of the construction, and carry hierarchical designations, such as a prefix `Cxn=Conditional` for all conditional constructions, but a more specific `Cxn=UnspecifiedEpistemic-Reduced` for reduced conditionals (the type seen in "if possible"). Individual elements of a construction are annotated using the `CxnElt` MISC annotation. Currently covered constructions are listed in the [GUM wiki](https://wiki.gucorpling.org/gum/cxn). For more information and for work using these annotations, please refer to [Weissweiler et al. 2024](https://aclanthology.org/2024.lrec-main.1471).
 
 ## Entity
 
-The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies potentially coreferring entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, taken from GUM, actor Jared Padalecki appears in a single token mention, labeled `(1-person-giv:act-cf2*-1-coref-Jared_Padalecki)` indicating the entity type (`person`) combined with the unique ID of all mentions of Padalecki in the text (`1-person`). Because Padalecki is a named entity with a corresponding Wikipedia page, the Wikification identifier corresponding to his Wikipedia page is given after the last hyphen (`1-person-Jared_Padalecki`). We can also see an information status annotation (`giv:act`, indicating an aforementioned or 'given' entity, actively mentioned last no farther than the previous sentences; see Dipper et al. 2007), a Centering Theory annotation (`cf2*`, indicating he is the second most central salient entity in the sentence moving forward, and that he was mentioned in the previous sentence, indicated by the `*`), as well as minimum token ID information indicating the head tokens for fuzzy matching (in this case `1`, the first and only token  in this span) and the coreference type `coref`, indicating lexical subsequent mention. The labels for each part of the hyphen-separated annotation are given at the top of each document in a comment `# global.Entity = GRP-etype-infstat-centering-minspan-link-identity`, indicating that these annotations consist of the entity group id (i.e the coreference group), entity type, information status, centering theory annotation, minimal span of tokens for head matching, the coreference link type, and named entity identity (if available). 
+The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies potentially coreferring entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, actor Jared Padalecki appears in a single token mention, labeled `(1-person-giv:act-sssss-cf2*-1-coref-Jared_Padalecki)` indicating the entity type (`person`) combined with the unique ID of all mentions of Padalecki in the text (`1-person`). Because Padalecki is a named entity with a corresponding Wikipedia page, the Wikification identifier corresponding to his Wikipedia page is given after the last hyphen (`1-person-Jared_Padalecki`). We can also see an information status annotation (`giv:act`, indicating an aforementioned or 'given' entity, actively mentioned last no farther than the previous sentence; see Dipper et al. 2007), and a summarization-based salience annotation, which indicates which of five summaries mention this entity. The value `sssss` means that all five summaries of this document mention Padalecki, placing him in the most salient rank (a salience score of 5); if a summary does not mention the entity, a corresponding `n` will appear in that position - for example Padalecki's co-start Jensen Ackles is not mentioned in any summary and has the value `nnnnn`. Centering Theory annotations are also available (`cf2*`, indicating he is the second most central entity in the sentence moving forward, and that he was mentioned in the previous sentence, indicated by the `*`), as well as minimum token ID information indicating the head tokens for fuzzy matching (in this case `1`, the first and only token  in this span) and the coreference type `coref`, indicating lexical subsequent mention. 
 
-Multi-token mentions receive opening brackets on the line in which they open, such as `(97-person-giv:inact-cf4-1,3-coref-Jensen_Ackles`, and a closing annotation `97)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(175-time-giv:inact-cf5-1-coref)189)188)` below corresponds to the single token and last token of the time entities "2015" and "April 2015" respectively, as well as the last token of the larger "the second campaign in the Always Keep Fighting series in April 2015". 
+The labels for each part of the hyphen-separated annotation are given at the top of each document in a comment `# global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity`, indicating that these annotations consist of the entity group id (i.e the coreference group), entity type, information status, salience, centering theory annotation, minimal span of tokens for head matching, the coreference link type, and named entity identity (if available). 
+
+Multi-token mentions receive opening brackets on the line in which they open, such as `(97-person-giv:inact-nnnnn-cf4-1,3-coref-Jensen_Ackles`, and a closing annotation `97)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(175-time-giv:inact-nnnnn-cf5-1-coref)189)188)` below corresponds to the single token and last token of the time entities "2015" and "April 2015" respectively, as well as the last token of the larger "the second campaign in the Always Keep Fighting series in April 2015". 
 
 ```CoNLL-U
-# global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 ...
 1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:104->98:2:lex-indph-954-955
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=173<188|Entity=(188-event-acc:inf-cf6-3,6,8-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=173<188|Entity=(188-event-acc:inf-nnnnn-cf6-3,6,8-sgl
 3	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
 4	campaign	campaign	NOUN	NN	Number=Sing	16	obl	16:obl:for	_
 5	in	in	ADP	IN	_	10	case	10:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(173-abstract-giv:inact-cf3-2,4,5-coref
+6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(173-abstract-giv:inact-sssnn-cf3-2,4,5-coref
 7	Always	Always	ADV	NNP	_	8	advmod	8:advmod	MSeg=Al-way-s|XML=<hi rend:::"italic">
 8	Keep	Keep	VERB	NNP	Mood=Imp|Person=2|VerbForm=Fin	10	compound	10:compound	_
 9	Fighting	Fighting	VERB	NNP	VerbForm=Ger	8	xcomp	8:xcomp	MSeg=Fight-ing|XML=</hi>
 10	series	series	NOUN	NN	Number=Sing	4	nmod	4:nmod:in	Entity=173)
 11	in	in	ADP	IN	_	12	case	12:case	_
-12	April	April	PROPN	NNP	Number=Sing	4	nmod	4:nmod:in	Entity=(189-time-new-cf10-1-sgl|XML=<date when:::"2015-04">
-13	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:unmarked	12:nmod:unmarked	Entity=(175-time-giv:inact-cf5-1-coref)189)188)|SpaceAfter=No|XML=</date>
+12	April	April	PROPN	NNP	Number=Sing	4	nmod	4:nmod:in	Entity=(189-time-new-nnnnn-cf10-1-sgl|XML=<date when:::"2015-04">
+13	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:unmarked	12:nmod:unmarked	Entity=(175-time-giv:inact-nnnnn-cf5-1-coref)189)188)|SpaceAfter=No|XML=</date>
 14	,	,	PUNCT	,	_	4	punct	4:punct	_
-15	Padalecki	Padalecki	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=(1-person-giv:act-cf2*-1-coref-Jared_Padalecki)
+15	Padalecki	Padalecki	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=(1-person-giv:act-sssss-cf2*-1-coref-Jared_Padalecki)
 16	partnered	partner	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=partner-ed
 17	with	with	ADP	IN	_	18	case	18:case	_
-18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	16:obl:with	Entity=(97-person-giv:inact-cf4-1,3-coref-Jensen_Ackles|MSeg=co-star
+18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	16:obl:with	Entity=(97-person-giv:inact-nnnnn-cf4-1,3-coref-Jensen_Ackles|MSeg=co-star
 19	Jensen	Jensen	PROPN	NNP	Number=Sing	18	appos	18:appos	XML=<ref target:::"https://en.wikipedia.org/wiki/Jensen_Ackles">
 20	Ackles	Ackles	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=97)|XML=</ref>
 21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:105->104:0:syn-inf-963|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:943-962:963-981
 22	release	release	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_
-23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-cf7-2-coref
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-nnnnn-cf7-2-coref
 24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=190)
 25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	24:acl	Discourse=elaboration-attribute:106->105:0:syn-mdf-966+syn-nmn-967|MSeg=featur-ing
-26	both	both	DET	DT	PronType=Tot	25	obj	25:obj	Entity=(191-object-new-cf9-1-sgl
+26	both	both	DET	DT	PronType=Tot	25	obj	25:obj	Entity=(191-object-new-nnnnn-cf9-1-sgl
 27	of	of	ADP	IN	_	29	case	29:case	_
-28	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(192-person-acc:aggr-cf1-1-coref)|SplitAnte=1<192,97<192
+28	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(192-person-acc:aggr-nnnnn-cf1-1-coref)|SplitAnte=1<192,97<192
 29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=191)|MSeg=face-s|SpaceAfter=No
 ```
 
-In addition, a list of the globally most salient entities in each document can be found in the metadata at the beginning of the document, for example:
+In addition, a list of the globally most salient entities in each document can be found in the metadata at the beginning of the document, along with a salience score from 1-5, for example:
 
 ```CoNLL-U
-# meta::salientEntities = 1, 5, 6, 7, 8, 12, 98, 173, 180, 181, 182, 183, 184
+# meta::salientEntities = 1 (5*), 7 (5*), 12 (5*), 6 (4*), 5 (3*), 173 (3*), 8 (2*), 11 (2), 42 (2), 181 (2*), 9 (1), 10 (1), 16 (1), 41 (1), 56 (1), 98 (1*), 132 (1), 134 (1), 165 (1), 166 (1), 180 (1*), 182 (1*), 183 (1*), 184 (1*), 186 (1)
 ```
 
-Where the value `1` stands for Padalecki, as in the annotations above.
+Where the value `1` stands for Padalecki, as in the annotations above, and his score, 5, appears in brackets. Entities which are mentioned in the canonical reference summary for the document, `summary1`, also receive a star after the score, and these correspond to binary salience annotations in older version of the corpus. For example, both entities 8 and 11 have a score of `2`, but only entity 8 is mentioned in the reference summary, giving it the label `(2*)`.
 
 Possible values for the other annotations mentioned above are:
 
@@ -92,6 +94,8 @@ Possible values for the other annotations mentioned above are:
     * acc:inf - accessible, inferable from some previous mention (e.g. the house... [the door]) 
     * acc:aggr - accessible, aggregate, i.e. split antecedent mediated by a set of previous mentions
     * acc:com - accessible, common ground, i.e. generic ([the world]) or situationally accessible ("pass [the salt]", first mention of "you" or "I")
+  * salience:
+    * any 5 character string consisting of occurrences of n or s
   * centering: 
     * rank in the forward looking center (Cf), and a '*' for the top entity also mentioned in the previous sentence (Cb). The preferred forward looking center (Cp) is simply expressed as cf1. 
     * centering transition types are computed from these annotations in the sentence level `# transition` annotations
@@ -106,7 +110,7 @@ Possible values for the other annotations mentioned above are:
   * identity: any Wikipedia article title
   * minspan: a number or set of comma-separated numbers indicating indices of minimal head tokens within the span of the mention (first in span: 1, etc.)
 
-For equivalent Wikidata identifiers for each Wikipedia article title, see [this file](https://github.com/gucorpling/gentle/blob/master/coref/wiki_map.tab).
+For equivalent Wikidata identifiers for each Wikipedia article title, see [this file](https://github.com/amir-zeldes/gum/blob/master/coref/wiki_map.tab).
 
 ## Split antecedent and bridging
 
@@ -116,11 +120,11 @@ Bridging anaphora is annotated when an entity has not been mentioned before, but
 
 ## Enhanced RST discourse trees and signals
 
-Discourse annotations are given in [eRST](https://wiki.gucorpling.org/en/gum/rst) dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GENTLE see the [source repo](https://github.com/gucorpling/gentle/). At the beginning of each Elementary Discourse Unit (EDU), an annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose-goal:105->104:0:syn-inf-963` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose-goal` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-goal-> to release a shirt..."). The third number `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The final part of the `Discourse` annotation indicates categorized signals which correspond to the discourse relation in question, as defined by eRST - in this case, `syn-inf-963` indicates a syntactic signal (`syn`) of the subtype "infinitival_clause" (`inf`), since the purpose relation is signaled by the use of an infinitive, a typical strategy in English. The index `963` refers to the position of the signal, in this case token number 963 in the document (excluding empty nodes), the infinitive 'to' (token 21 in the sentence). Multiple signals are separated by `+`. See below for the inventory of signal types.
+Discourse annotations are given in [eRST](https://wiki.gucorpling.org/en/gum/rst) dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), an annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose-goal:105->104:0:syn-inf-963` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose-goal` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-goal-> to release a shirt..."). The third number `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The final part of the `Discourse` annotation indicates categorized signals which correspond to the discourse relation in question, as defined by eRST - in this case, `syn-inf-963` indicates a syntactic signal (`syn`) of the subtype "infinitival_clause" (`inf`), since the purpose relation is signaled by the use of an infinitive, a typical strategy in English. The index `963` refers to the position of the signal, in this case token number 963 in the document (excluding empty nodes), the infinitive 'to' (token 21 in the sentence). Multiple signals are separated by `+`. See below for the inventory of signal types.
 
 Additionally, note that multiple discourse relations can sometimes occur on the same line, since eRST allows multiple concurrent and tree-breaking relations to be identified. In such cases the multiple relation entries will be separated by `;` and ordered such that the primary relation (which indicates RST nuclearity and is guaranteed to be projective in the discourse tree) will be serialized first, and non-projective secondary relations are guaranteed to be serialized subsequently. The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. Although it is easiest to recover RST constituent trees from the source repo, it is also possible to generate them automatically from the dependencies with depth information, using the scripts in the [rst2dep repo](https://github.com/amir-zeldes/rst2dep/).
 
-Discourse relations in GENTLE are defined based on the effect that W (a writer/speaker) has on R (a reader/hearer) by modifying a Nucleus discourse unit (N) with another discourse unit (a Satellite, S, or another N). Discourse relation units can precede their nuclei (satellite-nucleus, or SN relation), follow them (NS), or be coordinated with each other (NN or multinuclear relations). Relations are classified hierarchically into 15 major classes and include:
+Discourse relations are defined based on the effect that W (a writer/speaker) has on R (a reader/hearer) by modifying a Nucleus discourse unit (N) with another discourse unit (a Satellite, S, or another N). Discourse relation units can precede their nuclei (satellite-nucleus, or SN relation), follow them (NS), or be coordinated with each other (NN or multinuclear relations). Relations are classified hierarchically into 15 major classes and include:
 
   * Adversative
     * adversative-antithesis (SN/NS) - R is meant to prefer N as an alternative to S
@@ -208,28 +212,34 @@ XML block tags spanning whole sentences (i.e. not beginning or ending mid senten
 # newpar_block = list type:::"unordered" (10 s) | item (4 s)
 ```
 
-This comment indicates the opening of a `<list type="unordered">` block element, which spans 10 sentences (`(10 s)`). However, the list begins with a nested block, a list item (i.e. a bullet point), which spans 4 sentences, as indicated after the pipe separator. For documentation of XML elements in GENTLE/GUM, please see the [GUM wiki](https://wiki.gucorpling.org/gum/tei_markup_in_gum).
+This comment indicates the opening of a `<list type="unordered">` block element, which spans 10 sentences (`(10 s)`). However, the list begins with a nested block, a list item (i.e. a bullet point), which spans 4 sentences, as indicated after the pipe separator. For documentation of XML elements in the GUM annotation scheme, please see the [GUM wiki](https://wiki.gucorpling.org/gum/tei_markup_in_gum).
 
-More information and additional annotation layers can also be found in the GENTLE [source repo](https://github.com/gucorpling/gentle/).
+More information and additional annotation layers can also be found in the [source repo](https://github.com/amir-zeldes/gum/).
 
 # Metadata
 
-Document metadata is given at the beginning of each new document in key-value pair comments beginning with the prefix `meta::`, as in the following example, taken from GUM:
+Document metadata is given at the beginning of each new document in key-value pair comments beginning with the prefix `meta::`, as in:
 
 ```CoNLL-U
 # newdoc id = GUM_bio_padalecki
-# global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Wikipedia, The Free Encyclopedia
 # meta::dateCollected = 2019-09-10
 # meta::dateCreated = 2004-08-14
 # meta::dateModified = 2019-09-11
 # meta::genre = bio
+# meta::salientEntities = 1 (5*), 7 (5*), 12 (5*), 6 (4*), 5 (3*), 173 (3*), 8 (2*), 11 (2), 42 (2), 181 (2*), 9 (1), 10 (1), 16 (1), 41 (1), 56 (1), 98 (1*), 132 (1), 134 (1), 165 (1), 166 (1), 180 (1*), 182 (1*), 183 (1*), 184 (1*), 186 (1)
 # meta::sourceURL = https://en.wikipedia.org/wiki/Jared_Padalecki
 # meta::speakerCount = 0
+# meta::summary1 = (human1) Jared Padalecki is an award winning American actor who gained prominence in the series Gilmore Girls, best known for playing the role of Sam Winchester in the TV series Supernatural, and for his active role in campaigns to support people struggling with depression, addiction, suicide and self-harm.
+# meta::summary2 = (claude-3-5-sonnet-20241022; postedited) Jared Padalecki's career highlights run the gamut from starring in Gilmore Girls and films like House of Wax to his long-running role as Sam Winchester on Supernatural, while his personal life includes marriage to co-star Genevieve Cortese and mental health advocacy through the Always Keep Fighting campaign.
+# meta::summary3 = (gpt4o; postedited) Jared Padalecki, an American actor living in Austin, Texas, with his wife and three children, became known for playing Sam Winchester in “Supernatural” and rose to fame in the early 2000s through “Gilmore Girls,” as well as launching successful charity campaigns with his Always Keep Fighting initiative after his own battle with depression.
+# meta::summary4 = (Llama-3.2-3B-Instruct) Jared Padalecki is an American actor best known for playing the role of Sam Winchester in the TV series Supernatural, which he has been starring in since 2005.
+# meta::summary5 = (Qwen2.5-7B-Instruct) American actor Jared Padalecki, known for his roles in Gilmore Girls and Supernatural, has had a successful acting career since the early 2000s and is openly supportive of mental health initiatives.
 # meta::title = Jared Padalecki
 ```
 
-Document summaries are included in the metadata `summary` annotation and follow strict guidelines described [here](https://wiki.gucorpling.org/gum/summarization).
+Document summaries are included in the metadata `summary` annotation and follow strict guidelines described [here](https://wiki.gucorpling.org/gum/summarization). For some documents, up to five human written summaries are available and notated with `(human<N>)`. For other documents, additional model generated summaries as added and the source model is noted. In cases where model summaries deviated from the guidelines, human corrections are made available, in which case the model name is suffixed with `; postedited`. For example above, a summary by a Claude model contained an error, and the postedited human corrected version is labeled as `(claude-3-5-sonnet-20241022; postedited)`.
 
 Additionally, sentences carry some sentence-level annotations in CoNLL-U comment annotations, such as [sentence types](https://wiki.gucorpling.org/gum/tokenization_segmentation#sentence-annotation) in `s_type` (declarative, imperative, wh-question, fragment, etc.), as well as sentence transition types based on Centering Theory and sentence prominence levels based on graph proximity to the discourse parse root. For example, this fragment sentence (`frag`) establishes a new backwards looking Center (`establishment`) and is a level-2 sentence (`s_prominence = 2`, i.e. its discourse nesting level is one further than a sentence containing the level-1 Central Discourse Unit of the entire text.
 
@@ -244,7 +254,7 @@ Additionally, sentences carry some sentence-level annotations in CoNLL-U comment
 
 # Documents and splits - test only
 
-The entire corpus is designed to be a *test set* of challenging genres for NLP systems to be evaluated on. Although one can train a model on this corpus, or concatenate it to another training set, we present this entire corpus as a test set, and do not provide any official train / dev data.
+The entire corpus is designed to be a *test set* of challenging genres for NLP systems to be evaluated on. Although one can train a model on this corpus, or concatenate it to another training set, we present this entire corpus as a test set, and do not provide any official train / dev data. For training data in the same annotation scheme but coming from different genres and domains, see [the GUM corpus](https://gucorpling.org/gum/).
 
 ## References
 
@@ -252,7 +262,7 @@ As a scholarly citation for the GENTLE corpus, please use this paper:
 
 * Aoyama, Tatsuya, Shabnam Behzad, Luke Gessler, Lauren Levine, Jessica Lin, Yang Janet Liu, Siyao Peng, Yilun Zhu and Amir Zeldes (2023) "GENTLE: A Genre-Diverse Multilayer Challenge Set for English NLP and Linguistic Evaluation". In: *Proceedings of the Seventeenth Linguistic Annotation Workshop (LAW-XVII 2023)*, 166–178. Toronto, Canada.
 
-```
+```bibtex
 @inproceedings{aoyama-etal-2023-gentle,
     title = "{GENTLE}: A Genre-Diverse Multilayer Challenge Set for {E}nglish {NLP} and Linguistic Evaluation",
     author = "Aoyama, Tatsuya  and
@@ -274,6 +284,11 @@ As a scholarly citation for the GENTLE corpus, please use this paper:
 ```
 
 # Changelog
+
+* 2025-03-13
+  * Added 5 summaries per document
+  * Added graded salience annotations
+  * New dependency subtype nmod:desc for titles etc.
 
 * 2024-10-29
   * Added summaries and salient entities per document
