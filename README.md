@@ -313,6 +313,7 @@ As a scholarly citation for the GENTLE corpus, please use this paper:
 Data available since: UD v2.12
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: academic grammar-examples legal medical nonfiction poetry social spoken
 Lemmas: manual native
 UPOS: converted from manual
