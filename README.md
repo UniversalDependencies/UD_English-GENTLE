@@ -285,6 +285,10 @@ As a scholarly citation for the GENTLE corpus, please use this paper:
 
 # Changelog
 
+* 2025-11-01
+  * Changed dep to parataxis for footnotes and citations
+  * Error corrections
+
 * 2025-03-13
   * Added 5 summaries per document
   * Added graded salience annotations
