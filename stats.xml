@@ -27,9 +27,9 @@
     <tag name="PART">349</tag><!-- to, not, 's -->
     <tag name="PRON">1188</tag><!-- I, you, he, it, we, that, his, my, your, they -->
     <tag name="PROPN">902</tag><!-- Company, JavaScript, Book, Proposition, Court, English, Week, Career, React, Agreement -->
-    <tag name="PUNCT">2654</tag><!-- ,, ., :, ", (, ), -, ;, —, ! -->
+    <tag name="PUNCT">2653</tag><!-- ,, ., :, ", (, ), -, ;, —, ! -->
     <tag name="SCONJ">234</tag><!-- that, if, as, because, in, by, like, of, for, while -->
-    <tag name="SYM">168</tag><!-- ⪯, ∈, =, -, ⋅, /, %, +, $, ≤ -->
+    <tag name="SYM">169</tag><!-- ⪯, ∈, =, -, ⋅, /, %, +, $, ≤ -->
     <tag name="VERB">1653</tag><!-- have, go, do, get, take, see, follow, make, know, let -->
     <tag name="X">300</tag><!-- 1., 2., 3., 4., 5., 6., 7., 8., 9., 10. -->
   </tags>
@@ -44,7 +44,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">66</feat><!-- more, better, lower, earlier, longer, greater, less, stronger, worse, Africanner -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">1536</feat><!-- next, other, first, old, open, right, well, straight, chronic, third -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">38</feat><!-- nearest, closest, smallest, best, most, least, hardest, lowest, shortest -->
-    <feat name="ExtPos" value="ADP" upos="ADJ,ADP,ADV,VERB">20</feat><!-- out, as, according, because, prior, such, depending -->
+    <feat name="ExtPos" value="ADP" upos="ADJ,ADP,ADV,SYM,VERB">51</feat><!-- -, ⋅, out, /, as, according, because, prior, such, depending -->
     <feat name="ExtPos" value="ADV" upos="ADP,ADV,NOUN,PRON">17</feat><!-- as, more, kind, that, So, less, prior, up -->
     <feat name="ExtPos" value="CCONJ" upos="ADV">1</feat><!-- as -->
     <feat name="ExtPos" value="PRON" upos="DET">3</feat><!-- each -->
@@ -87,7 +87,7 @@
     <feat name="Style" value="Vrnc" upos="VERB">26</feat><!-- gon, wan -->
     <feat name="Tense" value="Past" upos="AUX,VERB">600</feat><!-- was, had, been, said, did, done, held, noted, took, given -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">904</feat><!-- is, are, has, 's, gon, have, do, 'm, 're, 've -->
-    <feat name="Typo" value="Yes" upos="ADJ,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,VERB">43</feat><!-- visiter, Pharoah, here, know, p, s, to, 'ed, Africanner, Be -->
+    <feat name="Typo" value="Yes" upos="ADJ,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,VERB">39</feat><!-- visiter, Pharoah, here, know, p, to, 'ed, Africanner, Be, Torooh -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">1217</feat><!-- is, will, are, was, has, can, 's, have, do, let -->
     <feat name="VerbForm" value="Ger" upos="VERB">107</feat><!-- following, increasing, Testing, having, rapping, working, dissenting, entreating, involving, killing -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">525</feat><!-- be, have, do, get, see, make, take, try, become, continue -->
@@ -102,7 +102,7 @@
     <dep name="advcl:relcl">9</dep>
     <dep name="advmod">740</dep>
     <dep name="amod">916</dep>
-    <dep name="appos">215</dep>
+    <dep name="appos">220</dep>
     <dep name="aux">338</dep>
     <dep name="aux:pass">117</dep>
     <dep name="case">1533</dep>
@@ -111,40 +111,40 @@
     <dep name="ccomp">101</dep>
     <dep name="compound">631</dep>
     <dep name="compound:prt">63</dep>
-    <dep name="conj">875</dep>
+    <dep name="conj">877</dep>
     <dep name="cop">278</dep>
     <dep name="csubj">14</dep>
     <dep name="csubj:outer">1</dep>
     <dep name="csubj:pass">1</dep>
-    <dep name="dep">127</dep>
+    <dep name="dep">97</dep>
     <dep name="det">1154</dep>
     <dep name="det:predet">13</dep>
     <dep name="discourse">285</dep>
     <dep name="dislocated">14</dep>
     <dep name="expl">34</dep>
     <dep name="fixed">57</dep>
-    <dep name="flat">181</dep>
+    <dep name="flat">179</dep>
     <dep name="goeswith">5</dep>
     <dep name="iobj">31</dep>
     <dep name="mark">456</dep>
-    <dep name="nmod">637</dep>
-    <dep name="nmod:desc">14</dep>
+    <dep name="nmod">638</dep>
+    <dep name="nmod:desc">17</dep>
     <dep name="nmod:poss">283</dep>
     <dep name="nmod:unmarked">73</dep>
-    <dep name="nsubj">1068</dep>
-    <dep name="nsubj:outer">12</dep>
+    <dep name="nsubj">1071</dep>
+    <dep name="nsubj:outer">11</dep>
     <dep name="nsubj:pass">92</dep>
     <dep name="nummod">144</dep>
-    <dep name="obj">719</dep>
-    <dep name="obl">768</dep>
+    <dep name="obj">718</dep>
+    <dep name="obl">767</dep>
     <dep name="obl:agent">27</dep>
     <dep name="obl:unmarked">101</dep>
     <dep name="orphan">8</dep>
-    <dep name="parataxis">252</dep>
-    <dep name="punct">2654</dep>
+    <dep name="parataxis">273</dep>
+    <dep name="punct">2653</dep>
     <dep name="reparandum">19</dep>
     <dep name="root">1334</dep>
     <dep name="vocative">9</dep>
-    <dep name="xcomp">210</dep>
+    <dep name="xcomp">211</dep>
   </deps>
 </treebank>
