@@ -285,6 +285,10 @@ As a scholarly citation for the GENTLE corpus, please use this paper:
 
 # Changelog
 
+* 2025-11-01
+  * Changed dep to parataxis for footnotes and citations
+  * Error corrections
+
 * 2025-03-13
   * Added 5 summaries per document
   * Added graded salience annotations
@@ -313,6 +317,7 @@ As a scholarly citation for the GENTLE corpus, please use this paper:
 Data available since: UD v2.12
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: academic grammar-examples legal medical nonfiction poetry social spoken
 Lemmas: manual native
 UPOS: converted from manual
