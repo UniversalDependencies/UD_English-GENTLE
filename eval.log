@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_English-GENTLE:
-commit d205be10902788e4e26bb4fc2c11588502bcb89c
-Merge: c3b2295 781cfb3
+commit 3394f5a534de14bfaa4a926554afb24fab6c48e3
+Merge: 175c875 cc7f94f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'en_gentle'
+Language code (from CoNLL-U file name) = 'en'
+Found the following data files: en_gentle-ud-test.conllu
 Size: counted 17799 of 17799 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.75828455188923.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,26 +19,33 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 11762 out of 17799 total words have one or more features.
+Features: 11793 out of 17799 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL        191
-Udapi: found 191 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 17799 words.
 Genres: found 8 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-GENTLE/en_gentle-ud-test.conllu
+[Line 680 Sent GENTLE_dictionary_next-41]: [L3 Warning verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
+[Line 696 Sent GENTLE_dictionary_next-42]: [L3 Warning verbform-fin-without-mood] Finite verb ''ll' lacks the 'Mood' feature
+[Line 1027 Sent GENTLE_dictionary_next-61]: [L3 Warning verbform-fin-without-mood] Finite verb ''ll' lacks the 'Mood' feature
+[Line 2222 Sent GENTLE_dictionary_school-48]: [L3 Warning verbform-fin-without-mood] Finite verb ''ll' lacks the 'Mood' feature
+[Line 3252 Sent GENTLE_dictionary_trust-34]: [L3 Warning verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
+[Line 3509 Sent GENTLE_dictionary_trust-50]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 4405 Sent GENTLE_esports_fifa-9]: [L3 Warning verbform-fin-without-mood] Finite verb ''d' lacks the 'Mood' feature
+[Line 4530 Sent GENTLE_esports_fifa-14]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 4663 Sent GENTLE_esports_fifa-19]: [L3 Warning verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
+[Line 4717 Sent GENTLE_esports_fifa-20]: [L3 Warning verbform-fin-without-mood] Finite verb 'could' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 207
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.444444444444444) = 0.0341880341880342
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.416798534352372) = 0.106871419064711
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.892690600595539) = 0.274674030952474
-(weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.705934454406189) * (availability=1) * (validity=1) = 0.705934454406189
-STARS = 3.5
-UD_English-GENTLE	0.705934454406189	3.5
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.444444444444444) = 0.0493827160493827
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.416798534352372) = 0.154369827537916
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
+(TOTAL score=0.622931722766477) * (availability=1) * (validity=1) = 0.622931722766477
+STARS = 3
+UD_English-GENTLE	0.622931722766477	3
