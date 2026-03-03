@@ -45,8 +45,8 @@ Multi-token mentions receive opening brackets on the line in which they open, su
 ```CoNLL-U
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 ...
-1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:104->98:2:lex-indph-954-955
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=173<188|Entity=(188-event-acc:inf-nnnnn-cf6-3,6,8-sgl
+1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:104->98:2:lex-indph-954-955-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:921-942:943-981
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=177<188:comparison-relative|Entity=(188-event-acc:inf-nnnnn-cf6-3,6,8-coref
 3	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
 4	campaign	campaign	NOUN	NN	Number=Sing	16	obl	16:obl:for	_
 5	in	in	ADP	IN	_	10	case	10:case	_
@@ -65,11 +65,11 @@ Multi-token mentions receive opening brackets on the line in which they open, su
 18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	16:obl:with	Entity=(97-person-giv:inact-nnnnn-cf4-1,3-coref-Jensen_Ackles|MSeg=co-star
 19	Jensen	Jensen	PROPN	NNP	Number=Sing	18	appos	18:appos	XML=<ref target:::"https://en.wikipedia.org/wiki/Jensen_Ackles">
 20	Ackles	Ackles	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=97)|XML=</ref>
-21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:105->104:0:syn-inf-963|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:943-962:963-981
+21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:105->104:0:syn-inf-963-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:943-962:963-981
 22	release	release	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_
-23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-nnnnn-cf7-2-coref
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-nnnnn-cf7-2-sgl
 24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=190)
-25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	24:acl	Discourse=elaboration-attribute:106->105:0:syn-mdf-966+syn-nmn-967|MSeg=featur-ing
+25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	24:acl	Discourse=elaboration-attribute:106->105:0:syn-mdf-966-_+syn-nmn-967-_|MSeg=featur-ing
 26	both	both	DET	DT	PronType=Tot	25	obj	25:obj	Entity=(191-object-new-nnnnn-cf9-1-sgl
 27	of	of	ADP	IN	_	29	case	29:case	_
 28	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(192-person-acc:aggr-nnnnn-cf1-1-coref)|SplitAnte=1<192,97<192
@@ -116,7 +116,21 @@ For equivalent Wikidata identifiers for each Wikipedia article title, see [this 
 
 The annotations `SplitAnte` and `Bridge` mark non-strict identity anaphora (see the [Universal Anaphora](http://universalanaphora.org/) project for more details). For example, at token 28 in the example, the pronoun "their" refers back to two non-adjacent entities, requiring a split antecedent annotation. The value `SplitAnte=1<192,97<192` indicates that `192-person` (the pronoun "their") refers back to two previous Entity annotations, with pointers separatated by a comma: `1` (`1-person-...Jared_Padalecki`) and `97` (`97-person-...Jensen_Ackles`). 
 
-Bridging anaphora is annotated when an entity has not been mentioned before, but is resolvable in context by way of a different entity: for example, token 2 has the annotation `Bridge=173<188`, which indicates that although `188-event` ("the second campaign...") has not been mentioned before, its identity is mediated by the previous mention of another entity, `173-abstract` (the project "Always Keep Fighting", mentioned earlier in the document, to which the campaign event belongs). In other words, readers can infer that "the second campaign" is part of the already introduced larger project, which also had a first campaign. This inference also leads to the information status label `acc:inf`, accessible-inferable.
+Bridging anaphora is annotated when an entity has not been mentioned before, but is resolvable in context by way of a different entity: for example, token 2 has the annotation `Bridge=173<188:comparison-relative`, which indicates that although `188-event` ("the second campaign...") has not been mentioned before, its identity is mediated by the previous mention of another entity, `173-abstract` (the project "Always Keep Fighting", mentioned earlier in the document, to which the campaign event belongs). In other words, readers can infer that "the second campaign" is relative to a first one, and part of the already introduced larger project, which included the first campaign. This inference also leads to the information status label `acc:inf`, accessible-inferable. The subtype `comparison-relative` is one of 11 possible subtypes which include:
+
+  * comparison-relative (e.g. the first campaign ... the second campaign)
+  * comparison-sense (e.g. the Chinese restaurant ... the Italian one)
+  * comparison-time (e.g. Wednesday ... one day later)
+  * entity-associative (e.g. an accident ... the driver)
+  * entity-meronomy (e.g. the house ... the door)
+  * entity-property (e.g. a flower ... the smell)
+  * entity-resultative (e.g. the dough ... the bread)
+  * set-member (e.g. the team ... the captain)
+  * set-subset (e.g. Congress ... members)
+  * set-span-interval (e.g. last week ... Wednesday)
+  * other
+
+Multiple subtypes can apply, and are separated by semicolons. For more information on the definitions, see Levine & Zeldes (2026).
 
 ## Enhanced RST discourse trees and signals
 
@@ -284,6 +298,10 @@ As a scholarly citation for the GENTLE corpus, please use this paper:
 ```
 
 # Changelog
+
+* 2026-03-03
+  * Added GUMBridge bridging anaphora annotations with 11 subtypes
+  * Error corrections
 
 * 2025-11-01
   * Changed dep to parataxis for footnotes and citations
