@@ -2960,7 +2960,7 @@
 4	regain	regain	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=4:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=re-gain
 5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(64-abstract-new-nnnnn-cf3-2-sgl(65-person-acc:com-nnnnn-cf1-1-ana)
 6	trust	trust	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=64)|XML=<hi rend:::"bold"></hi>
-7	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=contingency-condition:48->47:0:dm-if-243-gold|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:if:243:237-242:244-252
+7	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=contingency-condition:48->47:0:dm-if-243-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:243:237-242:244-252
 8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=(63-person-acc:com-nnnnn-cf2-1-coref)
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 10	ever	ever	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
@@ -3246,7 +3246,7 @@
 20	,	,	PUNCT	,	_	23	punct	23:punct	_
 21	on	on	ADP	IN	_	23	case	23:case	Discourse=same-unit_m:83->81:1:_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(112-abstract-new-nnnnn-cf8-2-sgl
-23	basis	basis	NOUN	NN	Number=Sing	8	obl	8:obl:on	_
+23	basis	basis	NOUN	NN	Number=Sing	8	obl	8:obl:on	MSeg=bas-is
 24	that	that	SCONJ	IN	_	28	mark	28:mark	Discourse=elaboration-attribute:84->83:0:syn-mdf-416-_+syn-nmn-417,421-_
 25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj:pass	28:nsubj:pass|36:nsubj:pass	Entity=(108-object-giv:act-nnnnn-cf2-1-ana)
 26	will	will	AUX	MD	VerbForm=Fin	28	aux	28:aux|36:aux	_
@@ -6887,7 +6887,7 @@
 7	these	this	DET	DT	Number=Plur|PronType=Dem	9	det	9:det	Entity=(156-event-new-nnnnn-cf3-3-sgl
 8	box	box	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(157-object-new-nnnnn-cf6-1-sgl)
 9	fights	fight	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=156)|MSeg=fight-s
-10	by	by	SCONJ	IN	_	11	mark	11:mark	Discourse=mode-means:148->147:0:dm-by-1055-gold+syn-pres-1056-_+lex-indwd-1056-_|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:by:1055:1046-1054:1056-1067;Explicit:Expansion.Manner.Arg2-as-manner:by:1055:1046-1054:1056-1067
+10	by	by	SCONJ	IN	_	11	mark	11:mark	Discourse=mode-means:148->147:0:dm-by-1055-gold+lex-indwd-1056-_+syn-pres-1056-_|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:by:1055:1046-1054:1056-1067;Explicit:Expansion.Manner.Arg2-as-manner:by:1055:1046-1054:1056-1067
 11	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	6:advcl:by	Entity=(158-event-new-nnnnn-cf5-1-disc|MSeg=us-ing
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(159-object-new-nnnnn-cf4-2-sgl
 13	shockwave	shockwave	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=159)|MSeg=shock-wave
@@ -7114,7 +7114,7 @@
 # speaker = Jack
 # addressee = Aud,Speaker1
 # text = See him watching, waiting.
-1	See	see	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:167->168:1:sem-atsrc-1179-_+lex-indwd-1179-_|PDTB=Implicit:Contingency.Cause.Result:so:_:1173-1178:1179-1184
+1	See	see	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:167->168:1:lex-indwd-1179-_+sem-atsrc-1179-_|PDTB=Implicit:Contingency.Cause.Result:so:_:1173-1178:1179-1184
 2	him	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	Discourse=explanation-evidence:168->166:0:_|Entity=(132-person-giv:act-sssns-cf1*-1-ana)
 3	watching	watch	VERB	VBG	VerbForm=Ger	1	ccomp	1:ccomp	MSeg=watch-ing|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -10779,7 +10779,7 @@
 # s_type = frag
 # transition = null
 # text = VITALS: BP: 120/74.
-1	VITALS	VITALS	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=6<58:entity-property|Discourse=organization-heading:34->36:2:grf-seq-_-_+grf-ly-_-_|Entity=(58-abstract-acc:inf-nnnnn-cf2-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
+1	VITALS	VITALS	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=6<58:entity-property|Discourse=organization-heading:34->36:2:grf-ly-_-_+grf-seq-_-_|Entity=(58-abstract-acc:inf-nnnnn-cf2-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	3	punct	3:punct	XML=</hi>
 3	BP	BP	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Discourse=organization-heading:35->36:0:grf-ly-_-_+sem-synym-271,273-275-_|Entity=(59-abstract-new-nnnnn-cf1-1-coref-Blood_pressure)|SpaceAfter=No|XML=<hi rend:::"caps">
 4	:	:	PUNCT	:	_	3	punct	3:punct	XML=</hi>
@@ -10827,7 +10827,7 @@
 # s_type = frag
 # transition = null
 # text = GEN:
-1	GEN	GEN	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:43->44:0:grf-seq-_-_+grf-ly-_-_|SpaceAfter=No|XML=<hi rend:::"caps">
+1	GEN	GEN	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:43->44:0:grf-ly-_-_+grf-seq-_-_|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GENTLE_medical_anemia-32
@@ -10857,7 +10857,7 @@
 # s_type = frag
 # transition = null
 # text = HEENT:
-1	HEENT	HEENT	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=6<66:entity-associative|Discourse=organization-heading:45->46:1:grf-seq-_-_+grf-ly-_-_|Entity=(66-abstract-acc:inf-nnnnn-cf1-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
+1	HEENT	HEENT	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=6<66:entity-associative|Discourse=organization-heading:45->46:1:grf-ly-_-_+grf-seq-_-_|Entity=(66-abstract-acc:inf-nnnnn-cf1-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GENTLE_medical_anemia-34
@@ -10970,7 +10970,7 @@
 # s_type = frag
 # transition = null
 # text = CV: Regular rate; normal S1, S2, no murmurs.
-1	CV	CV	NOUN	NN	Abbr=Yes|Number=Sing	0	root	0:root	Discourse=organization-heading:55->56:1:grf-ly-_-_+grf-seq-_-_|SpaceAfter=No|XML=<hi rend:::"caps">
+1	CV	CV	NOUN	NN	Abbr=Yes|Number=Sing	0	root	0:root	Discourse=organization-heading:55->56:1:grf-seq-_-_+grf-ly-_-_|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	4	punct	4:punct	XML=</hi>
 3	Regular	regular	ADJ	JJ	Degree=Pos	4	amod	4:amod	Discourse=joint-list_m:56->36:3:_|Entity=(77-abstract-new-nnnnn-cf1-2-sgl
 4	rate	rate	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	Entity=77)|SpaceAfter=No
@@ -10991,7 +10991,7 @@
 # s_type = frag
 # transition = null
 # text = ABDOMEN: Soft.
-1	ABDOMEN	abdomen	NOUN	NN	Number=Sing	0	root	0:root	Bridge=6<81:entity-property|Discourse=organization-heading:58->59:1:grf-seq-_-_+grf-ly-_-_|Entity=(81-object-acc:inf-nnnnn-cf1-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
+1	ABDOMEN	abdomen	NOUN	NN	Number=Sing	0	root	0:root	Bridge=6<81:entity-property|Discourse=organization-heading:58->59:1:grf-ly-_-_+grf-seq-_-_|Entity=(81-object-acc:inf-nnnnn-cf1-1-sgl)|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	3	punct	3:punct	XML=</hi>
 3	Soft	soft	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	Discourse=joint-list_m:59->36:3:sem-mrnym-353,373-_|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -12287,7 +12287,7 @@
 14	history	history	NOUN	NN	Number=Sing	12	obj	12:obj	_
 15	of	of	ADP	IN	_	17	case	17:case	_
 16	spinal	spinal	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(29-abstract-new-nnnsn-cf5-2-sgl|MSeg=spin-al
-17	stenosis	stenosis	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	_
+17	stenosis	stenosis	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	MSeg=stenos-is
 18	with	with	ADP	IN	_	21	case	21:case	_
 19	lower	low	ADJ	JJR	Degree=Cmp	20	amod	20:amod	Entity=(30-abstract-new-nnnnn-cf6-3-sgl|MSeg=low-er
 20	extremity	extremity	NOUN	NN	Number=Sing	21	compound	21:compound	MSeg=extrem-ity
@@ -12757,7 +12757,7 @@
 8	of	of	ADP	IN	_	11	case	11:case	_
 9	any	any	DET	DT	PronType=Ind	11	det	11:det	Entity=(82-event-new-nnnnn-cf3-3-sgl
 10	worsening	worsen	VERB	VBG	VerbForm=Ger	11	amod	11:amod	MSeg=wors-en-ing
-11	stenosis	stenosis	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=82)81)|SpaceAfter=No
+11	stenosis	stenosis	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=82)81)|MSeg=stenos-is|SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_medical_screw-35
@@ -13166,7 +13166,7 @@
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	6:aux:pass	_
 6	complicated	complicate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=complic-at-ed
 7	by	by	ADP	IN	_	8	case	8:case	_
-8	sepsis	sepsis	NOUN	NN	Number=Sing	6	obl:agent	6:obl:agent	Entity=(42-abstract-new-nssnn-cf3-1-coref)
+8	sepsis	sepsis	NOUN	NN	Number=Sing	6	obl:agent	6:obl:agent	Entity=(42-abstract-new-nssnn-cf3-1-coref)|MSeg=sep-s-is
 9	despite	despite	ADP	IN	_	12	case	12:case	Discourse=adversative-concession:23->22:0:dm-despite-191-gold|MSeg=de-spite
 10	growth	growth	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=(43-abstract-new-nnnnn-cf4-3-coref(44-abstract-new-nnnnn-cf5-2-coref|MSeg=grow-th
 11	factor	factor	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=44)
@@ -13188,7 +13188,7 @@
 8	either	either	CCONJ	CC	_	9	cc:preconj	9:cc:preconj	_
 9	secondary	secondary	ADJ	JJ	Degree=Pos	7	advmod	7:advmod	MSeg=second-ary
 10	to	to	ADP	IN	_	11	case	11:case	_
-11	sepsis	sepsis	NOUN	NN	Number=Sing	9	obl	9:obl:to	Entity=(42-abstract-giv:act-nssnn-cf1*-1-coref)
+11	sepsis	sepsis	NOUN	NN	Number=Sing	9	obl	9:obl:to	Entity=(42-abstract-giv:act-nssnn-cf1*-1-coref)|MSeg=sep-s-is
 12	or	or	CCONJ	CC	_	14	cc	14:cc	_
 13	steroid	steroid	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(45-abstract-new-nnnnn-cf3-2-sgl(46-substance-new-nnnnn-cf4-1-sgl)
 14	therapy	therapy	NOUN	NN	Number=Sing	11	conj	9:obl:to|11:conj:or	Entity=45)|MSeg=therap-y|SpaceAfter=No
@@ -16989,7 +16989,7 @@
 # s_type = frag
 # transition = null
 # text = Basis for the Induction
-1	Basis	basis	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:6->7:2:grf-ly-_-_+sem-synym-48-76-_|Entity=(16-abstract-new-nnsnn-cf2-1-coref
+1	Basis	basis	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:6->7:2:grf-ly-_-_+sem-synym-48-76-_|Entity=(16-abstract-new-nnsnn-cf2-1-coref|MSeg=Bas-is
 2	for	for	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=10<17:entity-associative|Entity=(17-abstract-acc:inf-sssns-cf1-2-coref
 4	Induction	induction	NOUN	NN	Number=Sing	1	nmod	1:nmod:for	Entity=17)16)|MSeg=Induct-ion
@@ -17038,7 +17038,7 @@
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=evaluation-comment:10->7:1:_|Entity=(16-abstract-giv:act-nnsnn-cf1*-1-coref)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(16-abstract-giv:act-nnsnn-cf1*-2-coref(23-person-acc:com-nnnnn-cf3-1-ana)
-4	basis	basis	NOUN	NN	Number=Sing	0	root	0:root	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Basis_for_the_Induction">
+4	basis	basis	NOUN	NN	Number=Sing	0	root	0:root	MSeg=bas-is|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Basis_for_the_Induction">
 5	for	for	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(17-abstract-giv:inact-sssns-cf2-2-coref
 7	induction	induction	NOUN	NN	Number=Sing	4	nmod	4:nmod:for	Entity=17)16)|MSeg=induct-ion|SpaceAfter=No|XML=</ref>
@@ -17303,7 +17303,7 @@
 # s_type = imp
 # transition = continue
 # text = Suppose all five colors are connected to x.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:35->36:0:lex-indwd-252-_+sem-atsrc-252-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:35->36:0:sem-atsrc-252-_+lex-indwd-252-_
 2	all	all	DET	DT	PronType=Ind	4	det	4:det	Discourse=contingency-condition:36->37:2:dm-then-261-gold|Entity=(41-abstract-giv:inact-nnnnn-cf2-3-coref
 3	five	five	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	_
 4	colors	color	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=41)|MSeg=color-s
@@ -17423,7 +17423,7 @@
 # s_type = imp
 # transition = establishment
 # text = Suppose there exists no path between y1 and y3 in H1,3.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:45->46:0:lex-indwd-334-_+sem-atsrc-334-_|PDTB=NoRel:NoRel:_:_:331-333:334-345
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:45->46:0:sem-atsrc-334-_+lex-indwd-334-_|PDTB=NoRel:NoRel:_:_:331-333:334-345
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	Discourse=contingency-condition:46->47:0:_
 3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential--ExistPred-ThereExpl|MSeg=exist-s
 4	no	no	DET	DT	PronType=Neg	5	det	5:det	Entity=(62-abstract-new-nnnnn-cf4-8-sgl|Negation=Yes
@@ -17510,7 +17510,7 @@
 # s_type = imp
 # transition = zero
 # text = Suppose there exists a path between y1 and y3 in H1,3.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:52->53:0:lex-indwd-395-_+sem-atsrc-395-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:52->53:0:sem-atsrc-395-_+lex-indwd-395-_
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	Discourse=contingency-condition:53->62:1:_
 3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential--ExistPred-ThereExpl|MSeg=exist-s
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(66-abstract-new-nnnnn-cf4-8-coref
@@ -18815,7 +18815,7 @@
 # s_type = imp
 # transition = establishment
 # text = Thus assume S and T each contain at least two elements.
-1	Thus	thus	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution-positive:6->7:0:lex-indwd-22-_+sem-atsrc-22-_|PDTB=Explicit:Contingency.Cause.Result:thus:21:2-20:22-32
+1	Thus	thus	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution-positive:6->7:0:sem-atsrc-22-_+lex-indwd-22-_|PDTB=Explicit:Contingency.Cause.Result:thus:21:2-20:22-32
 2	assume	assume	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	S	S	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Discourse=context-background:7->59:5:_|Entity=(3-abstract-giv:act-sssss-cf1*-1-coref)
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
@@ -19726,7 +19726,7 @@
 # s_type = imp
 # transition = zero
 # text = Suppose x ∈ S.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:98->99:0:sem-atsrc-653-_+lex-indwd-653-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:98->99:0:lex-indwd-653-_+sem-atsrc-653-_
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=contingency-condition:99->100:1:dm-then-658-gold|Entity=(90-abstract-new-nnnnn-cf1-1-coref)
 3	∈	∈	SYM	SYM	_	1	ccomp	1:ccomp	Entity=(90-abstract-giv:act-nnnnn-cf1-1-coref
 4	S	S	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	Entity=(3-abstract-giv:inact-sssss-cf2-1-coref)90)|SpaceAfter=No
@@ -19774,7 +19774,7 @@
 # s_type = imp
 # transition = rough-shift
 # text = Suppose x = min T, the smallest element of T.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:103->104:0:sem-atsrc-683-_+lex-indwd-683-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:103->104:0:lex-indwd-683-_+sem-atsrc-683-_
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=contingency-condition:104->105:2:dm-then-695-gold|Entity=(94-abstract-new-nnnns-cf1-1-coref)
 3	=	=	SYM	SYM	_	1	ccomp	1:ccomp	_
 4	min	min	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(94-abstract-giv:act-nnnns-cf1-1-coref
@@ -21240,7 +21240,7 @@
 1	Open	open	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint-list_m:110->107:2:grf-seq-_-_+sem-mrnym-629-630,637-638-_|Entity=(167-abstract-new-nnnnn-cf3-5-coref(168-abstract-new-nnnnn-cf4-4-sgl(169-abstract-new-nnnnn-cf5-3-sgl(2-abstract-giv:inact-sssss-cf1-2-coref
 2	Source	source	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=2)
 3	Project	project	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=169)
-4	Analysis	analysis	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=168)
+4	Analysis	analysis	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=168)|MSeg=Analys-is
 5	Paper	paper	NOUN	NN	Number=Sing	8	dep	8:dep	Entity=167)
 6	-	-	PUNCT	SYM	_	5	punct	5:punct	_
 7	10	10	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	8:nummod	Bridge=162<170:entity-meronomy|Entity=(170-abstract-acc:inf-nnnnn-cf2-2-sgl|SpaceAfter=No
@@ -26862,7 +26862,7 @@
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(8-person-giv:act-sssss-cf2-1-ana)
 9	will	will	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
 10	do	do	VERB	VB	VerbForm=Inf	5	conj	5:conj:or	_
-11	what	whatever	PRON	GW	Typo=Yes	10	obj	10:obj	CorrectForm=whatever|Entity=(30-abstract-new-nnsnn-cf5-6-sgl|XML=<sic ana:::"whatever">
+11	what	whatever	PRON	GW	PronType=Rel|Typo=Yes	10	obj	10:obj	CorrectForm=whatever|Entity=(30-abstract-new-nnsnn-cf5-6-sgl|XML=<sic ana:::"whatever">
 12	ever	_	X	WP	_	11	goeswith	11:goeswith	CorrectForm=_|XML=</sic>
 13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Entity=(31-event-new-nnnnn-cf4-1-cata)
 14	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	MSeg=take-s

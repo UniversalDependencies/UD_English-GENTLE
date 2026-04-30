@@ -55,7 +55,7 @@
 # s_type = imp
 # transition = establishment
 # text = Thus assume S and T each contain at least two elements.
-1	Thus	thus	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution-positive:6->7:0:lex-indwd-22-_+sem-atsrc-22-_|PDTB=Explicit:Contingency.Cause.Result:thus:21:2-20:22-32
+1	Thus	thus	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution-positive:6->7:0:sem-atsrc-22-_+lex-indwd-22-_|PDTB=Explicit:Contingency.Cause.Result:thus:21:2-20:22-32
 2	assume	assume	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	S	S	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Discourse=context-background:7->59:5:_|Entity=(3-abstract-giv:act-sssss-cf1*-1-coref)
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
@@ -966,7 +966,7 @@
 # s_type = imp
 # transition = zero
 # text = Suppose x ∈ S.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:98->99:0:sem-atsrc-653-_+lex-indwd-653-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:98->99:0:lex-indwd-653-_+sem-atsrc-653-_
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=contingency-condition:99->100:1:dm-then-658-gold|Entity=(90-abstract-new-nnnnn-cf1-1-coref)
 3	∈	∈	SYM	SYM	_	1	ccomp	1:ccomp	Entity=(90-abstract-giv:act-nnnnn-cf1-1-coref
 4	S	S	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	Entity=(3-abstract-giv:inact-sssss-cf2-1-coref)90)|SpaceAfter=No
@@ -1014,7 +1014,7 @@
 # s_type = imp
 # transition = rough-shift
 # text = Suppose x = min T, the smallest element of T.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:103->104:0:sem-atsrc-683-_+lex-indwd-683-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:103->104:0:lex-indwd-683-_+sem-atsrc-683-_
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=contingency-condition:104->105:2:dm-then-695-gold|Entity=(94-abstract-new-nnnns-cf1-1-coref)
 3	=	=	SYM	SYM	_	1	ccomp	1:ccomp	_
 4	min	min	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(94-abstract-giv:act-nnnns-cf1-1-coref
