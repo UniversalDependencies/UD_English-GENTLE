@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_English-GENTLE:
-commit 3394f5a534de14bfaa4a926554afb24fab6c48e3
-Merge: 175c875 cc7f94f
+commit fb64d67d681177fc8dfc4b0167e4060a7133a8d8
+Merge: 06bd06f 93a5069
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'en_gentle'
@@ -19,24 +19,24 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 11793 out of 17799 total words have one or more features.
+Features: 11789 out of 17799 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 8 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-GENTLE/en_gentle-ud-test.conllu
-[Line 680 Sent GENTLE_dictionary_next-41]: [L3 Warning verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
-[Line 696 Sent GENTLE_dictionary_next-42]: [L3 Warning verbform-fin-without-mood] Finite verb ''ll' lacks the 'Mood' feature
-[Line 1027 Sent GENTLE_dictionary_next-61]: [L3 Warning verbform-fin-without-mood] Finite verb ''ll' lacks the 'Mood' feature
-[Line 2222 Sent GENTLE_dictionary_school-48]: [L3 Warning verbform-fin-without-mood] Finite verb ''ll' lacks the 'Mood' feature
-[Line 3252 Sent GENTLE_dictionary_trust-34]: [L3 Warning verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
-[Line 3509 Sent GENTLE_dictionary_trust-50]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
-[Line 4405 Sent GENTLE_esports_fifa-9]: [L3 Warning verbform-fin-without-mood] Finite verb ''d' lacks the 'Mood' feature
-[Line 4530 Sent GENTLE_esports_fifa-14]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
-[Line 4663 Sent GENTLE_esports_fifa-19]: [L3 Warning verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
-[Line 4717 Sent GENTLE_esports_fifa-20]: [L3 Warning verbform-fin-without-mood] Finite verb 'could' lacks the 'Mood' feature
-...suppressing further errors regarding Warning
-Warnings: 207
+[Line 680 Sent GENTLE_dictionary_next-41]: [L3 WARNING verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
+[Line 696 Sent GENTLE_dictionary_next-42]: [L3 WARNING verbform-fin-without-mood] Finite verb ''ll' lacks the 'Mood' feature
+[Line 1027 Sent GENTLE_dictionary_next-61]: [L3 WARNING verbform-fin-without-mood] Finite verb ''ll' lacks the 'Mood' feature
+[Line 2222 Sent GENTLE_dictionary_school-48]: [L3 WARNING verbform-fin-without-mood] Finite verb ''ll' lacks the 'Mood' feature
+[Line 3252 Sent GENTLE_dictionary_trust-34]: [L3 WARNING verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
+[Line 3509 Sent GENTLE_dictionary_trust-50]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 4405 Sent GENTLE_esports_fifa-9]: [L3 WARNING verbform-fin-without-mood] Finite verb ''d' lacks the 'Mood' feature
+[Line 4530 Sent GENTLE_esports_fifa-14]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 4663 Sent GENTLE_esports_fifa-19]: [L3 WARNING verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
+[Line 4717 Sent GENTLE_esports_fifa-20]: [L3 WARNING verbform-fin-without-mood] Finite verb 'could' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 184
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
