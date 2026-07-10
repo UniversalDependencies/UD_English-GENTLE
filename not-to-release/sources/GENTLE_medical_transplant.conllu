@@ -5,6 +5,8 @@
 # meta::dateCreated = 2022-11-12
 # meta::dateModified = 2022-11-12
 # meta::genre = medical
+# meta::modality = written
+# meta::production = formal/prepared/private
 # meta::salientEntities = 2 (5*), 3 (5*), 5 (5*), 11 (5*), 8 (4*), 9 (4*), 10 (4*), 58 (3), 114 (3*), 42 (2), 49 (2), 115 (2*), 4 (1*), 6 (1*), 7 (1*), 12 (1*), 19 (1*), 33 (1*), 53 (1), 54 (1), 55 (1), 74 (1), 95 (1), 109 (1*), 110 (1*), 124 (1)
 # meta::sourceURL = https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&Sample=2283-Posttransplant%20Lymphoproliferative%20Disorder
 # meta::speakerCount = 0

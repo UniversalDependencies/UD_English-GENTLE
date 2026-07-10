@@ -5,6 +5,8 @@
 # meta::dateCreated = 2003-11-16
 # meta::dateModified = 2022-11-08
 # meta::genre = dictionary
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 12 (5*), 3 (4*), 20 (4*), 60 (4*), 5 (3*), 14 (3*), 67 (3), 207 (3*), 16 (2*), 44 (2*), 56 (2*), 64 (2), 74 (2*), 117 (2*), 153 (2), 168 (2), 13 (1*), 18 (1), 30 (1*), 31 (1*), 32 (1), 33 (1), 45 (1), 55 (1), 61 (1*), 65 (1), 66 (1*), 68 (1*), 69 (1*), 75 (1*), 80 (1), 115 (1), 116 (1), 194 (1)
 # meta::sourceURL = https://en.wiktionary.org/wiki/school
 # meta::speakerCount = 0
@@ -276,7 +278,7 @@
 # sent_id = GENTLE_dictionary_school-15
 # s_prominence = 1
 # s_type = frag
-# transition = null
+# transition = establishment
 # text = (collective) A group of fish or a group of marine mammals such as porpoises, dolphins, or whales.
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:38->39:0:_|SpaceAfter=No
 2	collective	collective	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	MSeg=collect-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#collective"></ref>

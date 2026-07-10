@@ -299,6 +299,9 @@ As a scholarly citation for the GENTLE corpus, please use this paper:
 
 # Changelog
 
+* 2026-07-10
+  * Add modality and production metadata
+
 * 2026-03-03
   * Added GUMBridge bridging anaphora annotations with 11 subtypes
   * Error corrections

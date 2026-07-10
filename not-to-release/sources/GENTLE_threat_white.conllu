@@ -5,6 +5,8 @@
 # meta::dateCreated = 2007-05-23
 # meta::dateModified = 2007-05-23
 # meta::genre = threat
+# meta::modality = written
+# meta::production = informal/prepared/private
 # meta::salientEntities = 2 (5*), 3 (5*), 14 (4*), 23 (4*), 12 (3), 15 (3*), 22 (3*), 24 (3*), 8 (2), 9 (2*), 31 (2*), 32 (2*), 37 (2), 10 (1*), 13 (1), 20 (1*), 27 (1), 30 (1), 36 (1)
 # meta::sourceURL = https://casetext.com/case/united-states-v-white-71
 # meta::speakerCount = 0
@@ -304,7 +306,7 @@
 10	people	person	NOUN	NNS	Number=Plur	9	obj	9:obj|11:nsubj:xsubj	Entity=(34-person-giv:act-nnnnn-cf1*-1-coref)
 11	upset	upset	ADJ	JJ	Degree=Pos	9	xcomp	9:xcomp	CxnElt=9:Resultative.Result|MSeg=up-set
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
-13	what	what	PRON	WP	PronType=Rel	2	ccomp	2:ccomp	_
+13	what	what	PRON	WP	Case=Acc|PronType=Rel	2	ccomp	2:ccomp	_
 14	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
 15	in	in	ADP	RP	_	14	compound:prt	14:compound:prt	_
 16	Joan	Joan	PROPN	NNP	Number=Sing	14	obj	14:obj	Entity=(37-person-new-nssnn-cf3-1,2-sgl-Joan_Lefkow

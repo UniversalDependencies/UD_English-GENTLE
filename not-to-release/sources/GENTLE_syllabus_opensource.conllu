@@ -5,6 +5,8 @@
 # meta::dateCreated = 2017-01-10
 # meta::dateModified = 2022-06-15
 # meta::genre = syllabus
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 2 (5*), 99 (5*), 7 (4*), 98 (4), 130 (4*), 104 (3), 118 (3), 132 (3*), 35 (2*), 48 (2*), 83 (2), 97 (2), 117 (2), 140 (2), 161 (2), 4 (1*), 5 (1*), 17 (1), 20 (1), 25 (1), 71 (1*), 72 (1*), 77 (1), 89 (1*), 100 (1*), 101 (1*), 102 (1*), 103 (1*), 109 (1*), 110 (1*), 111 (1*), 119 (1), 123 (1), 127 (1), 131 (1), 133 (1*), 136 (1*), 145 (1), 152 (1), 231 (1)
 # meta::sourceURL = https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Syllabus.md
 # meta::speakerCount = 0
@@ -203,7 +205,7 @@
 3	Professor	Professor	PROPN	NNP	Number=Sing	4	nmod:desc	4:nmod:desc	Entity=(27-person-new-nnnnn-cf3-2,3-sgl|MSeg=Profess-or
 4	Mukkai	Mukkai	PROPN	NNP	Number=Sing	0	root	0:root|7:nsubj	_
 5	Krishnamoorthy	Krishnamoorthy	PROPN	NNP	Number=Sing	4	flat	4:flat	_
-6	who	who	PRON	WP	PronType=Rel	7	nsubj	4:ref	Discourse=elaboration-attribute:18->17:0:syn-mdf-119-_+syn-relcl-121-122-_
+6	who	who	PRON	WP	Case=Nom|PronType=Rel	7	nsubj	4:ref	Discourse=elaboration-attribute:18->17:0:syn-mdf-119-_+syn-relcl-121-122-_
 7	succeeded	succeed	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	MSeg=succeed-ed
 8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	7:obj	Entity=(10-person-giv:act-nnnnn-cf1*-1-ana)
 9	in	in	SCONJ	IN	_	10	mark	10:mark	Discourse=elaboration-additional:19->18:0:dm-in-124-gold+syn-pres-125-_|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:in:124:121-123:125-127
@@ -1860,9 +1862,9 @@
 # s_type = imp
 # transition = null
 # text = Do not copy blindly.
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=adversative-antithesis:165->166:0:_|PDTB=NoRel:NoRel:_:_:890-913:914-918
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=adversative-antithesis:165->166:0:_|PDTB=NoRel:NoRel:_:_:890-913:914-918
 2	not	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	copy	copy	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+3	copy	copy	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	blindly	blindly	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=blind-ly|SpaceAfter=No
 5	.	.	PUNCT	.	_	3	punct	3:punct	_
 

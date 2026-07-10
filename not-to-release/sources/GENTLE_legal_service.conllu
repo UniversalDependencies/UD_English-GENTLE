@@ -5,6 +5,8 @@
 # meta::dateCreated = 2019-08-19
 # meta::dateModified = 2019-08-19
 # meta::genre = legal
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 3 (5*), 6 (5*), 8 (5*), 11 (5*), 30 (5*), 157 (5*), 162 (4*), 109 (3), 118 (3*), 230 (3*), 31 (2*), 52 (2*), 108 (2), 229 (2*), 231 (2*), 4 (1*), 12 (1*), 14 (1*), 15 (1*), 57 (1), 80 (1), 100 (1)
 # meta::sourceURL = https://zenodo.org/record/4595826#.Y3L8Q4LMKDU
 # meta::speakerCount = 0
@@ -515,7 +517,7 @@
 29	law	law	NOUN	NN	Number=Sing	27	obl:agent	27:obl:agent	Entity=(70-abstract-new-nnnnn-cf9-1-sgl)69)|SpaceAfter=No
 30	,	,	PUNCT	,	_	34	punct	34:punct	_
 31	which	which	PRON	WDT	PronType=Rel	34	nsubj	16:ref	_
-32	ever	ever	ADV	RB	Degree=Pos	34	advmod	34:advmod	_
+32	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	34	advmod	34:advmod	_
 33	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	34:cop	_
 34	lower	low	ADJ	JJR	Degree=Cmp	16	acl:relcl	16:acl:relcl	MSeg=low-er|SpaceAfter=No
 35	,	,	PUNCT	,	_	38	punct	38:punct	_
@@ -1134,7 +1136,7 @@
 6	discretion	discretion	NOUN	NN	Number=Sing	4	obj	4:obj	MSeg=discret-ion
 7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-attribute:116->115:0:syn-mdf-813-_+syn-inf-814-_
 8	determine	determine	VERB	VB	VerbForm=Inf	6	acl	6:acl:to	_
-9	who	who	PRON	WP	PronType=Int	12	nsubj	12:nsubj|14:nsubj	CxnElt=12:Interrogative-WHInfo-Indirect.WHWord
+9	who	who	PRON	WP	Case=Nom|PronType=Int	12	nsubj	12:nsubj|14:nsubj	CxnElt=12:Interrogative-WHInfo-Indirect.WHWord
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 11	at	at	ADP	IN	_	12	case	12:case	_
 12	fault	fault	NOUN	NN	Number=Sing	8	ccomp	8:ccomp	Cxn=Interrogative-WHInfo-Indirect|CxnElt=12:Interrogative-WHInfo-Indirect.Clause

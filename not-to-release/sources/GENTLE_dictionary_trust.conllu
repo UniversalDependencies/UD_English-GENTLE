@@ -5,6 +5,8 @@
 # meta::dateCreated = 2022-04-04
 # meta::dateModified = 2022-11-08
 # meta::genre = dictionary
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 3 (4*), 49 (4*), 88 (4), 5 (3*), 26 (3*), 58 (3*), 60 (3*), 73 (3*), 144 (3*), 2 (2), 6 (2*), 14 (2), 25 (2*), 132 (2*), 137 (2*), 139 (2*), 4 (1*), 7 (1), 10 (1), 19 (1), 27 (1*), 28 (1*), 51 (1), 74 (1*), 97 (1*), 127 (1*), 136 (1), 140 (1), 141 (1), 181 (1)
 # meta::sourceURL = https://en.wiktionary.org/wiki/trust
 # meta::speakerCount = 0
@@ -97,7 +99,7 @@
 31	incompatible	incompatible	ADJ	JJ	Degree=Pos	2	conj	2:conj:but	MSeg=in-compatible|SpaceAfter=No
 32	,	,	PUNCT	,	_	37	punct	37:punct	_
 33	and	and	CCONJ	CC	_	37	cc	37:cc	Discourse=adversative-contrast_m:10->6:2:dm-and-48-gold|PDTB=Explicit:Comparison.Contrast:and:48:16-47:49-88
-34	now	now	ADV	RB	_	37	advmod	37:advmod	_
+34	now	now	ADV	RB	PronType=Dem	37	advmod	37:advmod	_
 35-36	it's	_	_	_	_	_	_	_	_
 35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	nsubj:pass	37:nsubj:pass|39:nsubj:xsubj	Entity=(3-abstract-giv:inact-sssns-cf5-1-ana)
 36	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:pass	37:aux:pass	_
@@ -385,7 +387,7 @@
 7	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=contingency-condition:48->47:0:dm-if-243-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:243:237-242:244-252
 8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=(63-person-acc:com-nnnnn-cf2-1-coref)
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
-10	ever	ever	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
+10	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	11	advmod	11:advmod	_
 11	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:if	CxnElt=4:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|MSeg=go-ing
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	win	win	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
@@ -564,7 +566,7 @@
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	one	one	NUM	CD	NumForm=Word|NumType=Card	2	nmod	2:nmod:of|11:obl:to	Entity=(94-person-new-nnnnn-cf4-1-sgl
 7	to	to	ADP	IN	_	8	case	8:case	Discourse=elaboration-attribute:70->69:0:syn-mdf-345-_+syn-relcl-347,350-_
-8	whom	who	PRON	WP	PronType=Rel	11	obl	6:ref	_
+8	whom	who	PRON	WP	Case=Acc|PronType=Rel	11	obl	6:ref	_
 9	anything	anything	PRON	NN	Number=Sing|PronType=Ind	11	nsubj:pass	11:nsubj:pass	Entity=(95-abstract-new-nnnnn-cf1-1-sgl)|MSeg=any-thing
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	11:aux:pass	_
 11	confided	confide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	6:acl:relcl	Entity=94)93)|MSeg=confid-ed|SpaceAfter=No
@@ -597,7 +599,7 @@
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(99-person-new-nnnnn-cf5-2-coref
 6	person	person	NOUN	NN	Number=Sing	3	obl	3:obl:in|8:nsubj	_
-7	who	who	PRON	WP	PronType=Rel	8	nsubj	6:ref	Discourse=elaboration-attribute:75->74:0:syn-mdf-365-_+syn-relcl-366-367-_
+7	who	who	PRON	WP	Case=Nom|PronType=Rel	8	nsubj	6:ref	Discourse=elaboration-attribute:75->74:0:syn-mdf-365-_+syn-relcl-366-367-_
 8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	MSeg=ha-s
 9	legal	legal	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(100-abstract-new-nnnnn-cf2-2-sgl
 10	ownership	ownership	NOUN	NN	Number=Sing	8	obj	8:obj	MSeg=own-er-ship
@@ -932,7 +934,7 @@
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes|XML=</w>
 4	trust	trust	VERB	VB	VerbForm=Inf	0	root	0:root	XML=<hi rend:::"bold"></hi>
 5	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	4	obj	4:obj|7:nsubj	Entity=(149-person-new-nnnnn-cf2-1-sgl|MSeg=any-one
-6	who	who	PRON	WP	PronType=Rel	7	nsubj	5:ref	Discourse=elaboration-attribute:114->113:0:syn-mdf-564-_+syn-relcl-565-566-_
+6	who	who	PRON	WP	Case=Nom|PronType=Rel	7	nsubj	5:ref	Discourse=elaboration-attribute:114->113:0:syn-mdf-564-_+syn-relcl-565-566-_
 7	deceives	deceive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obj	7:obj	Entity=(148-person-giv:act-nnnnn-cf1-1-ana)149)|SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	4:punct	_

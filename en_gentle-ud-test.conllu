@@ -5,6 +5,8 @@
 # meta::dateCreated = 2003-03-18
 # meta::dateModified = 2022-10-02
 # meta::genre = dictionary
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 9 (5*), 54 (4*), 63 (4*), 111 (4*), 144 (4*), 165 (4*), 167 (4*), 10 (3*), 105 (3*), 109 (3*), 11 (2*), 15 (2*), 25 (2*), 59 (2*), 66 (2), 78 (2), 148 (2), 3 (1), 4 (1), 5 (1), 16 (1), 17 (1*), 21 (1*), 26 (1*), 36 (1*), 37 (1*), 42 (1*), 43 (1*), 101 (1), 104 (1)
 # meta::sourceURL = https://en.wiktionary.org/wiki/next
 # meta::speakerCount = 0
@@ -401,7 +403,7 @@
 11	following	follow	VERB	VBG	Tense=Pres|VerbForm=Part	1	parataxis	1:parataxis	MSeg=follow-ing|XML=<ref target:::"https://en.wiktionary.org/wiki/following#English"></ref>
 12	(	(	PUNCT	-LRB-	_	15	punct	15:punct	Discourse=adversative-concession:56->55:0:sem-lxchn-238,242-gold+dm-or-240-gold|SpaceAfter=No
 13	or	or	CCONJ	CC	_	15	cc	15:cc	PDTB=Explicit:Comparison.Concession.Arg1-as-denier:or:240:237-238,244-246:239,241-243
-14	sometimes	sometimes	ADV	RB	_	15	advmod	15:advmod	MSeg=sometime-s
+14	sometimes	sometimes	ADV	RB	PronType=Tot	15	advmod	15:advmod	MSeg=sometime-s
 15	preceding	precede	VERB	VBG	Tense=Pres|VerbForm=Part	11	conj	11:conj:or	MSeg=preced-ing|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/preceding#English"></ref>
 16	)	)	PUNCT	-RRB-	_	15	punct	15:punct	_
 17	in	in	ADP	IN	_	18	case	18:case	Discourse=same-unit_m:57->55:1:_
@@ -738,7 +740,7 @@
 29	of	of	ADP	IN	_	30	case	30:case	Discourse=joint-disjunction_m:88->86:2:grf-seq-_-_+grf-semcol-426-_
 30	days	day	NOUN	NNS	Number=Plur	33	obl	33:obl:of	Entity=(124-time-new-nnnnn-cf9-1-sgl)|MSeg=day-s|SpaceAfter=No
 31	,	,	PUNCT	,	_	30	punct	30:punct	_
-32	sometimes	sometimes	ADV	RB	_	33	advmod	33:advmod	MSeg=sometime-s
+32	sometimes	sometimes	ADV	RB	PronType=Tot	33	advmod	33:advmod	MSeg=sometime-s
 33	thought	think	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	parataxis	13:parataxis	_
 34	to	to	PART	TO	_	36	mark	36:mark	_
 35	specifically	specifically	ADV	RB	Degree=Pos	36	advmod	36:advmod	MSeg=specif-ic-ally
@@ -780,7 +782,7 @@
 14	eight	eight	NUM	CD	NumForm=Word|NumType=Card	15	nummod	15:nummod	Entity=(130-time-new-nnnnn-cf5-2-sgl
 15	days	day	NOUN	NNS	Number=Plur	11	conj	11:conj:but	MSeg=day-s
 16	from	from	ADP	IN	_	17	case	17:case	_
-17	now	now	ADV	RB	_	15	nmod	15:nmod:from	Entity=(131-time-acc:com-nnnnn-cf3-1-sgl)130)|SpaceAfter=No
+17	now	now	ADV	RB	PronType=Dem	15	nmod	15:nmod:from	Entity=(131-time-acc:com-nnnnn-cf3-1-sgl)130)|SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	5:punct	XML=</hi>
 
 # sent_id = GENTLE_dictionary_next-45
@@ -1007,7 +1009,7 @@
 # s_type = decl
 # transition = null
 # text = What comes next?
-1	What	what	PRON	WP	PronType=Int	2	nsubj	2:nsubj	Discourse=explanation-evidence:116->114:0:_
+1	What	what	PRON	WP	Case=Nom|PronType=Int	2	nsubj	2:nsubj	Discourse=explanation-evidence:116->114:0:_
 2	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=come-s
 3	next	next	ADV	RB	Degree=Pos	2	advmod	2:advmod	SpaceAfter=No
 4	?	?	PUNCT	.	_	2	punct	2:punct	_
@@ -1128,9 +1130,9 @@
 3	please	please	INTJ	UH	_	1	discourse	1:discourse	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	7:punct	_
 5-6	don't	_	_	_	_	_	_	_	_
-5	do	do	AUX	VB	VerbForm=Inf	7	aux	7:aux	Discourse=joint-list_m:131->130:0:_
+5	do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	7	aux	7:aux	Discourse=joint-list_m:131->130:0:_
 6	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	Negation=Yes
-7	hold	hold	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	_
+7	hold	hold	VERB	VB	VerbForm=Inf	1	parataxis	1:parataxis	_
 8	up	up	ADP	RP	_	7	compound:prt	7:compound:prt	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(170-abstract-acc:com-nnnnn-cf1-2-sgl
 10	queue	queue	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=170)|SpaceAfter=No
@@ -1172,6 +1174,8 @@
 # meta::dateCreated = 2003-11-16
 # meta::dateModified = 2022-11-08
 # meta::genre = dictionary
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 12 (5*), 3 (4*), 20 (4*), 60 (4*), 5 (3*), 14 (3*), 67 (3), 207 (3*), 16 (2*), 44 (2*), 56 (2*), 64 (2), 74 (2*), 117 (2*), 153 (2), 168 (2), 13 (1*), 18 (1), 30 (1*), 31 (1*), 32 (1), 33 (1), 45 (1), 55 (1), 61 (1*), 65 (1), 66 (1*), 68 (1*), 69 (1*), 75 (1*), 80 (1), 115 (1), 116 (1), 194 (1)
 # meta::sourceURL = https://en.wiktionary.org/wiki/school
 # meta::speakerCount = 0
@@ -1443,7 +1447,7 @@
 # sent_id = GENTLE_dictionary_school-15
 # s_prominence = 1
 # s_type = frag
-# transition = null
+# transition = establishment
 # text = (collective) A group of fish or a group of marine mammals such as porpoises, dolphins, or whales.
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-background:38->39:0:_|SpaceAfter=No
 2	collective	collective	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	MSeg=collect-ive|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#collective"></ref>
@@ -2583,6 +2587,8 @@
 # meta::dateCreated = 2022-04-04
 # meta::dateModified = 2022-11-08
 # meta::genre = dictionary
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 3 (4*), 49 (4*), 88 (4), 5 (3*), 26 (3*), 58 (3*), 60 (3*), 73 (3*), 144 (3*), 2 (2), 6 (2*), 14 (2), 25 (2*), 132 (2*), 137 (2*), 139 (2*), 4 (1*), 7 (1), 10 (1), 19 (1), 27 (1*), 28 (1*), 51 (1), 74 (1*), 97 (1*), 127 (1*), 136 (1), 140 (1), 141 (1), 181 (1)
 # meta::sourceURL = https://en.wiktionary.org/wiki/trust
 # meta::speakerCount = 0
@@ -2675,7 +2681,7 @@
 31	incompatible	incompatible	ADJ	JJ	Degree=Pos	2	conj	2:conj:but	MSeg=in-compatible|SpaceAfter=No
 32	,	,	PUNCT	,	_	37	punct	37:punct	_
 33	and	and	CCONJ	CC	_	37	cc	37:cc	Discourse=adversative-contrast_m:10->6:2:dm-and-48-gold|PDTB=Explicit:Comparison.Contrast:and:48:16-47:49-88
-34	now	now	ADV	RB	_	37	advmod	37:advmod	_
+34	now	now	ADV	RB	PronType=Dem	37	advmod	37:advmod	_
 35-36	it's	_	_	_	_	_	_	_	_
 35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	nsubj:pass	37:nsubj:pass|39:nsubj:xsubj	Entity=(3-abstract-giv:inact-sssns-cf5-1-ana)
 36	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:pass	37:aux:pass	_
@@ -2963,7 +2969,7 @@
 7	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=contingency-condition:48->47:0:dm-if-243-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:243:237-242:244-252
 8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=(63-person-acc:com-nnnnn-cf2-1-coref)
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
-10	ever	ever	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
+10	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	11	advmod	11:advmod	_
 11	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:if	CxnElt=4:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|MSeg=go-ing
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	win	win	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
@@ -3142,7 +3148,7 @@
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	one	one	NUM	CD	NumForm=Word|NumType=Card	2	nmod	2:nmod:of|11:obl:to	Entity=(94-person-new-nnnnn-cf4-1-sgl
 7	to	to	ADP	IN	_	8	case	8:case	Discourse=elaboration-attribute:70->69:0:syn-mdf-345-_+syn-relcl-347,350-_
-8	whom	who	PRON	WP	PronType=Rel	11	obl	6:ref	_
+8	whom	who	PRON	WP	Case=Acc|PronType=Rel	11	obl	6:ref	_
 9	anything	anything	PRON	NN	Number=Sing|PronType=Ind	11	nsubj:pass	11:nsubj:pass	Entity=(95-abstract-new-nnnnn-cf1-1-sgl)|MSeg=any-thing
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	11:aux:pass	_
 11	confided	confide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	6:acl:relcl	Entity=94)93)|MSeg=confid-ed|SpaceAfter=No
@@ -3175,7 +3181,7 @@
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(99-person-new-nnnnn-cf5-2-coref
 6	person	person	NOUN	NN	Number=Sing	3	obl	3:obl:in|8:nsubj	_
-7	who	who	PRON	WP	PronType=Rel	8	nsubj	6:ref	Discourse=elaboration-attribute:75->74:0:syn-mdf-365-_+syn-relcl-366-367-_
+7	who	who	PRON	WP	Case=Nom|PronType=Rel	8	nsubj	6:ref	Discourse=elaboration-attribute:75->74:0:syn-mdf-365-_+syn-relcl-366-367-_
 8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	MSeg=ha-s
 9	legal	legal	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(100-abstract-new-nnnnn-cf2-2-sgl
 10	ownership	ownership	NOUN	NN	Number=Sing	8	obj	8:obj	MSeg=own-er-ship
@@ -3510,7 +3516,7 @@
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes|XML=</w>
 4	trust	trust	VERB	VB	VerbForm=Inf	0	root	0:root	XML=<hi rend:::"bold"></hi>
 5	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	4	obj	4:obj|7:nsubj	Entity=(149-person-new-nnnnn-cf2-1-sgl|MSeg=any-one
-6	who	who	PRON	WP	PronType=Rel	7	nsubj	5:ref	Discourse=elaboration-attribute:114->113:0:syn-mdf-564-_+syn-relcl-565-566-_
+6	who	who	PRON	WP	Case=Nom|PronType=Rel	7	nsubj	5:ref	Discourse=elaboration-attribute:114->113:0:syn-mdf-564-_+syn-relcl-565-566-_
 7	deceives	deceive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obj	7:obj	Entity=(148-person-giv:act-nnnnn-cf1-1-ana)149)|SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -4033,6 +4039,8 @@
 # meta::dateCreated = 2020-02-01
 # meta::dateModified = 2020-02-01
 # meta::genre = esports
+# meta::modality = spoken
+# meta::production = informal/spontaneous/public
 # meta::salientEntities = 7 (5*), 9 (5*), 10 (5*), 22 (5*), 4 (4), 42 (4*), 12 (3*), 104 (3*), 3 (2), 105 (2*), 6 (1), 14 (1*), 26 (1*), 30 (1), 31 (1*), 34 (1*), 37 (1), 39 (1*), 43 (1), 53 (1*), 61 (1*), 80 (1*), 81 (1), 106 (1*)
 # meta::sourceURL = https://www.youtube.com/watch?v=afGtqs-_LBo
 # meta::speakerCount = 1
@@ -4051,7 +4059,7 @@
 # speaker = Adam
 # addressee = Aud
 # text = Now after last episodes's amazing conclusion where Napoli they beat us in the first leg of the Champions League quarter-finals and then we brought it to them in the second leg, and now advancing into the semi-finals against Manchester City, today's episode is gonna start off with three games that you know aren't as hard as the last couple of matches we've had, and then on uh 27th of April, we have Manchester City in the first leg of the semi-finals, which is going to be possibly one of the hardest games I'm gonna be playing because Napoli has given me our game and Manchester City I know the way they play, they're exactly like Napoli.
-1	Now	now	ADV	RB	_	48	advmod	48:advmod	Discourse=context-background:1->17:5:ref-prs-12,133-_+num-count-53-gold
+1	Now	now	ADV	RB	PronType=Dem	48	advmod	48:advmod	Discourse=context-background:1->17:5:ref-prs-12,133-_+num-count-53-gold
 2	after	after	ADP	IN	_	7	case	7:case	_
 3	last	last	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(1-event-new-nnnnn-cf18-5,17,39-sgl(2-abstract-new-nnnnn-cf19-2-sgl
 4-5	episodes's	_	_	_	_	_	_	_	_
@@ -4086,7 +4094,7 @@
 32	leg	leg	NOUN	NN	Number=Sing	25	obl	25:obl:in	Entity=8)|SpaceAfter=No
 33	,	,	PUNCT	,	_	36	punct	36:punct	_
 34	and	and	CCONJ	CC	_	36	cc	36:cc	Discourse=joint-sequence_m:4->2:0:dm-and-34-gold+lex-indwd-35-_|PDTB=Explicit:Expansion.Conjunction:and:34:22-33:35-43;Implicit:Temporal.Asynchronous.Precedence:then:_:22-33:34-43
-35	now	now	ADV	RB	_	36	advmod	36:advmod	_
+35	now	now	ADV	RB	PronType=Dem	36	advmod	36:advmod	_
 36	advancing	advance	VERB	VBG	Tense=Pres|VerbForm=Part	11	conj	7:acl:relcl|11:conj:and	MSeg=advanc-ing
 37	into	into	ADP	IN	_	39	case	39:case	MSeg=in-to
 38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	39:det	Bridge=7<9:entity-associative|Entity=(9-event-acc:inf-sssss-cf8-2,4-coref
@@ -4699,7 +4707,7 @@
 1	Here	here	ADV	RB	PronType=Dem	0	root	0:root	Discourse=organization-preparation:62->63:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:434-461:462-492
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
 3	Paquetá	Paquetá	PROPN	NNP	Number=Sing	1	nsubj	1:nsubj	Entity=(53-person-giv:act-snnnn-cf2*-1-coref-Lucas_Paquetá)
-4	now	now	ADV	RB	_	5	advmod	5:advmod	_
+4	now	now	ADV	RB	PronType=Dem	5	advmod	5:advmod	_
 5	finding	find	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	1:advcl	Discourse=joint-sequence_m:63->61:0:lex-indwd-465-_|MSeg=find-ing
 6	Galano	Galano	PROPN	NNP	Number=Sing	5	obj	5:obj	Entity=(49-person-giv:inact-nnnnn-cf1-1-coref-Cristian_Galano)|SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	11:punct	_
@@ -4785,7 +4793,7 @@
 19	but	but	CCONJ	CC	_	25	cc	25:cc	Discourse=organization-preparation:74->75:0:_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:529:511-528:530-548
 20	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	21	nsubj	21:nsubj	Entity=(15-person-giv:inact-nnnnn-cf3-1-ana)
 21	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	25	parataxis	25:parataxis	_
-22	what	what	PRON	WP	PronType=Int	21	obj	21:obj	SpaceAfter=No
+22	what	what	PRON	WP	Case=Acc|PronType=Int	21	obj	21:obj	SpaceAfter=No
 23	,	,	PUNCT	,	_	21	punct	21:punct	_
 24	that	that	PRON	DT	Number=Sing|PronType=Dem	25	nsubj	25:nsubj	Discourse=evaluation-comment:75->70:1:lex-indph-517-518-_|Entity=(71-event-acc:com-nnnnn-cf5-1-sgl)
 25	resulted	result	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	10:conj:but	MSeg=result-ed|PDTB=AltLex:Contingency.Cause.Result:resulted in:535-536:493-510:511-534,537-548
@@ -4855,7 +4863,7 @@
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	of	of	ADP	IN	_	2	conj	2:conj:and|6:reparandum	_
 5	—	—	PUNCT	:	_	2	punct	2:punct	_
-6	what	what	PRON	WP	PronType=Int	0	root	0:root	Discourse=organization-preparation:82->84:1:_|SpaceAfter=No
+6	what	what	PRON	WP	Case=Acc|PronType=Int	0	root	0:root	Discourse=organization-preparation:82->84:1:_|SpaceAfter=No
 7	?	?	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GENTLE_esports_fifa-26
@@ -4867,15 +4875,15 @@
 # text = How ... what sorry what how is there a penalty what just happened?
 1	How	how	ADV	WRB	PronType=Int	6	reparandum	6:reparandum	Discourse=restatement-repetition_m:83->82:0:_
 2	...	…	PUNCT	:	_	1	punct	1:punct	_
-3	what	what	PRON	WP	PronType=Int	5	reparandum	5:reparandum	Discourse=joint-sequence_m:84->61:0:_
+3	what	what	PRON	WP	Case=Acc|PronType=Int	5	reparandum	5:reparandum	Discourse=joint-sequence_m:84->61:0:_
 4	sorry	sorry	ADJ	JJ	Degree=Pos	5	discourse	5:discourse	MSeg=sorr-y
-5	what	what	PRON	WP	PronType=Int	6	reparandum	6:reparandum	_
+5	what	what	PRON	WP	Case=Acc|PronType=Int	6	reparandum	6:reparandum	_
 6	how	how	ADV	WRB	PronType=Int	7	advmod	7:advmod	CxnElt=7:Interrogative-WHInfo-Direct.WHWord
 7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl,Interrogative-WHInfo-Direct|CxnElt=7:Interrogative-WHInfo-Direct.Clause
 8	there	there	PRON	EX	PronType=Dem	7	expl	7:expl	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(81-event-new-nnsnn-cf1-2-coref
 10	penalty	penalty	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	CxnElt=7:Existential-CopPred-ThereExpl.Pivot|Entity=81)|MSeg=penal-ty
-11	what	what	PRON	WP	PronType=Int	13	nsubj	13:nsubj	Discourse=restatement-partial:85->84:0:_
+11	what	what	PRON	WP	Case=Nom|PronType=Int	13	nsubj	13:nsubj	Discourse=restatement-partial:85->84:0:_
 12	just	just	ADV	RB	_	13	advmod	13:advmod	_
 13	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	7:parataxis	MSeg=happen-ed|SpaceAfter=No
 14	?	?	PUNCT	.	_	7	punct	7:punct	_
@@ -4971,7 +4979,7 @@
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
 5	Paquetá	Paquetá	PROPN	NNP	Number=Sing	1	parataxis	1:parataxis	Entity=(53-person-giv:inact-snnnn-cf3-1-coref-Lucas_Paquetá)|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
-7	now	now	ADV	RB	_	13	advmod	13:advmod	Discourse=joint-sequence_m:94->61:0:lex-indwd-652-_
+7	now	now	ADV	RB	PronType=Dem	13	advmod	13:advmod	Discourse=joint-sequence_m:94->61:0:lex-indwd-652-_
 8	Theo	Theo	PROPN	NNP	Number=Sing	10	reparandum	10:reparandum	Entity=(87-person-new-nnnnn-cf1-1-coref-Theo_Hernandez)|SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
 10	Theo	Theo	PROPN	NNP	Number=Sing	13	nsubj	13:nsubj	Discourse=adversative-concession:95->96:1:dm-but-665-gold;joint-sequence:95->94:0:0:orp-finally-657-gold|Entity=(87-person-giv:act-nnnnn-cf1-1-coref-Theo_Hernandez)
@@ -5092,7 +5100,7 @@
 36	Manchester	Manchester	PROPN	NNP	Number=Sing	37	compound	37:compound	Entity=(10-organization-giv:inact-sssss-cf4-1,2-coref-Manchester_City_F.C.(11-place-giv:inact-nnnnn-cf7-1-coref-Manchester)
 37	City	City	PROPN	NNP	Number=Sing	35	obj	35:obj|44:nsubj	SpaceAfter=No
 38	,	,	PUNCT	,	_	44	punct	44:punct	_
-39	who	who	PRON	WP	PronType=Rel	44	nsubj	37:ref	Discourse=elaboration-attribute:105->104:0:syn-mdf-751-_+syn-relcl-753,758,766-_
+39	who	who	PRON	WP	Case=Nom|PronType=Rel	44	nsubj	37:ref	Discourse=elaboration-attribute:105->104:0:syn-mdf-751-_+syn-relcl-753,758,766-_
 40-41	today's	_	_	_	_	_	_	_	_
 40	today	today	NOUN	NN	Number=Sing	44	obl:unmarked	44:obl:unmarked	Entity=(13-time-giv:inact-nnnnn-cf6-1-coref)|MSeg=to-day
 41	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	reparandum	44:reparandum	_
@@ -5107,7 +5115,7 @@
 49	4th	4th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	50	amod	50:amod	Bridge=7<94:entity-associative|Entity=(94-abstract-acc:inf-nnnnn-cf9-2-sgl|MSeg=4-th
 50	place	place	NOUN	NN	Number=Sing	47	obl	47:obl:to	Entity=94)
 51	and	and	CCONJ	CC	_	58	cc	58:cc	Discourse=joint-list_m:107->105:0:_|PDTB=Explicit:Comparison.Contrast:and:765:759-764:766-773
-52	who	who	PRON	WP	PronType=Rel	58	dislocated	58:dislocated	_
+52	who	who	PRON	WP	Case=Acc|PronType=Rel	58	dislocated	58:dislocated	_
 53	the	the	DET	DT	Definite=Def|PronType=Art	54	det	54:det	Entity=(10-organization-giv:act-sssss-cf4-2-coref-Manchester_City_F.C.
 54	next	next	ADJ	JJ	Degree=Pos	58	nsubj	58:nsubj	Entity=10)
 55	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	cop	58:cop	_
@@ -5167,7 +5175,7 @@
 19-20	that's	_	_	_	_	_	_	_	_
 19	that	that	PRON	DT	Number=Sing|PronType=Dem	21	nsubj	21:nsubj	Entity=(98-person-giv:act-nnnnn-cf1-1-ana-Andrea_Conti_%28footballer%2C_born_1994%29)
 20	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
-21	what	what	PRON	WP	PronType=Rel	17	conj	17:conj:but	_
+21	what	what	PRON	WP	Case=Acc|PronType=Rel	17	conj	17:conj:but	_
 22-23	I'm	_	_	_	_	_	_	_	_
 22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	24:nsubj	Entity=(22-person-giv:act-sssss-cf2*-1-ana)
 23	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
@@ -5266,7 +5274,7 @@
 5	to	to	PART	TO	_	6	mark	6:mark	_
 6	check	check	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
 7	out	out	ADP	RP	_	6	compound:prt	6:compound:prt	_
-8	what	what	PRON	WP	PronType=Int	6	ccomp	6:ccomp	_
+8	what	what	PRON	WP	Case=Acc|PronType=Int	6	ccomp	6:ccomp	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(105-abstract-new-ssnnn-cf8-3-sgl
 10	club	club	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=(106-organization-new-snnnn-cf4-1-coref)
 11	objective	objective	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=105)|MSeg=object-ive
@@ -5317,6 +5325,8 @@
 # meta::dateCreated = 2019-07-28
 # meta::dateModified = 2019-07-28
 # meta::genre = esports
+# meta::modality = spoken
+# meta::production = informal/spontaneous/public
 # meta::salientEntities = 5 (5*), 6 (5*), 4 (4*), 12 (4*), 50 (4*), 132 (4*), 43 (3), 135 (3*), 11 (2*), 20 (2), 22 (2*), 39 (2), 115 (2*), 133 (2*), 8 (1*), 9 (1*), 17 (1), 38 (1), 45 (1*), 68 (1*), 79 (1*), 80 (1*), 81 (1*), 92 (1*), 93 (1*), 94 (1*), 114 (1*), 130 (1), 131 (1), 143 (1), 144 (1), 166 (1*)
 # meta::sourceURL = https://www.youtube.com/watch?v=_zRaMRXCMrQ
 # meta::speakerCount = 2
@@ -5555,7 +5565,7 @@
 # text = He has never lost the first place spot.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=restatement-partial:17->16:0:ref-prs-149,160-_+sem-synym-153-154,164-167-_|Entity=(12-person-giv:act-ssssn-cf1*-1-ana-Bugha_%28gamer%29)|PDTB=Implicit:Expansion.Equivalence:in other words:_:149-159:160-168
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	MSeg=ha-s
-3	never	never	ADV	RB	_	4	advmod	4:advmod	Negation=Yes
+3	never	never	ADV	RB	PronType=Neg	4	advmod	4:advmod	Negation=Yes
 4	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=los-t
 5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(39-abstract-giv:act-nnssn-cf2-4-coref
 6	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	7	amod	7:amod	Entity=(41-abstract-new-nnnnn-cf3-2-sgl
@@ -5810,7 +5820,7 @@
 2	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	at	at	ADP	IN	_	4	case	4:case	_
 4	those	that	PRON	DT	Number=Plur|PronType=Dem	2	obl	2:obl:at	Entity=(59-abstract-giv:act-nnnnn-cf2-1-ana)
-5	what	what	PRON	WP	PronType=Rel	4	appos	4:appos	Discourse=elaboration-additional:44->40:2:ref-prs-315,340-_+ref-dem-319-320,338-_
+5	what	what	PRON	WP	Case=Acc|PronType=Rel	4	appos	4:appos	Discourse=elaboration-additional:44->40:2:ref-prs-315,340-_+ref-dem-319-320,338-_
 6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(58-person-giv:act-nnnnn-cf1*-1-ana)
 7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	MSeg=ha-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	11:punct	_
@@ -5850,7 +5860,7 @@
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	Discourse=same-unit_m:47->45:1:_
 15	Skite	Skite	PROPN	NNP	Number=Sing	0	root	0:root|22:nsubj	Entity=(22-person-giv:act-snsnn-cf1-1-coref)|SpaceAfter=No
 16	,	,	PUNCT	,	_	22	punct	22:punct	_
-17	who	who	PRON	WP	PronType=Rel	22	nsubj	15:ref	Discourse=elaboration-attribute:48->47:0:syn-mdf-367-_+syn-relcl-369,374-_
+17	who	who	PRON	WP	Case=Nom|PronType=Rel	22	nsubj	15:ref	Discourse=elaboration-attribute:48->47:0:syn-mdf-367-_+syn-relcl-369,374-_
 18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	22:cop	_
 19	in	in	ADP	IN	_	22	case	22:case	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(66-place-new-nnnnn-cf5-3-sgl
@@ -6134,7 +6144,7 @@
 # addressee = Aud,Speaker1
 # text = What's up?
 1-2	What's	_	_	_	_	_	_	_	_
-1	What	what	PRON	WP	PronType=Int	3	nsubj	3:nsubj	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:79->81:1:lex-indwd-572-_+grf-qst-575-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:517-571:572-575
+1	What	what	PRON	WP	Case=Nom|PronType=Int	3	nsubj	3:nsubj	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:79->81:1:lex-indwd-572-_+grf-qst-575-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:517-571:572-575
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	up	up	ADV	RB	Degree=Pos	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-WHInfo-Direct.Clause|SpaceAfter=No
 4	?	?	PUNCT	.	_	3	punct	3:punct	_
@@ -6533,7 +6543,7 @@
 # speaker = Speaker1
 # addressee = Aud,Jack
 # text = What could he do in this last game?
-1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=evaluation-comment:115->55:3:_|PDTB=EntRel:EntRel:_:_:792-816:817-825
+1	What	what	PRON	WP	Case=Acc|PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=evaluation-comment:115->55:3:_|PDTB=EntRel:EntRel:_:_:792-816:817-825
 2	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(20-person-giv:act-nssnn-cf1*-1-ana)
 4	do	do	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause
@@ -6562,7 +6572,7 @@
 10	up	up	ADP	RP	_	9	compound:prt	9:compound:prt	_
 11	to	to	ADP	IN	_	12	case	12:case	_
 12	Bugha	Bugha	PROPN	NNP	Number=Sing	9	obl	9:obl:to|20:nsubj	Entity=(12-person-giv:inact-ssssn-cf3-1-coref-Bugha_%28gamer%29
-13	who	who	PRON	WP	PronType=Rel	20	nsubj	12:ref	Discourse=elaboration-attribute:118->117:0:syn-mdf-837-_+syn-relcl-838,845-_
+13	who	who	PRON	WP	Case=Nom|PronType=Rel	20	nsubj	12:ref	Discourse=elaboration-attribute:118->117:0:syn-mdf-837-_+syn-relcl-838,845-_
 14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	20:cop	_
 15	15	15	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	16:nummod	Entity=(130-abstract-new-nsnnn-cf2-2-coref
 16	points	point	NOUN	NNS	Number=Plur	20	dislocated	20:dislocated	Entity=130)|MSeg=point-s|SpaceAfter=No
@@ -6643,7 +6653,7 @@
 18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	_
 19	lot	lot	NOUN	NN	Number=Sing	17	obj	17:obj	_
 20	about	about	ADP	IN	_	21	case	21:case	_
-21	what	what	PRON	WP	PronType=Rel	17	obl	17:obl:about	_
+21	what	what	PRON	WP	Case=Acc|PronType=Rel	17	obl	17:obl:about	_
 22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
 23	possible	possible	ADJ	JJ	Degree=Pos	21	acl:relcl	21:acl:relcl	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -7114,7 +7124,7 @@
 # speaker = Jack
 # addressee = Aud,Speaker1
 # text = See him watching, waiting.
-1	See	see	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:167->168:1:lex-indwd-1179-_+sem-atsrc-1179-_|PDTB=Implicit:Contingency.Cause.Result:so:_:1173-1178:1179-1184
+1	See	see	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:167->168:1:sem-atsrc-1179-_+lex-indwd-1179-_|PDTB=Implicit:Contingency.Cause.Result:so:_:1173-1178:1179-1184
 2	him	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	Discourse=explanation-evidence:168->166:0:_|Entity=(132-person-giv:act-sssns-cf1*-1-ana)
 3	watching	watch	VERB	VBG	VerbForm=Ger	1	ccomp	1:ccomp	MSeg=watch-ing|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -7193,6 +7203,8 @@
 # meta::dateCreated = 1973-01-22
 # meta::dateModified = 1973-01-22
 # meta::genre = legal
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 4 (5*), 14 (5*), 15 (5*), 1 (4*), 8 (4*), 86 (4), 102 (4), 103 (3), 12 (2*), 93 (2), 96 (2), 106 (2), 112 (2), 139 (2), 2 (1*), 10 (1*), 13 (1*), 18 (1*), 19 (1*), 22 (1*), 34 (1*), 42 (1*), 43 (1), 59 (1), 121 (1), 124 (1), 125 (1)
 # meta::sourceURL = https://en.wikisource.org/wiki/Roe_v._Wade
 # meta::speakerCount = 0
@@ -7370,7 +7382,7 @@
 5	Hallford	Hallford	PROPN	NNP	Number=Sing	3	appos	3:appos	Entity=(20-person-giv:act-nnnnn-cf1-1-appos)|SpaceAfter=No
 6	)	)	PUNCT	-RRB-	_	5	punct	5:punct	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
-8	who	who	PRON	WP	PronType=Rel	9	nsubj	3:ref	Discourse=elaboration-attribute:19->17:1:syn-mdf-90-_+syn-relcl-95-96-_+syn-nmn-101-_
+8	who	who	PRON	WP	Case=Nom|PronType=Rel	9	nsubj	3:ref	Discourse=elaboration-attribute:19->17:1:syn-mdf-90-_+syn-relcl-95-96-_+syn-nmn-101-_
 9	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
 10	two	two	NUM	CD	NumForm=Word|NumType=Card	13	nummod	13:nummod	Entity=(21-event-new-nnnnn-cf4-4-sgl
 11	state	state	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(8-place-giv:act-ssssn-cf2*-1-coref-Texas)
@@ -7806,7 +7818,7 @@
 16	to	to	ADP	IN	_	17	case	17:case	_
 17	Hallford	Hallford	PROPN	NNP	Number=Sing	12	obl	12:obl:to|20:nsubj	Entity=(20-person-giv:inact-nnnnn-cf1-1-coref|SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	20:punct	_
-19	who	who	PRON	WP	PronType=Rel	20	nsubj	17:ref	Discourse=elaboration-attribute:62->61:0:syn-mdf-429-_+syn-relcl-431-432-_+syn-nmn-438,448-_
+19	who	who	PRON	WP	Case=Nom|PronType=Rel	20	nsubj	17:ref	Discourse=elaboration-attribute:62->61:0:syn-mdf-429-_+syn-relcl-431-432-_+syn-nmn-438,448-_
 20	alleged	allege	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	acl:relcl	17:acl:relcl	MSeg=alleg-ed
 21	no	no	DET	DT	PronType=Neg	24	det	24:det	Entity=(74-abstract-new-nnnnn-cf6-4-sgl|Negation=Yes
 22	federally	federally	ADV	RB	Degree=Pos	23	advmod	23:advmod	MSeg=feder-al-ly
@@ -8293,7 +8305,7 @@
 27	by	by	ADP	IN	_	29	case	29:case	_
 28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	29:det	Entity=(134-person-new-nnnnn-cf4-2-sgl
 29	person	person	NOUN	NN	Number=Sing	24	obl	24:obl:by|34:nsubj	_
-30	who	who	PRON	WP	PronType=Rel	34	nsubj	29:ref	Discourse=elaboration-attribute:105->104:0:syn-mdf-814-_+syn-relcl-815,819-_
+30	who	who	PRON	WP	Case=Nom|PronType=Rel	34	nsubj	29:ref	Discourse=elaboration-attribute:105->104:0:syn-mdf-814-_+syn-relcl-815,819-_
 31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	34:cop	_
 32	not	not	PART	RB	Polarity=Neg	34	advmod	34:advmod	Negation=Yes
 33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	34:det	Entity=(116-person-giv:act-nnnnn-cf1-2-pred
@@ -8503,6 +8515,8 @@
 # meta::dateCreated = 2019-08-19
 # meta::dateModified = 2019-08-19
 # meta::genre = legal
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 3 (5*), 6 (5*), 8 (5*), 11 (5*), 30 (5*), 157 (5*), 162 (4*), 109 (3), 118 (3*), 230 (3*), 31 (2*), 52 (2*), 108 (2), 229 (2*), 231 (2*), 4 (1*), 12 (1*), 14 (1*), 15 (1*), 57 (1), 80 (1), 100 (1)
 # meta::sourceURL = https://zenodo.org/record/4595826#.Y3L8Q4LMKDU
 # meta::speakerCount = 0
@@ -9013,7 +9027,7 @@
 29	law	law	NOUN	NN	Number=Sing	27	obl:agent	27:obl:agent	Entity=(70-abstract-new-nnnnn-cf9-1-sgl)69)|SpaceAfter=No
 30	,	,	PUNCT	,	_	34	punct	34:punct	_
 31	which	which	PRON	WDT	PronType=Rel	34	nsubj	16:ref	_
-32	ever	ever	ADV	RB	Degree=Pos	34	advmod	34:advmod	_
+32	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	34	advmod	34:advmod	_
 33	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	34:cop	_
 34	lower	low	ADJ	JJR	Degree=Cmp	16	acl:relcl	16:acl:relcl	MSeg=low-er|SpaceAfter=No
 35	,	,	PUNCT	,	_	38	punct	38:punct	_
@@ -9632,7 +9646,7 @@
 6	discretion	discretion	NOUN	NN	Number=Sing	4	obj	4:obj	MSeg=discret-ion
 7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-attribute:116->115:0:syn-mdf-813-_+syn-inf-814-_
 8	determine	determine	VERB	VB	VerbForm=Inf	6	acl	6:acl:to	_
-9	who	who	PRON	WP	PronType=Int	12	nsubj	12:nsubj|14:nsubj	CxnElt=12:Interrogative-WHInfo-Indirect.WHWord
+9	who	who	PRON	WP	Case=Nom|PronType=Int	12	nsubj	12:nsubj|14:nsubj	CxnElt=12:Interrogative-WHInfo-Indirect.WHWord
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 11	at	at	ADP	IN	_	12	case	12:case	_
 12	fault	fault	NOUN	NN	Number=Sing	8	ccomp	8:ccomp	Cxn=Interrogative-WHInfo-Indirect|CxnElt=12:Interrogative-WHInfo-Indirect.Clause
@@ -10309,6 +10323,8 @@
 # meta::dateCreated = 2022-11-08
 # meta::dateModified = 2022-11-08
 # meta::genre = medical
+# meta::modality = written
+# meta::production = formal/prepared/private
 # meta::salientEntities = 3 (5*), 4 (5*), 6 (5*), 95 (5*), 5 (4*), 42 (4*), 12 (2*), 13 (2*), 16 (2*), 21 (2), 44 (2), 17 (1*), 18 (1*), 19 (1*), 25 (1), 26 (1), 38 (1*), 40 (1*), 41 (1*), 47 (1), 53 (1), 96 (1), 99 (1*), 100 (1*), 101 (1)
 # meta::sourceURL = https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&Sample=1873-Anemia%20&%20Leukemia%20Followup
 # meta::speakerCount = 0
@@ -10463,7 +10479,7 @@
 8	-	-	PUNCT	HYPH	_	7	punct	7:punct	SpaceAfter=No
 9	old	old	ADJ	JJ	Degree=Pos	10	amod	10:amod	XML=</w>
 10	gentleman	gentleman	NOUN	NN	Number=Sing	0	root	0:root|13:nsubj:pass	MSeg=gentle-man
-11	who	who	PRON	WP	PronType=Rel	13	nsubj:pass	10:ref	Discourse=elaboration-attribute:14->13:0:syn-mdf-76-_+syn-relcl-77,79-_
+11	who	who	PRON	WP	Case=Nom|PronType=Rel	13	nsubj:pass	10:ref	Discourse=elaboration-attribute:14->13:0:syn-mdf-76-_+syn-relcl-77,79-_
 12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	13:aux:pass	_
 13	diagnosed	diagnose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	acl:relcl	10:acl:relcl	MSeg=diagnos-ed
 14	with	with	ADP	IN	_	17	case	17:case	_
@@ -10827,7 +10843,7 @@
 # s_type = frag
 # transition = null
 # text = GEN:
-1	GEN	GEN	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:43->44:0:grf-ly-_-_+grf-seq-_-_|SpaceAfter=No|XML=<hi rend:::"caps">
+1	GEN	GEN	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:43->44:0:grf-seq-_-_+grf-ly-_-_|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GENTLE_medical_anemia-32
@@ -10949,7 +10965,7 @@
 # s_type = frag
 # transition = null
 # text = LUNGS:
-1	LUNGS	lung	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=6<75:entity-meronomy|Discourse=organization-heading:53->54:0:grf-ly-_-_+grf-seq-_-_|Entity=(75-object-acc:inf-nnnnn-cf1-1-sgl)|MSeg=LUNG-S|SpaceAfter=No|XML=<hi rend:::"caps">
+1	LUNGS	lung	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=6<75:entity-meronomy|Discourse=organization-heading:53->54:0:grf-seq-_-_+grf-ly-_-_|Entity=(75-object-acc:inf-nnnnn-cf1-1-sgl)|MSeg=LUNG-S|SpaceAfter=No|XML=<hi rend:::"caps">
 2	:	:	PUNCT	:	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GENTLE_medical_anemia-41
@@ -11180,6 +11196,8 @@
 # meta::dateCreated = 2022-11-09
 # meta::dateModified = 2022-11-09
 # meta::genre = medical
+# meta::modality = written
+# meta::production = formal/prepared/private
 # meta::salientEntities = 2 (5*), 5 (5*), 7 (5*), 9 (5*), 10 (5*), 3 (4), 8 (4*), 14 (4*), 4 (3*), 11 (3*), 90 (3*), 91 (3*), 36 (2*), 94 (2), 6 (1), 15 (1), 16 (1), 17 (1), 18 (1), 20 (1), 37 (1*), 40 (1*), 43 (1*), 54 (1), 60 (1), 63 (1), 89 (1*)
 # meta::sourceURL = https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&Sample=2275-HIV%20Followup
 # meta::speakerCount = 0
@@ -12041,6 +12059,8 @@
 # meta::dateCreated = 2022-11-12
 # meta::dateModified = 2022-11-12
 # meta::genre = medical
+# meta::modality = written
+# meta::production = formal/prepared/private
 # meta::salientEntities = 2 (5*), 3 (5*), 6 (5*), 8 (5*), 13 (5*), 26 (5*), 4 (4*), 5 (4*), 7 (3*), 20 (3*), 21 (3*), 9 (2*), 78 (2*), 29 (1), 33 (1*), 35 (1), 44 (1), 49 (1*), 51 (1*), 62 (1*), 81 (1), 84 (1), 85 (1)
 # meta::sourceURL = https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&Sample=2082-Followup%20Screw%20Fixation
 # meta::speakerCount = 0
@@ -12170,9 +12190,9 @@
 8	-	-	PUNCT	HYPH	_	7	punct	7:punct	SpaceAfter=No
 9	old	old	ADJ	JJ	Degree=Pos	10	amod	10:amod	XML=</w>
 10	gentleman	gentleman	NOUN	NN	Number=Sing	0	root	0:root|17:nsubj	MSeg=gentle-man
-11	who	who	PRON	WP	PronType=Rel	17	nsubj	10:ref	Discourse=elaboration-attribute:9->8:0:syn-mdf-73-_+syn-relcl-74,80-_
+11	who	who	PRON	WP	Case=Nom|PronType=Rel	17	nsubj	10:ref	Discourse=elaboration-attribute:9->8:0:syn-mdf-73-_+syn-relcl-74,80-_
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
-13	now	now	ADV	RB	_	17	advmod	17:advmod	_
+13	now	now	ADV	RB	PronType=Dem	17	advmod	17:advmod	_
 14	approximately	approximately	ADV	RB	Degree=Pos	15	advmod	15:advmod	Entity=(2-event-giv:inact-sssss-cf2-4-pred(14-event-new-nnnnn-cf10-4-sgl(3-time-giv:inact-sssss-cf7-3-coref|MSeg=approximate-ly
 15	4	4	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	16:nummod	_
 16	months	month	NOUN	NNS	Number=Plur	17	compound	17:compound	Entity=3)|MSeg=mon-th-s
@@ -12734,7 +12754,7 @@
 9	-	-	PUNCT	HYPH	_	8	punct	8:punct	SpaceAfter=No
 10	sided	side	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	amod	11:amod	MSeg=sid-ed|XML=</w>
 11	paresthesias	paresthesia	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=79)|MSeg=paresthesia-s
-12	now	now	ADV	RB	_	6	advmod	6:advmod	_
+12	now	now	ADV	RB	PronType=Dem	6	advmod	6:advmod	_
 13	for	for	ADP	IN	_	15	case	15:case	_
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(80-time-new-nnnnn-cf3-2-sgl
 15	number	number	NOUN	NN	Number=Sing	6	obl	6:obl:for	_
@@ -12831,6 +12851,8 @@
 # meta::dateCreated = 2022-11-12
 # meta::dateModified = 2022-11-12
 # meta::genre = medical
+# meta::modality = written
+# meta::production = formal/prepared/private
 # meta::salientEntities = 2 (5*), 3 (5*), 5 (5*), 11 (5*), 8 (4*), 9 (4*), 10 (4*), 58 (3), 114 (3*), 42 (2), 49 (2), 115 (2*), 4 (1*), 6 (1*), 7 (1*), 12 (1*), 19 (1*), 33 (1*), 53 (1), 54 (1), 55 (1), 74 (1), 95 (1), 109 (1*), 110 (1*), 124 (1)
 # meta::sourceURL = https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&Sample=2283-Posttransplant%20Lymphoproliferative%20Disorder
 # meta::speakerCount = 0
@@ -13913,6 +13935,8 @@
 # meta::dateCreated = 2000-01-01
 # meta::dateModified = 2000-01-01
 # meta::genre = poetry
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 9 (5*), 10 (5*), 5 (4*), 4 (3*), 13 (3*), 18 (3), 27 (2), 29 (2*), 3 (1*), 14 (1*), 15 (1*), 16 (1*), 17 (1), 19 (1*), 21 (1*), 28 (1), 30 (1), 31 (1*)
 # meta::sourceURL = https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe/Volume_2/Annabel_Lee
 # meta::speakerCount = 0
@@ -13961,7 +13985,7 @@
 19	maiden	maiden	NOUN	NN	Number=Sing	21	nsubj	21:nsubj|25:obj	Entity=1)
 20	there	there	ADV	RB	PronType=Dem	21	advmod	21:advmod	_
 21	lived	live	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	csubj	8:csubj	MSeg=liv-ed
-22	whom	who	PRON	WP	PronType=Rel	25	obj	19:ref	Discourse=elaboration-attribute:3->2:0:syn-mdf-22-_+syn-relcl-25,28-_
+22	whom	who	PRON	WP	Case=Acc|PronType=Rel	25	obj	19:ref	Discourse=elaboration-attribute:3->2:0:syn-mdf-22-_+syn-relcl-25,28-_
 23	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	25:nsubj	Entity=(6-person-acc:com-nnnnn-cf2-1-sgl)
 24	may	may	AUX	MD	VerbForm=Fin	25	aux	25:aux	_
 25	know	know	VERB	VB	VerbForm=Inf	19	acl:relcl	19:acl:relcl	_
@@ -14232,7 +14256,7 @@
 11	love	love	NOUN	NN	Number=Sing	6	obl	6:obl:than	Entity=22)
 12	Of	of	ADP	IN	_	13	case	13:case	_
 13	those	that	PRON	DT	Number=Plur|PronType=Dem	11	nmod	11:nmod:of|16:nsubj	Entity=(23-person-new-nnnnn-cf4-1-sgl
-14	who	who	PRON	WP	PronType=Rel	16	nsubj	13:ref	Discourse=elaboration-attribute:27->26:0:syn-mdf-227-_+syn-relcl-228,230-_
+14	who	who	PRON	WP	Case=Nom|PronType=Rel	16	nsubj	13:ref	Discourse=elaboration-attribute:27->26:0:syn-mdf-227-_+syn-relcl-228,230-_
 15	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	cop	16:cop	_
 16	older	old	ADJ	JJR	Degree=Cmp	13	acl:relcl	13:acl:relcl	MSeg=old-er
 17	than	than	ADP	IN	_	18	case	18:case	_
@@ -14274,7 +14298,7 @@
 15	sea	sea	NOUN	NN	Number=Sing	11	nmod	11:nmod:under	Entity=5)25)|SpaceAfter=No
 16	,	,	PUNCT	,	_	4	punct	4:punct	_
 17	Can	can	AUX	MD	VerbForm=Fin	19	aux	19:aux	_
-18	ever	ever	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
+18	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	19	advmod	19:advmod	_
 19	dissever	dissever	VERB	VB	VerbForm=Inf	0	root	0:root	MSeg=dis-sever
 20	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(26-abstract-new-nnnnn-cf6-2-sgl(9-person-giv:inact-sssss-cf1-1-ana)
 21	soul	soul	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=26)
@@ -14298,7 +14322,7 @@
 1	For	for	SCONJ	IN	_	5	mark	5:mark	Discourse=adversative-concession:30->33:0:dm-but-293-gold|PDTB=Explicit:Contingency.Cause.Result:for:271:241-270:272-304
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(28-object-new-nnsnn-cf3-2-sgl
 3	moon	moon	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=28)
-4	never	never	ADV	RB	_	5	advmod	5:advmod	Negation=Yes
+4	never	never	ADV	RB	PronType=Neg	5	advmod	5:advmod	Negation=Yes
 5	beams	beam	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
 7	without	without	SCONJ	IN	_	8	mark	8:mark	Discourse=mode-manner:31->30:0:dm-without-277-gold+syn-pres-278-_|MSeg=with-out|PDTB=Explicit:Expansion.Manner.Arg2-as-manner:without:277:271-276:278-286
@@ -14320,7 +14344,7 @@
 1	And	and	CCONJ	CC	_	5	cc	5:cc	Discourse=joint-list_m:32->30:1:sem-lxchn-273,289-gold+grf-semcol-286-_+dm-and-287-gold|PDTB=Explicit:Expansion.Conjunction:and:287:271-286:288-304
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(30-object-new-nnsnn-cf3-2-sgl
 3	stars	star	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=30)|MSeg=star-s
-4	never	never	ADV	RB	_	5	advmod	5:advmod	Negation=Yes
+4	never	never	ADV	RB	PronType=Neg	5	advmod	5:advmod	Negation=Yes
 5	rise	rise	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	9:punct	_
 7	but	but	CCONJ	CC	_	9	cc	9:cc	Discourse=elaboration-additional:33->26:3:grf-dsh-233-_;explanation-evidence:33->26:1:3:orp-for-271-gold|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:293:271-286:287-292,294-304
@@ -14344,7 +14368,7 @@
 1	And	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint-list_m:34->33:1:grf-semcol-304-_+dm-and-305-gold;causal-result:34->33:2:1:orp-so-306-gold|PDTB=Explicit:Expansion.Conjunction:and:305:287-304:306-348
 2	so	so	ADV	RB	_	11	advmod	11:advmod	PDTB=Explicit:Contingency.Cause.Result:so:306:287-304:305,307-348|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	all	all	DET	RB	PronType=Ind	8	det:predet	8:det:predet	Bridge=5<32:entity-associative|Entity=(32-time-acc:inf-nnnnn-cf5-5-sgl
+4	all	all	DET	PDT	PronType=Ind	8	det:predet	8:det:predet	Bridge=5<32:entity-associative|Entity=(32-time-acc:inf-nnnnn-cf5-5-sgl
 5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_
 6	night	night	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(33-time-new-nnnnn-cf8-1-sgl)
 7	-	-	PUNCT	:	_	6	punct	6:punct	_
@@ -14393,6 +14417,8 @@
 # meta::dateCreated = 2020-01-16
 # meta::dateModified = 2022-06-06
 # meta::genre = poetry
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 31 (5*), 1 (4*), 3 (4*), 10 (4*), 14 (4*), 16 (4*), 22 (3*), 5 (2*), 15 (2*), 28 (2*), 11 (1), 23 (1*), 24 (1*), 30 (1*)
 # meta::sourceURL = https://en.wikisource.org/wiki/Because_I_could_not_stop_for_Death_%E2%80%94
 # meta::speakerCount = 0
@@ -14669,6 +14695,8 @@
 # meta::dateCreated = 2021-12-30
 # meta::dateModified = 2021-12-30
 # meta::genre = poetry
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 4 (5*), 1 (4*), 2 (4*), 8 (4*), 3 (3), 5 (3), 6 (2), 7 (2)
 # meta::sourceURL = https://en.wikisource.org/wiki/With_a_Flower
 # meta::speakerCount = 0
@@ -14759,6 +14787,8 @@
 # meta::dateCreated = 2019-01-17
 # meta::dateModified = 2019-01-17
 # meta::genre = poetry
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 3 (5*), 62 (5*), 8 (3*), 18 (3*), 20 (3*), 2 (2*), 137 (2), 4 (1), 11 (1*), 17 (1*), 29 (1), 54 (1)
 # meta::sourceURL = https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe/Volume_2/The_Raven
 # meta::speakerCount = 0
@@ -14832,7 +14862,7 @@
 13	,	,	PUNCT	,	_	19	punct	19:punct	_
 14	As	as	ADP	IN	ExtPos=ADP	16	case	16:case	Discourse=mode-manner:7->6:0:dm-as-42-gold|PDTB=Explicit:Comparison.Similarity:as:42:4-28:29-35,43-54
 15	of	of	ADP	IN	_	14	fixed	14:fixed	_
-16	some	someone	PRON	GW	PronType=Ind|Typo=Yes	19	nsubj	19:nsubj|21:nsubj	CorrectForm=someone|Entity=(7-person-new-nnnnn-cf3-1-coref|XML=<sic ana:::"someone">
+16	some	someone	PRON	GW	Number=Sing|PronType=Ind|Typo=Yes	19	nsubj	19:nsubj|21:nsubj	CorrectForm=someone|Entity=(7-person-new-nnnnn-cf3-1-coref|XML=<sic ana:::"someone">
 17	one	_	X	NN	_	16	goeswith	16:goeswith	CorrectForm=_|Entity=7)|XML=</sic>
 18	gently	gently	ADV	RB	Degree=Pos	19	advmod	19:advmod	MSeg=gent-ly
 19	rapping	rap	VERB	VBG	VerbForm=Ger	12	acl	12:acl	MSeg=rapp-ing|SpaceAfter=No
@@ -14901,7 +14931,7 @@
 11	December	December	PROPN	NNP	Number=Sing	5	ccomp	5:ccomp	Entity=11)|SpaceAfter=No
 12	,	,	PUNCT	,	_	18	punct	18:punct	_
 13	And	and	CCONJ	CC	_	18	cc	18:cc	Discourse=context-circumstance:15->17:2:_;elaboration-additional:15->14:0:0:orp-and-91-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:91:84-90:92-102
-14	each	each	DET	DT	PronType=Ind	17	det	17:det	Entity=(12-object-new-nnnnn-cf1-4-coref
+14	each	each	DET	DT	PronType=Tot	17	det	17:det	Entity=(12-object-new-nnnnn-cf1-4-coref
 15	separate	separate	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 16	dying	die	VERB	VBG	VerbForm=Ger	17	amod	17:amod	MSeg=dy-ing
 17	ember	ember	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=12)
@@ -14950,7 +14980,7 @@
 30	and	and	CCONJ	CC	_	31	cc	31:cc	_
 31	radiant	radiant	ADJ	JJ	Degree=Pos	29	conj	29:conj:and|32:amod	MSeg=radi-ant
 32	maiden	maiden	NOUN	NN	Number=Sing	25	parataxis	25:parataxis|36:obj	_
-33	whom	who	PRON	WP	PronType=Rel	36	obj	32:ref	Discourse=elaboration-attribute:18->17:0:syn-mdf-134-_+syn-relcl-135-_
+33	whom	who	PRON	WP	Case=Acc|PronType=Rel	36	obj	32:ref	Discourse=elaboration-attribute:18->17:0:syn-mdf-134-_+syn-relcl-135-_
 34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	35:det	Entity=(19-person-new-nnnnn-cf6-2-coref
 35	angels	angel	NOUN	NNS	Number=Plur	36	nsubj	36:nsubj	Entity=19)|MSeg=angel-s
 36	name	name	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	32:acl:relcl	_
@@ -14976,7 +15006,7 @@
 5	uncertain	uncertain	ADJ	JJ	Degree=Pos	6	amod	6:amod	MSeg=un-certain|Negation=Yes
 6	rustling	rustling	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	MSeg=rustl-ing
 7	of	of	ADP	IN	_	10	case	10:case	_
-8	each	each	DET	DT	PronType=Ind	10	det	10:det	Entity=(23-object-new-nnnnn-cf3-3-sgl
+8	each	each	DET	DT	PronType=Tot	10	det	10:det	Entity=(23-object-new-nnnnn-cf3-3-sgl
 9	purple	purple	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	curtain	curtain	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=23)22)
 11	Thrilled	thrill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=Thrill-ed
@@ -14987,7 +15017,7 @@
 16	with	with	ADP	IN	_	18	case	18:case	_
 17	fantastic	fantastic	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(24-abstract-new-nnnnn-cf4-2-sgl|MSeg=fantas-tic
 18	terrors	terror	NOUN	NNS	Number=Plur	14	obl	14:obl:with	MSeg=terror-s
-19	never	never	ADV	RB	_	20	advmod	20:advmod	Discourse=elaboration-attribute:21->20:0:syn-mdf-163-_+syn-nmn-165-_|Negation=Yes
+19	never	never	ADV	RB	PronType=Neg	20	advmod	20:advmod	Discourse=elaboration-attribute:21->20:0:syn-mdf-163-_+syn-nmn-165-_|Negation=Yes
 20	felt	feel	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	acl	18:acl	MSeg=fel-t
 21	before	before	ADV	RB	Degree=Pos	20	advmod	20:advmod	Entity=24)|SpaceAfter=No
 22	;	;	PUNCT	:	_	11	punct	11:punct	_
@@ -14999,7 +15029,7 @@
 # text = So that now, to still the beating of my heart, I stood repeating
 1	So	so	ADV	IN	_	14	advmod	14:advmod	Discourse=attribution-positive:22->25:3:sem-atsrc-180-_+lex-indwd-182-_|PDTB=Explicit:Contingency.Cause.Result:so that:168-169:146-167:170-182
 2	that	that	SCONJ	IN	_	14	mark	14:mark	_
-3	now	now	ADV	RB	_	14	advmod	14:advmod	SpaceAfter=No
+3	now	now	ADV	RB	PronType=Dem	14	advmod	14:advmod	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	to	to	PART	TO	_	6	mark	6:mark	Discourse=purpose-goal:23->24:0:syn-inf-172-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:168-171,180-182:172-179
 6	still	still	VERB	VB	VerbForm=Inf	14	advcl	14:advcl:to	_
@@ -15202,7 +15232,7 @@
 18	dreams	dream	NOUN	NNS	Number=Plur	17	obj	17:obj	Entity=(33-abstract-new-nnnnn-cf4-1-sgl|MSeg=dream-s
 19	no	no	DET	DT	PronType=Neg	20	det	20:det	Discourse=elaboration-attribute:49->48:0:syn-mdf-311-_+syn-relcl-315-_|Entity=(34-person-new-nnnnn-cf3-2-sgl|Negation=Yes
 20	mortals	mortal	NOUN	NNS	Number=Plur	22	nsubj	22:nsubj|24:nsubj:xsubj	Entity=34)|MSeg=mortal-s
-21	ever	ever	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
+21	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	22	advmod	22:advmod	_
 22	dared	dare	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	MSeg=dar-ed
 23	to	to	PART	TO	_	24	mark	24:mark	_
 24	dream	dream	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp	_
@@ -15344,7 +15374,7 @@
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	then	then	ADV	RB	PronType=Dem	1	advmod	1:advmod	PDTB=Explicit:Contingency.Cause.Result:then:416:395-411:412-415,417-425|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
-7	what	what	PRON	WP	PronType=Int	8	nsubj	8:nsubj	CxnElt=8:Interrogative-WHInfo-Indirect.WHWord
+7	what	what	PRON	WP	Case=Nom|PronType=Int	8	nsubj	8:nsubj	CxnElt=8:Interrogative-WHInfo-Indirect.WHWord
 8	thereat	thereat	ADV	RB	Degree=Pos	3	ccomp	3:ccomp	Cxn=Interrogative-WHInfo-Indirect|CxnElt=8:Interrogative-WHInfo-Indirect.Clause
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 10	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-list_m:65->64:0:dm-and-421-gold|PDTB=Explicit:Expansion.Conjunction:and:421:412-420:422-425
@@ -15570,7 +15600,7 @@
 # text = Tell me what thy lordly name is on the Night's Plutonian shore!"
 1	Tell	tell	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=1:Ditransitive.V|Discourse=topic-question:85->87:1:_|PDTB=EntRel:EntRel:_:_:528-582:583-597
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	1:iobj	CxnElt=1:Ditransitive.Rec|Entity=(3-person-giv:act-sssss-cf1*-1-ana)
-3	what	what	PRON	WP	PronType=Int	1	ccomp	1:ccomp	CxnElt=1:Ditransitive.Theme
+3	what	what	PRON	WP	Case=Acc|PronType=Int	1	ccomp	1:ccomp	CxnElt=1:Ditransitive.Theme
 4	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs|Style=Arch	6	nmod:poss	6:nmod:poss	Entity=(61-abstract-new-nnnnn-cf4-3-coref(1-animal-giv:act-sssss-cf2-1-ana)
 5	lordly	lordly	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	name	name	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=61)
@@ -15652,7 +15682,7 @@
 9	living	live	VERB	VBG	VerbForm=Ger	11	amod	11:amod	MSeg=liv-ing
 10	human	human	NOUN	NN	Number=Sing	11	compound	11:compound	_
 11	being	being	NOUN	NN	Number=Sing	15	nsubj:pass	15:nsubj:pass	Entity=67)|MSeg=be-ing
-12	Ever	ever	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
+12	Ever	ever	ADV	RB	Degree=Pos|PronType=Tot	15	advmod	15:advmod	_
 13	yet	yet	ADV	RB	_	15	advmod	15:advmod	_
 14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	15:aux:pass	_
 15	blessed	bless	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	6:ccomp	MSeg=bless-ed
@@ -15834,7 +15864,7 @@
 17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	16:nsubj	Entity=(3-person-giv:inact-sssss-cf2-1-ana)|SpaceAfter=No
 18	,	,	PUNCT	,	_	16	punct	16:punct	_
 19	"	"	PUNCT	``	_	16	punct	16:punct	Discourse=same-unit_m:110->108:0:_|SpaceAfter=No
-20	what	what	PRON	WP	PronType=Rel	26	nsubj	26:nsubj|28:nsubj	_
+20	what	what	PRON	WP	Case=Nom|PronType=Rel	26	nsubj	26:nsubj|28:nsubj	_
 21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(1-animal-giv:act-sssss-cf1*-1-ana)
 22	utters	utter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	20:acl:relcl	MSeg=utter-s
 23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	26:cop	_
@@ -15854,7 +15884,7 @@
 3	some	some	DET	DT	PronType=Ind	5	det	5:det	Entity=(80-person-new-nnnnn-cf5-3-sgl
 4	unhappy	unhappy	ADJ	JJ	Degree=Pos	5	amod	5:amod	MSeg=un-happ-y|Negation=Yes
 5	master	master	NOUN	NN	Number=Sing	1	obl	1:obl:from|9:obj	MSeg=mast-er
-6	whom	who	PRON	WP	PronType=Rel	9	obj	5:ref	Discourse=elaboration-attribute:112->111:0:syn-mdf-782-_+syn-relcl-783,786-_
+6	whom	who	PRON	WP	Case=Acc|PronType=Rel	9	obj	5:ref	Discourse=elaboration-attribute:112->111:0:syn-mdf-782-_+syn-relcl-783,786-_
 7	unmerciful	unmerciful	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(81-event-new-nnnnn-cf2-2-sgl|MSeg=un-merci-ful|Negation=Yes
 8	Disaster	disaster	NOUN	NN	Number=Sing	9	nsubj	9:nsubj|12:nsubj	Entity=81)
 9	Followed	follow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	MSeg=Follow-ed
@@ -15887,7 +15917,7 @@
 10	bore	bear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 11	Of	of	ADP	IN	_	13	case	13:case	_
 12	'	'	PUNCT	``	_	13	punct	13:punct	SpaceAfter=No
-13	Never	never	ADV	RB	_	15	reparandum	15:reparandum	Negation=Yes
+13	Never	never	ADV	RB	PronType=Neg	15	reparandum	15:reparandum	Negation=Yes
 14	—	—	PUNCT	:	_	13	punct	13:punct	_
 15	nevermore	nevermore	ADV	RB	Degree=Pos	10	advmod	10:advmod	Entity=(86-time-new-nnnnn-cf5-1-coref)|MSeg=never-more|SpaceAfter=No
 16	.	.	PUNCT	.	_	15	punct	15:punct	SpaceAfter=No
@@ -15906,7 +15936,7 @@
 3	Raven	raven	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=1)
 4	still	still	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	beguiling	beguile	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	15:advcl	MSeg=be-guil-ing
-6	all	all	DET	IN	PronType=Ind	9	det:predet	9:det:predet	Entity=(29-abstract-giv:inact-nsnnn-cf3-4-coref
+6	all	all	DET	PDT	PronType=Ind	9	det:predet	9:det:predet	Entity=(29-abstract-giv:inact-nsnnn-cf3-4-coref
 7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(3-person-giv:inact-sssss-cf1-1-ana)
 8	sad	sad	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	soul	soul	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=29)
@@ -15951,14 +15981,14 @@
 15	fancy	fancy	NOUN	NN	Number=Sing	12	obl	12:obl:unto	Entity=(88-abstract-giv:act-nnnnn-cf4-1-coref)|SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
 17	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	12:advcl	Discourse=joint-sequence_m:121->117:1:grf-semcol-842-_+dm-then-843-gold|MSeg=think-ing
-18	what	what	PRON	WP	PronType=Rel	25	reparandum	25:reparandum	_
+18	what	what	PRON	WP	Case=Acc|PronType=Rel	25	reparandum	25:reparandum	_
 19	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	21:det	Entity=(1-animal-giv:act-sssss-cf2-3-coref
 20	ominous	ominous	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
 21	bird	bird	NOUN	NN	Number=Sing	18	acl:relcl	18:acl:relcl	_
 22	of	of	ADP	IN	_	23	case	23:case	_
 23	yore	yore	NOUN	NN	Number=Sing	21	nmod	21:nmod:of	Entity=(89-time-new-nnnnn-cf5-1-coref)1)
 24	—	—	PUNCT	:	_	18	punct	18:punct	_
-25	What	what	PRON	WP	PronType=Rel	17	ccomp	17:ccomp	Entity=(90-abstract-new-nnnnn-cf7-1-sgl
+25	What	what	PRON	WP	Case=Acc|PronType=Rel	17	ccomp	17:ccomp	Entity=(90-abstract-new-nnnnn-cf7-1-sgl
 26	this	this	DET	DT	Number=Sing|PronType=Dem	37	det	37:det	Entity=(1-animal-giv:act-sssss-cf2-12-coref
 27	grim	grim	ADJ	JJ	Degree=Pos	37	amod	37:amod	SpaceAfter=No
 28	,	,	PUNCT	,	_	29	punct	29:punct	_
@@ -16002,10 +16032,10 @@
 12	To	to	ADP	IN	_	14	case	14:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(1-animal-giv:act-sssss-cf2-2-coref
 14	fowl	fowl	NOUN	NN	Number=Sing	11	obl	11:obl:to	_
-15	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	17	nmod:poss	14:ref|17:nmod:poss	Discourse=elaboration-attribute:127->126:0:syn-mdf-902-_+syn-relcl-907-_
+15	whose	whose	PRON	WP$	Case=Gen|Poss=Yes|PronType=Rel	17	nmod:poss	14:ref|17:nmod:poss	Discourse=elaboration-attribute:127->126:0:syn-mdf-902-_+syn-relcl-907-_
 16	fiery	fiery	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 17	eyes	eye	NOUN	NNS	Number=Plur	19	nsubj	19:nsubj	MSeg=eye-s
-18	now	now	ADV	RB	_	19	advmod	19:advmod	_
+18	now	now	ADV	RB	PronType=Dem	19	advmod	19:advmod	_
 19	burned	burn	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	14:acl:relcl	MSeg=burn-ed
 20	into	into	ADP	IN	_	24	case	24:case	MSeg=in-to
 21	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(92-place-new-nnnnn-cf4-4-sgl(93-object-new-nnnnn-cf5-2-sgl(3-person-giv:act-sssss-cf1*-1-ana)
@@ -16100,7 +16130,7 @@
 16	Swung	swing	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	acl	15:acl	Discourse=elaboration-attribute:139->138:0:syn-mdf-975-_+syn-nmn-976-_
 17	by	by	ADP	IN	_	18	case	18:case	_
 18	Seraphim	Seraphim	PROPN	NNPS	Number=Plur	16	obl:agent	16:obl:agent	Entity=(19-person-giv:inact-nnnnn-cf2-1-coref
-19	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	22	nmod:poss	18:ref|22:nmod:poss	Discourse=elaboration-attribute:140->139:0:syn-mdf-978-_+syn-relcl-983-_
+19	whose	whose	PRON	WP$	Case=Gen|Poss=Yes|PronType=Rel	22	nmod:poss	18:ref|22:nmod:poss	Discourse=elaboration-attribute:140->139:0:syn-mdf-978-_+syn-relcl-983-_
 20	foot	foot	NOUN	NN	Number=Sing	22	compound	22:compound	Entity=(101-abstract-new-nnnnn-cf4-3-sgl
 21	-	-	PUNCT	:	_	20	punct	20:punct	_
 22	falls	fall	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj	Entity=101)|MSeg=fall-s
@@ -16394,7 +16424,7 @@
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(18-person-giv:inact-sssnn-cf3-3-coref
 18	sainted	sainted	ADJ	JJ	Degree=Pos	19	amod	19:amod	MSeg=saint-ed
 19	maiden	maiden	NOUN	NN	Number=Sing	16	obj	16:obj|23:obj	_
-20	whom	who	PRON	WP	PronType=Rel	23	obj	19:ref	Discourse=elaboration-attribute:179->178:0:syn-mdf-1184-_+syn-relcl-1185,1188-_
+20	whom	who	PRON	WP	Case=Acc|PronType=Rel	23	obj	19:ref	Discourse=elaboration-attribute:179->178:0:syn-mdf-1184-_+syn-relcl-1185,1188-_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(19-person-giv:inact-nnnnn-cf2-2-coref
 22	angels	angel	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj	Entity=19)|MSeg=angel-s
 23	name	name	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	19:acl:relcl	_
@@ -16412,7 +16442,7 @@
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
 5	radiant	radiant	ADJ	JJ	Degree=Pos	3	conj	3:conj:and|6:amod	MSeg=radi-ant
 6	maiden	maiden	NOUN	NN	Number=Sing	1	obj	1:obj|10:obj	_
-7	whom	who	PRON	WP	PronType=Rel	10	obj	6:ref	Discourse=elaboration-attribute:181->180:0:syn-mdf-1196-_+syn-relcl-1197,1200-_
+7	whom	who	PRON	WP	Case=Acc|PronType=Rel	10	obj	6:ref	Discourse=elaboration-attribute:181->180:0:syn-mdf-1196-_+syn-relcl-1197,1200-_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(19-person-giv:act-nnnnn-cf1*-2-coref
 9	angels	angel	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	Entity=19)|MSeg=angel-s
 10	name	name	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
@@ -16577,7 +16607,7 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(1-animal-giv:act-sssss-cf1*-2-coref
 3	Raven	raven	NOUN	NN	Number=Sing	10	nsubj	10:nsubj|14:nsubj	Entity=1)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
-5	never	never	ADV	RB	_	6	advmod	6:advmod	Discourse=elaboration-attribute:199->198:0:syn-pres-1304-_|Negation=Yes
+5	never	never	ADV	RB	PronType=Neg	6	advmod	6:advmod	Discourse=elaboration-attribute:199->198:0:syn-pres-1304-_|Negation=Yes
 6	flitting	flit	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	10:advcl	MSeg=flitt-ing|SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
 8	still	still	ADV	RB	Degree=Pos	10	advmod	10:advmod	Discourse=same-unit_m:200->198:1:_
@@ -16609,7 +16639,7 @@
 2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(133-object-new-nnnnn-cf2-2-sgl(1-animal-giv:act-sssss-cf1*-1-ana)
 3	eyes	eye	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=133)|MSeg=eye-s
 4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-5	all	all	DET	RB	PronType=Ind	7	det:predet	7:det:predet	Entity=(134-abstract-new-nnnnn-cf3-3-sgl
+5	all	all	DET	PDT	PronType=Ind	7	det:predet	7:det:predet	Entity=(134-abstract-new-nnnnn-cf3-3-sgl
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
 7	seeming	seeming	NOUN	NN	Number=Sing	4	obj	4:obj	MSeg=seem-ing
 8	of	of	ADP	IN	_	10	case	10:case	_
@@ -16674,6 +16704,8 @@
 # meta::dateCreated = 2021-05-30
 # meta::dateModified = 2021-05-30
 # meta::genre = poetry
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 3 (5*), 6 (5*), 17 (5*), 22 (5*), 1 (4*), 4 (1), 8 (1*), 18 (1)
 # meta::sourceURL = https://en.wikisource.org/wiki/Mountain_Interval/The_Road_Not_Taken
 # meta::speakerCount = 0
@@ -16842,7 +16874,7 @@
 12	if	if	SCONJ	IN	_	16	mark	16:mark	Discourse=adversative-concession:19->7:1:_
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	16:nsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 14	should	should	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
-15	ever	ever	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
+15	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	16	advmod	16:advmod	_
 16	come	come	VERB	VB	VerbForm=Inf	11	ccomp	11:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=16:Interrogative-Polar-Indirect.Clause
 17	back	back	ADV	RB	Degree=Pos	16	advmod	16:advmod	SpaceAfter=No
 18	.	.	PUNCT	.	_	11	punct	11:punct	_
@@ -16862,7 +16894,7 @@
 6	with	with	ADP	IN	_	8	case	8:case	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(18-abstract-new-nsnnn-cf7-2-sgl
 8	sigh	sigh	NOUN	NN	Number=Sing	4	obl	4:obl:with	Entity=18)
-9	Somewhere	somewhere	ADV	RB	_	4	advmod	4:advmod	Entity=(19-place-new-nnnnn-cf10-1-sgl)|MSeg=Some-where
+9	Somewhere	somewhere	ADV	RB	PronType=Tot	4	advmod	4:advmod	Entity=(19-place-new-nnnnn-cf10-1-sgl)|MSeg=Some-where
 10	ages	age	NOUN	NNS	Number=Plur	4	obl:unmarked	4:obl:unmarked	Entity=(20-time-new-nnnnn-cf8-1-sgl)|MSeg=age-s
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_
 12	ages	age	NOUN	NNS	Number=Plur	10	conj	4:obl:unmarked|10:conj:and	Entity=(21-time-new-nnnnn-cf9-1-sgl)|MSeg=age-s
@@ -16902,6 +16934,8 @@
 # meta::dateCreated = 2009-03-13
 # meta::dateModified = 2022-03-21
 # meta::genre = proof
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 3 (5*), 32 (5*), 5 (4*), 7 (4*), 15 (4*), 17 (4*), 36 (4*), 11 (3), 37 (3*), 38 (3*), 2 (2), 13 (2), 76 (2), 4 (1*), 6 (1), 9 (1), 12 (1), 14 (1*), 16 (1), 21 (1), 22 (1), 28 (1*), 30 (1*), 31 (1*), 35 (1*), 40 (1*)
 # meta::sourceURL = https://proofwiki.org/wiki/Five_Color_Theorem
 # meta::speakerCount = 0
@@ -17061,7 +17095,7 @@
 # s_type = decl
 # transition = null
 # text = Now we need to show that, if P (r) is true, where r ≥ 5, then it logically follows that P (r + 1) is true.
-1	Now	now	ADV	RB	_	3	advmod	3:advmod	Discourse=attribution-positive:12->13:1:sem-atsrc-89-_+lex-indwd-92-_+syn-rpr-93,95,112-_
+1	Now	now	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=attribution-positive:12->13:1:sem-atsrc-89-_+lex-indwd-92-_+syn-rpr-93,95,112-_
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(23-person-giv:inact-nnnnn-cf2-1-ana)
 3	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
@@ -17423,7 +17457,7 @@
 # s_type = imp
 # transition = establishment
 # text = Suppose there exists no path between y1 and y3 in H1,3.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:45->46:0:sem-atsrc-334-_+lex-indwd-334-_|PDTB=NoRel:NoRel:_:_:331-333:334-345
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:45->46:0:lex-indwd-334-_+sem-atsrc-334-_|PDTB=NoRel:NoRel:_:_:331-333:334-345
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	Discourse=contingency-condition:46->47:0:_
 3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential--ExistPred-ThereExpl|MSeg=exist-s
 4	no	no	DET	DT	PronType=Neg	5	det	5:det	Entity=(62-abstract-new-nnnnn-cf4-8-sgl|Negation=Yes
@@ -17624,7 +17658,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Now x is no longer adjacent to a vertex of color c2, so we can color it c2.
-1	Now	now	ADV	RB	_	6	advmod	6:advmod	Discourse=explanation-evidence:61->62:0:dm-so-492-gold|PDTB=EntRel:EntRel:_:_:460-478:479-498
+1	Now	now	ADV	RB	PronType=Dem	6	advmod	6:advmod	Discourse=explanation-evidence:61->62:0:dm-so-492-gold|PDTB=EntRel:EntRel:_:_:460-478:479-498
 2	x	x	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=(37-abstract-giv:inact-ssnns-cf2-1-coref)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 4	no	no	ADV	RB	Degree=Pos|Polarity=Neg	5	advmod	5:advmod	Negation=Yes
@@ -17803,6 +17837,8 @@
 # meta::dateCreated = 2014-10-21
 # meta::dateModified = 2020-09-29
 # meta::genre = proof
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 11 (5*), 2 (3*), 7 (3*), 8 (3*), 47 (3), 52 (3), 74 (3), 3 (2*), 4 (2*), 9 (2*), 10 (2*), 13 (2*), 63 (2), 5 (1), 6 (1), 12 (1*), 38 (1)
 # meta::sourceURL = https://proofwiki.org/wiki/Square_on_Second_Bimedial_Straight_Line_applied_to_Rational_Straight_Line
 # meta::speakerCount = 0
@@ -18765,6 +18801,8 @@
 # meta::dateCreated = 2018-06-26
 # meta::dateModified = 2022-07-09
 # meta::genre = proof
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 2 (5*), 3 (5*), 4 (5*), 9 (5*), 8 (4), 82 (4*), 84 (3*), 25 (2*), 30 (2*), 46 (2*), 7 (1), 76 (1), 83 (1*), 94 (1)
 # meta::sourceURL = https://proofwiki.org/wiki/Wosets_are_Isomorphic_to_Each_Other_or_Initial_Segments/Proof_Without_Using_Choice
 # meta::speakerCount = 0
@@ -19091,7 +19129,7 @@
 # s_type = imp
 # transition = rough-shift
 # text = Suppose x, y ∈ S and z ∈ T.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:33->34:1:lex-indwd-212-_+sem-atsrc-212-_|PDTB=Implicit:Expansion.Disjunction:or:_:180-211:212-222
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:33->34:1:sem-atsrc-212-_+lex-indwd-212-_|PDTB=Implicit:Expansion.Disjunction:or:_:180-211:212-222
 2	x	x	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Discourse=context-background:34->37:3:sem-rpt-213,233-_+sem-rpt-215,241-_+sem-rpt-217,239-_+sem-rpt-219,235-_+sem-rpt-221,243-_|Entity=(38-abstract-new-nnnnn-cf1-1,3-coref(39-abstract-new-nnnnn-cf5-1-coref)|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	y	y	NOUN	NN	Number=Sing	2	conj	2:conj|5:nsubj	Entity=(40-abstract-new-nnnnn-cf6-1-coref)38)
@@ -19299,7 +19337,7 @@
 # s_type = imp
 # transition = zero
 # text = Conclude that ⪯ is a total ordering.
-1	Conclude	conclude	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:58->59:0:lex-indwd-344-_+sem-atsrc-344-_+syn-rpr-345-_|PDTB=NoRel:NoRel:_:_:330-343:344-351
+1	Conclude	conclude	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:58->59:0:sem-atsrc-344-_+lex-indwd-344-_+syn-rpr-345-_|PDTB=NoRel:NoRel:_:_:330-343:344-351
 2	that	that	SCONJ	IN	_	7	mark	7:mark	Discourse=ROOT:59:0
 3	⪯	⪯	SYM	SYM	_	7	nsubj	7:nsubj	Entity=(9-abstract-giv:inact-sssss-cf1-1-coref)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
@@ -19701,7 +19739,7 @@
 # s_type = imp
 # transition = smooth-shift
 # text = Note that Ix = Ik (x), because k (x) = x.
-1	Note	note	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:95->96:1:sem-atsrc-636-_+lex-indwd-636-_+syn-rpr-637-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:620-635:636-652
+1	Note	note	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:95->96:1:lex-indwd-636-_+sem-atsrc-636-_+syn-rpr-637-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:620-635:636-652
 2	that	that	SCONJ	IN	_	4	mark	4:mark	Discourse=elaboration-additional:96->92:1:sem-rpt-621,638-_+sem-rpt-630,642-_
 3	Ix	Ix	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(85-abstract-giv:act-nnnnn-cf1*-1-coref)
 4	=	=	SYM	SYM	_	1	ccomp	1:ccomp	_
@@ -19726,7 +19764,7 @@
 # s_type = imp
 # transition = zero
 # text = Suppose x ∈ S.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:98->99:0:lex-indwd-653-_+sem-atsrc-653-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:98->99:0:sem-atsrc-653-_+lex-indwd-653-_
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=contingency-condition:99->100:1:dm-then-658-gold|Entity=(90-abstract-new-nnnnn-cf1-1-coref)
 3	∈	∈	SYM	SYM	_	1	ccomp	1:ccomp	Entity=(90-abstract-giv:act-nnnnn-cf1-1-coref
 4	S	S	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	Entity=(3-abstract-giv:inact-sssss-cf2-1-coref)90)|SpaceAfter=No
@@ -19852,7 +19890,7 @@
 # s_type = imp
 # transition = retain
 # text = Suppose x ∈ T and x ≠ min T.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:110->111:1:sem-atsrc-737-_+lex-indwd-737-_|PDTB=NoRel:NoRel:_:_:724-736:737-746
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:110->111:1:lex-indwd-737-_+sem-atsrc-737-_|PDTB=NoRel:NoRel:_:_:724-736:737-746
 2	x	x	SYM	SYM	_	3	nsubj	3:nsubj	Discourse=contingency-condition:111->113:1:dm-then-747-gold|Entity=(99-abstract-new-nnnnn-cf1-1-coref)
 3	∈	∈	NOUN	NN	Number=Sing	1	ccomp	1:ccomp	Entity=(99-abstract-giv:act-nnnnn-cf1-1-pred
 4	T	T	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	Entity=(4-abstract-giv:act-sssss-cf2*-1-coref)99)
@@ -19953,6 +19991,8 @@
 # meta::dateCreated = 2017-01-10
 # meta::dateModified = 2022-06-15
 # meta::genre = syllabus
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 2 (5*), 99 (5*), 7 (4*), 98 (4), 130 (4*), 104 (3), 118 (3), 132 (3*), 35 (2*), 48 (2*), 83 (2), 97 (2), 117 (2), 140 (2), 161 (2), 4 (1*), 5 (1*), 17 (1), 20 (1), 25 (1), 71 (1*), 72 (1*), 77 (1), 89 (1*), 100 (1*), 101 (1*), 102 (1*), 103 (1*), 109 (1*), 110 (1*), 111 (1*), 119 (1), 123 (1), 127 (1), 131 (1), 133 (1*), 136 (1*), 145 (1), 152 (1), 231 (1)
 # meta::sourceURL = https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Syllabus.md
 # meta::speakerCount = 0
@@ -20151,7 +20191,7 @@
 3	Professor	Professor	PROPN	NNP	Number=Sing	4	nmod:desc	4:nmod:desc	Entity=(27-person-new-nnnnn-cf3-2,3-sgl|MSeg=Profess-or
 4	Mukkai	Mukkai	PROPN	NNP	Number=Sing	0	root	0:root|7:nsubj	_
 5	Krishnamoorthy	Krishnamoorthy	PROPN	NNP	Number=Sing	4	flat	4:flat	_
-6	who	who	PRON	WP	PronType=Rel	7	nsubj	4:ref	Discourse=elaboration-attribute:18->17:0:syn-mdf-119-_+syn-relcl-121-122-_
+6	who	who	PRON	WP	Case=Nom|PronType=Rel	7	nsubj	4:ref	Discourse=elaboration-attribute:18->17:0:syn-mdf-119-_+syn-relcl-121-122-_
 7	succeeded	succeed	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	MSeg=succeed-ed
 8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	7:obj	Entity=(10-person-giv:act-nnnnn-cf1*-1-ana)
 9	in	in	SCONJ	IN	_	10	mark	10:mark	Discourse=elaboration-additional:19->18:0:dm-in-124-gold+syn-pres-125-_|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:in:124:121-123:125-127
@@ -21808,9 +21848,9 @@
 # s_type = imp
 # transition = null
 # text = Do not copy blindly.
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=adversative-antithesis:165->166:0:_|PDTB=NoRel:NoRel:_:_:890-913:914-918
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=adversative-antithesis:165->166:0:_|PDTB=NoRel:NoRel:_:_:890-913:914-918
 2	not	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	copy	copy	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+3	copy	copy	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	blindly	blindly	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=blind-ly|SpaceAfter=No
 5	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -22098,6 +22138,8 @@
 # meta::dateCreated = 2020-01-02
 # meta::dateModified = 2022-05-18
 # meta::genre = syllabus
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 4 (5*), 5 (5*), 16 (5*), 13 (4), 14 (4), 44 (4*), 96 (4), 92 (3*), 20 (2), 39 (2), 59 (2*), 62 (2*), 63 (2*), 73 (2*), 87 (2*), 309 (2), 1 (1*), 6 (1), 8 (1), 12 (1), 25 (1), 26 (1), 27 (1), 31 (1), 61 (1*), 69 (1*), 71 (1*), 78 (1*), 80 (1*), 81 (1*), 86 (1*), 89 (1*), 91 (1*), 256 (1*)
 # meta::sourceURL = https://github.com/Techtonica/curriculum/blob/main/README.md
 # meta::speakerCount = 0
@@ -22193,7 +22235,7 @@
 # s_type = decl
 # transition = null
 # text = What bootcamps and Techtonica have in common is the fact that they are intensive training.
-1	What	what	PRON	WP	PronType=Rel	10	nsubj	10:nsubj	Discourse=joint-other_m:8->6:1:_|PDTB=Implicit:Expansion.Conjunction:and:_:38-51:52-67
+1	What	what	PRON	WP	Case=Nom|PronType=Rel	10	nsubj	10:nsubj	Discourse=joint-other_m:8->6:1:_|PDTB=Implicit:Expansion.Conjunction:and:_:38-51:52-67
 2	bootcamps	bootcamp	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=(17-abstract-new-nnnnn-cf1-1,3-coref(18-abstract-new-nnnnn-cf3-1-coref-Coding_bootcamp)|MSeg=boot-camp-s
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	Techtonica	Techtonica	PROPN	NNP	Number=Sing	2	conj	2:conj:and|5:nsubj	Entity=(2-abstract-giv:inact-sssss-cf2-1-coref)17)|MSeg=Tech-ton-ic-a
@@ -22312,7 +22354,7 @@
 66	to	to	PART	TO	_	67	mark	67:mark	_
 67	figure	figure	VERB	VB	VerbForm=Inf	65	xcomp	65:xcomp	_
 68	out	out	ADP	RP	_	67	compound:prt	67:compound:prt	_
-69	what	what	PRON	WP	PronType=Int	67	obj	67:obj	_
+69	what	what	PRON	WP	Case=Acc|PronType=Int	67	obj	67:obj	_
 70	to	to	PART	TO	_	71	mark	71:mark	_
 71	do	do	VERB	VB	VerbForm=Inf	69	acl	69:acl:to	_
 72	on	on	ADP	IN	_	74	case	74:case	_
@@ -22414,7 +22456,7 @@
 12	program	program	NOUN	NN	Number=Sing	6	nmod	6:nmod:during	Entity=13)50)49)
 13	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=adversative-contrast_m:25->24:0:dm-but-223-gold|PDTB=Explicit:Comparison.Contrast:but:223:211-222:224-229
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	17:aux:pass	_
-15	always	always	ADV	RB	_	17	advmod	17:advmod	MSeg=al-way-s
+15	always	always	ADV	RB	PronType=Tot	17	advmod	17:advmod	MSeg=al-way-s
 16	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	17	aux:pass	17:aux:pass	MSeg=be-ing
 17	tuned	tune	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	6:conj:but	MSeg=tun-ed
 18	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=joint-list_m:26->25:0:dm-and-228-gold|PDTB=Explicit:Expansion.Conjunction:and:228:223-227:229
@@ -23155,7 +23197,7 @@
 1	7.	7.	X	LS	_	2	discourse	2:discourse	Discourse=organization-preparation:94->95:0:sem-synym-532,534-538-_+grf-col-533-_|XML=<ref target:::"https://bitsofco.de/what-exactly-is-the-dom/">
 2	Article	article	NOUN	NN	Number=Sing	0	root	0:root	Entity=(149-abstract-new-nnnnn-cf1-1-coref)|SpaceAfter=No
 3	:	:	PUNCT	:	_	8	punct	8:punct	_
-4	What	what	PRON	WP	PronType=Int	8	nsubj	8:nsubj	Discourse=joint-list_m:95->88:0:grf-seq-531-_|Entity=(149-abstract-giv:act-nnnnn-cf1-5-appos
+4	What	what	PRON	WP	Case=Nom|PronType=Int	8	nsubj	8:nsubj	Discourse=joint-list_m:95->88:0:grf-seq-531-_|Entity=(149-abstract-giv:act-nnnnn-cf1-5-appos
 5	Exactly	exactly	ADV	RB	Degree=Pos	8	advmod	8:advmod	MSeg=Exact-ly
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(150-abstract-new-nnnnn-cf2-2-sgl-Document_Object_Model
@@ -24987,6 +25029,8 @@
 # meta::dateCreated = 1990-06-25
 # meta::dateModified = 1990-06-25
 # meta::genre = threat
+# meta::modality = written
+# meta::production = informal/prepared/private
 # meta::salientEntities = 1 (5*), 3 (5*), 4 (5*), 35 (5*), 46 (5*), 34 (4*), 2 (2*), 13 (2), 14 (2*), 17 (2*), 8 (1), 29 (1), 30 (1), 37 (1*), 38 (1*), 39 (1*), 40 (1*), 41 (1*)
 # meta::sourceURL = https://casetext.com/case/people-v-bolin
 # meta::speakerCount = 0
@@ -25020,7 +25064,7 @@
 5	from	from	ADP	IN	_	6	case	6:case	_
 6	Paula	Paula	PROPN	NNP	Number=Sing	4	obl	4:obl:from	Entity=(4-person-new-sssss-cf2-1-coref)
 7	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=context-background:3->9:2:ref-prs-4,60-_;elaboration-additional:3->2:0:0:lex-indwd-18-_+orp-and-9-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:9:3-8:10-21
-8	what	what	PRON	WP	PronType=Rel	17	obl	17:obl:with	_
+8	what	what	PRON	WP	Case=Acc|PronType=Rel	17	obl	17:obl:with	_
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(3-person-giv:act-sssss-cf1-1-ana)
 10	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	acl:relcl	8:acl:relcl	MSeg=hear-d
 11	from	from	ADP	IN	_	12	case	12:case	_
@@ -25050,7 +25094,7 @@
 9	real	real	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 10	different	different	ADJ	JJ	Degree=Pos	4	acl:relcl	4:acl:relcl	MSeg=differ-ent
 11	from	from	ADP	IN	_	12	case	12:case	_
-12	what	what	PRON	WP	PronType=Rel	10	obl	4:ref	_
+12	what	what	PRON	WP	Case=Acc|PronType=Rel	10	obl	4:ref	_
 13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj	Entity=(1-person-acc:com-sssss-cf3-1-ana)
 14	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
 15	to	to	PART	TO	_	16	mark	16:mark	_
@@ -25088,7 +25132,7 @@
 # text = If you ever touch my daughter again, I'll have you permanently removed from the face of this Earth.
 1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:8->9:0:dm-if-56-gold|PDTB=EntRel:EntRel:_:_:39-55:56-76;Explicit:Contingency.Condition.Arg2-as-cond:if:56:64-76:57-63
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana)
-3	ever	ever	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
+3	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	4	advmod	4:advmod	_
 4	touch	touch	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	CxnElt=11:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(8-person-new-nnsnn-cf3-2-coref(3-person-giv:act-sssss-cf2-1-ana)
 6	daughter	daughter	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=8)
@@ -25147,13 +25191,13 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:13->14:0:sem-atsrc-97-_+lex-indwd-98-_|Entity=(3-person-giv:inact-sssss-cf1-1-ana)
 2	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	out	out	ADP	RP	_	2	compound:prt	2:compound:prt	_
-4	what	what	PRON	WP	PronType=Rel	2	obj	2:obj	Discourse=context-background:14->37:6:ref-prs-97,274-_+ref-prs-116,301-_|Entity=(12-abstract-new-nnnnn-cf4-1-sgl
+4	what	what	PRON	WP	Case=Acc|PronType=Rel	2	obj	2:obj	Discourse=context-background:14->37:6:ref-prs-97,274-_+ref-prs-116,301-_|Entity=(12-abstract-new-nnnnn-cf4-1-sgl
 5	happend	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 6	to	to	ADP	IN	_	7	case	7:case	_
 7	most	most	ADJ	JJS	Degree=Sup	5	obl	5:obl:to	_
 8	of	of	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(13-abstract-new-nsnsn-cf6-2-sgl
-10	money	money	NOUN	NN	Number=Sing	7	obl	7:obl:of	Entity=13)
+10	money	money	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=13)
 11	from	from	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Bridge=1<14:entity-associative|Entity=(14-object-acc:inf-ssnnn-cf3-2-coref
 13	van	van	NOUN	NN	Number=Sing	10	nmod	10:nmod:from	Entity=14)12)|SpaceAfter=No
@@ -25356,7 +25400,7 @@
 # s_type = multiple
 # transition = continue
 # text = What I want done and it better be done.
-1	What	what	PRON	WP	PronType=Rel	0	root	0:root	Discourse=explanation-motivation:35->37:5:_|PDTB=EntRel:EntRel:_:_:224-260:261-270
+1	What	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	Discourse=explanation-motivation:35->37:5:_|PDTB=EntRel:EntRel:_:_:224-260:261-270
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|4:nsubj:xsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
 4	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	3:xcomp	MSeg=do-ne
@@ -25522,7 +25566,7 @@
 7	Paula	Paula	PROPN	NNP	Number=Sing	3	obl	3:obl:with	Entity=(4-person-giv:inact-sssss-cf3-1-coref)
 8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=adversative-antithesis:53->37:4:dm-and-369-gold|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:and:376:369-375:377-380
 9	see	see	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	conj	2:conj:and	_
-10	what	what	PRON	WP	PronType=Rel	9	obj	9:obj	_
+10	what	what	PRON	WP	Case=Acc|PronType=Rel	9	obj	9:obj	_
 11	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	MSeg=happ-en-s|SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -25533,6 +25577,8 @@
 # meta::dateCreated = 2011-01-19
 # meta::dateModified = 2011-01-19
 # meta::genre = threat
+# meta::modality = written
+# meta::production = informal/prepared/private
 # meta::salientEntities = 1 (5*), 6 (5*), 7 (5*), 87 (5*), 8 (4*), 9 (3*), 28 (3), 36 (2), 30 (1*), 32 (1), 34 (1*), 38 (1*), 40 (1*), 41 (1*), 42 (1), 46 (1*), 49 (1*), 54 (1*), 64 (1), 65 (1), 70 (1), 71 (1), 73 (1), 75 (1), 88 (1), 96 (1), 98 (1*), 104 (1)
 # meta::sourceURL = https://casetext.com/case/united-states-v-dillard-8
 # meta::speakerCount = 0
@@ -25607,7 +25653,7 @@
 1	Fewer	few	ADJ	JJR	Degree=Cmp	2	amod	2:amod	Discourse=explanation-justify:5->4:1:_|Entity=(13-person-new-nnnnn-cf4-2-sgl|MSeg=Few-er|PDTB=Implicit:Contingency.Cause.Reason:because:_:23-35:36-85
 2	people	person	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	_
 3	than	than	ADP	IN	_	5	case	5:case	_
-4	ever	ever	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
+4	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	5	advmod	5:advmod	_
 5	before	before	ADV	RB	Degree=Pos	2	nmod	2:nmod:than	Entity=13)
 6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 7	pro-abortion	pro-abortion	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=pro-abortion|SpaceAfter=No
@@ -25628,7 +25674,7 @@
 21	more	more	ADJ	JJR	Degree=Cmp	22	amod	22:amod	Entity=(15-person-new-nnnnn-cf3-2-sgl-Americans
 22	Americans	American	PROPN	NNPS	Number=Plur	27	nsubj	27:nsubj|29:nsubj:xsubj	MSeg=America-n-s
 23	than	than	ADP	IN	_	25	case	25:case	_
-24	ever	ever	ADV	RB	Degree=Pos	25	advmod	25:advmod	_
+24	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	25	advmod	25:advmod	_
 25	before	before	ADV	RB	Degree=Pos	22	nmod	22:nmod:than	Entity=15)
 26	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	27:cop	_
 27	unwilling	unwilling	ADJ	JJ	Degree=Pos	7	conj	7:conj:and	MSeg=un-will-ing|Negation=Yes
@@ -25762,12 +25808,12 @@
 4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(1-person-giv:act-sssss-cf2-1-ana)
 5	shop	shop	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl:relcl	2:advcl:relcl	SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
-7	who	who	PRON	WP	PronType=Rel	5	conj	2:advcl:relcl|5:conj	_
+7	who	who	PRON	WP	Case=Acc|PronType=Rel	5	conj	2:advcl:relcl|5:conj	_
 8	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(33-person-new-nnnnn-cf3-2-sgl(1-person-giv:act-sssss-cf2-1-ana)
 9	friends	friend	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	Entity=33)|MSeg=friend-s
 10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
-12	what	what	PRON	WP	PronType=Rel	5	conj	2:advcl:relcl|5:conj	_
+12	what	what	PRON	WP	Case=Acc|PronType=Rel	5	conj	2:advcl:relcl|5:conj	_
 13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj	Entity=(1-person-giv:act-sssss-cf2-1-ana)
 14	drive	drive	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
@@ -25836,7 +25882,7 @@
 8-9	you've	_	_	_	_	_	_	_	_
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana)
 9	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
-10	ever	ever	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
+10	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	11	advmod	11:advmod	_
 11	known	know	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	5:advcl:than	MSeg=know-n|SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	legally	legally	ADV	RB	Degree=Pos	3	advmod	3:advmod	Discourse=same-unit_m:23->21:1:_|MSeg=legal-ly
@@ -25968,7 +26014,7 @@
 4	trouble	trouble	NOUN	NN	Number=Sing	3	obj	3:obj	_
 5	keeping	keep	VERB	VBG	VerbForm=Ger	4	acl	4:acl	MSeg=keep-ing
 6	staff	staff	NOUN	NN	Number=Sing	5	obj	5:obj|9:nsubj	Entity=(54-person-new-snnnn-cf4-1-sgl
-7	who	who	PRON	WP	PronType=Rel	9	nsubj	6:ref	Discourse=elaboration-attribute:38->37:0:syn-mdf-314-_+syn-relcl-315,317-_
+7	who	who	PRON	WP	Case=Nom|PronType=Rel	9	nsubj	6:ref	Discourse=elaboration-attribute:38->37:0:syn-mdf-314-_+syn-relcl-315,317-_
 8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 9	willing	willing	ADJ	JJ	Degree=Pos	6	acl:relcl	6:acl:relcl	MSeg=will-ing
 10	to	to	PART	TO	_	11	mark	11:mark	_
@@ -26034,7 +26080,7 @@
 # transition = continue
 # text = Anyone who partners with you will experience the same headaches.
 1	Anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	7	nsubj	3:nsubj|7:nsubj	Discourse=elaboration-additional:43->26:3:ref-prs-237,371-_|Entity=(62-person-new-nnnnn-cf3-1-sgl|MSeg=Any-one|PDTB=Implicit:Expansion.Conjunction:furthermore:_:343-366:367-377
-2	who	who	PRON	WP	PronType=Rel	3	nsubj	1:ref	Discourse=elaboration-attribute:44->43:0:syn-mdf-367-_+syn-relcl-368-369-_
+2	who	who	PRON	WP	Case=Nom|PronType=Rel	3	nsubj	1:ref	Discourse=elaboration-attribute:44->43:0:syn-mdf-367-_+syn-relcl-368-369-_
 3	partners	partner	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
 4	with	with	ADP	IN	_	5	case	5:case	_
 5	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obl	3:obl:with	Entity=(1-person-giv:act-sssss-cf1*-1-ana)62)
@@ -26082,7 +26128,7 @@
 2	ca	can	AUX	MD	VerbForm=Fin	4	aux	4:aux|10:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 4	do	do	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	what	what	PRON	WP	PronType=Rel	4	obj	4:obj	_
+5	what	what	PRON	WP	Case=Acc|PronType=Rel	4	obj	4:obj	_
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 7	morally	morally	ADV	RB	Degree=Pos	8	advmod	8:advmod	MSeg=moral-ly
 8	reprehensible	reprehensible	ADJ	JJ	Degree=Pos	5	acl:relcl	5:acl:relcl	MSeg=reprehens-ible
@@ -26194,7 +26240,7 @@
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=explanation-justify:63->60:2:_|Entity=(1-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Contingency.Cause.Result:so:_:455-492:493-511
 2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=do-ing
-4	what	what	PRON	WP	PronType=Rel	3	obj	3:obj	_
+4	what	what	PRON	WP	Case=Acc|PronType=Rel	3	obj	3:obj	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(85-organization-new-nnnnn-cf2-2,3-sgl
 6	Humane	Humane	PROPN	NNP	Number=Sing	7	compound	7:compound	_
 7	Society	Society	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj|12:nsubj:xsubj	Entity=85)|MSeg=Soci-et-y
@@ -26253,7 +26299,7 @@
 12	and	and	CCONJ	CC	_	14	cc	14:cc	_
 13	many	many	ADJ	JJ	Degree=Pos	14	amod	14:amod	Bridge=89<91:entity-associative|Entity=(91-abstract-acc:inf-nnnnn-cf3-2-sgl
 14	others	other	NOUN	NNS	Number=Plur	4	conj	2:nsubj|4:conj:and|17:nsubj	MSeg=other-s
-15	who	who	PRON	WP	PronType=Rel	17	nsubj	14:ref	Discourse=elaboration-attribute:67->66:0:syn-mdf-539-_+syn-relcl-540,542-_
+15	who	who	PRON	WP	Case=Nom|PronType=Rel	17	nsubj	14:ref	Discourse=elaboration-attribute:67->66:0:syn-mdf-539-_+syn-relcl-540,542-_
 16	must	must	AUX	MD	VerbForm=Fin	17	aux	17:aux	_
 17	take	take	VERB	VB	VerbForm=Inf	14	acl:relcl	14:acl:relcl	_
 18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(92-abstract-new-nnnnn-cf4-2-sgl
@@ -26424,6 +26470,8 @@
 # meta::dateCreated = 2012-01-01
 # meta::dateModified = 2012-01-01
 # meta::genre = threat
+# meta::modality = written
+# meta::production = informal/prepared/private
 # meta::salientEntities = 1 (5*), 2 (5*), 3 (5*), 8 (5*), 19 (5*), 10 (3), 17 (3*), 16 (2*), 7 (1*), 14 (1), 15 (1), 30 (1), 37 (1), 38 (1)
 # meta::sourceURL = https://casetext.com/case/state-v-kelly-473
 # meta::speakerCount = 0
@@ -26935,7 +26983,7 @@
 5	like	like	SCONJ	IN	_	9	mark	9:mark	Discourse=mode-manner:50->49:0:dm-like-313-gold|PDTB=Explicit:Comparison.Similarity:like:313:309-312:314-317
 6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(1-person-giv:act-sssss-cf2-1-ana)
 7	will	will	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
-8	never	never	ADV	RB	_	9	advmod	9:advmod	Negation=Yes
+8	never	never	ADV	RB	PronType=Neg	9	advmod	9:advmod	Negation=Yes
 9	believe	believe	VERB	VB	VerbForm=Inf	3	advcl	3:advcl:like	_
 10	so	so	ADV	RB	_	20	advmod	20:advmod	Discourse=restatement-repetition_m:51->20:4:ref-prs-133,309-_+ref-prs-142,314-_+sem-rpt-277,327-_|PDTB=Explicit:Contingency.Cause.Result:so:318:309-317:319-342
 11	if	if	SCONJ	IN	_	15	mark	15:mark	Discourse=contingency-condition:52->53:0:dm-if-319-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:319:318,328-334:320-327
@@ -27118,7 +27166,7 @@
 8	girl	girl	NOUN	NN	Number=Sing	5	nmod	5:nmod:for	Entity=1)
 9	so	so	ADV	RB	_	12	advmod	12:advmod	Discourse=explanation-motivation:70->66:3:_|PDTB=Explicit:Contingency.Cause.Result:so:445:437-444:446-450
 10-11	don't	_	_	_	_	_	_	_	_
-10	do	do	AUX	VB	VerbForm=Inf	12	aux	12:aux	_
+10	do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	12	aux	12:aux	_
 11	n't	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	Negation=Yes
 12	try	try	VERB	VB	VerbForm=Inf	5	parataxis	5:parataxis	_
 13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	iobj	12:iobj	Entity=(8-person-giv:act-sssss-cf1*-1-ana)|SpaceAfter=No
@@ -27132,9 +27180,9 @@
 # transition = smooth-shift
 # text = Don't take your time.
 1-2	Don't	_	_	_	_	_	_	_	_
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=explanation-motivation:71->20:5:_
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=explanation-motivation:71->20:5:_
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	take	take	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+3	take	take	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(1-person-giv:act-sssss-cf1*-1-ana)
 5	time	time	NOUN	NN	Number=Sing	3	obj	3:obj	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -27156,6 +27204,8 @@
 # meta::dateCreated = 1990-09-03
 # meta::dateModified = 1990-09-03
 # meta::genre = threat
+# meta::modality = written
+# meta::production = informal/prepared/private
 # meta::salientEntities = 3 (5*), 6 (5*), 7 (5*), 1 (4*), 2 (4*), 8 (4*), 36 (3*), 24 (2), 27 (2), 44 (2), 11 (1), 35 (1*), 37 (1*), 50 (1)
 # meta::sourceURL = https://casetext.com/case/us-v-malik-9
 # meta::speakerCount = 0
@@ -27176,7 +27226,7 @@
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 4	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	what	what	PRON	WP	PronType=Rel	4	obj	4:obj	_
+5	what	what	PRON	WP	Case=Acc|PronType=Rel	4	obj	4:obj	_
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	Entity=(2-organization-new-ssssn-cf4-2-coref-Court
 7	Court	court	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=2)
 8	deem	deem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	5	acl:relcl	5:acl:relcl	CorrectForm=deems|XML=<sic ana:::"deems"></sic>
@@ -27497,7 +27547,7 @@
 52	if	if	SCONJ	IN	_	56	mark	56:mark	_
 53	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	54	dep	54:dep	Entity=(7-person-giv:act-sssss-cf5-2-coref
 54	Judges	judge	NOUN	NNS	Number=Plur	56	nsubj	56:nsubj	Entity=7)|MSeg=Judge-s
-55	never	never	ADV	RB	_	56	advmod	56:advmod	Negation=Yes
+55	never	never	ADV	RB	PronType=Neg	56	advmod	56:advmod	Negation=Yes
 56	here	hear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	49	advcl	49:advcl:if	CorrectForm=hear|CxnElt=49:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|XML=<sic ana:::"hear"></sic>
 57	of	of	ADP	IN	_	58	case	58:case	_
 58	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	56	obl	56:obl:of	Entity=(18-abstract-giv:act-nnnnnined-cf3-1-ana)|SpaceAfter=No
@@ -27561,7 +27611,7 @@
 9	Governor	Governor	PROPN	NNP	Number=Sing	3	conj	1:obj|3:conj	Entity=(40-person-new-nnnnn-cf9-1-sgl-Mario_Cuomo)|MSeg=Govern-or|SpaceAfter=No
 10	;	;	PUNCT	:	_	11	punct	11:punct	_
 11	Police	police	NOUN	NN	Number=Sing	3	conj	1:obj|3:conj	Entity=(41-organization-new-nnnnn-cf10-1-sgl-Police)
-12	Whoever	whoever	PRON	WP	PronType=Rel	3	conj	1:obj|3:conj	MSeg=Who-ever
+12	Whoever	whoever	PRON	WP	Case=Acc|PronType=Rel	3	conj	1:obj|3:conj	MSeg=Who-ever
 13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(42-abstract-new-nnnnn-cf2-2-coref(1-person-giv:act-ssssn-cf3*-1-ana)
 14	will	will	NOUN	NN	Number=Sing	16	nsubj	16:nsubj|17:nsubj:xsubj	Entity=42)
 15	shall	shall	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
@@ -27615,7 +27665,7 @@
 # s_type = decl
 # transition = establishment
 # text = What Pharoah Wished Was To Crush Them
-1	What	what	PRON	WP	PronType=Rel	6	nsubj:outer	6:nsubj:outer	Discourse=joint-list_m:46->44:1:_|PDTB=Implicit:Expansion.Conjunction:in fact:_:361-380:381-387
+1	What	what	PRON	WP	Case=Nom|PronType=Rel	6	nsubj:outer	6:nsubj:outer	Discourse=joint-list_m:46->44:1:_|PDTB=Implicit:Expansion.Conjunction:in fact:_:361-380:381-387
 2	Pharoah	Pharaoh	PROPN	NNP	Number=Sing|Typo=Yes	3	nsubj	3:nsubj	CorrectForm=Pharaoh|Entity=(44-person-giv:act-nsnns-cf2-1-coref-Pharaoh)|XML=<sic ana:::"Pharaoh"></sic>
 3	Wished	wish	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	1:acl:relcl	MSeg=Wish-ed
 4	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
@@ -27630,7 +27680,7 @@
 # text = Is That What You Folks Trying to Do Me As And My Cases
 1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	Discourse=evaluation-comment:47->2:4:_|PDTB=EntRel:EntRel:_:_:381-387:388-400
 2	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Entity=(51-abstract-giv:act-nnnnn-cf1*-1-coref)
-3	What	what	PRON	WP	PronType=Rel	0	root	0:root	_
+3	What	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	_
 4	You	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	dep	5:dep	Entity=(7-person-giv:inact-sssss-cf3-2-coref
 5	Folks	folk	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|8:nsubj:xsubj	Entity=7)|MSeg=Folk-s
 6	Trying	try	VERB	VBG	Typo=Yes|VerbForm=Ger	3	acl:relcl	3:acl:relcl	CorrectForm=are trying|MSeg=Try-ing|XML=<sic ana:::"are trying"></sic>
@@ -27663,6 +27713,8 @@
 # meta::dateCreated = 2007-05-23
 # meta::dateModified = 2007-05-23
 # meta::genre = threat
+# meta::modality = written
+# meta::production = informal/prepared/private
 # meta::salientEntities = 2 (5*), 3 (5*), 14 (4*), 23 (4*), 12 (3), 15 (3*), 22 (3*), 24 (3*), 8 (2), 9 (2*), 31 (2*), 32 (2*), 37 (2), 10 (1*), 13 (1), 20 (1*), 27 (1), 30 (1), 36 (1)
 # meta::sourceURL = https://casetext.com/case/united-states-v-white-71
 # meta::speakerCount = 0
@@ -27962,7 +28014,7 @@
 10	people	person	NOUN	NNS	Number=Plur	9	obj	9:obj|11:nsubj:xsubj	Entity=(34-person-giv:act-nnnnn-cf1*-1-coref)
 11	upset	upset	ADJ	JJ	Degree=Pos	9	xcomp	9:xcomp	CxnElt=9:Resultative.Result|MSeg=up-set
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
-13	what	what	PRON	WP	PronType=Rel	2	ccomp	2:ccomp	_
+13	what	what	PRON	WP	Case=Acc|PronType=Rel	2	ccomp	2:ccomp	_
 14	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
 15	in	in	ADP	RP	_	14	compound:prt	14:compound:prt	_
 16	Joan	Joan	PROPN	NNP	Number=Sing	14	obj	14:obj	Entity=(37-person-new-nssnn-cf3-1,2-sgl-Joan_Lefkow

@@ -5,6 +5,8 @@
 # meta::dateCreated = 1990-09-03
 # meta::dateModified = 1990-09-03
 # meta::genre = threat
+# meta::modality = written
+# meta::production = informal/prepared/private
 # meta::salientEntities = 3 (5*), 6 (5*), 7 (5*), 1 (4*), 2 (4*), 8 (4*), 36 (3*), 24 (2), 27 (2), 44 (2), 11 (1), 35 (1*), 37 (1*), 50 (1)
 # meta::sourceURL = https://casetext.com/case/us-v-malik-9
 # meta::speakerCount = 0
@@ -25,7 +27,7 @@
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 4	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	what	what	PRON	WP	PronType=Rel	4	obj	4:obj	_
+5	what	what	PRON	WP	Case=Acc|PronType=Rel	4	obj	4:obj	_
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	Entity=(2-organization-new-ssssn-cf4-2-coref-Court
 7	Court	court	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=2)
 8	deem	deem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	5	acl:relcl	5:acl:relcl	CorrectForm=deems|XML=<sic ana:::"deems"></sic>
@@ -346,7 +348,7 @@
 52	if	if	SCONJ	IN	_	56	mark	56:mark	_
 53	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	54	dep	54:dep	Entity=(7-person-giv:act-sssss-cf5-2-coref
 54	Judges	judge	NOUN	NNS	Number=Plur	56	nsubj	56:nsubj	Entity=7)|MSeg=Judge-s
-55	never	never	ADV	RB	_	56	advmod	56:advmod	Negation=Yes
+55	never	never	ADV	RB	PronType=Neg	56	advmod	56:advmod	Negation=Yes
 56	here	hear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	49	advcl	49:advcl:if	CorrectForm=hear|CxnElt=49:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|XML=<sic ana:::"hear"></sic>
 57	of	of	ADP	IN	_	58	case	58:case	_
 58	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	56	obl	56:obl:of	Entity=(18-abstract-giv:act-nnnnnined-cf3-1-ana)|SpaceAfter=No
@@ -410,7 +412,7 @@
 9	Governor	Governor	PROPN	NNP	Number=Sing	3	conj	1:obj|3:conj	Entity=(40-person-new-nnnnn-cf9-1-sgl-Mario_Cuomo)|MSeg=Govern-or|SpaceAfter=No
 10	;	;	PUNCT	:	_	11	punct	11:punct	_
 11	Police	police	NOUN	NN	Number=Sing	3	conj	1:obj|3:conj	Entity=(41-organization-new-nnnnn-cf10-1-sgl-Police)
-12	Whoever	whoever	PRON	WP	PronType=Rel	3	conj	1:obj|3:conj	MSeg=Who-ever
+12	Whoever	whoever	PRON	WP	Case=Acc|PronType=Rel	3	conj	1:obj|3:conj	MSeg=Who-ever
 13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(42-abstract-new-nnnnn-cf2-2-coref(1-person-giv:act-ssssn-cf3*-1-ana)
 14	will	will	NOUN	NN	Number=Sing	16	nsubj	16:nsubj|17:nsubj:xsubj	Entity=42)
 15	shall	shall	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
@@ -464,7 +466,7 @@
 # s_type = decl
 # transition = establishment
 # text = What Pharoah Wished Was To Crush Them
-1	What	what	PRON	WP	PronType=Rel	6	nsubj:outer	6:nsubj:outer	Discourse=joint-list_m:46->44:1:_|PDTB=Implicit:Expansion.Conjunction:in fact:_:361-380:381-387
+1	What	what	PRON	WP	Case=Nom|PronType=Rel	6	nsubj:outer	6:nsubj:outer	Discourse=joint-list_m:46->44:1:_|PDTB=Implicit:Expansion.Conjunction:in fact:_:361-380:381-387
 2	Pharoah	Pharaoh	PROPN	NNP	Number=Sing|Typo=Yes	3	nsubj	3:nsubj	CorrectForm=Pharaoh|Entity=(44-person-giv:act-nsnns-cf2-1-coref-Pharaoh)|XML=<sic ana:::"Pharaoh"></sic>
 3	Wished	wish	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	1:acl:relcl	MSeg=Wish-ed
 4	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
@@ -479,7 +481,7 @@
 # text = Is That What You Folks Trying to Do Me As And My Cases
 1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	Discourse=evaluation-comment:47->2:4:_|PDTB=EntRel:EntRel:_:_:381-387:388-400
 2	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Entity=(51-abstract-giv:act-nnnnn-cf1*-1-coref)
-3	What	what	PRON	WP	PronType=Rel	0	root	0:root	_
+3	What	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	_
 4	You	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	dep	5:dep	Entity=(7-person-giv:inact-sssss-cf3-2-coref
 5	Folks	folk	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|8:nsubj:xsubj	Entity=7)|MSeg=Folk-s
 6	Trying	try	VERB	VBG	Typo=Yes|VerbForm=Ger	3	acl:relcl	3:acl:relcl	CorrectForm=are trying|MSeg=Try-ing|XML=<sic ana:::"are trying"></sic>

@@ -5,6 +5,8 @@
 # meta::dateCreated = 2009-03-13
 # meta::dateModified = 2022-03-21
 # meta::genre = proof
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 3 (5*), 32 (5*), 5 (4*), 7 (4*), 15 (4*), 17 (4*), 36 (4*), 11 (3), 37 (3*), 38 (3*), 2 (2), 13 (2), 76 (2), 4 (1*), 6 (1), 9 (1), 12 (1), 14 (1*), 16 (1), 21 (1), 22 (1), 28 (1*), 30 (1*), 31 (1*), 35 (1*), 40 (1*)
 # meta::sourceURL = https://proofwiki.org/wiki/Five_Color_Theorem
 # meta::speakerCount = 0
@@ -164,7 +166,7 @@
 # s_type = decl
 # transition = null
 # text = Now we need to show that, if P (r) is true, where r ≥ 5, then it logically follows that P (r + 1) is true.
-1	Now	now	ADV	RB	_	3	advmod	3:advmod	Discourse=attribution-positive:12->13:1:sem-atsrc-89-_+lex-indwd-92-_+syn-rpr-93,95,112-_
+1	Now	now	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=attribution-positive:12->13:1:sem-atsrc-89-_+lex-indwd-92-_+syn-rpr-93,95,112-_
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(23-person-giv:inact-nnnnn-cf2-1-ana)
 3	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
@@ -526,7 +528,7 @@
 # s_type = imp
 # transition = establishment
 # text = Suppose there exists no path between y1 and y3 in H1,3.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:45->46:0:sem-atsrc-334-_+lex-indwd-334-_|PDTB=NoRel:NoRel:_:_:331-333:334-345
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:45->46:0:lex-indwd-334-_+sem-atsrc-334-_|PDTB=NoRel:NoRel:_:_:331-333:334-345
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	Discourse=contingency-condition:46->47:0:_
 3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential--ExistPred-ThereExpl|MSeg=exist-s
 4	no	no	DET	DT	PronType=Neg	5	det	5:det	Entity=(62-abstract-new-nnnnn-cf4-8-sgl|Negation=Yes
@@ -727,7 +729,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Now x is no longer adjacent to a vertex of color c2, so we can color it c2.
-1	Now	now	ADV	RB	_	6	advmod	6:advmod	Discourse=explanation-evidence:61->62:0:dm-so-492-gold|PDTB=EntRel:EntRel:_:_:460-478:479-498
+1	Now	now	ADV	RB	PronType=Dem	6	advmod	6:advmod	Discourse=explanation-evidence:61->62:0:dm-so-492-gold|PDTB=EntRel:EntRel:_:_:460-478:479-498
 2	x	x	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=(37-abstract-giv:inact-ssnns-cf2-1-coref)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 4	no	no	ADV	RB	Degree=Pos|Polarity=Neg	5	advmod	5:advmod	Negation=Yes

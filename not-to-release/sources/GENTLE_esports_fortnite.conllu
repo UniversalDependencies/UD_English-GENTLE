@@ -5,6 +5,8 @@
 # meta::dateCreated = 2019-07-28
 # meta::dateModified = 2019-07-28
 # meta::genre = esports
+# meta::modality = spoken
+# meta::production = informal/spontaneous/public
 # meta::salientEntities = 5 (5*), 6 (5*), 4 (4*), 12 (4*), 50 (4*), 132 (4*), 43 (3), 135 (3*), 11 (2*), 20 (2), 22 (2*), 39 (2), 115 (2*), 133 (2*), 8 (1*), 9 (1*), 17 (1), 38 (1), 45 (1*), 68 (1*), 79 (1*), 80 (1*), 81 (1*), 92 (1*), 93 (1*), 94 (1*), 114 (1*), 130 (1), 131 (1), 143 (1), 144 (1), 166 (1*)
 # meta::sourceURL = https://www.youtube.com/watch?v=_zRaMRXCMrQ
 # meta::speakerCount = 2
@@ -243,7 +245,7 @@
 # text = He has never lost the first place spot.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=restatement-partial:17->16:0:ref-prs-149,160-_+sem-synym-153-154,164-167-_|Entity=(12-person-giv:act-ssssn-cf1*-1-ana-Bugha_%28gamer%29)|PDTB=Implicit:Expansion.Equivalence:in other words:_:149-159:160-168
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	MSeg=ha-s
-3	never	never	ADV	RB	_	4	advmod	4:advmod	Negation=Yes
+3	never	never	ADV	RB	PronType=Neg	4	advmod	4:advmod	Negation=Yes
 4	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=los-t
 5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(39-abstract-giv:act-nnssn-cf2-4-coref
 6	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	7	amod	7:amod	Entity=(41-abstract-new-nnnnn-cf3-2-sgl
@@ -498,7 +500,7 @@
 2	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	at	at	ADP	IN	_	4	case	4:case	_
 4	those	that	PRON	DT	Number=Plur|PronType=Dem	2	obl	2:obl:at	Entity=(59-abstract-giv:act-nnnnn-cf2-1-ana)
-5	what	what	PRON	WP	PronType=Rel	4	appos	4:appos	Discourse=elaboration-additional:44->40:2:ref-prs-315,340-_+ref-dem-319-320,338-_
+5	what	what	PRON	WP	Case=Acc|PronType=Rel	4	appos	4:appos	Discourse=elaboration-additional:44->40:2:ref-prs-315,340-_+ref-dem-319-320,338-_
 6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(58-person-giv:act-nnnnn-cf1*-1-ana)
 7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	MSeg=ha-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	11:punct	_
@@ -538,7 +540,7 @@
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	Discourse=same-unit_m:47->45:1:_
 15	Skite	Skite	PROPN	NNP	Number=Sing	0	root	0:root|22:nsubj	Entity=(22-person-giv:act-snsnn-cf1-1-coref)|SpaceAfter=No
 16	,	,	PUNCT	,	_	22	punct	22:punct	_
-17	who	who	PRON	WP	PronType=Rel	22	nsubj	15:ref	Discourse=elaboration-attribute:48->47:0:syn-mdf-367-_+syn-relcl-369,374-_
+17	who	who	PRON	WP	Case=Nom|PronType=Rel	22	nsubj	15:ref	Discourse=elaboration-attribute:48->47:0:syn-mdf-367-_+syn-relcl-369,374-_
 18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	22:cop	_
 19	in	in	ADP	IN	_	22	case	22:case	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(66-place-new-nnnnn-cf5-3-sgl
@@ -822,7 +824,7 @@
 # addressee = Aud,Speaker1
 # text = What's up?
 1-2	What's	_	_	_	_	_	_	_	_
-1	What	what	PRON	WP	PronType=Int	3	nsubj	3:nsubj	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:79->81:1:lex-indwd-572-_+grf-qst-575-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:517-571:572-575
+1	What	what	PRON	WP	Case=Nom|PronType=Int	3	nsubj	3:nsubj	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:79->81:1:lex-indwd-572-_+grf-qst-575-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:517-571:572-575
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	up	up	ADV	RB	Degree=Pos	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-WHInfo-Direct.Clause|SpaceAfter=No
 4	?	?	PUNCT	.	_	3	punct	3:punct	_
@@ -1221,7 +1223,7 @@
 # speaker = Speaker1
 # addressee = Aud,Jack
 # text = What could he do in this last game?
-1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=evaluation-comment:115->55:3:_|PDTB=EntRel:EntRel:_:_:792-816:817-825
+1	What	what	PRON	WP	Case=Acc|PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=evaluation-comment:115->55:3:_|PDTB=EntRel:EntRel:_:_:792-816:817-825
 2	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(20-person-giv:act-nssnn-cf1*-1-ana)
 4	do	do	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause
@@ -1250,7 +1252,7 @@
 10	up	up	ADP	RP	_	9	compound:prt	9:compound:prt	_
 11	to	to	ADP	IN	_	12	case	12:case	_
 12	Bugha	Bugha	PROPN	NNP	Number=Sing	9	obl	9:obl:to|20:nsubj	Entity=(12-person-giv:inact-ssssn-cf3-1-coref-Bugha_%28gamer%29
-13	who	who	PRON	WP	PronType=Rel	20	nsubj	12:ref	Discourse=elaboration-attribute:118->117:0:syn-mdf-837-_+syn-relcl-838,845-_
+13	who	who	PRON	WP	Case=Nom|PronType=Rel	20	nsubj	12:ref	Discourse=elaboration-attribute:118->117:0:syn-mdf-837-_+syn-relcl-838,845-_
 14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	20:cop	_
 15	15	15	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	16:nummod	Entity=(130-abstract-new-nsnnn-cf2-2-coref
 16	points	point	NOUN	NNS	Number=Plur	20	dislocated	20:dislocated	Entity=130)|MSeg=point-s|SpaceAfter=No
@@ -1331,7 +1333,7 @@
 18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	_
 19	lot	lot	NOUN	NN	Number=Sing	17	obj	17:obj	_
 20	about	about	ADP	IN	_	21	case	21:case	_
-21	what	what	PRON	WP	PronType=Rel	17	obl	17:obl:about	_
+21	what	what	PRON	WP	Case=Acc|PronType=Rel	17	obl	17:obl:about	_
 22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
 23	possible	possible	ADJ	JJ	Degree=Pos	21	acl:relcl	21:acl:relcl	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -1802,7 +1804,7 @@
 # speaker = Jack
 # addressee = Aud,Speaker1
 # text = See him watching, waiting.
-1	See	see	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:167->168:1:lex-indwd-1179-_+sem-atsrc-1179-_|PDTB=Implicit:Contingency.Cause.Result:so:_:1173-1178:1179-1184
+1	See	see	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:167->168:1:sem-atsrc-1179-_+lex-indwd-1179-_|PDTB=Implicit:Contingency.Cause.Result:so:_:1173-1178:1179-1184
 2	him	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	Discourse=explanation-evidence:168->166:0:_|Entity=(132-person-giv:act-sssns-cf1*-1-ana)
 3	watching	watch	VERB	VBG	VerbForm=Ger	1	ccomp	1:ccomp	MSeg=watch-ing|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_

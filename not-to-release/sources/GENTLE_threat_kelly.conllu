@@ -5,6 +5,8 @@
 # meta::dateCreated = 2012-01-01
 # meta::dateModified = 2012-01-01
 # meta::genre = threat
+# meta::modality = written
+# meta::production = informal/prepared/private
 # meta::salientEntities = 1 (5*), 2 (5*), 3 (5*), 8 (5*), 19 (5*), 10 (3), 17 (3*), 16 (2*), 7 (1*), 14 (1), 15 (1), 30 (1), 37 (1), 38 (1)
 # meta::sourceURL = https://casetext.com/case/state-v-kelly-473
 # meta::speakerCount = 0
@@ -516,7 +518,7 @@
 5	like	like	SCONJ	IN	_	9	mark	9:mark	Discourse=mode-manner:50->49:0:dm-like-313-gold|PDTB=Explicit:Comparison.Similarity:like:313:309-312:314-317
 6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(1-person-giv:act-sssss-cf2-1-ana)
 7	will	will	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
-8	never	never	ADV	RB	_	9	advmod	9:advmod	Negation=Yes
+8	never	never	ADV	RB	PronType=Neg	9	advmod	9:advmod	Negation=Yes
 9	believe	believe	VERB	VB	VerbForm=Inf	3	advcl	3:advcl:like	_
 10	so	so	ADV	RB	_	20	advmod	20:advmod	Discourse=restatement-repetition_m:51->20:4:ref-prs-133,309-_+ref-prs-142,314-_+sem-rpt-277,327-_|PDTB=Explicit:Contingency.Cause.Result:so:318:309-317:319-342
 11	if	if	SCONJ	IN	_	15	mark	15:mark	Discourse=contingency-condition:52->53:0:dm-if-319-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:319:318,328-334:320-327
@@ -699,7 +701,7 @@
 8	girl	girl	NOUN	NN	Number=Sing	5	nmod	5:nmod:for	Entity=1)
 9	so	so	ADV	RB	_	12	advmod	12:advmod	Discourse=explanation-motivation:70->66:3:_|PDTB=Explicit:Contingency.Cause.Result:so:445:437-444:446-450
 10-11	don't	_	_	_	_	_	_	_	_
-10	do	do	AUX	VB	VerbForm=Inf	12	aux	12:aux	_
+10	do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	12	aux	12:aux	_
 11	n't	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	Negation=Yes
 12	try	try	VERB	VB	VerbForm=Inf	5	parataxis	5:parataxis	_
 13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	iobj	12:iobj	Entity=(8-person-giv:act-sssss-cf1*-1-ana)|SpaceAfter=No
@@ -713,9 +715,9 @@
 # transition = smooth-shift
 # text = Don't take your time.
 1-2	Don't	_	_	_	_	_	_	_	_
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=explanation-motivation:71->20:5:_
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=explanation-motivation:71->20:5:_
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	take	take	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+3	take	take	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(1-person-giv:act-sssss-cf1*-1-ana)
 5	time	time	NOUN	NN	Number=Sing	3	obj	3:obj	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	3:punct	_

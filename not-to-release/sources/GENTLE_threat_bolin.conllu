@@ -5,6 +5,8 @@
 # meta::dateCreated = 1990-06-25
 # meta::dateModified = 1990-06-25
 # meta::genre = threat
+# meta::modality = written
+# meta::production = informal/prepared/private
 # meta::salientEntities = 1 (5*), 3 (5*), 4 (5*), 35 (5*), 46 (5*), 34 (4*), 2 (2*), 13 (2), 14 (2*), 17 (2*), 8 (1), 29 (1), 30 (1), 37 (1*), 38 (1*), 39 (1*), 40 (1*), 41 (1*)
 # meta::sourceURL = https://casetext.com/case/people-v-bolin
 # meta::speakerCount = 0
@@ -38,7 +40,7 @@
 5	from	from	ADP	IN	_	6	case	6:case	_
 6	Paula	Paula	PROPN	NNP	Number=Sing	4	obl	4:obl:from	Entity=(4-person-new-sssss-cf2-1-coref)
 7	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=context-background:3->9:2:ref-prs-4,60-_;elaboration-additional:3->2:0:0:lex-indwd-18-_+orp-and-9-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:9:3-8:10-21
-8	what	what	PRON	WP	PronType=Rel	17	obl	17:obl:with	_
+8	what	what	PRON	WP	Case=Acc|PronType=Rel	17	obl	17:obl:with	_
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(3-person-giv:act-sssss-cf1-1-ana)
 10	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	acl:relcl	8:acl:relcl	MSeg=hear-d
 11	from	from	ADP	IN	_	12	case	12:case	_
@@ -68,7 +70,7 @@
 9	real	real	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 10	different	different	ADJ	JJ	Degree=Pos	4	acl:relcl	4:acl:relcl	MSeg=differ-ent
 11	from	from	ADP	IN	_	12	case	12:case	_
-12	what	what	PRON	WP	PronType=Rel	10	obl	4:ref	_
+12	what	what	PRON	WP	Case=Acc|PronType=Rel	10	obl	4:ref	_
 13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj	Entity=(1-person-acc:com-sssss-cf3-1-ana)
 14	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
 15	to	to	PART	TO	_	16	mark	16:mark	_
@@ -106,7 +108,7 @@
 # text = If you ever touch my daughter again, I'll have you permanently removed from the face of this Earth.
 1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:8->9:0:dm-if-56-gold|PDTB=EntRel:EntRel:_:_:39-55:56-76;Explicit:Contingency.Condition.Arg2-as-cond:if:56:64-76:57-63
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana)
-3	ever	ever	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
+3	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	4	advmod	4:advmod	_
 4	touch	touch	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	CxnElt=11:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(8-person-new-nnsnn-cf3-2-coref(3-person-giv:act-sssss-cf2-1-ana)
 6	daughter	daughter	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=8)
@@ -165,13 +167,13 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:13->14:0:sem-atsrc-97-_+lex-indwd-98-_|Entity=(3-person-giv:inact-sssss-cf1-1-ana)
 2	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	out	out	ADP	RP	_	2	compound:prt	2:compound:prt	_
-4	what	what	PRON	WP	PronType=Rel	2	obj	2:obj	Discourse=context-background:14->37:6:ref-prs-97,274-_+ref-prs-116,301-_|Entity=(12-abstract-new-nnnnn-cf4-1-sgl
+4	what	what	PRON	WP	Case=Acc|PronType=Rel	2	obj	2:obj	Discourse=context-background:14->37:6:ref-prs-97,274-_+ref-prs-116,301-_|Entity=(12-abstract-new-nnnnn-cf4-1-sgl
 5	happend	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 6	to	to	ADP	IN	_	7	case	7:case	_
 7	most	most	ADJ	JJS	Degree=Sup	5	obl	5:obl:to	_
 8	of	of	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(13-abstract-new-nsnsn-cf6-2-sgl
-10	money	money	NOUN	NN	Number=Sing	7	obl	7:obl:of	Entity=13)
+10	money	money	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=13)
 11	from	from	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Bridge=1<14:entity-associative|Entity=(14-object-acc:inf-ssnnn-cf3-2-coref
 13	van	van	NOUN	NN	Number=Sing	10	nmod	10:nmod:from	Entity=14)12)|SpaceAfter=No
@@ -374,7 +376,7 @@
 # s_type = multiple
 # transition = continue
 # text = What I want done and it better be done.
-1	What	what	PRON	WP	PronType=Rel	0	root	0:root	Discourse=explanation-motivation:35->37:5:_|PDTB=EntRel:EntRel:_:_:224-260:261-270
+1	What	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	Discourse=explanation-motivation:35->37:5:_|PDTB=EntRel:EntRel:_:_:224-260:261-270
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|4:nsubj:xsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
 4	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	3:xcomp	MSeg=do-ne
@@ -540,7 +542,7 @@
 7	Paula	Paula	PROPN	NNP	Number=Sing	3	obl	3:obl:with	Entity=(4-person-giv:inact-sssss-cf3-1-coref)
 8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=adversative-antithesis:53->37:4:dm-and-369-gold|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:and:376:369-375:377-380
 9	see	see	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	conj	2:conj:and	_
-10	what	what	PRON	WP	PronType=Rel	9	obj	9:obj	_
+10	what	what	PRON	WP	Case=Acc|PronType=Rel	9	obj	9:obj	_
 11	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	MSeg=happ-en-s|SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 

@@ -5,6 +5,8 @@
 # meta::dateCreated = 2003-03-18
 # meta::dateModified = 2022-10-02
 # meta::genre = dictionary
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 9 (5*), 54 (4*), 63 (4*), 111 (4*), 144 (4*), 165 (4*), 167 (4*), 10 (3*), 105 (3*), 109 (3*), 11 (2*), 15 (2*), 25 (2*), 59 (2*), 66 (2), 78 (2), 148 (2), 3 (1), 4 (1), 5 (1), 16 (1), 17 (1*), 21 (1*), 26 (1*), 36 (1*), 37 (1*), 42 (1*), 43 (1*), 101 (1), 104 (1)
 # meta::sourceURL = https://en.wiktionary.org/wiki/next
 # meta::speakerCount = 0
@@ -401,7 +403,7 @@
 11	following	follow	VERB	VBG	Tense=Pres|VerbForm=Part	1	parataxis	1:parataxis	MSeg=follow-ing|XML=<ref target:::"https://en.wiktionary.org/wiki/following#English"></ref>
 12	(	(	PUNCT	-LRB-	_	15	punct	15:punct	Discourse=adversative-concession:56->55:0:sem-lxchn-238,242-gold+dm-or-240-gold|SpaceAfter=No
 13	or	or	CCONJ	CC	_	15	cc	15:cc	PDTB=Explicit:Comparison.Concession.Arg1-as-denier:or:240:237-238,244-246:239,241-243
-14	sometimes	sometimes	ADV	RB	_	15	advmod	15:advmod	MSeg=sometime-s
+14	sometimes	sometimes	ADV	RB	PronType=Tot	15	advmod	15:advmod	MSeg=sometime-s
 15	preceding	precede	VERB	VBG	Tense=Pres|VerbForm=Part	11	conj	11:conj:or	MSeg=preced-ing|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/preceding#English"></ref>
 16	)	)	PUNCT	-RRB-	_	15	punct	15:punct	_
 17	in	in	ADP	IN	_	18	case	18:case	Discourse=same-unit_m:57->55:1:_
@@ -738,7 +740,7 @@
 29	of	of	ADP	IN	_	30	case	30:case	Discourse=joint-disjunction_m:88->86:2:grf-seq-_-_+grf-semcol-426-_
 30	days	day	NOUN	NNS	Number=Plur	33	obl	33:obl:of	Entity=(124-time-new-nnnnn-cf9-1-sgl)|MSeg=day-s|SpaceAfter=No
 31	,	,	PUNCT	,	_	30	punct	30:punct	_
-32	sometimes	sometimes	ADV	RB	_	33	advmod	33:advmod	MSeg=sometime-s
+32	sometimes	sometimes	ADV	RB	PronType=Tot	33	advmod	33:advmod	MSeg=sometime-s
 33	thought	think	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	parataxis	13:parataxis	_
 34	to	to	PART	TO	_	36	mark	36:mark	_
 35	specifically	specifically	ADV	RB	Degree=Pos	36	advmod	36:advmod	MSeg=specif-ic-ally
@@ -780,7 +782,7 @@
 14	eight	eight	NUM	CD	NumForm=Word|NumType=Card	15	nummod	15:nummod	Entity=(130-time-new-nnnnn-cf5-2-sgl
 15	days	day	NOUN	NNS	Number=Plur	11	conj	11:conj:but	MSeg=day-s
 16	from	from	ADP	IN	_	17	case	17:case	_
-17	now	now	ADV	RB	_	15	nmod	15:nmod:from	Entity=(131-time-acc:com-nnnnn-cf3-1-sgl)130)|SpaceAfter=No
+17	now	now	ADV	RB	PronType=Dem	15	nmod	15:nmod:from	Entity=(131-time-acc:com-nnnnn-cf3-1-sgl)130)|SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	5:punct	XML=</hi>
 
 # sent_id = GENTLE_dictionary_next-45
@@ -1007,7 +1009,7 @@
 # s_type = decl
 # transition = null
 # text = What comes next?
-1	What	what	PRON	WP	PronType=Int	2	nsubj	2:nsubj	Discourse=explanation-evidence:116->114:0:_
+1	What	what	PRON	WP	Case=Nom|PronType=Int	2	nsubj	2:nsubj	Discourse=explanation-evidence:116->114:0:_
 2	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=come-s
 3	next	next	ADV	RB	Degree=Pos	2	advmod	2:advmod	SpaceAfter=No
 4	?	?	PUNCT	.	_	2	punct	2:punct	_
@@ -1128,9 +1130,9 @@
 3	please	please	INTJ	UH	_	1	discourse	1:discourse	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	7:punct	_
 5-6	don't	_	_	_	_	_	_	_	_
-5	do	do	AUX	VB	VerbForm=Inf	7	aux	7:aux	Discourse=joint-list_m:131->130:0:_
+5	do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	7	aux	7:aux	Discourse=joint-list_m:131->130:0:_
 6	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	Negation=Yes
-7	hold	hold	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	_
+7	hold	hold	VERB	VB	VerbForm=Inf	1	parataxis	1:parataxis	_
 8	up	up	ADP	RP	_	7	compound:prt	7:compound:prt	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(170-abstract-acc:com-nnnnn-cf1-2-sgl
 10	queue	queue	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=170)|SpaceAfter=No
