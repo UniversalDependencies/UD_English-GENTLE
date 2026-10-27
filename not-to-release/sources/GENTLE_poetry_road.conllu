@@ -1,12 +1,14 @@
 # newdoc id = GENTLE_poetry_road
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Robert Frost
+# meta::context = public
 # meta::dateCollected = 2022-11-12
 # meta::dateCreated = 2021-05-30
 # meta::dateModified = 2021-05-30
+# meta::formality = formal
 # meta::genre = poetry
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 2 (5*), 3 (5*), 6 (5*), 17 (5*), 22 (5*), 1 (4*), 4 (1), 8 (1*), 18 (1)
 # meta::sourceURL = https://en.wikisource.org/wiki/Mountain_Interval/The_Road_Not_Taken
 # meta::speakerCount = 0
@@ -83,7 +85,7 @@
 10	,	,	PUNCT	,	_	12	punct	12:punct	_
 11	And	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint-list_m:9->8:0:dm-and-51-gold+grf-semcol-65-_|PDTB=Explicit:Expansion.Conjunction:and:51:46-50:52-65
 12	having	have	VERB	VBG	VerbForm=Ger	7	conj	4:amod|7:conj:and	MSeg=hav-ing
-13	perhaps	perhaps	ADV	RB	Degree=Pos	12	advmod	12:advmod	MSeg=per-hap-s
+13	perhaps	perhaps	ADV	RB	_	12	advmod	12:advmod	MSeg=per-hap-s
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=4<7:comparison-relative;entity-associative|Entity=(7-abstract-acc:inf-nnnnn-cf2-3-sgl
 15	better	good	ADJ	JJR	Degree=Cmp	16	amod	16:amod	MSeg=bett-er
 16	claim	claim	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=7)|SpaceAfter=No
@@ -112,7 +114,7 @@
 8	Had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	9:aux	_
 9	worn	wear	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	9:obj	Entity=(1-place-giv:inact-ssssn-cf1-1-ana)
-11	really	really	ADV	RB	Degree=Pos	14	advmod	14:advmod	MSeg=real-ly
+11	really	really	ADV	RB	_	14	advmod	14:advmod	MSeg=real-ly
 12	about	about	ADV	RB	_	14	advmod	14:advmod	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(10-abstract-new-nnnnn-cf3-2-sgl
 14	same	same	ADJ	JJ	Degree=Pos	9	obl:unmarked	9:obl:unmarked	Entity=10)|SpaceAfter=No
@@ -177,7 +179,7 @@
 14	should	should	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
 15	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	16	advmod	16:advmod	_
 16	come	come	VERB	VB	VerbForm=Inf	11	ccomp	11:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=16:Interrogative-Polar-Indirect.Clause
-17	back	back	ADV	RB	Degree=Pos	16	advmod	16:advmod	SpaceAfter=No
+17	back	back	ADV	RB	_	16	advmod	16:advmod	SpaceAfter=No
 18	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # newpar

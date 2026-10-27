@@ -1,12 +1,14 @@
 # newdoc id = GENTLE_medical_screw
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = MTSAMPLES.COM
+# meta::context = private
 # meta::dateCollected = 2022-11-12
 # meta::dateCreated = 2022-11-12
 # meta::dateModified = 2022-11-12
+# meta::formality = formal
 # meta::genre = medical
 # meta::modality = written
-# meta::production = formal/prepared/private
+# meta::preparation = prepared
 # meta::salientEntities = 2 (5*), 3 (5*), 6 (5*), 8 (5*), 13 (5*), 26 (5*), 4 (4*), 5 (4*), 7 (3*), 20 (3*), 21 (3*), 9 (2*), 78 (2*), 29 (1), 33 (1*), 35 (1), 44 (1), 49 (1*), 51 (1*), 62 (1*), 81 (1), 84 (1), 85 (1)
 # meta::sourceURL = https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&Sample=2082-Followup%20Screw%20Fixation
 # meta::speakerCount = 0
@@ -241,7 +243,7 @@
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	MSeg=ha-s
 3	noticed	notice	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=notic-ed
 4	some	some	DET	DT	PronType=Ind	6	det	6:det	Entity=(26-abstract-new-sssss-cf3-7-coref
-5	increasing	increase	VERB	VBG	VerbForm=Ger	6	amod	6:amod	MSeg=increas-ing
+5	increasing	increase	VERB	VBG	VerbForm=Ger	6	amod	6:amod	MSeg=in-creas-ing
 6	paresthesias	paresthesia	NOUN	NNS	Number=Plur	3	obj	3:obj	MSeg=paresthesia-s
 7	in	in	ADP	IN	_	10	case	10:case	_
 8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(27-object-new-nnnnn-cf4-3-coref(13-person-giv:act-sssss-cf1*-1-ana)
@@ -743,7 +745,7 @@
 10	for	for	ADP	IN	_	11	case	11:case	_
 11	evaluation	evaluation	NOUN	NN	Number=Sing	7	obl	7:obl:for	Entity=(83-event-new-nnnnn-cf6-1-sgl)|MSeg=e-valu-at-ion
 12	or	or	CCONJ	CC	_	16	cc	16:cc	_
-13	possibly	possibly	ADV	RB	Degree=Pos	16	orphan	16:orphan	MSeg=possib-ly
+13	possibly	possibly	ADV	RB	Degree=Pos	16	orphan	16:orphan	MSeg=possibl-y
 14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(84-person-new-nnnns-cf5-3-sgl
 15	spinal	spinal	ADJ	JJ	Degree=Pos	16	amod	16:amod	MSeg=spin-al
 16	surgeon	surgeon	NOUN	NN	Number=Sing	7	conj	2:ccomp|7:conj:or	Entity=84)

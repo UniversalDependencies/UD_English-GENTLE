@@ -1,12 +1,14 @@
 # newdoc id = GENTLE_poetry_annabel
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Edgar Allan Poe
+# meta::context = public
 # meta::dateCollected = 2022-11-12
 # meta::dateCreated = 2000-01-01
 # meta::dateModified = 2000-01-01
+# meta::formality = formal
 # meta::genre = poetry
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 1 (5*), 9 (5*), 10 (5*), 5 (4*), 4 (3*), 13 (3*), 18 (3), 27 (2), 29 (2*), 3 (1*), 14 (1*), 15 (1*), 16 (1*), 17 (1), 19 (1*), 21 (1*), 28 (1), 30 (1), 31 (1*)
 # meta::sourceURL = https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe/Volume_2/Annabel_Lee
 # meta::speakerCount = 0

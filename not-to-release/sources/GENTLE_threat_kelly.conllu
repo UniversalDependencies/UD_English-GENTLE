@@ -1,12 +1,14 @@
 # newdoc id = GENTLE_threat_kelly
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Kelly, William Albert
+# meta::context = private
 # meta::dateCollected = 2022-11-14
 # meta::dateCreated = 2012-01-01
 # meta::dateModified = 2012-01-01
+# meta::formality = informal
 # meta::genre = threat
 # meta::modality = written
-# meta::production = informal/prepared/private
+# meta::preparation = prepared
 # meta::salientEntities = 1 (5*), 2 (5*), 3 (5*), 8 (5*), 19 (5*), 10 (3), 17 (3*), 16 (2*), 7 (1*), 14 (1), 15 (1), 30 (1), 37 (1), 38 (1)
 # meta::sourceURL = https://casetext.com/case/state-v-kelly-473
 # meta::speakerCount = 0
@@ -366,7 +368,7 @@
 2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj|8:nsubj:xsubj	Discourse=explanation-motivation:36->40:4:_|Entity=(1-person-giv:act-sssss-cf1-1-ana)
 4	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
-5	too	too	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
+5	too	too	ADV	RB	_	6	advmod	6:advmod	_
 6	good	good	ADJ	JJ	Degree=Pos	2	ccomp	2:ccomp	_
 7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-goal:37->36:0:_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:214-217:218-221
 8	do	do	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
@@ -643,7 +645,7 @@
 11	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=adversative-contrast_m:65->64:1:dm-but-406-gold|PDTB=Explicit:Comparison.Contrast:but:406:396-405:407-413
 12	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj|17:nsubj:xsubj	Entity=(1-person-giv:act-sssss-cf1-1-ana)
-14	really	really	ADV	RB	Degree=Pos	15	advmod	15:advmod	MSeg=real-ly
+14	really	really	ADV	RB	_	15	advmod	15:advmod	MSeg=real-ly
 15	want	want	VERB	VB	VerbForm=Inf	3	conj	3:conj:but	_
 16	to	to	PART	TO	_	17	mark	17:mark	_
 17	try	try	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	SpaceAfter=No

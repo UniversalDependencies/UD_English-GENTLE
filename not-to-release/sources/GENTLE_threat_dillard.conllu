@@ -1,12 +1,14 @@
 # newdoc id = GENTLE_threat_dillard
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Dillard, Angel
+# meta::context = private
 # meta::dateCollected = 2022-11-14
 # meta::dateCreated = 2011-01-19
 # meta::dateModified = 2011-01-19
+# meta::formality = informal
 # meta::genre = threat
 # meta::modality = written
-# meta::production = informal/prepared/private
+# meta::preparation = prepared
 # meta::salientEntities = 1 (5*), 6 (5*), 7 (5*), 87 (5*), 8 (4*), 9 (3*), 28 (3), 36 (2), 30 (1*), 32 (1), 34 (1*), 38 (1*), 40 (1*), 41 (1*), 42 (1), 46 (1*), 49 (1*), 54 (1*), 64 (1), 65 (1), 70 (1), 71 (1), 73 (1), 75 (1), 88 (1), 96 (1), 98 (1*), 104 (1)
 # meta::sourceURL = https://casetext.com/case/united-states-v-dillard-8
 # meta::speakerCount = 0
@@ -82,7 +84,7 @@
 2	people	person	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	_
 3	than	than	ADP	IN	_	5	case	5:case	_
 4	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	5	advmod	5:advmod	_
-5	before	before	ADV	RB	Degree=Pos	2	nmod	2:nmod:than	Entity=13)
+5	before	before	ADV	RB	Degree=Pos	2	nmod	2:nmod:than	Entity=13)|MSeg=be-fore
 6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 7	pro-abortion	pro-abortion	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=pro-abortion|SpaceAfter=No
 8	,	,	PUNCT	,	_	14	punct	14:punct	_
@@ -103,7 +105,7 @@
 22	Americans	American	PROPN	NNPS	Number=Plur	27	nsubj	27:nsubj|29:nsubj:xsubj	MSeg=America-n-s
 23	than	than	ADP	IN	_	25	case	25:case	_
 24	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	25	advmod	25:advmod	_
-25	before	before	ADV	RB	Degree=Pos	22	nmod	22:nmod:than	Entity=15)
+25	before	before	ADV	RB	Degree=Pos	22	nmod	22:nmod:than	Entity=15)|MSeg=be-fore
 26	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	27:cop	_
 27	unwilling	unwilling	ADJ	JJ	Degree=Pos	7	conj	7:conj:and	MSeg=un-will-ing|Negation=Yes
 28	to	to	PART	TO	_	29	mark	29:mark	_
@@ -516,7 +518,7 @@
 7	experience	experience	VERB	VB	VerbForm=Inf	0	root	0:root	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=1<63:comparison-relative|Entity=(63-abstract-acc:inf-nnnnn-cf2-3-sgl
 9	same	same	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
-10	headaches	headache	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=63)|MSeg=headache-s|SpaceAfter=No
+10	headaches	headache	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=63)|MSeg=head-ache-s|SpaceAfter=No
 11	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GENTLE_threat_dillard-20
@@ -583,7 +585,7 @@
 9	things	thing	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	CxnElt=7:Existential-CopPred-ThereExpl.Pivot|MSeg=thing-s
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Discourse=elaboration-attribute:52->51:0:syn-mdf-421-_+syn-relcl-424-_|Entity=(70-person-new-nnsnn-cf1-2-coref-God
 11	Lord	Lord	PROPN	NNP	Number=Sing	12	nsubj	12:nsubj	Entity=70)
-12	hates	hate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	Entity=69)
+12	hates	hate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	Entity=69)|MSeg=hate-s
 13	...	…	PUNCT	:	_	14	punct	14:punct	_
 14	hands	hand	NOUN	NNS	Number=Plur	9	appos	9:appos|16:nsubj	Discourse=elaboration-additional:53->51:1:_|Entity=(71-object-new-nnnns-cf8-1-sgl|MSeg=hand-s
 15	that	that	PRON	WDT	PronType=Rel	16	nsubj	14:ref	Discourse=elaboration-attribute:54->53:0:syn-mdf-426-_+syn-relcl-427-428-_
@@ -643,7 +645,7 @@
 21-22	it's	_	_	_	_	_	_	_	_
 21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	28:nsubj	Discourse=evaluation-comment:62->60:1:lex-indwd-479-_+lex-indwd-481-_|Entity=(7-event-giv:act-sssss-cf1-1-ana)
 22	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
-23	still	still	ADV	RB	Degree=Pos	28	advmod	28:advmod	_
+23	still	still	ADV	RB	_	28	advmod	28:advmod	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(7-event-giv:act-sssss-cf1-5-coref
 25	unnatural	unnatural	ADJ	JJ	Degree=Pos	28	amod	28:amod	MSeg=un-natur-al|Negation=Yes|SpaceAfter=No
 26	,	,	PUNCT	,	_	25	punct	25:punct	_
@@ -716,7 +718,7 @@
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=explanation-motivation:66->64:1:_|PDTB=Implicit:Contingency.Cause.Reason:because:_:512-525:526-545
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 3	3	3	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=(89-place-new-nnnnn-cf5-5-coref
-4	churches	church	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|MSeg=churche-s
+4	churches	church	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|MSeg=church-es
 5	within	within	ADP	IN	_	7	case	7:case	MSeg=with-in
 6	1	1	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	7:nummod	Entity=(90-place-new-nnnnn-cf6-2-sgl
 7	block	block	NOUN	NN	Number=Sing	2	obl	2:obl:within	_
@@ -873,7 +875,7 @@
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Discourse=explanation-motivation:84->83:1:mrf-md-632-_|Entity=(105-abstract-new-nnnnn-cf2-1-sgl)|PDTB=Implicit:Contingency.Cause.Reason:because:_:632-644:645-654
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	Negation=Yes
-4	too	too	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
+4	too	too	ADV	RB	_	5	advmod	5:advmod	_
 5	late	late	ADJ	JJ	Degree=Pos	0	root	0:root	_
 6	to	to	PART	TO	_	7	mark	7:mark	Discourse=purpose-goal:85->84:0:_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:645-649:650-654
 7	change	change	VERB	VB	VerbForm=Inf	5	csubj	5:csubj	_

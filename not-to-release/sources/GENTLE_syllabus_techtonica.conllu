@@ -1,12 +1,14 @@
 # newdoc id = GENTLE_syllabus_techtonica
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Techtonica
+# meta::context = public
 # meta::dateCollected = 2022-11-10
 # meta::dateCreated = 2020-01-02
 # meta::dateModified = 2022-05-18
+# meta::formality = formal
 # meta::genre = syllabus
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 2 (5*), 4 (5*), 5 (5*), 16 (5*), 13 (4), 14 (4), 44 (4*), 96 (4), 92 (3*), 20 (2), 39 (2), 59 (2*), 62 (2*), 63 (2*), 73 (2*), 87 (2*), 309 (2), 1 (1*), 6 (1), 8 (1), 12 (1), 25 (1), 26 (1), 27 (1), 31 (1), 61 (1*), 69 (1*), 71 (1*), 78 (1*), 80 (1*), 81 (1*), 86 (1*), 89 (1*), 91 (1*), 256 (1*)
 # meta::sourceURL = https://github.com/Techtonica/curriculum/blob/main/README.md
 # meta::speakerCount = 0
@@ -2410,7 +2412,7 @@
 11	as	as	ADP	IN	_	15	case	15:case	_
 12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(278-person-new-nnnnn-cf7-4-sgl
 13	New	new	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
-14	Software	software	NOUN	NN	Number=Sing	15	compound	15:compound	Entity=(32-abstract-giv:inact-nnnnn-cf5-1-coref)
+14	Software	software	NOUN	NN	Number=Sing	15	compound	15:compound	Entity=(32-abstract-giv:inact-nnnnn-cf5-1-coref)|MSeg=Soft-ware
 15	Engineer	engineer	NOUN	NN	Number=Sing	7	obl	7:obl:as	Entity=278)|MSeg=Engin-eer
 16	out	out	ADP	IN	ExtPos=ADP	18	case	18:case	_
 17	of	of	ADP	IN	_	16	fixed	16:fixed	_
@@ -2718,7 +2720,7 @@
 1	14.	14.	X	LS	_	2	discourse	2:discourse	Discourse=joint-list_m:254->238:0:grf-seq-1201-_|XML=<ref target:::"/program-prep/ethics.md">
 2	Ethics	ethics	NOUN	NN	Number=Sing	0	root	0:root	Entity=(307-abstract-new-nnnnn-cf3-1-sgl(308-abstract-new-nnnnn-cf4-1-sgl-Ethics)
 3	in	in	ADP	IN	_	5	case	5:case	_
-4	Software	software	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(31-abstract-giv:inact-nnsnn-cf1-2-coref(32-abstract-giv:inact-nnnnn-cf2-1-coref)
+4	Software	software	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(31-abstract-giv:inact-nnsnn-cf1-2-coref(32-abstract-giv:inact-nnnnn-cf2-1-coref)|MSeg=Soft-ware
 5	Engineering	engineering	NOUN	NN	Number=Sing	2	nmod	2:nmod:in	Entity=31)307)|MSeg=Engin-eer-ing|XML=</ref>
 
 # newpar
@@ -2836,7 +2838,7 @@
 # text = Gathering user feedback and adapting their remaining MVP plan
 1	Gathering	gather	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Discourse=joint-list_m:262->258:0:sem-mrnym-1252-1253,1267-_|MSeg=Gather-ing
 2	user	user	NOUN	NN	Number=Sing	3	compound	3:compound	Bridge=318<324:entity-associative|Entity=(323-abstract-new-nnnnn-cf4-2-sgl(324-person-acc:inf-nnnnn-cf3-1-sgl)|MSeg=us-er
-3	feedback	feedback	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=323)
+3	feedback	feedback	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=323)|MSeg=feed-back
 4	and	and	CCONJ	CC	_	5	cc	5:cc	Discourse=joint-list_m:263->262:0:grf-seq-_-_+dm-and-1269-gold|PDTB=Explicit:Expansion.Conjunction:and:1269:1266-1268:1270-1274
 5	adapting	adapt	VERB	VBG	Tense=Pres|VerbForm=Part	1	conj	1:conj:and	MSeg=adapt-ing
 6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(325-abstract-new-nnnnn-cf5-4-sgl(12-person-giv:act-nnnns-cf1*-1-ana)

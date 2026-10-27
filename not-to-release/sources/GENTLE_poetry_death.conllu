@@ -1,12 +1,14 @@
 # newdoc id = GENTLE_poetry_death
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Emily Dickinson
+# meta::context = public
 # meta::dateCollected = 2022-11-12
 # meta::dateCreated = 2020-01-16
 # meta::dateModified = 2022-06-06
+# meta::formality = formal
 # meta::genre = poetry
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 2 (5*), 31 (5*), 1 (4*), 3 (4*), 10 (4*), 14 (4*), 16 (4*), 22 (3*), 5 (2*), 15 (2*), 28 (2*), 11 (1), 23 (1*), 24 (1*), 30 (1*)
 # meta::sourceURL = https://en.wikisource.org/wiki/Because_I_could_not_stop_for_Death_%E2%80%94
 # meta::speakerCount = 0
@@ -92,7 +94,7 @@
 8	and	and	CCONJ	CC	_	10	cc	10:cc	_
 9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(8-abstract-new-nnnnn-cf4-2-sgl(1-person-giv:act-ssssn-cf1-1-ana)
 10	leisure	leisure	NOUN	NN	Number=Sing	7	conj	4:obj|7:conj:and	Entity=8)
-11	too	too	ADV	RB	Degree=Pos	4	advmod	4:advmod	SpaceAfter=No
+11	too	too	ADV	RB	_	4	advmod	4:advmod	SpaceAfter=No
 12	,	,	PUNCT	,	_	15	punct	15:punct	_
 13	For	for	ADP	IN	_	15	case	15:case	_
 14	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(9-abstract-new-nnnnn-cf5-2-sgl(2-person-giv:act-sssss-cf2*-1-ana)
