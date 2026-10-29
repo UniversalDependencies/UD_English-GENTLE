@@ -720,7 +720,7 @@
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=joint-disjunction_m:88->46:1:grf-seq-_-_|Entity=(119-person-new-nnnnn-cf2-2-sgl
 2	group	group	NOUN	NN	Number=Sing	0	root	0:root	_
 3	of	of	ADP	IN	_	4	case	4:case	_
-4	businessmen	businessmen	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=(120-person-new-nnnnn-cf3-1-sgl)|MSeg=busi-ness-men
+4	businessmen	businessman	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=(120-person-new-nnnnn-cf3-1-sgl)|MSeg=busi-ness-men
 5	or	or	CCONJ	CC	_	6	cc	6:cc	_
 6	traders	trader	NOUN	NNS	Number=Plur	4	conj	2:nmod:of|4:conj:or	Entity=(121-person-new-nnnnn-cf4-1-sgl)|MSeg=trader-s
 7	organised	organise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl	2:acl	Discourse=elaboration-attribute:89->88:0:syn-mdf-454-_+syn-nmn-459-_|MSeg=organ-is-ed

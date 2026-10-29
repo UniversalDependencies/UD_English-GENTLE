@@ -1001,7 +1001,7 @@
 11-12	cannot	_	_	_	_	_	_	_	_
 11	can	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	XML=<w>
 12	not	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	Negation=Yes|XML=</w>
-13	finish	finish	VERB	VB	VerbForm=Inf	4	conj	4:conj:and	_
+13	finish	finish	VERB	VB	VerbForm=Inf	4	conj	4:conj:and	MSeg=fin-ish
 14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(89-event-giv:act-nnnnn-cf3-7-coref
 15	simple	simple	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 16	bicycle	bicycle	NOUN	NN	Number=Sing	17	compound	17:compound	MSeg=bi-cycle
@@ -1099,7 +1099,7 @@
 64-65	gonna	_	_	_	_	_	_	_	_
 64	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	71	advcl	71:advcl:because	MSeg=go-n|XML=<w>
 65	na	to	PART	TO	_	66	mark	66:mark	XML=</w>
-66	simulate	simulate	VERB	VB	VerbForm=Inf	64	xcomp	64:xcomp	_
+66	simulate	simulate	VERB	VB	VerbForm=Inf	64	xcomp	64:xcomp	MSeg=sim-ul-ate
 67	this	this	PRON	DT	Number=Sing|PronType=Dem	66	obj	66:obj	Entity=(96-event-acc:com-nnnnn-cf8-1-sgl)|SpaceAfter=No
 68	,	,	PUNCT	,	_	64	punct	64:punct	_
 69-70	it's	_	_	_	_	_	_	_	_

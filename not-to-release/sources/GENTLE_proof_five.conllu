@@ -371,7 +371,7 @@
 # s_type = imp
 # transition = zero
 # text = Suppose all five colors were not connected to x.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:31->32:0:lex-indwd-227-_+sem-atsrc-227-_|PDTB=NoRel:NoRel:_:_:216-226:227-236
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:31->32:0:sem-atsrc-227-_+lex-indwd-227-_|PDTB=NoRel:NoRel:_:_:216-226:227-236
 2	all	all	DET	DT	PronType=Ind	4	det	4:det	Bridge=32<41:entity-associative|Discourse=contingency-condition:32->34:1:dm-then-237-gold|Entity=(41-abstract-acc:inf-nnnnn-cf2-3-coref
 3	five	five	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	_
 4	colors	color	NOUN	NNS	Number=Plur	7	nsubj:pass	7:nsubj:pass	Entity=41)|MSeg=color-s
@@ -410,7 +410,7 @@
 # s_type = imp
 # transition = continue
 # text = Suppose all five colors are connected to x.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:35->36:0:sem-atsrc-252-_+lex-indwd-252-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:35->36:0:lex-indwd-252-_+sem-atsrc-252-_
 2	all	all	DET	DT	PronType=Ind	4	det	4:det	Discourse=contingency-condition:36->37:2:dm-then-261-gold|Entity=(41-abstract-giv:inact-nnnnn-cf2-3-coref
 3	five	five	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	_
 4	colors	color	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=41)|MSeg=color-s
