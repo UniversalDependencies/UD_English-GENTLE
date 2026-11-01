@@ -386,7 +386,7 @@
 # s_type = imp
 # transition = rough-shift
 # text = Suppose x ∈ S and y, z ∈ T.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:40->41:1:lex-indwd-245-_+sem-atsrc-245-_|PDTB=Implicit:Expansion.Conjunction:and:_:232-244:245-255
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:40->41:1:sem-atsrc-245-_+lex-indwd-245-_|PDTB=Implicit:Expansion.Conjunction:and:_:232-244:245-255
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=context-background:41->43:1:sem-rpt-246,257-_+sem-rpt-248,264-_+sem-rpt-250,266-_+sem-rpt-252,259-_+sem-rpt-254,268-_|Entity=(42-abstract-new-nnnnn-cf1-1-coref)
 3	∈	∈	SYM	SYM	_	1	ccomp	1:ccomp	Entity=(42-abstract-giv:act-nnnnn-cf1-1-coref
 4	S	S	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	Entity=(3-abstract-giv:act-sssss-cf2*-1-coref)42)
@@ -945,7 +945,7 @@
 # s_type = imp
 # transition = smooth-shift
 # text = Note that Ix = Ik (x), because k (x) = x.
-1	Note	note	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:95->96:1:sem-atsrc-636-_+lex-indwd-636-_+syn-rpr-637-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:620-635:636-652
+1	Note	note	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:95->96:1:lex-indwd-636-_+sem-atsrc-636-_+syn-rpr-637-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:620-635:636-652
 2	that	that	SCONJ	IN	_	4	mark	4:mark	Discourse=elaboration-additional:96->92:1:sem-rpt-621,638-_+sem-rpt-630,642-_
 3	Ix	Ix	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(85-abstract-giv:act-nnnnn-cf1*-1-coref)
 4	=	=	SYM	SYM	_	1	ccomp	1:ccomp	_
@@ -970,7 +970,7 @@
 # s_type = imp
 # transition = zero
 # text = Suppose x ∈ S.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:98->99:0:lex-indwd-653-_+sem-atsrc-653-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:98->99:0:sem-atsrc-653-_+lex-indwd-653-_
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=contingency-condition:99->100:1:dm-then-658-gold|Entity=(90-abstract-new-nnnnn-cf1-1-coref)
 3	∈	∈	SYM	SYM	_	1	ccomp	1:ccomp	Entity=(90-abstract-giv:act-nnnnn-cf1-1-coref
 4	S	S	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	Entity=(3-abstract-giv:inact-sssss-cf2-1-coref)90)|SpaceAfter=No
@@ -1018,7 +1018,7 @@
 # s_type = imp
 # transition = rough-shift
 # text = Suppose x = min T, the smallest element of T.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:103->104:0:sem-atsrc-683-_+lex-indwd-683-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:103->104:0:lex-indwd-683-_+sem-atsrc-683-_
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=contingency-condition:104->105:2:dm-then-695-gold|Entity=(94-abstract-new-nnnns-cf1-1-coref)
 3	=	=	SYM	SYM	_	1	ccomp	1:ccomp	_
 4	min	min	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(94-abstract-giv:act-nnnns-cf1-1-coref
@@ -1096,7 +1096,7 @@
 # s_type = imp
 # transition = retain
 # text = Suppose x ∈ T and x ≠ min T.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:110->111:1:lex-indwd-737-_+sem-atsrc-737-_|PDTB=NoRel:NoRel:_:_:724-736:737-746
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:110->111:1:sem-atsrc-737-_+lex-indwd-737-_|PDTB=NoRel:NoRel:_:_:724-736:737-746
 2	x	x	SYM	SYM	_	3	nsubj	3:nsubj	Discourse=contingency-condition:111->113:1:dm-then-747-gold|Entity=(99-abstract-new-nnnnn-cf1-1-coref)
 3	∈	∈	NOUN	NN	Number=Sing	1	ccomp	1:ccomp	Entity=(99-abstract-giv:act-nnnnn-cf1-1-pred
 4	T	T	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	Entity=(4-abstract-giv:act-sssss-cf2*-1-coref)99)
@@ -1114,7 +1114,7 @@
 # text = Then Ix defines an initial segment in T.
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=explanation-evidence:113->116:0:dm-thus-772-gold|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:then:747:737-746:748-755
 2	Ix	Ix	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(100-event-acc:com-nnnnn-cf4-2-coref(85-abstract-giv:inact-nnnnn-cf2-1-coref)
-3	defines	define	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	defines	define	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=de-fine-s
 4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(84-abstract-giv:inact-sssnn-cf3-3-coref
 5	initial	initial	ADJ	JJ	Degree=Pos	6	amod	6:amod	MSeg=initi-al
 6	segment	segment	NOUN	NN	Number=Sing	3	obj	3:obj	_

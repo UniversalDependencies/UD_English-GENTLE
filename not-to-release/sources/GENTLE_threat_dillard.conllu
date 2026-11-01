@@ -139,7 +139,7 @@
 # s_type = decl
 # transition = null
 # text = Maybe you don't realize the consequences of killing the innocent.
-1	Maybe	maybe	ADV	RB	_	5	advmod	5:advmod	Discourse=adversative-concession:9->12:1:_
+1	Maybe	maybe	ADV	RB	_	5	advmod	5:advmod	Discourse=adversative-concession:9->12:1:_|MSeg=May-be
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(1-person-giv:inact-sssss-cf1-1-ana)
 3-4	don't	_	_	_	_	_	_	_	_
 3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -623,7 +623,7 @@
 # transition = null
 # text = Abortion kills human life - it matters not if you kill it at 6 weeks or at 26 weeks, it's still the unnatural, violent death of a human baby for the sake of convenience.
 1	Abortion	abortion	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Discourse=evaluation-comment:60->17:3:lex-indwd-461-_|Entity=(7-event-giv:inact-sssss-cf1-1-coref)|MSeg=Abort-ion|PDTB=NoRel:NoRel:_:_:413-454:455-492
-2	kills	kill	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	kills	kill	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=kill-s
 3	human	human	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(79-person-new-nnnnn-cf2-2-coref
 4	life	life	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=79)
 5	-	-	PUNCT	:	_	7	punct	7:punct	_

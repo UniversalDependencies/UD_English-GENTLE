@@ -410,7 +410,7 @@
 # s_type = imp
 # transition = continue
 # text = Suppose all five colors are connected to x.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:35->36:0:lex-indwd-252-_+sem-atsrc-252-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:35->36:0:sem-atsrc-252-_+lex-indwd-252-_
 2	all	all	DET	DT	PronType=Ind	4	det	4:det	Discourse=contingency-condition:36->37:2:dm-then-261-gold|Entity=(41-abstract-giv:inact-nnnnn-cf2-3-coref
 3	five	five	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	_
 4	colors	color	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=41)|MSeg=color-s
@@ -530,7 +530,7 @@
 # s_type = imp
 # transition = establishment
 # text = Suppose there exists no path between y1 and y3 in H1,3.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:45->46:0:sem-atsrc-334-_+lex-indwd-334-_|PDTB=NoRel:NoRel:_:_:331-333:334-345
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:45->46:0:lex-indwd-334-_+sem-atsrc-334-_|PDTB=NoRel:NoRel:_:_:331-333:334-345
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	Discourse=contingency-condition:46->47:0:_
 3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential--ExistPred-ThereExpl|MSeg=exist-s
 4	no	no	DET	DT	PronType=Neg	5	det	5:det	Entity=(62-abstract-new-nnnnn-cf4-8-sgl|Negation=Yes
@@ -617,7 +617,7 @@
 # s_type = imp
 # transition = zero
 # text = Suppose there exists a path between y1 and y3 in H1,3.
-1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:52->53:0:lex-indwd-395-_+sem-atsrc-395-_
+1	Suppose	suppose	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:52->53:0:sem-atsrc-395-_+lex-indwd-395-_
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	Discourse=contingency-condition:53->62:1:_
 3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential--ExistPred-ThereExpl|MSeg=exist-s
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(66-abstract-new-nnnnn-cf4-8-coref

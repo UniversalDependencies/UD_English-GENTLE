@@ -1073,7 +1073,7 @@
 6	by	by	ADP	IN	_	7	case	7:case	_
 7	reply	reply	NOUN	NN	Number=Sing	5	obl	5:obl:by	Entity=(78-abstract-new-nnnnn-cf4-1-sgl
 8	so	so	ADV	RB	_	9	advmod	9:advmod	Discourse=mode-manner:107->106:0:_
-9	aptly	aptly	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
+9	aptly	aptly	ADV	RB	Degree=Pos	10	advmod	10:advmod	MSeg=apt-ly
 10	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	7:acl	Entity=78)77)|MSeg=spok-en|SpaceAfter=No
 11	,	,	PUNCT	,	_	1	punct	1:punct	_
 12	"	"	PUNCT	``	_	13	punct	13:punct	Discourse=evaluation-comment:108->104:1:lex-indwd-762-_;adversative-concession:108->117:2:1:lex-indwd-774-_+orp-but-816-gold|SpaceAfter=No

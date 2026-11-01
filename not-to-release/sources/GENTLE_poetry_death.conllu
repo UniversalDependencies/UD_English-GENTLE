@@ -115,7 +115,7 @@
 5	,	,	PUNCT	,	_	8	punct	8:punct	_
 6	where	where	ADV	WRB	PronType=Rel	8	advmod	4:ref|8:advmod	Discourse=elaboration-attribute:9->8:0:syn-mdf-53-_+syn-relcl-55,57-_
 7	Children	child	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=(11-person-new-nsnnn-cf4-1-sgl)|MSeg=Child-ren
-8	strove	strove	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
+8	strove	strive	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 9	At	at	ADP	IN	_	10	case	10:case	_
 10	recess	recess	NOUN	NN	Number=Sing	8	obl	8:obl:at	Bridge=10<12:entity-associative|Entity=(12-event-acc:inf-nnnnn-cf3-1-sgl)
 11	—	—	PUNCT	:	_	14	punct	14:punct	Discourse=context-circumstance:10->9:0:_
