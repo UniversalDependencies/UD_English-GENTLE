@@ -1806,7 +1806,7 @@
 # speaker = Jack
 # addressee = Aud,Speaker1
 # text = See him watching, waiting.
-1	See	see	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:167->168:1:sem-atsrc-1179-_+lex-indwd-1179-_|PDTB=Implicit:Contingency.Cause.Result:so:_:1173-1178:1179-1184
+1	See	see	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:167->168:1:lex-indwd-1179-_+sem-atsrc-1179-_|PDTB=Implicit:Contingency.Cause.Result:so:_:1173-1178:1179-1184
 2	him	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	Discourse=explanation-evidence:168->166:0:_|Entity=(132-person-giv:act-sssns-cf1*-1-ana)
 3	watching	watch	VERB	VBG	VerbForm=Ger	1	ccomp	1:ccomp	MSeg=watch-ing|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_

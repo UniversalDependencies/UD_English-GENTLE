@@ -333,7 +333,7 @@
 # text = hesitating then no longer, "Sir," said I, "or Madam, truly your forgiveness I implore;
 1	hesitating	hesitate	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	10:advcl	Discourse=mode-manner:31->36:4:syn-pres-219-_|MSeg=hesitat-ing
 2	then	then	ADV	RB	PronType=Dem	1	advmod	1:advmod	PDTB=Explicit:Contingency.Cause.Result:then:220:213-218:219,221-240
-3	no	no	ADV	RB	Polarity=Neg|PronType=Neg	4	advmod	4:advmod	Negation=Yes
+3	no	no	ADV	RB	PronType=Neg	4	advmod	4:advmod	Negation=Yes
 4	longer	long	ADV	RBR	Degree=Cmp	1	advmod	1:advmod	MSeg=long-er|SpaceAfter=No
 5	,	,	PUNCT	,	_	1	punct	1:punct	_
 6	"	"	PUNCT	``	_	7	punct	7:punct	Discourse=adversative-concession:32->36:3:dm-but-241-gold|SpaceAfter=No
